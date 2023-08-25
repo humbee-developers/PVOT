@@ -2,6 +2,7 @@
   background-color: #111;
   padding: 20px 0 270px;
   position: relative;
+  overflow: hidden;
 }
 .logo_section_bgHeading {
   font-size: 231px;
