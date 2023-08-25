@@ -3,18 +3,35 @@ import "./contactUs.css";
 
 const ContactUs = () => {
   return (
-    <div>
+    <div className="contactUs-section">
       <div className="contact-image">
-        <img src={contactImage} className="App-logo" alt="logo" />
-      </div>
-      <div className="marquee">
-        <div className="marquee--inner">
-          <span>
-            <h2>
-              Contact Us - Contact Us - Contact Us - Contact Us - Contact Us -
-              Contact Us - Contact Us - Contact Us - Contact Us - Contact Us
-            </h2>
-          </span>
+        <img src={contactImage} className="contactImage" alt="logo" />
+        <div className="socialLinks">
+          <ul>
+            <li>
+              <a href="#">Instagram</a>
+            </li>
+            <li>
+              <a href="#">Twitter</a>
+            </li>
+            <li>
+              <a href="#">Linkedin</a>
+            </li>
+          </ul>
+        </div>
+        <div className="wrapper">
+          <div className="slider">
+            <div className="slider_wrapper">
+              <p>Contact Us</p>
+              <p>Contact Us</p>
+              <p>Contact Us</p>
+            </div>
+            <div className="slider_wrapper">
+              <p>Contact Us</p>
+              <p>Contact Us</p>
+              <p>Contact Us</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

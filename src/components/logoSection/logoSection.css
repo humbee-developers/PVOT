@@ -1,0 +1,62 @@
+.logo_section {
+  background-color: #111;
+  padding: 20px 0 270px;
+  position: relative;
+}
+.logo_section_bgHeading {
+  font-size: 231px;
+  color: rgba(255, 255, 255, 0.05);
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "FONTSPRING-bold";
+}
+.logo_section_heading {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 46.56px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo_section_image {
+  text-align: center;
+}
+.logo_section_image img {
+  max-width: 100%;
+}
+.logo_section_leftImage {
+  position: absolute;
+  top: 17%;
+  left: -25%;
+  animation: leftIcon infinite 120s linear;
+  opacity: 0.5;
+}
+.logo_section_rightImage {
+  position: absolute;
+  bottom: -5%;
+  right: -25%;
+  animation: rightIcon infinite 120s linear;
+  opacity: 0.5;
+}
+@keyframes rightIcon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes leftIcon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}

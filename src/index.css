@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "FONTSPRING";
+    src: local("FONTSPRING"),
+      url("./fonts/Fontspring-DEMO-freigeist-conregular.otf") format("truetype");
+    font-weight: normal;
+  }
+@font-face {
+    font-family: "FONTSPRING-bold";
+    src: local("FONTSPRING-bold"),
+      url("./fonts/Fontspring-DEMO-freigeist-conbolditalic.otf") format("truetype");
+    font-weight: normal;
+  }
+ 
