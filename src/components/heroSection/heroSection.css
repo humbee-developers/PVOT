@@ -1,0 +1,14 @@
+.hero-heading {
+  overflow: hidden;
+}
+.text {
+  position: relative;
+}
+
+.hero-text {
+  font-size: 8rem;
+  color: white;
+  letter-spacing: -4px;
+  position: absolute;
+
+}

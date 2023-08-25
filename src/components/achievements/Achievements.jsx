@@ -1,4 +1,9 @@
+import React from 'react'
+
 const Achievements = () => {
-  return <h1>Achievement Section</h1>;
-};
-export default Achievements;
+  return (
+    <div>Achievements</div>
+  )
+}
+
+export default Achievements
