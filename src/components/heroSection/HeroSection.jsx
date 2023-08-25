@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {motion, AnimatePresence } from 'framer-motion'
-import ani from "./Group 1.png"
-import sphere from "./3d-sphere.png"
+import ani from "../../images/Group 1.png"
+import sphere from "../../images/3d-sphere.png"
 import "./heroSection.css"
 const HeroSection = () => {
   const textVariants = {
@@ -23,7 +23,7 @@ const HeroSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % textContent.length);
-    }, 2000); // Change every 2 seconds
+    }, 2000); 
 
     return () => clearInterval(interval);
   }, []);

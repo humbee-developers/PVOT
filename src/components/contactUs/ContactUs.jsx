@@ -3,7 +3,7 @@ import "./contactUs.css";
 
 const ContactUs = () => {
   return (
-    <div className="contactUs-section">
+    <div className="contactUs-section" style={{backgroundColor:'white'}}>
       <div className="contact-image">
         <img src={contactImage} className="contactImage" alt="logo" />
         <div className="socialLinks">
