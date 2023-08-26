@@ -31,52 +31,41 @@ const HeroSection = () => {
   return (
     <div>
       <div className='hero-heading'>
-        <motion.img
+        <motion.img className='sphere-image'
           src={sphere}
-          style={{ display: "block", width: "50%", marginLeft: "auto", marginRight: "auto" }}
+
           animate={{ rotate: 360 }}
-          transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}
-        />
+          transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}/>
         <div className="text">
           <motion.h1
             className='hero-text'
-            style={{ fontWeight: "300", bottom: "25rem" }}
+
             initial={{ x: -1000 }}
             animate={{ x: 300 }}
             transition={{
               duration: 2,
               delay: 1,
-            }}
-          >
+            }}>
             WE CREATE
           </motion.h1>
 
-
-
-
-
-          <motion.div className='x' style={{display:'flex'}}
+          <motion.div className='x'
           initial={{ x: 2000 }}
             animate={{ x: 600 }}
             transition={{
               duration: 2,
               delay: 1,
-            }}
+            }}>
           
-          >
-          
-          <motion.img 
+          <motion.img className='Rotating-arrow'
           src={ani}
           alt="Rotating Image"
-          style={{ width: "100px", marginBottom: "22px",position:'absolute',bottom:'17rem',left:"-7rem" }}
+
           initial={{ rotate: 0 }}
           animate={{ rotate:-360 }}
-          transition={{ duration: 3, ease: 'linear' }}
-        />
-          
+          transition={{ duration: 3, ease: 'linear' }}/>
           
 
-         
           <AnimatePresence mode='wait'>
             <motion.h1
               key={textContent[currentIndex]}
@@ -84,17 +73,14 @@ const HeroSection = () => {
               initial="hidden"
               animate="visible"
               exit="exit"
-              className='hero-text'
-              style={{ bottom: "17rem" }}
-            >
+              className='hero-text extra-style'
+              >
              
               {textContent[currentIndex]}
             </motion.h1>
           </AnimatePresence>
-         
           </motion.div>
-
-          
+      
         </div>
       </div>
     </div>
