@@ -1,6 +1,9 @@
 .navbar-brand {
       color: white;
     }
+    .hero{
+      background-color: black;
+    }
     .nav-link {
       color: white;
       border: 1px solid white;
@@ -10,8 +13,17 @@
     }
     @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
-          padding: 2px 11px;
+          padding: 2px 11px;     
     }
+.hero{
+  position: absolute !important;
+    background: black!important;
+    height: auto !important;
+    z-index: 999 !important;
+    width: 100% !important;
+}
+
+
     }
     .nav-link:hover{
       background-color: white;

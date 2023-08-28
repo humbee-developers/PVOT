@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div>
     
-    <div className="hero" style={{backgroundColor:"black"}}>
+    <div className="hero" id='hro' >
     <Navbar expand="lg" className="" >
     <Container>
       <Navbar.Brand className='brand' href="#home">PVOT</Navbar.Brand>
