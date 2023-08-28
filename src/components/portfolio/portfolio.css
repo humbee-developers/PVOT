@@ -1,0 +1,163 @@
+.first-div {
+  background-color: black;
+}
+.development-screen {
+  /* margin-top: 100px; */
+  width: 100%;
+  position: relative;
+}
+.main-screen {
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-main-screen {
+  padding-bottom: 55px;
+}
+.image-container-section {
+  display: flex;
+}
+.inner-image-container {
+  margin: 12.8px;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: 44px;
+}
+
+.image-outer-layer {
+  position: relative;
+  width: 365px;
+  height: 770px;
+  border-radius: inherit;
+}
+
+.image {
+  border-radius: inherit !important;
+  position: relative !important;
+  object-fit: cover !important;
+  object-position: center !important;
+
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  color: transparent;
+}
+
+.Hand-image-section {
+  position: absolute;
+  left: -41px;
+  top: -33px;
+  width: 100%;
+  height: calc(100% + -79px);
+  display: flex;
+  flex-direction: column;
+}
+.hand-image-outer {
+  margin: auto auto 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 750px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  will-change: transform;
+  translate: none;
+  rotate: none;
+  scale: none;
+  pointer-events: none;
+}
+ul {
+  padding-left: 0;
+}
+.hand-image {
+  flex-shrink: 0;
+
+  height: auto !important;
+  position: relative !important;
+  object-fit: cover;
+  width: 1320px !important;
+  min-width: 1320px !important;
+  object-position: center top;
+}
+.video-add {
+  width: 353px;
+  height: 688px;
+  top: 48px;
+  left: 612px;
+  border-radius: 42px;
+  position: absolute;
+  z-index: 2;
+}
+.upper-image {
+  width: 100%;
+  padding: 0 15px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: inherit;
+}
+
+@media screen and (max-width: 991px) {
+  .hand-image-section {
+    top: -15px;
+    width: 100%;
+    height: calc(100% + 15px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inner-image-container {
+    border-radius: 20px;
+    margin: 8px;
+  }
+  .hand-image-section {
+    top: -15px;
+    width: 100%;
+    height: calc(100% + 15px);
+  }
+  .video-add {
+    width: 198px;
+    height: 357px;
+    top: 26px;
+    border-radius: 25px;
+    left: 143px;
+  }
+  .image-outer-layer {
+    width: 150px;
+    height: 310px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .hand-image-outer {
+    height: 450px;
+    align-items: normal;
+  }
+  .hand-image-section {
+    top: -15px;
+    width: 100%;
+    height: calc(100% + 15px);
+  }
+  .hand-image {
+    width: 433px !important;
+    min-width: 433px !important;
+  }
+}
+
+@media screen and (max-width: 1124px) {
+  .Hand-image-section {
+    top: -15px;
+    width: auto;
+    height: calc(100% + 15px);
+  }
+  .image-outer-layer {
+    height: auto;
+  }
+}
