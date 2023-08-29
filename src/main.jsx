@@ -4,6 +4,8 @@ import App from './App.jsx'
 import './index.css'
 import './fonts/Fontspring-DEMO-freigeist-conregular.otf'; 
 import './fonts/Fontspring-DEMO-freigeist-conbolditalic.otf'; 
+import './fonts/Fontspring-DEMO-freigeist-bolditalic.otf'; 
+import './fonts/Fontspring-DEMO-freigeist-black.otf'; 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
