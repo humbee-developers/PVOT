@@ -10,4 +10,10 @@
       url("./fonts/Fontspring-DEMO-freigeist-conbolditalic.otf") format("truetype");
     font-weight: normal;
   }
+@font-face {
+    font-family: "FONTSPRING-bold-italic";
+    src: local("FONTSPRING-bold-italic"),
+      url("./fonts/Fontspring-DEMO-freigeist-bolditalic.otf") format("truetype");
+    font-weight: normal;
+  }
  

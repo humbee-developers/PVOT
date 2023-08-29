@@ -14,19 +14,21 @@
   text-transform: uppercase;
   font-family: "FONTSPRING-bold";
 }
-.logo_section_heading {
+.logo_section_heading h2 {
   color: #fff;
   font-family: "Plus Jakarta Sans";
   font-size: 46.56px;
   font-weight: 700;
   line-height: normal;
   position: absolute;
+  text-transform: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .logo_section_image {
   text-align: center;
+  padding: 0 20px;
 }
 .logo_section_image img {
   max-width: 100%;
@@ -59,5 +61,76 @@
   }
   to {
     transform: rotate(-360deg);
+  }
+}
+
+@media (max-width: 1199px) {
+  .logo_section_bgHeading {
+    font-size: 190px;
+  }
+  .logo_section_heading h2 {
+    font-size: 40px;
+  }
+  .logo_section_leftImage {
+    top: 16%;
+    left: -22%;
+  }
+  .logo_section_rightImage {
+    bottom: 2%;
+    right: -25%;
+  }
+  .logo_section_leftImage img {
+    width: 500px;
+  }
+  .logo_section_rightImage img {
+    width: 500px;
+  }
+  .logo_section {
+    padding: 20px 0 162px;
+  }
+}
+@media (max-width: 991px) {
+  .logo_section_bgHeading {
+    font-size: 150px;
+  }
+  .logo_section_heading h2 {
+    font-size: 30px;
+  }
+  .logo_section_leftImage img {
+    width: 400px;
+  }
+  .logo_section_rightImage img {
+    width: 400px;
+  }
+  .logo_section {
+    padding: 20px 0 110px;
+  }
+}
+@media (max-width: 767px) {
+  .logo_section_bgHeading {
+    font-size: 70px;
+  }
+  .logo_section_heading h2 {
+    font-size: 20px;
+  }
+  .logo_section_leftImage img {
+    width: 300px;
+  }
+  .logo_section_rightImage img {
+    width: 300px;
+  }
+  .logo_section {
+    padding: 20px 0 60px;
+  }
+}
+@media (max-width: 575px) {
+  .logo_section_leftImage img {
+    width: 200px;
+  }
+  .logo_section_rightImage img {
+    width: 200px;
+  }
+  .logo_section {
+    padding: 20px 0 60px;
   }
 }
