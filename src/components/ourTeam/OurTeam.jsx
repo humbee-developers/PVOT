@@ -1,5 +1,9 @@
-const ourTeam = () => {
-    return <h1>Our Team</h1>;
-  };
-  export default ourTeam;
-  
+import React from 'react'
+import "./ourTeam.css"
+const OurTeam = () => {
+  return (
+    <div>OurTeam</div>
+  )
+}
+
+export default OurTeam

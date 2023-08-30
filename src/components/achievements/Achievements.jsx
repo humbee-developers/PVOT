@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useRef } from 'react';
+import { motion, useAnimation } from 'framer-motion';
 import Container from 'react-bootstrap/Container';
 import ListGroup from 'react-bootstrap/ListGroup';
 import img3d1 from "../../images/img3d1.png";
@@ -6,6 +7,58 @@ import img3d2 from "../../images/img3d2.png";
 import img3d3 from "../../images/img3d3.png";
 import "./achievement.css"
 
+
+
+const Card = ({ title, description, imageSrc }) => {
+  const controls = useAnimation();
+  const cardRef = useRef(null);
+
+  useEffect(() => {
+    const cardElement = cardRef.current;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            controls.start({ opacity: 1, x: 0 });
+          } else {
+            controls.start({ opacity: 0, x: -50 });
+          }
+        });
+      },
+      { threshold: 0.8 }
+    );
+
+    if (cardElement) {
+      observer.observe(cardElement);
+    }
+
+    return () => {
+      if (cardElement) {
+        observer.unobserve(cardElement);
+      }
+    };
+  }, [controls]);
+
+  return (
+    <motion.div
+      className="card" style={{border:"none",margin:"5px 6px"}}
+      initial={{ opacity: 0, x: -50 }}
+      animate={controls}
+      ref={cardRef}
+    >
+      <div className="card-outer1">
+        <div className="outer-image-info1">
+          <img className="image1" src={imageSrc} alt={title} />
+        </div>
+        <div className="card-detail-outer1">
+          <h3 className="card-heading1">{title}</h3>
+          <p className="card-comment1">{description}</p>
+        </div>
+      </div>
+    </motion.div>
+  );
+};
 
 
 const Achievements = () => {
@@ -43,55 +96,61 @@ const Achievements = () => {
             <h3 className="title">Some Number About Us</h3>
 
 
-            <ul className="card-container-section">
-            <ListGroup.Item as="li" className="card-list">
-            <div className="card-outer">
-              <div className="outer-image-info">
-                <img className="image" src={img3d1} alt="" />
-              </div>
-              <div className="card-detail-outer">
-                <h3 className="card-heading">+300</h3>
-                <p className="card-comment">We have successfully completed a total of 300+ projects</p>
-              </div>
-            </div>
-          </ListGroup.Item>
-
-              <ListGroup.Item as="li" className="card-list">
-                <div className="card-outer">
-                  <div className="outer-image-info">
-                    <img className="image" src={img3d2}alt="" />
-                  </div>
-                  <div className="card-detail-outer">
-                    <h3 className="card-heading">100k</h3>
-                    <p className="card-comment">We’ve gathered dozens of reviews from the clients and + 100k reviews from their users</p>
-                  </div>
-                </div>
-              </ListGroup.Item>
-
-              <ListGroup.Item as="li"className="card-list">
-                <div className="card-outer">
-                  <div className="outer-image-info">
-                    <img className="image" src={img3d3} alt="" />
-                  </div>
-                  <div className="card-detail-outer">
-                    <h3 className="card-heading">+10</h3>
-                    <p className="card-comment">Years of experience</p>
-                  </div>
-                </div>
-              </ListGroup.Item>
-
-              <ListGroup.Item as="li"className="card-list">
-                <div className="card-outer">
-                  <div className="outer-image-info">
-                    <img className="image" src={img3d1} alt="" />
-                  </div>
-                  <div className="card-detail-outer">
-                    <h3 className="card-heading">+280</h3>
-                    <p className="card-comment">Team members all over the world</p>
-                  </div>
-                </div>
-              </ListGroup.Item>
-            </ul>
+            <div>
+    <div className="card-list1">
+      <motion.div
+        className="card-container"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        <Card className="card-outer" style={{border:"none"}}
+          title="+300"
+          description="We have successfully completed a total of 300+ projects"
+          imageSrc={img3d1}
+        />
+      </motion.div>
+      <motion.div
+        className="card-container"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.4 }}
+      >
+        <Card
+          title="100k"
+          description="We’ve gathered dozens of reviews from the clients and + 100k reviews from their users"
+          imageSrc={img3d2}
+        />
+      </motion.div>
+      
+    </div>
+    <div className="card-list1">
+    <motion.div
+        className="card-container1"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.6 }}
+      >
+        <Card
+          title="+10"
+          description="Years of experience"
+          imageSrc={img3d3}
+        />
+      </motion.div>
+      <motion.div
+        className="card-container"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        <Card className="card-outer" style={{border:"none"}}
+          title="+280"
+          description="Team members all over the world"
+          imageSrc={img3d1}
+        />
+      </motion.div>
+      </div>
+      </div>
           </div>
 
 
