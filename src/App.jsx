@@ -7,6 +7,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import LogoSection from './components/logoSection/LogoSection';
 import Achievements from './components/achievements/Achievements';
 import Services from './components/services/Services';
+import Amazing2023 from './components/amazing2023/Amazing2023';
 import OurTeam from './components/ourTeam/OurTeam';
 const App = () => {
   return (
@@ -16,7 +17,9 @@ const App = () => {
    <Services/>
    <Portfolio/>
    <Achievements/>
+   <OurTeam/>
    <LogoSection/>
+   <Amazing2023/>
    <ContactUs/>
    <Footer/>
   
