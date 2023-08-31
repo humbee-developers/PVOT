@@ -13,7 +13,6 @@ import ContactForm from "../components/contactUs/ContactForm";
 const Home = () => {
   return (
     <Fragment>
-      {/* <Header /> */}
       <HeroSection />
       <Services />
       <Portfolio />
@@ -21,10 +20,8 @@ const Home = () => {
       <OurTeam />
       <LogoSection />
       <Testimonial />
-      <Amazing2023 />
+      {/* <Amazing2023 /> */}
       <ContactUs />
-      <ContactForm />
-      {/* <Footer /> */}
     </Fragment>
   );
 };

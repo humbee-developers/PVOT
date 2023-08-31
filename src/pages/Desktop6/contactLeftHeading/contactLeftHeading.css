@@ -1,0 +1,35 @@
+.contact_left_heading h2 {
+  color: #fff;
+  text-align: right;
+  font-family: "Plus Jakarta Sans";
+  font-size: 145.708px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 62px;
+}
+
+@media (max-width: 1199px) {
+  .contact_left_heading h2 {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact_left_heading h2 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact_left_heading h2 {
+    font-size: 120px;
+    text-align: center;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 575px) {
+  .contact_left_heading h2 {
+    font-size: 60px;
+  }
+}

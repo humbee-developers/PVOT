@@ -22,7 +22,7 @@ const ContactForm = () => {
   return (
     <div className="contact_form">
       <div className="contact_form_wrapper">
-        <form action="">
+        <form onSubmit={handleSubmit}>
           <div className="field">
             <label htmlFor="fullName">Full name</label>
             <input
@@ -84,15 +84,18 @@ const ContactForm = () => {
             )}
           </div>
           <div className="accept_check">
-            <input
-              type="checkbox"
-              name="checkbox"
-              onChange={handleChange}
-              value={values.checkbox}
-            />
-            <p>
-              I here by accept pvot <span>General terms & Privacy Policy</span>{" "}
-            </p>
+            <div className="checkbox_flex">
+              <input
+                type="checkbox"
+                name="checkbox"
+                onChange={handleChange}
+                value={values.checkbox}
+              />
+              <div className="accept_pvot">
+                I here by accept pvot{" "}
+                <span>General terms & Privacy Policy</span>{" "}
+              </div>
+            </div>
             {touched.onYourMind && errors.onYourMind && (
               <p className="error">{errors.onYourMind}</p>
             )}
