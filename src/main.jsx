@@ -1,14 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import './fonts/Fontspring-DEMO-freigeist-conregular.otf'; 
-import './fonts/Fontspring-DEMO-freigeist-conbolditalic.otf'; 
-import './fonts/Fontspring-DEMO-freigeist-bolditalic.otf'; 
-import './fonts/Fontspring-DEMO-freigeist-black.otf'; 
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
+import "./fonts/Fontspring-DEMO-freigeist-conregular.otf";
+import "./fonts/Fontspring-DEMO-freigeist-conbolditalic.otf";
+import "./fonts/Fontspring-DEMO-freigeist-bolditalic.otf";
+import "./fonts/Fontspring-DEMO-freigeist-black.otf";
+import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
-)
+  </BrowserRouter>
+);

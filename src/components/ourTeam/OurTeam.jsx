@@ -1,4 +1,6 @@
+
 import React from 'react'
+
 import Rectangle1 from "../../images/Rectangle1.png";
 import Rectangle2 from "../../images/Rectangle2.png";
 import Rectangle3 from "../../images/Rectangle3.png";
@@ -27,100 +29,100 @@ const OurTeam = () => {
         </div>
 
 
-        <div class="c-title-1 cc-opacity-5">GROWTH</div>
+        <div className="c-title-1 cc-opacity-5">GROWTH</div>
         
        
       </div>
     </div>
-    <div class="c-container cc-relative">
-      <div class="c-clients-content">
-        <div data-w-id="42bfb461-4030-d7d0-1111-4b498a8ae963" class="c-team">
-          <div class="c-team-card">
-            <div class="c-section-divider cc-black-bg cc-space-between cc-no-border">
-              <div class="c-section-divider_circle cc-white"></div>
-              <div class="c-text-5 cc-tablet_hide">Web Designer</div>
+    <div className="c-container cc-relative">
+      <div className="c-clients-content">
+        <div data-w-id="42bfb461-4030-d7d0-1111-4b498a8ae963" className="c-team">
+          <div className="c-team-card">
+            <div className="c-section-divider cc-black-bg cc-space-between cc-no-border">
+              <div className="c-section-divider_circle cc-white"></div>
+              <div className="c-text-5 cc-tablet_hide">Web Designer</div>
             </div><img
               src={Rectangle1}
-              loading="lazy" alt="" class="c-team-card_image" />
-            <div class="c-team_name">
-              <div class="c-text-3 cc-bold">Emily Anderson</div>
+              loading="lazy" alt="" className="c-team-card_image" />
+            <div className="c-team_name">
+              <div className="c-text-3 cc-bold">Emily Anderson</div>
             </div>
           </div>
-          <div class="c-team-card">
-            <div class="c-section-divider cc-black-bg cc-space-between cc-no-border">
-              <div class="c-section-divider_circle cc-white"></div>
-              <div class="c-text-5 cc-tablet_hide">Web designer</div>
+          <div className="c-team-card">
+            <div className="c-section-divider cc-black-bg cc-space-between cc-no-border">
+              <div className="c-section-divider_circle cc-white"></div>
+              <div className="c-text-5 cc-tablet_hide">Web designer</div>
             </div><img
               src={Rectangle2}
-              loading="lazy" alt="" class="c-team-card_image" />
-            <div class="c-team_name">
-              <div class="c-text-3 cc-bold">Jackson Martinez</div>
+              loading="lazy" alt="" className="c-team-card_image" />
+            <div className="c-team_name">
+              <div className="c-text-3 cc-bold">Jackson Martinez</div>
             </div>
           </div>
-          <div class="c-team-card">
-            <div class="c-section-divider cc-black-bg cc-space-between cc-no-border">
-              <div class="c-section-divider_circle cc-white"></div>
-              <div class="c-text-5 cc-tablet_hide">Web designer</div>
+          <div className="c-team-card">
+            <div className="c-section-divider cc-black-bg cc-space-between cc-no-border">
+              <div className="c-section-divider_circle cc-white"></div>
+              <div className="c-text-5 cc-tablet_hide">Web designer</div>
             </div><img
               src={Rectangle3}
-              loading="lazy" alt="" class="c-team-card_image" />
-            <div class="c-team_name">
-              <div class="c-text-3 cc-bold">Amelia Davis</div>
+              loading="lazy" alt="" className="c-team-card_image" />
+            <div className="c-team_name">
+              <div className="c-text-3 cc-bold">Amelia Davis</div>
             </div>
           </div>
-          <div class="c-team-card">
-            <div class="c-section-divider cc-black-bg cc-space-between cc-no-border">
-              <div class="c-section-divider_circle cc-white"></div>
-              <div class="c-text-5 cc-tablet_hide">Web designer</div>
+          <div className="c-team-card">
+            <div className="c-section-divider cc-black-bg cc-space-between cc-no-border">
+              <div className="c-section-divider_circle cc-white"></div>
+              <div className="c-text-5 cc-tablet_hide">Web designer</div>
             </div><img
               src={Rectangle4}
-              loading="lazy" alt="" class="c-team-card_image" />
-            <div class="c-team_name">
-              <div class="c-text-3 cc-bold">Liam Johnson</div>
+              loading="lazy" alt="" className="c-team-card_image" />
+            <div className="c-team_name">
+              <div className="c-text-3 cc-bold">Liam Johnson</div>
             </div>
           </div>
-          <div class="c-team-card">
-            <div class="c-section-divider cc-black-bg cc-space-between cc-no-border">
-              <div class="c-section-divider_circle cc-white"></div>
-              <div class="c-text-5 cc-tablet_hide">Web designer</div>
+          <div className="c-team-card">
+            <div className="c-section-divider cc-black-bg cc-space-between cc-no-border">
+              <div className="c-section-divider_circle cc-white"></div>
+              <div className="c-text-5 cc-tablet_hide">Web designer</div>
             </div><img
               src={Rectangle5}
-              loading="lazy" alt="" class="c-team-card_image" />
-            <div class="c-team_name">
-              <div class="c-text-3 cc-bold">Ethan Garcia</div>
+              loading="lazy" alt="" className="c-team-card_image" />
+            <div className="c-team_name">
+              <div className="c-text-3 cc-bold">Ethan Garcia</div>
             </div>
           </div>
-          <div class="c-team-card">
-            <div class="c-section-divider cc-black-bg cc-space-between cc-no-border">
-              <div class="c-section-divider_circle cc-white"></div>
-              <div class="c-text-5 cc-tablet_hide">Web Designer</div>
+          <div className="c-team-card">
+            <div className="c-section-divider cc-black-bg cc-space-between cc-no-border">
+              <div className="c-section-divider_circle cc-white"></div>
+              <div className="c-text-5 cc-tablet_hide">Web Designer</div>
             </div><img
               src={Rectangle6}
-              loading="lazy" alt="" class="c-team-card_image" />
-            <div class="c-team_name">
-              <div class="c-text-3 cc-bold">Harper Johnson</div>
+              loading="lazy" alt="" className="c-team-card_image" />
+            <div className="c-team_name">
+              <div className="c-text-3 cc-bold">Harper Johnson</div>
             </div>
           </div>
-          <div class="c-team-card">
-            <div class="c-section-divider cc-black-bg cc-space-between cc-no-border">
-              <div class="c-section-divider_circle cc-white"></div>
-              <div class="c-text-5 cc-tablet_hide">Web designer</div>
+          <div className="c-team-card">
+            <div className="c-section-divider cc-black-bg cc-space-between cc-no-border">
+              <div className="c-section-divider_circle cc-white"></div>
+              <div className="c-text-5 cc-tablet_hide">Web designer</div>
             </div><img
               src={Rectangle7}
-              loading="lazy" alt="" class="c-team-card_image" />
-            <div class="c-team_name">
-              <div class="c-text-3 cc-bold">Noah Williams</div>
+              loading="lazy" alt="" className="c-team-card_image" />
+            <div className="c-team_name">
+              <div className="c-text-3 cc-bold">Noah Williams</div>
             </div>
           </div>
-          <div class="c-team-card">
-            <div class="c-section-divider cc-black-bg cc-space-between cc-no-border">
-              <div class="c-section-divider_circle cc-white"></div>
-              <div class="c-text-5 cc-tablet_hide">Web designer</div>
+          <div className="c-team-card">
+            <div className="c-section-divider cc-black-bg cc-space-between cc-no-border">
+              <div className="c-section-divider_circle cc-white"></div>
+              <div className="c-text-5 cc-tablet_hide">Web designer</div>
             </div><img
               src={Rectangle8}
-              loading="lazy" alt="" class="c-team-card_image" />
-            <div class="c-team_name">
-              <div class="c-text-3 cc-bold">Aiden Rodriguez</div>
+              loading="lazy" alt="" className="c-team-card_image" />
+            <div className="c-team_name">
+              <div className="c-text-3 cc-bold">Aiden Rodriguez</div>
             </div>
           </div>
           

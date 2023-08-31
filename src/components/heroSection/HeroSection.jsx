@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import {motion, AnimatePresence } from 'framer-motion'
-import ani from "../../images/Group 1.png"
-import sphere from "../../images/3d-sphere.png"
-import "./heroSection.css"
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import ani from "../../images/Group 1.png";
+import sphere from "../../images/3d-sphere.png";
+import "./heroSection.css";
 const HeroSection = () => {
   const textVariants = {
     hidden: { y: -20, opacity: 0 },
@@ -12,10 +12,10 @@ const HeroSection = () => {
 
   const textContent = [
     "AWESOME",
-    'Strategies',
-    'Designs',
-    'Concepts',
-    'Brands'
+    "Strategies",
+    "Designs",
+    "Concepts",
+    "Brands",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -23,68 +23,68 @@ const HeroSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % textContent.length);
-    }, 2000); 
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div>
-      <div className='hero-heading'>
-        <motion.img className='sphere-image'
+      <div className="hero-heading">
+        <motion.img
+          className="sphere-image"
           src={sphere}
-
           animate={{ rotate: 360 }}
-          transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}/>
+          transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+        />
         <div className="text">
           <motion.h1
-            className='hero-text'
-
+            className="hero-text"
             initial={{ x: -1000 }}
             animate={{ x: 300 }}
             transition={{
               duration: 2,
               delay: 1,
-            }}>
+            }}
+          >
             WE CREATE
           </motion.h1>
 
-          <motion.div className='x'
-          initial={{ x: 2000 }}
+          <motion.div
+            className="x"
+            initial={{ x: 2000 }}
             animate={{ x: 600 }}
             transition={{
               duration: 2,
               delay: 1,
-            }}>
-          
-          <motion.img className='Rotating-arrow'
-          src={ani}
-          alt="Rotating Image"
+            }}
+          >
+            <motion.img
+              className="Rotating-arrow"
+              src={ani}
+              alt="Rotating Image"
+              initial={{ rotate: 0 }}
+              animate={{ rotate: -360 }}
+              transition={{ duration: 3, ease: "linear" }}
+            />
 
-          initial={{ rotate: 0 }}
-          animate={{ rotate:-360 }}
-          transition={{ duration: 3, ease: 'linear' }}/>
-          
-
-          <AnimatePresence mode='wait'>
-            <motion.h1
-              key={textContent[currentIndex]}
-              variants={textVariants}
-              initial="hidden"
-              animate="visible"
-              exit="exit"
-              className='hero-text extra-style'
+            <AnimatePresence mode="wait">
+              <motion.h1
+                key={textContent[currentIndex]}
+                variants={textVariants}
+                initial="hidden"
+                animate="visible"
+                exit="exit"
+                className="hero-text extra-style"
               >
-             
-              {textContent[currentIndex]}
-            </motion.h1>
-          </AnimatePresence>
+                {textContent[currentIndex]}
+              </motion.h1>
+            </AnimatePresence>
           </motion.div>
-      
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default HeroSection;
