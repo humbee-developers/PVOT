@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Button from 'react-bootstrap/Button';
+
 import "./footer.css"
 const Footer = () => {
   return (
@@ -13,12 +13,12 @@ const Footer = () => {
             </h2>
             <p className="footer-small-text">Feel free to reach our if you want to collaborate with us, or simply have a chat
             </p>
-            <Button className="footer-button">
+            <button className="footer-button">
               <span className="footer-button-text">Become a Client</span>
               <span className="footer-button-icon"></span>
-            </Button>
+            </button>
             <p className="footer-small-text">Don’t like the forms? Drop us a line via email.</p>
-            <a className="footer-email" href="">link-testing.com</a>
+            <a className="footer-email" href="" style={{textDecoration:"none"}}>link-testing.com</a>
           </div>
 
           <div className="main-footer-right">
@@ -29,7 +29,7 @@ const Footer = () => {
                   <li className="footer-left-items-list">
                    Our Email 
                    <br />
-                    <a style={{textDecoration:"underline"}} href="">testing-email.com</a>
+                    <a style={{textDecoration:"underline",color:"gray"}} href="">testing-email.com</a>
                   </li>
 
                   <li className="footer-left-items-list">

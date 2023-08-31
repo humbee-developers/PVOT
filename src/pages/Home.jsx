@@ -8,7 +8,6 @@ import LogoSection from "../components/logoSection/LogoSection";
 import Testimonial from "../components/testimonial/Testimonial";
 import Amazing2023 from "../components/amazing2023/Amazing2023";
 import ContactUs from "../components/contactUs/ContactUs";
-import ContactForm from "../components/contactUs/ContactForm";
 
 const Home = () => {
   return (
@@ -20,11 +19,9 @@ const Home = () => {
       <Achievements />
       <OurTeam />
       <LogoSection />
-      <Testimonial />
+    
       <Amazing2023 />
       <ContactUs />
-      <ContactForm />
-      {/* <Footer /> */}
     </Fragment>
   );
 };
