@@ -11,20 +11,19 @@ import Amazing2023 from './components/amazing2023/Amazing2023';
 import OurTeam from './components/ourTeam/OurTeam';
 const App = () => {
   return (
-    <div >
-    <Header/>
-   <HeroSection/>
-   <Services/>
-   <Portfolio/>
-   <Achievements/>
-     <OurTeam/>
-   <LogoSection/>
-   <Amazing2023/>
-   <ContactUs/>
-   <Footer/>
-  
-  </div>
-  )
-}
+    <>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact-us" element={<ContactUsPage />} />
+          <Route path="/services" element={<ServicePage />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/career" element={<CareerPage />} />
+          <Route path="/blog" element={<MediaPage />} />
+        </Routes>
+      </Layout>
+    </>
+  );
+};
 
 export default App
