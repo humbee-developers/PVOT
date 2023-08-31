@@ -19,7 +19,6 @@ const App = () => {
    <Achievements/>
      <OurTeam/>
    <LogoSection/>
- 
    <Amazing2023/>
    <ContactUs/>
    <Footer/>
