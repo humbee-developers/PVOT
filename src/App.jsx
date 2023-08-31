@@ -1,53 +1,23 @@
-import "./App.css";
-import { motion } from "framer-motion";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-
+import ContactUsPage from "./pages/Desktop6/ContactUsPage";
+import Layout from "./components/layout/Layout";
+import ServicePage from "./pages/Desktop3/ServicesPage";
+import PortfolioPage from "./pages/Desktop4/PortfolioPage";
+import CareerPage from "./pages/Desktop5/CareersPage";
+import MediaPage from "./pages/Desktop7/MediaPage";
 const App = () => {
   return (
-    <div>
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-     
-
-      <motion.div
-        style={{ textAlign: "center" }}
-        initial={{ opacity: 0, y: -50 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: 50 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-      >
-        <h1>Hello Framer Motion!</h1>
-      </motion.div>
-      <Home />
-    </div>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact-us" element={<ContactUsPage />} />
+        <Route path="/services" element={<ServicePage />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
+        <Route path="/career" element={<CareerPage />} />
+        <Route path="/blog" element={<MediaPage />} />
+      </Routes>
+    </Layout>
   );
 };
 

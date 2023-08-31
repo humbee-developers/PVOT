@@ -1,0 +1,53 @@
+.contact_form {
+  background-color: #111;
+  color: #ffff;
+  padding: 20px 0;
+}
+.contact_form_wrapper {
+  width: 576px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 24px;
+}
+.field input {
+  border-radius: 14px;
+  background: #323238;
+  border: none;
+  color: #fff;
+    height: 66px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 21px;
+}
+.field input:focus {
+  outline: none;
+}
+.field label {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 10px;
+}
+.submit_btn {
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+}
+.accept_check {
+  display: flex;
+  align-items: center;
+  margin: 0 0 24px;
+}
+.accept_check p {
+  margin: 0 0 0 10px;
+  padding: 0;
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

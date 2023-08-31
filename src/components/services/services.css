@@ -75,9 +75,7 @@
   .service-text {
     font-size: 70px;
   }
-  /* .swiper-slide.swiper-slide-visible.swiper-slide-active {
-    opacity: 0.9;
-} */
+ 
 }
 @media (max-width: 500px) {
   .swiper_container {
@@ -87,11 +85,8 @@
   .swiper-slide {
     width: 100% !important;
     height: 36rem !important;
-    /* opacity: 0.8; */
   }
-  /* .swiper-slide.swiper-slide-visible.swiper-slide-active {
-    opacity: 0.9;
-} */
+ 
   .swiper-slide img {
     width: 28rem !important;
     height: 36rem !important;
