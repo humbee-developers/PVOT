@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import Container from 'react-bootstrap/Container';
-import ListGroup from 'react-bootstrap/ListGroup';
 import img3d1 from "../../images/img3d1.png";
 import img3d2 from "../../images/img3d2.png";
 import img3d3 from "../../images/img3d3.png";
