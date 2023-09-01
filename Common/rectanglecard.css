@@ -1,17 +1,20 @@
-.footer-buttonx {
+.rectangle-button {
   display: flex;
   align-items: center;
   padding: 9px 26px;
-
   border-radius: 21px;
   transition: opacity 0.15s ease-out;
   overflow: hidden;
   background-color: transparent;
   font: 500 16px/1.2 Inter;
-  color: #242424;
+  color: #ffffff;
   letter-spacing: -0.03em;
   margin-block: 40px 10px;
   border: 1px solid white;
+}
+.rectangle-button:hover{
+  background-color: white;
+  color: black;
 }
 .get-in-touch {
   color: #656565;
@@ -27,12 +30,12 @@
   font-size: 6rem;
 }
 
-.footer-button-textx {
+.rectangle-button-text {
   white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  color: white;
+  
   display: flex;
 
   flex-direction: column;
@@ -41,7 +44,7 @@
   position: relative;
   z-index: 3;
 }
-.footer-button-icon {
+.rectangle-button-icon {
   margin-left: 8px;
   position: relative;
   z-index: 1;

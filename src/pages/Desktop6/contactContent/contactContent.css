@@ -61,6 +61,10 @@
   padding: 10px 20px;
   text-decoration: none;
 }
+.contact_content_left_mail a:hover{
+  background-color: white;
+  color: black;
+}
 @media (max-width: 991px) {
   .contact_content_left_text {
     font-size: 18px;

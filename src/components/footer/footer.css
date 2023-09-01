@@ -49,6 +49,12 @@ a {
   letter-spacing: -0.03em;
   margin-block: 29px 33px;
   background-color: #fff;
+  border: 2px solid white;
+}
+.footer-button:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
 }
 
 .footer-button-text {
@@ -59,7 +65,7 @@ a {
   display: flex;
   flex-direction: column;
   height: 1.2em;
-  color: black;
+  
   overflow: hidden;
   position: relative;
   z-index: 3;
