@@ -59,6 +59,7 @@ a {
   display: flex;
   flex-direction: column;
   height: 1.2em;
+  color: black;
   overflow: hidden;
   position: relative;
   z-index: 3;
