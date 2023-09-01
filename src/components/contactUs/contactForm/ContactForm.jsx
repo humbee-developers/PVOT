@@ -1,6 +1,6 @@
 import { useFormik } from "formik";
 import "./contactForm.css";
-import { ContactFormSchemas } from "../../schemas/ContactFormSchemas";
+import { ContactFormSchemas } from "../../../schemas/ContactFormSchemas";
 
 const ContactForm = () => {
   const initialValue = {

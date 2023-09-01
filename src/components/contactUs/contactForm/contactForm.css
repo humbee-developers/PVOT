@@ -1,5 +1,5 @@
 .contact_form {
-  background-color: #111;
+  background-color: #000;
   color: #ffff;
   padding: 20px 0;
 }
@@ -16,9 +16,9 @@
   background: #323238;
   border: none;
   color: #fff;
-  height: 66px;
+  height: 45px;
   font-family: "Plus Jakarta Sans";
-  font-size: 21px;
+  font-size: 18px;
   padding: 0 20px;
 }
 .field input:focus {
@@ -55,7 +55,11 @@
 p.error {
   color: red;
   font-size: 15px;
+  margin: 0;
 }
 .checkbox_flex {
   display: flex;
+}
+.checkbox_flex input{
+  width: 17px;
 }
