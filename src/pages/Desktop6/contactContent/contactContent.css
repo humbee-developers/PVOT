@@ -9,7 +9,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin: 0 0 47px;
+  margin: 0 0 35px;
 }
 .contact_content_right_heading {
   color: #4f4f4f;
@@ -18,7 +18,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin: 0 0 47px;
+  margin: 0 0 35px;
 }
 .contact_content_wrapper {
   display: flex;
@@ -58,7 +58,7 @@
   color: #fff;
   border-radius: 74px;
   border: 1.48px solid #fff;
-  padding: 17px 23px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 @media (max-width: 991px) {

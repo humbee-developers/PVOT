@@ -1,4 +1,4 @@
-import ContactForm from "../../components/contactUs/ContactForm";
+import ContactForm from "../../components/contactUs/contactForm/ContactForm";
 import HeroHeading from "./HeroHeading/HeroHeading";
 import ContactContent from "./contactContent/ContactContent";
 import ContactLeftHeading from "./contactLeftHeading/ContactLeftHeading";
