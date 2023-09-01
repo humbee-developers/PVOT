@@ -1,3 +1,4 @@
+import "./heroHeading.css";
 const HeroHeading = () => {
   return (
     <div className="hero_heading">

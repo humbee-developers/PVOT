@@ -63,7 +63,24 @@
     transform: rotate(-360deg);
   }
 }
-
+.c-clients-bg-logo {
+  z-index: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
 @media (max-width: 1199px) {
   .logo_section_bgHeading {
     font-size: 190px;

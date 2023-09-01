@@ -12,15 +12,14 @@ import ContactUs from "../components/contactUs/ContactUs";
 const Home = () => {
   return (
     <Fragment>
-      {/* <Header /> */}
       <HeroSection />
       <Services />
       <Portfolio />
       <Achievements />
       <OurTeam />
       <LogoSection />
-    
-      <Amazing2023 />
+      <Testimonial />
+      {/* <Amazing2023 /> */}
       <ContactUs />
     </Fragment>
   );

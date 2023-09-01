@@ -1,0 +1,80 @@
+.contact_content {
+  border-top: 1px solid #4f4f4f;
+}
+
+.contact_content_left_heading {
+  color: #4f4f4f;
+  font-family: "Plus Jakarta Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 47px;
+}
+.contact_content_right_heading {
+  color: #4f4f4f;
+  font-family: "Plus Jakarta Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 47px;
+}
+.contact_content_wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: 26px 0 0;
+  justify-content: space-between;
+  margin: 0 -10px;
+}
+.contact_content_left {
+  width: 276px;
+  padding: 0 10px;
+}
+.contact_content_right {
+  width: 276px;
+  padding: 0 10px;
+}
+.contact_content_left_text {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contact_content_right_text {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contact_content_left_mail {
+  margin: 37px 0 0;
+}
+.contact_content_left_mail a {
+  color: #fff;
+  border-radius: 74px;
+  border: 1.48px solid #fff;
+  padding: 17px 23px;
+  text-decoration: none;
+}
+@media (max-width: 991px) {
+  .contact_content_left_text {
+    font-size: 18px;
+  }
+  .contact_content_right_text {
+    font-size: 18px;
+  }
+  .contact_content_left_heading {
+    margin: 0 0 20px;
+  }
+  .contact_content_right_heading {
+    margin: 0 0 20px;
+  }
+  .contact_content_left_mail a {
+    padding: 10px 15px;
+  }
+}
