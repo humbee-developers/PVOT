@@ -1,31 +1,11 @@
 .logo_section {
-  background-color: #111;
-  padding: 20px 0 270px;
   position: relative;
-  overflow: hidden;
 }
-.logo_section_bgHeading {
-  font-size: 231px;
-  color: rgba(255, 255, 255, 0.05);
-  font-weight: 700;
-  line-height: normal;
-  text-align: center;
-  position: relative;
-  text-transform: uppercase;
-  font-family: "FONTSPRING-bold";
+
+.logo_section_bg {
+  padding-top: 2em !important;
 }
-.logo_section_heading h2 {
-  color: #fff;
-  font-family: "Plus Jakarta Sans";
-  font-size: 46.56px;
-  font-weight: 700;
-  line-height: normal;
-  position: absolute;
-  text-transform: none;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 .logo_section_image {
   text-align: center;
   padding: 0 20px;
@@ -35,17 +15,23 @@
 }
 .logo_section_leftImage {
   position: absolute;
-  top: 17%;
+  top: 30%;
   left: -25%;
   animation: leftIcon infinite 120s linear;
   opacity: 0.5;
 }
 .logo_section_rightImage {
   position: absolute;
-  bottom: -5%;
+  top: 45%;
   right: -25%;
   animation: rightIcon infinite 120s linear;
   opacity: 0.5;
+}
+.logo_section_leftImage img {
+  width: 600px;
+}
+.logo_section_rightImage img {
+  width: 600px;
 }
 @keyframes rightIcon {
   from {
@@ -70,8 +56,6 @@
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  /* padding-top: 20px;
-  padding-bottom: 20px; */
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -81,19 +65,31 @@
   -ms-flex-align: center;
   align-items: center;
 }
+
+.c-client-card {
+  max-width: 100%;
+  text-align: center;
+}
+.c-client-card img {
+  max-width: 100%;
+}
+.c-client {
+  position: relative;
+
+  width: 100%;
+  height: 80em;
+}
+.sticky_logo_section {
+  overflow: hidden;
+  padding-bottom: 12em;
+}
 @media (max-width: 1199px) {
-  .logo_section_bgHeading {
-    font-size: 190px;
-  }
-  .logo_section_heading h2 {
-    font-size: 40px;
-  }
   .logo_section_leftImage {
-    top: 16%;
+    top: 35%;
     left: -22%;
   }
   .logo_section_rightImage {
-    bottom: 2%;
+    top: 48%;
     right: -25%;
   }
   .logo_section_leftImage img {
@@ -103,15 +99,19 @@
     width: 500px;
   }
   .logo_section {
-    padding: 20px 0 162px;
+    padding: 20px 0 90px;
   }
 }
 @media (max-width: 991px) {
-  .logo_section_bgHeading {
-    font-size: 150px;
+  .logo_section_bg {
+    padding-top: 7em !important;
   }
-  .logo_section_heading h2 {
-    font-size: 30px;
+
+  .logo_section_leftImage {
+    top: 35%;
+  }
+  .logo_section_rightImage {
+    top: 48%;
   }
   .logo_section_leftImage img {
     width: 400px;
@@ -119,16 +119,19 @@
   .logo_section_rightImage img {
     width: 400px;
   }
-  .logo_section {
-    padding: 20px 0 110px;
+  .sticky_logo_section {
+    padding-bottom: 5em;
+  }
+  .partners_and_client {
+    display: none;
   }
 }
 @media (max-width: 767px) {
-  .logo_section_bgHeading {
-    font-size: 70px;
+  .logo_section_leftImage {
+    top: 34%;
   }
-  .logo_section_heading h2 {
-    font-size: 20px;
+  .logo_section_rightImage {
+    top: 46%;
   }
   .logo_section_leftImage img {
     width: 300px;
@@ -139,8 +142,17 @@
   .logo_section {
     padding: 20px 0 60px;
   }
+  .sticky_logo_section {
+    padding-bottom: 3em;
+  }
 }
 @media (max-width: 575px) {
+  .logo_section_leftImage {
+    top: 32%;
+  }
+  .logo_section_rightImage {
+    top: 42%;
+  }
   .logo_section_leftImage img {
     width: 200px;
   }
