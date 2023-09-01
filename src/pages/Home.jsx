@@ -7,7 +7,7 @@ import OurTeam from "../components/ourTeam/OurTeam";
 import LogoSection from "../components/logoSection/LogoSection";
 import Testimonial from "../components/testimonial/Testimonial";
 // import Amazing2023 from "../components/amazing2023/Amazing2023";
-import ContactUs from "../components/contactUs/ContactUs";
+// import ContactUs from "../components/contactUs/ContactUs";
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
       <LogoSection />
       <Testimonial />
       {/* <Amazing2023 /> */}
-      <ContactUs />
+      {/*<ContactUs />*/}
     </Fragment>
   );
 };
