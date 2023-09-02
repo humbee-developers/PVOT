@@ -9,7 +9,7 @@ const ContactUsPage = () => {
     <section className="contact_us_page">
       <div className="contact_us_page_container">
         <div className="contact_us_page_inner">
-          <HeroHeading />
+          <HeroHeading contactUs={"Contact Us"} />
           <div className="form_wrapper_section">
             <div className="form_wrapper_left">
               <ContactLeftHeading />

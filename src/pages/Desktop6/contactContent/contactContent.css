@@ -55,11 +55,32 @@
   margin: 37px 0 0;
 }
 .contact_content_left_mail a {
-  color: #fff;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #fff;
   border-radius: 74px;
-  border: 1.48px solid #fff;
-  padding: 10px 20px;
-  text-decoration: none;
+}
+.hover_btn a {
+  display: inline-block;
+  height: 40px;
+  line-height: 35px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: 0.3s;
+}
+span.btn_text {
+  display: block;
+  margin: 0px 20px;
+  height: 100%;
+  position: relative;
+  top: 0%;
+  transition: 0.3s;
+  color: white;
+  background-color: transparent;
+}
+.contact_content_left_mail a:hover .btn_text {
+  top: -100%;
 }
 @media (max-width: 991px) {
   .contact_content_left_text {

@@ -17,3 +17,10 @@
     font-weight: normal;
   }
  
+@font-face {
+    font-family: "FONTSPRING-black";
+    src: local("FONTSPRING-black"),
+      url("./fonts/Fontspring-DEMO-freigeist-black.otf") format("truetype");
+    font-weight: normal;
+  }
+ 

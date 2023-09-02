@@ -9,13 +9,22 @@ const ContactUs = () => {
         <div className="socialLinks">
           <ul>
             <li>
-              <a href="#">Instagram</a>
+              <a href="#" className="hover_btn">
+                <span className="btn_text">Instagram</span>
+                <span className="btn_text">Instagram</span>
+              </a>
             </li>
             <li>
-              <a href="#">Twitter</a>
+              <a href="#" className="hover_btn">
+                <span className="btn_text">Twitter</span>
+                <span className="btn_text">Twitter</span>
+              </a>
             </li>
             <li>
-              <a href="#">Linkedin</a>
+              <a href="#" className="hover_btn">
+                <span className="btn_text">Linkedin</span>
+                <span className="btn_text">Linkedin</span>
+              </a>
             </li>
           </ul>
         </div>

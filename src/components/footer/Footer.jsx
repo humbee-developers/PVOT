@@ -1,5 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Button from 'react-bootstrap/Button';
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./footer.css"
 const Footer = () => {
   return (
@@ -12,9 +13,10 @@ const Footer = () => {
             </h2>
             <p className="footer-small-text">Feel free to reach our if you want to collaborate with us, or simply have a chat
             </p>
-            <Button className="footer-button">
-              <span className="footer-button-text">Become a Client</span>
-              <span className="footer-button-icon"></span>
+            <Button className="footer-button hover_btn">
+              <span className="footer-button-text btn_text">Become a Client</span>
+              <span className="footer-button-text btn_text">Become a Client</span>
+              {/* <span className="footer-button-icon"></span> */}
             </Button>
             <p className="footer-small-text">Don’t like the forms? Drop us a line via email.</p>
             <a className="footer-email" href="">link-testing.com</a>

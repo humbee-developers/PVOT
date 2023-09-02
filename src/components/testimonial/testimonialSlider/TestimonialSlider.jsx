@@ -24,7 +24,7 @@ const TestimonialSlider = () => {
             prevEl: ".image-swiper-button-prev",
             disabledClass: "swiper-button-disabled",
           }}
-          //   autoplay={{ delay: 1000 }}
+            autoplay={{ delay: 1500 }}
           className="testimonial_swiper_slider"
         >
           <SwiperSlide>
