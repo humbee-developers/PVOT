@@ -1,9 +1,17 @@
-import React from 'react'
+import TestimonialSlider from "./testimonialSlider/TestimonialSlider";
+import TestimonialText from "./testimonialText/TestimonialText";
+import "./testimonial.css";
 
 const Testimonial = () => {
   return (
-    <div>Testimonial</div>
-  )
-}
-
-export default Testimonial
+    <div className="testimonial">
+      <div className="testimonial_container">
+        <div className="testimonial_wrapper">
+          <TestimonialText />
+          <TestimonialSlider />
+        </div>
+      </div>
+    </div>
+  );
+};
+export default Testimonial;
