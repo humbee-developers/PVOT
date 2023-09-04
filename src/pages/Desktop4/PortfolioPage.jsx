@@ -1,4 +1,14 @@
+import PortfolioCard from "../../components/portfolio/PortfolioCard";
+import HeroHeading from "../Desktop6/HeroHeading/HeroHeading";
+import RectangleCard from "../../../Common/RectangleCard";
+
 const PortfolioPage = () => {
-  return <h1>Portfolio Page</h1>;
+  return (
+    <div className="portfolio" style={{ backgroundColor: "#000" }}>
+      <HeroHeading bigHeading={"Portfolio"} />
+      <PortfolioCard />
+      <RectangleCard />
+    </div>
+  );
 };
 export default PortfolioPage;
