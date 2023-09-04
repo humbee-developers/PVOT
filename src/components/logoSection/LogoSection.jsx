@@ -7,12 +7,12 @@ import "../ourTeam/ourTeam.css";
 
 const LogoSection = () => {
   return (
-    <div classNameName="" style={{ backgroundColor: "black" }}>
+    <div className="" style={{ backgroundColor: "black" }}>
       <section id="clients_logo" className="c-section cc-clients">
         <div className="c-clients-bg-sticky sticky_logo_section">
           <div className="c-clients-bg logo_section_bg">
             <div className="c-text-wrapper cc-people logo_section">
-              <div className="c-title-4 cc-bold">We thank our </div>
+              <div className="c-title-4 cc-bold">We thank our{" "}</div>
               <div className="c-clients-words">
                 <div
                   data-w-id="0d92ac70-188b-eaec-0989-3053937ea7ca"

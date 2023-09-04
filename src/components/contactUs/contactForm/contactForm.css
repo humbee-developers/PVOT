@@ -36,6 +36,13 @@
 .submit_btn {
   background-color: transparent !important;
   border: 1px solid #fff !important;
+  border-radius: 14px;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .accept_check {
   display: flex;
@@ -47,7 +54,7 @@
   padding: 0;
   color: #fff;
   font-family: "Plus Jakarta Sans";
-  font-size: 21px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -60,6 +67,6 @@ p.error {
 .checkbox_flex {
   display: flex;
 }
-.checkbox_flex input{
+.checkbox_flex input {
   width: 17px;
 }

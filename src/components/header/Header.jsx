@@ -5,27 +5,70 @@ import Navbar from "react-bootstrap/Navbar";
 import logo from "../../images/Mask.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./header.css";
+import { Link } from "react-router-dom";
+import { useState } from "react";
 const Header = () => {
+  const [active, setActive] = useState(false);
+
+  const handleToggle = () => {
+    setActive(!active);
+  };
   return (
     <div>
       <div className="hero" id="hro">
         <Navbar expand="lg" className="">
           <Container>
-            <Navbar.Brand className="brand" href="/">
+            <Link className="brand navbar-brand" to="/">
               PVOT
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            </Link>
+            <Navbar.Toggle
+              aria-controls="basic-navbar-nav"
+              onClick={handleToggle}
+            >
+              <div className="three col">
+                <div
+                  className={`hamburger ${active ? "active" : ""}`}
+                  id="hamburger-1"
+                >
+                  <span className="line"></span>
+                  <span className="line"></span>
+                  <span className="line"></span>
+                </div>
+              </div>
+            </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="" style={{ marginLeft: "auto" }}>
-                <Nav.Link href="/" style={{ backgroundColor: "white" }}>
+                <Link
+                  to="/"
+                  className="nav-link nav_icon_link"
+                  style={{ backgroundColor: "white" }}
+                >
                   <img src={logo} alt="" />
-                </Nav.Link>
-                <Nav.Link href="#link">Know Us</Nav.Link>
-                <Nav.Link href="/services">Services</Nav.Link>
-                <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-                <Nav.Link href="/blog">Media</Nav.Link>
-                <Nav.Link href="/career">Career</Nav.Link>
-                <Nav.Link href="/contact-us">Contact Us</Nav.Link>
+                </Link>
+                <Link to="/services" className="nav-link hover_btn">
+                  <span className="btn_text">Services</span>
+                  <span className="btn_text">Services</span>
+                </Link>
+                <Link to="#link" className="nav-link hover_btn">
+                  <span className="btn_text">Know Us</span>
+                  <span className="btn_text">Know Us</span>
+                </Link>
+                <Link to="/portfolio" className="nav-link hover_btn">
+                  <span className="btn_text">Portfolio</span>
+                  <span className="btn_text">Portfolio</span>
+                </Link>
+                <Link to="/blog" className="nav-link hover_btn">
+                  <span className="btn_text">Media</span>
+                  <span className="btn_text">Media</span>
+                </Link>
+                <Link to="/career" className="nav-link hover_btn">
+                  <span className="btn_text">Career</span>
+                  <span className="btn_text">Career</span>
+                </Link>
+                <Link to="/contact-us" className="nav-link hover_btn">
+                  <span className="btn_text"> Contact Us</span>
+                  <span className="btn_text"> Contact Us</span>
+                </Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

@@ -1,9 +1,14 @@
 import "./heroHeading.css";
-const HeroHeading = (props) => {
+import PropTypes from "prop-types";
+const HeroHeading = ({ contactUs }) => {
   return (
     <div className="hero_heading">
-      <h1>{props.title}</h1>
+      <h1>{contactUs}</h1>
     </div>
   );
 };
 export default HeroHeading;
+
+HeroHeading.propTypes = {
+  contactUs: PropTypes.string,
+};

@@ -1,0 +1,22 @@
+.hover_btn {
+  display: inline-block;
+  height: 45px;
+  line-height: 40px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: 0.3s;
+}
+span.btn_text {
+  display: block;
+  margin: 0px 10px;
+  height: 100%;
+  position: relative;
+  top: 0%;
+  transition: 0.2s;
+  color: white;
+  background-color: transparent;
+}
+.hover_btn:hover .btn_text {
+  top: -100%;
+}

@@ -1,4 +1,4 @@
-import "./contactContent.css"
+import "./contactContent.css";
 const ContactContent = () => {
   return (
     <div className="contact_content">
@@ -11,8 +11,11 @@ const ContactContent = () => {
             <div className="contact_content_left_text">
               We know you want to. You should just go ahead and write us.
             </div>
-            <div className="contact_content_left_mail">
-              <a href="mailto:pvot@123.com">pvot@123.com</a>
+            <div className="contact_content_left_mail hover_btn">
+              <a href="mailto:pvot@123.com">
+                <span className="btn_text">pvot@123.com</span>
+                <span className="btn_text">pvot@123.com</span>
+              </a>
             </div>
           </div>
         </div>

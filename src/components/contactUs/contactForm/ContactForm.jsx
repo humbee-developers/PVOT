@@ -16,6 +16,7 @@ const ContactForm = () => {
     validationSchema: ContactFormSchemas,
     onSubmit: (value, action) => {
       action.resetForm();
+      console.log("value", value);
     },
   });
   console.log(values);
@@ -90,22 +91,22 @@ const ContactForm = () => {
                 name="checkbox"
                 onChange={handleChange}
                 value={values.checkbox}
+                checked={values.checkbox}
               />
               <div className="accept_pvot">
                 I here by accept pvot{" "}
                 <span>General terms & Privacy Policy</span>{" "}
               </div>
             </div>
-            {touched.onYourMind && errors.onYourMind && (
-              <p className="error">{errors.onYourMind}</p>
+            {touched.checkbox && errors.checkbox && (
+              <p className="error">{errors.checkbox}</p>
             )}
           </div>
           <div className="field">
-            <input
-              type="submit"
-              value={"Send Message"}
-              className="submit_btn"
-            />
+            <button type="submit" className="submit_btn hover_btn">
+              <span className="btn_text">Send Message</span>
+              <span className="btn_text">Send Message</span>
+            </button>
           </div>
         </form>
       </div>
