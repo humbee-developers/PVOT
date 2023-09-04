@@ -1,4 +1,13 @@
+import CareerCard from "../../components/careerCard/CareerCard";
+import HeroHeading from "../Desktop6/HeroHeading/HeroHeading";
+import RectangleCard from "../../../Common/RectangleCard";
 const CareerPage = () => {
-  return <h1>CareerPage</h1>;
+  return (
+    <div className="career_page" style={{ backgroundColor: "#000" }}>
+      <HeroHeading bigHeading={"Careers"} />
+      <CareerCard />
+      <RectangleCard />
+    </div>
+  );
 };
 export default CareerPage;
