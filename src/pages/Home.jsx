@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import HeroSection from "../components/heroSection/HeroSection";
 import Services from "../components/services/Services";
-import Portfolio from "../components/portfolio/Portfolio";
+// import Portfolio from "../components/portfolio/PortfolioCard";
 import Achievements from "../components/achievements/Achievements";
 import OurTeam from "../components/ourTeam/OurTeam";
 import LogoSection from "../components/logoSection/LogoSection";
@@ -14,7 +14,7 @@ const Home = () => {
     <Fragment>
       <HeroSection />
       <Services />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Achievements />
       <OurTeam />
       <LogoSection />
