@@ -1,74 +1,42 @@
-.hero-heading {
-    overflow: hidden;
-    background-color: black;
+.x {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.text {
+  font-size: 20rem;
+  font-weight: 400;
+  color: white;
+}
+.imag {
+  height: 97%;
+  position: absolute;
+  z-index: 999;
+  max-width: 100%;
+}
+@media screen and (max-width: 991px) {
+ .text{
+  display: flex;
+  justify-content: space-around;
+ }
+  .imag {
+    height: 50%;
   }
-  .text {
-    position: relative;
-  }
-  
-  .hero-text {
-    font-size: 8rem;
-    color: white;
-    letter-spacing: -4px;
+  .one {
+    font-size: 7.5rem;
+    left: 2rem;
     position: absolute;
-    bottom: 17rem;
-    font-weight: 300;
-    bottom: 25rem;
+    bottom: 5rem;
+
   }
-  .extra-style {
-    bottom: 17rem;
-    font-weight: 500;
-  }
-  .sphere-image {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .Rotating-arrow {
-    width: 100px;
-    margin-bottom: 22px;
-    position: absolute;
-    bottom: 17rem;
-    left: -7rem;
-  }
-  .x {
-    display: flex;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .hero-heading {
-      height: 100vh;
-    }
-    .sphere-image {
-      width: 100%;
-      height: auto;
-      margin-top: 4rem;
-    }
-    .hero-text {
-      font-size: 4rem;
-      color: white;
-      letter-spacing: -4px;
-      position: absolute;
-      bottom: 17rem;
-      font-weight: 300;
-      bottom: -6rem;
-     left: -17rem;
-    }
-    .Rotating-arrow{
-      width: 100px;
-      margin-bottom: 0px;
-      position: absolute;
-      bottom: -19rem;
-      left: -28rem;
-    }
-    .extra-style{
-      bottom: -10rem;
-      font-weight: 500;
-      left: -32rem;
-    }
-    .x{
-      display: flex;
-    }
+  .two {
+    font-size: 7.5rem;
     
+    position: absolute;
+    bottom: 5rem;
+left: 12rem;
   }
+}

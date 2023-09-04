@@ -18,22 +18,22 @@ const ServicesPage = () => {
     </div>
     <div style={{ width: '100%', overflow: 'hidden',backgroundColor:"black" }}>
       <motion.div
-        initial={{ x: '100%' }} // Initial position (off-screen to the right)
-        animate={{ x: '-100%' }} // Target position (off-screen to the left)
+        initial={{ x: '100%' }} 
+        animate={{ x: '-100%' }} 
         transition={{
-          duration: 26, // Adjust the duration of the animation
-          ease: 'linear', // Use linear easing for a continuous motion
-          repeat: Infinity, // Repeat the animation indefinitely
+          duration: 26,
+          ease: 'linear',
+          repeat: Infinity,
         }}
         style={{
           width: 'auto',
-          height: '200px', // Adjust the height of the container as needed
-          backgroundColor: 'black', // Optional background color
+          height: '200px', 
+          backgroundColor: 'black', 
           display:"flex"
         }}
       >
         <img
-          src={Mask} // Replace with your image source
+          src={Mask} 
           alt="Moving Image"
           style={{ width: 'auto', height: '100%' }}
         />
