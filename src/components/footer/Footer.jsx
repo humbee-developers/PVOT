@@ -2,9 +2,10 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
+
+import crossArrow from"../../images/ArrowRight.svg";
 import "./footer.css";
-import btnArrow from "../../images/btn_arrow.svg";
-import crossArrow from "../../images/crossArrow.svg";
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -24,7 +25,7 @@ const Footer = () => {
                 Become a Client
               </span>
               <div className="arrow_icon">
-                <img src={btnArrow} alt="btnArrow" />
+                <img src={crossArrow} alt="btnArrow" />
               </div>
               {/* <span className="footer-button-text btn_text">Become a Client</span> */}
               {/* <span className="footer-button-icon"></span> */}
@@ -51,11 +52,7 @@ const Footer = () => {
                    Our Email 
                    <br />
                     <a style={{textDecoration:"underline",color:"gray"}} href="">testing-email.com</a>
-                    Our Email
-                    <br />
-                    <a style={{ textDecoration: "underline" }} href="">
-                      testing-email.com
-                    </a>
+                    
                   </li>
 
                   <li className="footer-left-items-list">
