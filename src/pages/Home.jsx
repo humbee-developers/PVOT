@@ -20,6 +20,9 @@ const Home = () => {
       <Text/>
       <Animation />
       <Services />
+      <Text/>
+      <Rooler/>
+      <Card/>
       {/* <Portfolio /> */}
       <Achievements />
       <OurTeam />
