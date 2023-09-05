@@ -1,12 +1,12 @@
-import React from 'react'
-import HeroHeading from '../Desktop6/HeroHeading/HeroHeading';
+import BlogCard from "../../components/blog/BlogCard";
+import HeroHeading from "../Desktop6/HeroHeading/HeroHeading";
+
 const MediaPage = () => {
   return (
-    <div>
-<HeroHeading bigHeading={"Media"}/>
-    
+    <div className="media" style={{ backgroundColor: "#000" }}>
+      <HeroHeading bigHeading={"Media"} />
+      <BlogCard />
     </div>
-  )
-}
-
-export default MediaPage
+  );
+};
+export default MediaPage;

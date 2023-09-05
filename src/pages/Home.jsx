@@ -11,19 +11,24 @@ import Animation from "../components/animation/Animation";
 import Rooler from "../components/roler/Rooler";
 import Card from "../components/card/Card";
 // import Amazing2023 from "../components/amazing2023/Amazing2023";
-// import ContactUs from "../components/contactUs/ContactUs";
+import ContactUs from "../components/contactUs/ContactUs";
+import Text from "../components/text/Text";
+import TextRevealEffect from "../components/roler/Rooler";
+import ServicesText from "../components/services/servicesText/ServicesText";
 
 const Home = () => {
   return (
     <Fragment>
       <HeroSection />
-      <Text/>
-      <Animation />
+      <Text />
+      <TextRevealEffect />
+      <ServicesText />
       <Services />
       <Text/>
       <Rooler/>
       <Card/>
       {/* <Portfolio /> */}
+
       <Achievements />
       <OurTeam />
       <LogoSection />

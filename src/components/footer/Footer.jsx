@@ -5,6 +5,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import crossArrow from"../../images/ArrowRight.svg";
 import "./footer.css";
+// import btnArrow from "../../images/btn_arrow.svg";
+import crossArrow from "../../images/crossArrow.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -20,12 +24,17 @@ const Footer = () => {
               Feel free to reach our if you want to collaborate with us, or
               simply have a chat
             </p>
-            <Button className="footer-button ">
-              <span className="footer-button-text btn_text">
-                Become a Client
-              </span>
+            <Button className="footer-button  ">
+              <div className="btn_flex hover_btn">
+                <span className="footer-button-text btn_text">
+                  Become a Client
+                </span>
+                <span className="footer-button-text btn_text">
+                  Become a Client
+                </span>
+              </div>
               <div className="arrow_icon">
-                <img src={crossArrow} alt="btnArrow" />
+                <img src={btnArrow} alt="btnArrow" />
               </div>
               {/* <span className="footer-button-text btn_text">Become a Client</span> */}
               {/* <span className="footer-button-icon"></span> */}

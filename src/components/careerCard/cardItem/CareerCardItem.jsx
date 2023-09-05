@@ -1,8 +1,25 @@
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 import "./careerCardItem.css";
 
 const CareerCardItem = () => {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0 1", "2.5 1"],
+  });
+  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
+  console.log(scrollYProgress);
   return (
-    <div className="careerCardItem">
+    <motion.div
+      className="careerCardItem"
+      ref={ref}
+      style={{
+        scale: scaleProgress,
+        opacity: scrollYProgress,
+      }}
+      // initial={{ y: 200 }}
+    >
       <div className="careerCardItem_left_right">
         <div className="careerCardItem_left">
           <div className="careerCardItem_heading">
@@ -30,7 +47,7 @@ const CareerCardItem = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default CareerCardItem;

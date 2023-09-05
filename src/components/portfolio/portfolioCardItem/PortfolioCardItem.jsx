@@ -1,19 +1,30 @@
 import "./portfolioCardItem.css";
-import cardItem1 from "../../../images/portfolioCard_1.png";
+// import cardItem1 from "../../../images/portfolioCard_1.png";
 import Button from "react-bootstrap/Button";
-// import cardItem2 from "../../../images/portfolioCard_2.png";
-// import cardItem3 from "../../../images/portfolioCard_3.png";
-// import cardItem4 from "../../../images/portfolioCard_4.png";
-// import cardItem5 from "../../../images/portfolioCard_5.png";
-// import cardItem6 from "../../../images/portfolioCard_6.png";
+import { motion, useScroll, useTransform } from "framer-motion";
 import btnArrow from "../../../images/whiteArrow.svg";
+import PropTypes from "prop-types";
+import { useRef } from "react";
 
-const PortfolioCardItem = () => {
+const PortfolioCardItem = ({ image }) => {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0 1", "1 1"],
+  });
+  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
   return (
-    <div className="portfolioCardItem">
+    <motion.div
+      ref={ref}
+      style={{
+        scale: scaleProgress,
+        opacity: scrollYProgress,
+      }}
+      className="portfolioCardItem"
+    >
       <div className="portfolioCardItem_wrapper">
         <div className="portfolioCardItem_image">
-          <img src={cardItem1} alt="cardItem1" />
+          <img src={image} alt="cardItem1" />
         </div>
         <div className="portfolioCardItem_content">
           <div className="portfolioCardItem_heading">
@@ -28,7 +39,11 @@ const PortfolioCardItem = () => {
           </Button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default PortfolioCardItem;
+
+PortfolioCardItem.propTypes = {
+  image: PropTypes.any,
+};
