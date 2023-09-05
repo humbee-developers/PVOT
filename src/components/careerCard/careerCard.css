@@ -1,0 +1,44 @@
+.careerCard {
+  background-color: #000;
+}
+.careerCard_container {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.careerCard_wrapper {
+  padding: 124px 0 218px;
+}
+.careerCard_wrapper .careerCardItem:last-child {
+  margin: 0;
+}
+
+@media (max-width: 1440px) {
+  .careerCard_container {
+    max-width: 1199px;
+  }
+}
+@media (max-width: 1199px) {
+  .careerCard_container {
+    max-width: 991px;
+  }
+  .careerCard_wrapper {
+    padding: 124px 0 180px;
+  }
+}
+@media (max-width: 991px) {
+  .careerCard_container {
+    max-width: 767px;
+  }
+  .careerCard_wrapper {
+    padding: 110px 0 140px;
+  }
+}
+@media (max-width: 767px) {
+  .careerCard_container {
+    max-width: 100%;
+  }
+  .careerCard_wrapper {
+    padding: 98px 0 110px;
+  }
+}

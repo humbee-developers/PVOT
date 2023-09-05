@@ -83,6 +83,9 @@
   overflow: hidden;
   padding-bottom: 12em;
 }
+@media(max-width:1440px){
+  
+}
 @media (max-width: 1199px) {
   .logo_section_leftImage {
     top: 35%;

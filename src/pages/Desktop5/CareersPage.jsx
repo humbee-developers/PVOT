@@ -1,14 +1,13 @@
-import React from 'react'
-
-import RectangleCard from "../../../Common/rectangleCard";
-import HeroHeading from '../Desktop6/HeroHeading/HeroHeading';
-const CareersPage = () => {
+import CareerCard from "../../components/careerCard/CareerCard";
+import HeroHeading from "../Desktop6/HeroHeading/HeroHeading";
+import RectangleCard from "../../../Common/RectangleCard";
+const CareerPage = () => {
   return (
-    <div className='' style={{backgroundColor:"black"}}>
-  <HeroHeading title="Careers"/>
-    <RectangleCard/>
+    <div className="career_page" style={{ backgroundColor: "#000" }}>
+      <HeroHeading bigHeading={"Careers"} />
+      <CareerCard />
+      <RectangleCard />
     </div>
-  )
-}
-
-export default CareersPage
+  );
+};
+export default CareerPage;

@@ -1,13 +1,14 @@
-import React from 'react'
-import RectangleCard from "../../../Common/rectangleCard";
-import HeroHeading from '../Desktop6/HeroHeading/HeroHeading';
+import PortfolioCard from "../../components/portfolio/PortfolioCard";
+import HeroHeading from "../Desktop6/HeroHeading/HeroHeading";
+import RectangleCard from "../../../Common/RectangleCard";
+
 const PortfolioPage = () => {
   return (
-    <div className='' style={{backgroundColor:"black"}}>
-    <HeroHeading title="portfolio"/>
-    <RectangleCard/>
+    <div className="portfolio" style={{ backgroundColor: "#000" }}>
+      <HeroHeading bigHeading={"Portfolio"} />
+      <PortfolioCard />
+      <RectangleCard />
     </div>
-  )
-}
-
-export default PortfolioPage
+  );
+};
+export default PortfolioPage;

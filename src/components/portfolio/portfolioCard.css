@@ -1,0 +1,35 @@
+.portfolioCard {
+  padding: 61px 0 140px;
+}
+.portfolioCard_container {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.portfolioCard_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 -20px;
+}
+
+.portfolioCard_wrapper:nth-child(2) {
+  margin: 100px 0 0;
+}
+@media (max-width: 991px) {
+  .portfolioCard {
+    padding: 61px 0 120px;
+  }
+}
+@media (max-width: 767px) {
+  .portfolioCard_wrapper {
+    position: static;
+    flex-direction: column;
+    margin: 0;
+  }
+  .portfolioCard {
+    padding: 61px 0 90px;
+  }
+}

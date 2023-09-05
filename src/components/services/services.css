@@ -75,20 +75,20 @@
   .service-text {
     font-size: 70px;
   }
- 
 }
 @media (max-width: 500px) {
   .swiper_container {
     height: 47rem;
   }
- 
+
   .swiper-slide {
     width: 100% !important;
     height: 36rem !important;
   }
- 
+
   .swiper-slide img {
-    width: 28rem !important;
-    height: 36rem !important;
+    width: 25rem !important;
+    height: 32rem !important;
+    margin: 0 auto;
   }
 }
