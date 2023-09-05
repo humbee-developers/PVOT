@@ -1,0 +1,14 @@
+.servicesCard {
+  position: relative;
+  height: 400vh;
+}
+.servicesCard_wrapper {
+  display: flex;
+}
+
+.servicesCard_inner {
+  position: sticky;
+  top: 10%;
+  display: flex;
+  overflow: hidden;
+}

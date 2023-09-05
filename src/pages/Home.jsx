@@ -8,13 +8,20 @@ import LogoSection from "../components/logoSection/LogoSection";
 import Testimonial from "../components/testimonial/Testimonial";
 // import Amazing2023 from "../components/amazing2023/Amazing2023";
 import ContactUs from "../components/contactUs/ContactUs";
+import Text from "../components/text/Text";
+import TextRevealEffect from "../components/roler/Rooler";
+import ServicesText from "../components/services/servicesText/ServicesText";
 
 const Home = () => {
   return (
     <Fragment>
       <HeroSection />
+      <Text />
+      <TextRevealEffect />
+      <ServicesText />
       <Services />
       {/* <Portfolio /> */}
+
       <Achievements />
       <OurTeam />
       <LogoSection />

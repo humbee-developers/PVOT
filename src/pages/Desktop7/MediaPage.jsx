@@ -1,4 +1,12 @@
+import BlogCard from "../../components/blog/BlogCard";
+import HeroHeading from "../Desktop6/HeroHeading/HeroHeading";
+
 const MediaPage = () => {
-  return <h1>Media Page</h1>;
+  return (
+    <div className="media" style={{ backgroundColor: "#000" }}>
+      <HeroHeading bigHeading={"Media"} />
+      <BlogCard />
+    </div>
+  );
 };
 export default MediaPage;
