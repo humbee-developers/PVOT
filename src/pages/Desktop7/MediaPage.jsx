@@ -3,7 +3,7 @@ import HeroHeading from '../Desktop6/HeroHeading/HeroHeading';
 const MediaPage = () => {
   return (
     <div>
-<HeroHeading title="Media"/>
+<HeroHeading bigHeading={"Media"}/>
     
     </div>
   )
