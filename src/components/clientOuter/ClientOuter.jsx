@@ -1,17 +1,15 @@
 import logoSectionImage from "../../images/logo_section.png";
+import HeadingAndContent from "../headingAndContent_for_knowUs/HeadingAndContent";
 import "./clientOuter.css";
 
 const ClientOuter = () => {
   return (
     <div className="clients-outer">
-      <div className=" client-outer_wrapper c-clients-bg-sticky sticky_logo_section">
-        <div className="clients-title ">OUR CLIENTS</div>
-        <div className="clients-text">
-          We’re fortunate to have worked with some amazing clients.
-        </div>
-      </div>
+      <HeadingAndContent
+        title={"OUR CLIENTS"}
+        text={"We’re fortunate to have worked with some amazing clients."}
+      />
       <div className="" style={{ backgroundColor: "black" }}>
-        <section id="clients_logo" className="c-section cc-clients">
           <div className="c-clients-bg logo_section_bg"></div>
           <div className="c-container cc-relative">
             <div className="c-clients-content">
@@ -30,9 +28,7 @@ const ClientOuter = () => {
               </div>
             </div>
           </div>
-        </section>
       </div>
-      <img src="" alt="" />
     </div>
   );
 };
