@@ -111,7 +111,7 @@
     margin: 20px 0;
     position: relative;
     transition: all 0.5s;
-    width: 40%;
+    width: 45%;
   }
   .nav-link:hover span {
     transform: translateX(1.3em);
@@ -158,5 +158,10 @@
   }
   .nav-link:hover .btn_text {
     top: 0 !important;
+  }
 }
+@media (max-width: 575px) {
+  .nav-link {
+    width: 100%;
+  }
 }
