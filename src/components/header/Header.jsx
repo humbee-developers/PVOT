@@ -48,7 +48,7 @@ const Header = () => {
                   <span className="btn_text">Services</span>
                   <span className="btn_text">Services</span>
                 </Link>
-                <Link to="#link" className="nav-link hover_btn">
+                <Link to="/knowUs" className="nav-link hover_btn">
                   <span className="btn_text">Know Us</span>
                   <span className="btn_text">Know Us</span>
                 </Link>

@@ -1,10 +1,10 @@
 import "./portfolioCardItem.css";
-// import cardItem1 from "../../../images/portfolioCard_1.png";
 import Button from "react-bootstrap/Button";
 import { motion, useScroll, useTransform } from "framer-motion";
-import btnArrow from "../../../images/whiteArrow.svg";
 import PropTypes from "prop-types";
 import { useRef } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const PortfolioCardItem = ({ image }) => {
   const ref = useRef(null);
@@ -31,10 +31,21 @@ const PortfolioCardItem = ({ image }) => {
             <h6>Lorem Impsun</h6>
           </div>
           <div className="portfolioCardItem_text">Lorem Impsum</div>
-          <Button className="portfolioCardItem_btn rectangle-button ">
-            <span className="portfolioCardItem_btn_text">See case study</span>
-            <div className="rectangle-button-icon">
-              <img src={btnArrow} alt="btnArrow" />
+          <Button className="footer-button  ">
+            <div className="btn_flex hover_btn">
+              <span className="footer-button-text btn_text">
+                See case study
+              </span>
+              <span className="footer-button-text btn_text">
+                See case study
+              </span>
+            </div>
+            <div className="arrow_icon">
+              <FontAwesomeIcon
+                icon={faArrowRight}
+                style={{ color: "#ffffff" }}
+                className="btnArrow"
+              />
             </div>
           </Button>
         </div>

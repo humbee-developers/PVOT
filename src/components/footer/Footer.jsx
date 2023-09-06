@@ -37,8 +37,6 @@ const Footer = () => {
                   className="btnArrow"
                 />
               </div>
-              {/* <span className="footer-button-text btn_text">Become a Client</span> */}
-              {/* <span className="footer-button-icon"></span> */}
             </Button>
             <p className="footer-small-text">
               Don’t like the forms? Drop us a line via email.

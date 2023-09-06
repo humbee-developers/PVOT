@@ -1,6 +1,6 @@
 .navbar-brand {
   color: white;
-  z-index: 2;
+  z-index: 11;
 }
 .hero {
   background-color: black;
@@ -101,14 +101,39 @@
     bottom: 0;
     left: 0;
     background: black;
-    z-index: 1;
+    z-index: 10;
     transition: all 0.3s ease-out;
-    height: 100vh ;
+    height: 100vh;
   }
   .nav-link {
     line-height: 35px !important;
     border: none;
     margin: 20px 0;
+    position: relative;
+    transition: all 0.5s;
+    width: 40%;
+  }
+  .nav-link:hover span {
+    transform: translateX(1.3em);
+    transition: all 0.5s;
+  }
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 34px;
+    height: 5px;
+    background-color: white;
+    transform: translateY(-50%);
+    transition: all 0.4s ease-in-out;
+    transform: scaleX(0) translateY(-50%);
+    opacity: 0;
+    transform-origin: left center;
+  }
+  .nav-link:hover::before {
+    transform: scaleX(1) translateY(-50%);
+    opacity: 1;
   }
   .nav-link .btn_text {
     font-size: 40px;
@@ -124,6 +149,14 @@
     z-index: 2;
   }
   button.navbar-toggler {
-    z-index: 2;
+    z-index: 11;
   }
+
+  /* if want to use common btn hover effect then remove below css */
+  .nav-link span:last-child {
+    display: none;
+  }
+  .nav-link:hover .btn_text {
+    top: 0 !important;
+}
 }
