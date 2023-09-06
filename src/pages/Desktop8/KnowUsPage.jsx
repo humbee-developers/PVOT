@@ -4,6 +4,7 @@ import rectangleBg from "../../images/rectangle-image.png";
 import Achievements from "../../components/achievements/Achievements";
 import "./Knowus.css";
 import ClientOuter from "../../components/clientOuter/ClientOuter";
+import CoreTeam from "../../components/coreTeam/CoreTeam";
 const KnowUsPage = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
@@ -33,6 +34,7 @@ const KnowUsPage = () => {
         <Achievements />
       </div>
       <ClientOuter />
+      <CoreTeam />
       <RectangleCard />
     </div>
   );
