@@ -1,15 +1,11 @@
-import React from "react";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-import crossArrow from"../../images/ArrowRight.svg";
 import "./footer.css";
 // import btnArrow from "../../images/btn_arrow.svg";
-import crossArrow from "../../images/crossArrow.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-
+import crossArrow from "../../images/ArrowRight.svg";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <div className="footer">
@@ -34,13 +30,16 @@ const Footer = () => {
                 </span>
               </div>
               <div className="arrow_icon">
-                <img src={btnArrow} alt="btnArrow" />
+                <img src={crossArrow} alt="btnArrow" />
+                <i
+                  className="fa-solid fa-arrow-right"
+                  style={{ color: "#fff" }}
+                ></i>
+                
               </div>
               {/* <span className="footer-button-text btn_text">Become a Client</span> */}
               {/* <span className="footer-button-icon"></span> */}
             </Button>
-            <p className="footer-small-text">Don’t like the forms? Drop us a line via email.</p>
-            <a className="footer-email" href="" style={{textDecoration:"none"}}>link-testing.com</a>
             <p className="footer-small-text">
               Don’t like the forms? Drop us a line via email.
             </p>
@@ -58,10 +57,11 @@ const Footer = () => {
                   style={{ listStyle: "none", paddingLeft: "0" }}
                 >
                   <li className="footer-left-items-list">
-                   Our Email 
-                   <br />
-                    <a style={{textDecoration:"underline",color:"gray"}} href="">testing-email.com</a>
-                    
+                    Our Email
+                    <br />
+                    <a style={{ textDecoration: "underline" }} href="">
+                      testing-email.com
+                    </a>
                   </li>
 
                   <li className="footer-left-items-list">

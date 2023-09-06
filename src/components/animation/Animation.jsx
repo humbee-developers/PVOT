@@ -26,10 +26,8 @@ function LottieAnimation() {
     if (inView) {
       controls.start({
         opacity: 1,
-        scale: 0.7, // Set the scale to 2.4 when in view
+        scale: 0.5, // Set the scale to 2.4 when in view
         transition: { duration: 3 },
-        
-        
 
       });
     } else {
