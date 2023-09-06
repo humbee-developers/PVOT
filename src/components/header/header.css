@@ -1,5 +1,6 @@
 .navbar-brand {
   color: white;
+  z-index: 2;
 }
 .hero {
   background-color: black;
@@ -83,25 +84,46 @@
 
 @media (max-width: 991px) {
   .navbar-collapse.collapsing {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    top: 55px;
     left: 0;
+    bottom: 0;
     background: black;
     z-index: 1;
+    height: 100vh;
+    transition: all 0.3s ease-out;
+    transform: translateY(100%);
+    /* margin-top: auto; */
   }
   .navbar-collapse.collapse {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    top: 55px;
+    bottom: 0;
     left: 0;
     background: black;
     z-index: 1;
+    transition: all 0.3s ease-out;
+    height: 100vh ;
   }
   .nav-link {
     line-height: 35px !important;
+    border: none;
+    margin: 20px 0;
+  }
+  .nav-link .btn_text {
+    font-size: 40px;
+    margin: 0 20px;
   }
   .nav_icon_link {
-    line-height: 32px !important;
+    display: none;
+  }
+  .navbar-nav {
+    padding: 150px 0;
+  }
+  .brand .navbar-brand {
+    z-index: 2;
+  }
+  button.navbar-toggler {
+    z-index: 2;
   }
 }

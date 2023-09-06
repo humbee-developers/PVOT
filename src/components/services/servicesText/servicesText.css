@@ -6,7 +6,7 @@
 }
 @media screen and (max-width: 991px) {
   .services-text {
-    font-size: 68px;
+    font-size: 68px !important;
   }
   .xyz {
     margin-top: 10rem;

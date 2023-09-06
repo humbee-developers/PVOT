@@ -63,7 +63,7 @@ a {
 .footer-left-nav-link-icons svg.svg-inline--fa.fa-arrow-up {
   transform: rotate(45deg);
 }
-.footer-left-nav-link:hover  {
+.footer-left-nav-link:hover svg {
   animation: cross 0.5s;
 }
 @keyframes r {
