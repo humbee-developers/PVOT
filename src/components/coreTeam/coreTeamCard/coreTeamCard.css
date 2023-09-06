@@ -1,0 +1,28 @@
+.coreTeamCard_image img {
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+.coreTeamCard_btn {
+  background-color: #fff;
+  border-radius: 74px;
+  line-height: 42px !important;
+  position: absolute;
+  left: 50%;
+  bottom: 22px;
+  transform: translateX(-50%);
+}
+.coreTeamCard_btn span.btn_text {
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 20px;
+}
+
+@media (max-width: 575px) {
+  .coreTeamCard_btn span.btn_text {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

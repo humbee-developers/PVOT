@@ -1,0 +1,38 @@
+.coreTeam {
+  padding: 60px 60px;
+  color: white;
+}
+.coreTeam_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+}
+.coreTeamCard {
+  width: 33.33%;
+}
+.coreTeamCard_image {
+  padding: 0 20px;
+  margin: 0 0 80px;
+}
+.coreTeam_sec {
+  height: 100%;
+}
+@media (max-width: 991px) {
+  .coreTeamCard {
+    width: 50%;
+  }
+  .coreTeam {
+    padding: 30px 24px;
+  }
+}
+@media (max-width: 767px) {
+  .coreTeamCard {
+    width: 100%;
+  }
+  .coreTeamCard_image {
+    padding: 0;
+  }
+  .coreTeam_wrapper {
+    margin: 0 ;
+  }
+}
