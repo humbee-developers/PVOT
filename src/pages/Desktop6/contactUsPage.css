@@ -7,6 +7,9 @@
   padding: 0 20px;
   margin: 0 auto;
 } */
+.contact_us_page_container {
+  overflow: hidden;
+}
 .form_wrapper_section {
   display: flex;
   justify-content: space-between;
@@ -27,9 +30,7 @@
     max-width: 991px;
   } */
   .form_wrapper_section {
-   
     padding: 60px 30px 0;
-
   }
 }
 @media (max-width: 991px) {
@@ -37,9 +38,7 @@
     max-width: 767px;
   } */
   .form_wrapper_section {
-   
     padding: 40px 30px 0;
-
   }
 }
 @media (max-width: 767px) {
@@ -50,7 +49,6 @@
     display: flex;
     flex-direction: column;
     padding: 0 20px;
-
   }
   .form_wrapper_left {
     width: 100%;

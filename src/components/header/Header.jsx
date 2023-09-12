@@ -23,6 +23,7 @@ const Header = () => {
             <Navbar.Toggle
               aria-controls="basic-navbar-nav"
               onClick={handleToggle}
+              className="ham_btn"
             >
               <div className="three col">
                 <div
@@ -37,37 +38,77 @@ const Header = () => {
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="" style={{ marginLeft: "auto" }}>
-                <Link
-                  to="/"
-                  className="nav-link nav_icon_link"
-                  style={{ backgroundColor: "white" }}
-                >
-                  <img src={logo} alt="" />
-                </Link>
-                <Link to="/services" className="nav-link hover_btn">
-                  <span className="btn_text">Services</span>
-                  <span className="btn_text">Services</span>
-                </Link>
-                <Link to="/knowUs" className="nav-link hover_btn">
-                  <span className="btn_text">Know Us</span>
-                  <span className="btn_text">Know Us</span>
-                </Link>
-                <Link to="/portfolio" className="nav-link hover_btn">
-                  <span className="btn_text">Portfolio</span>
-                  <span className="btn_text">Portfolio</span>
-                </Link>
-                <Link to="/blog" className="nav-link hover_btn">
-                  <span className="btn_text">Media</span>
-                  <span className="btn_text">Media</span>
-                </Link>
-                <Link to="/career" className="nav-link hover_btn">
-                  <span className="btn_text">Career</span>
-                  <span className="btn_text">Career</span>
-                </Link>
-                <Link to="/contact-us" className="nav-link hover_btn">
-                  <span className="btn_text"> Contact Us</span>
-                  <span className="btn_text"> Contact Us</span>
-                </Link>
+                <div className="desktop_menu">
+                    <Link
+                      to="/"
+                      className="nav-link nav_icon_link"
+                      style={{ backgroundColor: "white" }}
+                    >
+                      <img src={logo} alt="" />
+                    </Link>
+                    <Link to="/services" className="nav-link hover_btn">
+                      <span className="btn_text">Services</span>
+                      <span className="btn_text">Services</span>
+                    </Link>
+                    <Link to="/knowUs" className="nav-link hover_btn">
+                      <span className="btn_text">Know Us</span>
+                      <span className="btn_text">Know Us</span>
+                    </Link>
+                    <Link to="/portfolio" className="nav-link hover_btn">
+                      <span className="btn_text">Portfolio</span>
+                      <span className="btn_text">Portfolio</span>
+                    </Link>
+                    <Link to="/blog" className="nav-link hover_btn">
+                      <span className="btn_text">Media</span>
+                      <span className="btn_text">Media</span>
+                    </Link>
+                    <Link to="/career" className="nav-link hover_btn">
+                      <span className="btn_text">Career</span>
+                      <span className="btn_text">Career</span>
+                    </Link>
+                    <Link to="/contact-us" className="nav-link hover_btn">
+                      <span className="btn_text"> Contact Us</span>
+                      <span className="btn_text"> Contact Us</span>
+                    </Link>
+                </div>
+                <div className="mobile_menu">
+                  <Navbar.Toggle onClick={handleToggle}>
+                    <Link to="/services" className="nav-link hover_btn">
+                      <span className="btn_text">Services</span>
+                      <span className="btn_text">Services</span>
+                    </Link>
+                  </Navbar.Toggle>
+                  <Navbar.Toggle onClick={handleToggle}>
+                    <Link to="/knowUs" className="nav-link hover_btn">
+                      <span className="btn_text">Know Us</span>
+                      <span className="btn_text">Know Us</span>
+                    </Link>
+                  </Navbar.Toggle>
+                  <Navbar.Toggle onClick={handleToggle}>
+                    <Link to="/portfolio" className="nav-link hover_btn">
+                      <span className="btn_text">Portfolio</span>
+                      <span className="btn_text">Portfolio</span>
+                    </Link>
+                  </Navbar.Toggle>
+                  <Navbar.Toggle onClick={handleToggle}>
+                    <Link to="/blog" className="nav-link hover_btn">
+                      <span className="btn_text">Media</span>
+                      <span className="btn_text">Media</span>
+                    </Link>
+                  </Navbar.Toggle>
+                  <Navbar.Toggle onClick={handleToggle}>
+                    <Link to="/career" className="nav-link hover_btn">
+                      <span className="btn_text">Career</span>
+                      <span className="btn_text">Career</span>
+                    </Link>
+                  </Navbar.Toggle>
+                  <Navbar.Toggle onClick={handleToggle}>
+                    <Link to="/contact-us" className="nav-link hover_btn">
+                      <span className="btn_text"> Contact Us</span>
+                      <span className="btn_text"> Contact Us</span>
+                    </Link>
+                  </Navbar.Toggle>
+                </div>
               </Nav>
             </Navbar.Collapse>
           </Container>

@@ -54,7 +54,7 @@ img.contactImage {
     transform: rotate(-360deg);
   }
 }
-.wrapper {
+.contactUs-section_wrapper {
   position: absolute;
   display: block;
   width: 100%;
@@ -130,7 +130,7 @@ img.contactImage {
   img.contactImage {
     width: 70%;
   }
-  .wrapper {
+  .contactUs-section_wrapper {
     height: 120px;
     top: 45%;
     left: 50%;
