@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import "./rooler.css"
+import "./rooler.css";
 const TextRevealEffect = () => {
   const [ref, inView] = useInView({
     triggerOnce: false, // Allow multiple triggers
@@ -52,7 +52,7 @@ const TextRevealEffect = () => {
   }, [inView, controlsLeftToRight, controlsRightToLeft]);
 
   return (
-    <div style={{ height: "100vh",backgroundColor:"black",color:"white" }}>
+    <div style={{ height: "100vh", backgroundColor: "black", color: "white" }}>
       <div
         ref={ref}
         style={{
@@ -62,23 +62,21 @@ const TextRevealEffect = () => {
           overflow: "hidden",
         }}
       >
-        <motion.div className="roller-text"
+        <motion.div
+          className="roller-text"
           initial={{ x: -1400, opacity: 1 }} // Start position from left
           animate={controlsLeftToRight}
-          style={{
-           
-          }}
+          style={{}}
         >
           Pushing
         </motion.div>
 
         {/* Duplicate the motion.div with the same animation properties */}
-        <motion.div className="roller-text xyz"
+        <motion.div
+          className="roller-text xyz"
           initial={{ x: 1400, opacity: 1 }} // Start position from right
           animate={controlsRightToLeft}
-          style={{
-           
-          }}
+          style={{}}
         >
           boundaries
         </motion.div>

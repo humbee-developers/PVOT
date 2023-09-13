@@ -5,7 +5,9 @@
 .servicesCard_wrapper {
   display: flex;
 }
-
+.servicesCard_wrapper img{
+  margin: 0 20px;
+}
 .servicesCard_inner {
   position: sticky;
   top: 10%;

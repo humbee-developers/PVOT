@@ -1,100 +1,31 @@
 .service-card {
-  color: white;
-  padding: 40px;
-}
-.service-card:hover{
-  background-color:#2b1b3f48;
-}
-.service-detail-card {
-  display: flex;
-  justify-content: space-between;
-}
-.service-detail-card-left {
-  flex: 7;
-  font-size: 3.5rem;
-  margin-top: 15px;
-  margin-left: 20px;
-}
-.service-detail-card-right {
-  flex: 3;
-  margin-right: 5rem;
-}
-.service-detail-card-text {
-}
-
-.service-button {
-  display: flex;
-  align-items: center;
-  padding: 12px 29px;
-  background: #f1f1f1;
-  border-radius: 21px;
-  transition: opacity 0.15s ease-out;
-  overflow: hidden;
-  -webkit-mask-image: -webkit-radial-gradient(#fff, #000);
-  font: 500 16px/1.2 Inter;
-  color: #242424;
-  letter-spacing: -0.03em;
-  margin-block: 29px 33px;
-  border: 2px solid white;
-  background-color: #fff;
-}
-.service-button:hover {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  border: 2px solid white;
-}
-
-.service-button-text {
-  white-space: nowrap;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  display: flex;
-  flex-direction: column;
-  height: 1.2em;
-
-  overflow: hidden;
-  position: relative;
-  z-index: 3;
-}
-.service-button-text:hover {
-  color: white;
-}
-.service-button-icon {
-  margin-left: 8px;
-  position: relative;
-  z-index: 1;
-}
-
-@media screen and (max-width: 991px) {
-  .service-card {
     color: white;
-    padding: 20px;
+    padding: 40px;
   }
-
+  .service-card:hover{
+    background-color:#2b1b3f48;
+  }
   .service-detail-card {
-    background-color: #1d1d1d;
-    padding: 20px;
-    display: block;
-    border-radius: 21px;
+    display: flex;
+    justify-content: space-between;
   }
-
   .service-detail-card-left {
     flex: 7;
-    font-size: 2.8rem;
-    text-align: center;
-    margin-left: 0;
-    margin-top: 0;
+    font-size: 3.5rem;
+    margin-top: 15px;
+    margin-left: 20px;
   }
   .service-detail-card-right {
-    text-align: center;
-    margin-right: 0;
+    flex: 3;
+    margin-right: 5rem;
   }
+  .service-detail-card-text {
+  }
+  
   .service-button {
     display: flex;
     align-items: center;
     padding: 12px 29px;
-    margin-left: 51px;
     background: #f1f1f1;
     border-radius: 21px;
     transition: opacity 0.15s ease-out;
@@ -107,4 +38,73 @@
     border: 2px solid white;
     background-color: #fff;
   }
-}
+  .service-button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .service-button-text {
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    height: 1.2em;
+  
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+  }
+  .service-button-text:hover {
+    color: white;
+  }
+  .service-button-icon {
+    margin-left: 8px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .service-card {
+      color: white;
+      padding: 20px;
+    }
+  
+    .service-detail-card {
+      background-color: #1d1d1d;
+      padding: 20px;
+      display: block;
+      border-radius: 21px;
+    }
+  
+    .service-detail-card-left {
+      flex: 7;
+      font-size: 2.8rem;
+      text-align: center;
+      margin-left: 0;
+      margin-top: 0;
+    }
+    .service-detail-card-right {
+      text-align: center;
+      margin-right: 0;
+    }
+    .service-button {
+      display: flex;
+      align-items: center;
+      padding: 12px 29px;
+      margin-left: 51px;
+      background: #f1f1f1;
+      border-radius: 21px;
+      transition: opacity 0.15s ease-out;
+      overflow: hidden;
+      -webkit-mask-image: -webkit-radial-gradient(#fff, #000);
+      font: 500 16px/1.2 Inter;
+      color: #242424;
+      letter-spacing: -0.03em;
+      margin-block: 29px 33px;
+      border: 2px solid white;
+      background-color: #fff;
+    }
+  }

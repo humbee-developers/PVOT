@@ -1,13 +1,13 @@
 .roller-text{
-      font-size: 15rem;
-      text-align: center;
-      color:white;
+    font-size: 15rem;
+    text-align: center;
+    color:white;
 }
 @media screen and (max-width: 991px){
-      .roller-text{
+    .roller-text{
 font-size: 68px;
-      }
-      .xyz{
-            margin-top: 10rem;
-      }
+    }
+    .xyz{
+          margin-top: 10rem;
+    }
 }

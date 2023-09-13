@@ -12,6 +12,9 @@ const ServicesText = () => {
   const controlsLeftToRight = useAnimation();
   const controlsRightToLeft = useAnimation();
 
+  const windowWidth = window.innerWidth;
+  console.log(windowWidth);
+
   useEffect(() => {
     if (inView) {
       controlsLeftToRight.start({
@@ -67,7 +70,7 @@ const ServicesText = () => {
           className="roller-text services_text"
           initial={{ x: -1400, opacity: 1 }} // Start position from left
           animate={controlsLeftToRight}
-          style={{transition:"all 0.3s ease-in-out"}}
+          // style={{ transition: "all 0.3s ease-in-out" }}
         >
           Website Design
         </motion.div>
@@ -77,7 +80,7 @@ const ServicesText = () => {
           className="roller-text services_text xyz"
           initial={{ x: 1400, opacity: 1 }} // Start position from right
           animate={controlsRightToLeft}
-          style={{transition:"all 0.3s ease-in-out"}}
+          // style={{ transition: "all 0.3s ease-in-out" }}
         >
           Social Media Marketing
         </motion.div>
@@ -85,7 +88,7 @@ const ServicesText = () => {
           className="roller-text services_text"
           initial={{ x: -1400, opacity: 1 }} // Start position from left
           animate={controlsLeftToRight}
-          style={{transition:"all 0.3s ease-in-out"}}
+          // style={{ transition: "all 0.3s ease-in-out" }}
         >
           Search Engine Optimization[seo]
         </motion.div>
@@ -93,7 +96,7 @@ const ServicesText = () => {
           className="roller-text services_text xyz"
           initial={{ x: 1400, opacity: 1 }} // Start position from right
           animate={controlsRightToLeft}
-          style={{transition:"all 0.3s ease-in-out"}}
+          // style={{ transition: "all 0.3s ease-in-out" }}
         >
           Advertising & Marketing
         </motion.div>

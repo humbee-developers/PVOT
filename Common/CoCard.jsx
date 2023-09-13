@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Cocard.css"
 const commonCard = (props) => {
   return (

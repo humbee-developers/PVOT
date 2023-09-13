@@ -42,7 +42,7 @@ a {
   align-items: center;
   overflow: hidden;
   border: 1px solid #fff !important;
-  padding: 0 10px;
+  padding: 0 15px;
 }
 .footer-button-text.btn_text {
   color: #fff !important;
@@ -54,14 +54,16 @@ a {
   background-color: #fff;
   border: 1px solid transparent;
 }
-.footer-button:hover img {
-  /* background-color: #e8e8e8; */
+.btn_flex {
+  height: 42px !important;
+}
+.footer-button:hover svg {
   animation: r 0.5s;
 }
-.footer-left-nav-link-icons img {
-  width: 10px;
+.footer-left-nav-link-icons svg.svg-inline--fa.fa-arrow-up {
+  transform: rotate(45deg);
 }
-.footer-left-nav-link:hover img {
+.footer-left-nav-link:hover svg {
   animation: cross 0.5s;
 }
 @keyframes r {
@@ -72,7 +74,7 @@ a {
     transform: translate(0, 0);
   }
   80% {
-    transform: translate(10px, 0);
+    transform: translate(5px, 0);
   }
   100% {
     transform: translate(0, 0);
@@ -80,16 +82,16 @@ a {
 }
 @keyframes cross {
   0% {
-    transform: translate(0, 0);
+    transform: translate(0, 0) rotate(45deg);
   }
   20% {
-    transform: translate(0, 0);
+    transform: translate(0, 0) rotate(45deg);
   }
   80% {
-    transform: translate(5px, -5px);
+    transform: translate(5px, -5px) rotate(45deg);
   }
   100% {
-    transform: translate(0, 0);
+    transform: translate(0, 0) rotate(45deg);
   }
 }
 .footer-left-nav-link-icons {

@@ -6,7 +6,7 @@ import ServicePage from "./pages/Desktop3/ServicesPage";
 import PortfolioPage from "./pages/Desktop4/PortfolioPage";
 import CareerPage from "./pages/Desktop5/CareersPage";
 import MediaPage from "./pages/Desktop7/MediaPage";
-import KnowUsPage from "./pages/desktop8/KnowUsPage";
+import KnowUsPage from "./pages/Desktop8/KnowUsPage";
 import "./app.css";
 const App = () => {
   return (

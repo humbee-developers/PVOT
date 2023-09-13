@@ -1,9 +1,10 @@
 import "./blogCardItem.css";
 import PropTypes from "prop-types";
 import Button from "react-bootstrap/Button";
-import btnArrow from "../../../images/whiteArrow.svg";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const BlogCardItem = ({ image }) => {
   const ref = useRef(null);
@@ -35,10 +36,21 @@ const BlogCardItem = ({ image }) => {
             experiences, not just more of the same.
           </div>
           <div className="blogCardItem_date">June 16, 2023</div>
-          <Button className="blogCardItem_btn rectangle-button ">
-            <span className="blogCardItem_btn_text">See more</span>
-            <div className="rectangle-button-icon">
-              <img src={btnArrow} alt="btnArrow" />
+          <Button className="footer-button  ">
+            <div className="btn_flex hover_btn">
+              <span className="footer-button-text btn_text">
+               See case study
+              </span>
+              <span className="footer-button-text btn_text">
+               See case study
+              </span>
+            </div>
+            <div className="arrow_icon">
+              <FontAwesomeIcon
+                icon={faArrowRight}
+                style={{ color: "#ffffff" }}
+                className="btnArrow"
+              />
             </div>
           </Button>
         </div>

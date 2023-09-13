@@ -3,9 +3,10 @@ import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./footer.css";
 // import btnArrow from "../../images/btn_arrow.svg";
-import crossArrow from "../../images/ArrowRight.svg";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+// import crossArrow from "../../images/crossArrow.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <div className="footer">
@@ -30,15 +31,12 @@ const Footer = () => {
                 </span>
               </div>
               <div className="arrow_icon">
-                <img src={crossArrow} alt="btnArrow" />
-                <i
-                  className="fa-solid fa-arrow-right"
-                  style={{ color: "#fff" }}
-                ></i>
-                
+                <FontAwesomeIcon
+                  icon={faArrowRight}
+                  style={{ color: "#ffffff" }}
+                  className="btnArrow"
+                />
               </div>
-              {/* <span className="footer-button-text btn_text">Become a Client</span> */}
-              {/* <span className="footer-button-icon"></span> */}
             </Button>
             <p className="footer-small-text">
               Don’t like the forms? Drop us a line via email.
@@ -47,7 +45,6 @@ const Footer = () => {
               link-testing.com
             </a>
           </div>
-
           <div className="main-footer-right">
             <nav className="footer-nav">
               <div className="footer-left-nav-details">
@@ -85,7 +82,10 @@ const Footer = () => {
                     <a className="footer-left-nav-link" href="">
                       Dribble
                       <span className="footer-left-nav-link-icons">
-                        <img src={crossArrow} alt="crossArrow" />
+                        <FontAwesomeIcon
+                          icon={faArrowUp}
+                          style={{ color: "#8b8b8b" }}
+                        />
                       </span>
                     </a>
                   </li>
@@ -93,7 +93,10 @@ const Footer = () => {
                     <a className="footer-left-nav-link" href="">
                       Linkedin
                       <span className="footer-left-nav-link-icons">
-                        <img src={crossArrow} alt="crossArrow" />
+                        <FontAwesomeIcon
+                          icon={faArrowUp}
+                          style={{ color: "#8b8b8b" }}
+                        />
                       </span>
                     </a>
                   </li>
@@ -101,7 +104,10 @@ const Footer = () => {
                     <a className="footer-left-nav-link" href="">
                       Clutch
                       <span className="footer-left-nav-link-icons">
-                        <img src={crossArrow} alt="crossArrow" />
+                        <FontAwesomeIcon
+                          icon={faArrowUp}
+                          style={{ color: "#8b8b8b" }}
+                        />
                       </span>
                     </a>
                   </li>
@@ -109,7 +115,10 @@ const Footer = () => {
                     <a className="footer-left-nav-link" href="">
                       Instagram
                       <span className="footer-left-nav-link-icons">
-                        <img src={crossArrow} alt="crossArrow" />
+                        <FontAwesomeIcon
+                          icon={faArrowUp}
+                          style={{ color: "#8b8b8b" }}
+                        />
                       </span>
                     </a>
                   </li>
