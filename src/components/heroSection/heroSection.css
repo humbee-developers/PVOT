@@ -14,10 +14,13 @@
     bottom: 17rem;
     font-weight: 300;
     bottom: 25rem;
+    font-family: "FONTSPRING";
   }
   .extra-style {
     bottom: 17rem;
     font-weight: 500;
+    font-family: "FONTSPRING-bold-italic";
+    text-transform: uppercase;
   }
   .sphere-image {
     display: block;
@@ -54,6 +57,7 @@
       font-weight: 300;
       bottom: -6rem;
      left: -17rem;
+    
     }
     .Rotating-arrow{
       width: 100px;
