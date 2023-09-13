@@ -183,7 +183,7 @@ const Achievements = () => {
                   <p
                     data-point="false"
                     data-label="Growth"
-                    className="circle-line-info1x"
+                    className="circle-line-info1x sticky"
                     // style={{ top: "70%", right: "96%" }}
                   ></p>
                   <p
@@ -216,7 +216,7 @@ const Achievements = () => {
                   <p
                     data-point="false"
                     data-label="Insights"
-                    className="circle-line-info1x"
+                    className="circle-line-info1x sticky"
                     // style={{ top: "78.35%", right: "90.8%" }}
                   ></p>
                   <p
@@ -237,7 +237,7 @@ const Achievements = () => {
                   <p
                     data-point="false"
                     data-label="Product"
-                    className="circle-line-info1x"
+                    className="circle-line-info1x sticky"
                     // style={{ top: "14.64%", right: "14.64%" }}
                   ></p>
                   <p

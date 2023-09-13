@@ -246,8 +246,15 @@
   position: absolute;
   visibility: visible;
 }
-
 .circle-line-info1x::before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: #000;
+}
+.circle-line-info1x.sticky::before {
   content: "";
   display: block;
   width: 100%;
@@ -267,7 +274,11 @@
   white-space: nowrap;
   transition: 0.4s ease-in-out;
 }
-
+.circle-data1,
+.circle-data2,
+.circle-data3 {
+  cursor: pointer;
+}
 .circle-data1 .circle-line-info1x {
   top: 70%;
   right: 96%;
@@ -279,7 +290,7 @@
   opacity: 0;
 }
 .circle-data1:hover {
-  border: 1px solid #c0bfbf7a;
+  border: 1px solid #9997977a;
 }
 .circle-data1:hover .circle-data1_1 {
   animation: spin_circle-data1_1 0.5s linear forwards;
@@ -314,7 +325,7 @@
     right: 65%;
   }
   100% {
-    top: 99.3013%;
+    top: 100%;
     right: 55%;
   }
 }
@@ -329,7 +340,7 @@
   }
   100% {
     top: 20%;
-    right: 90%;
+    right: 89%;
   }
 }
 @keyframes spin_circle-data1_3 {
@@ -343,8 +354,8 @@
   }
 
   100% {
-    top: 40%;
-    right: 99%;
+    top: 41%;
+    right: 98.5%;
   }
 }
 .circle-data2 .circle-data2_1,
@@ -358,7 +369,7 @@
   right: 90.8%;
 }
 .circle-data2:hover {
-  border: 1px solid #c0bfbf7a;
+  border: 1px solid #9997977a;
 }
 .circle-data2:hover .circle-data2_1 {
   animation: spin_circle-data2_1 0.5s linear forwards;
@@ -399,8 +410,8 @@
     right: 40%;
   }
   100% {
-    top: 93%;
-    right: 25%;
+    top: 94%;
+    right: 24%;
   }
 }
 @keyframes spin_circle-data2_2 {
@@ -421,7 +432,7 @@
     right: 65%;
   }
   100% {
-    top: 99%;
+    top: 100%;
     right: 60%;
   }
 }
@@ -437,7 +448,7 @@
 
   100% {
     top: 40%;
-    right: 99%;
+    right: 98%;
   }
 }
 @keyframes spin_circle-data2_4 {
@@ -451,7 +462,7 @@
   }
   100% {
     top: 20%;
-    right: 90%;
+    right: 89%;
   }
 }
 
@@ -465,7 +476,7 @@
   right: 14.64%;
 }
 .circle-data3:hover {
-  border: 1px solid #c0bfbf7a;
+  border: 1px solid #9997977a;
 }
 .circle-data3:hover .circle-data3_1 {
   animation: spin_circle-data3_1 0.5s linear forwards;
@@ -515,7 +526,7 @@
     right: 28%;
   }
   100% {
-    top: 95%;
+    top: 94%;
     right: 75%;
   }
 }
@@ -542,7 +553,7 @@
   }
   100% {
     top: 60%;
-    right: 99%;
+    right: 98%;
   }
 }
 @media (max-width: 767px) {
