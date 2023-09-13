@@ -28,7 +28,7 @@ const ContactUs = () => {
             </li>
           </ul>
         </div>
-        <div className="wrapper">
+        <div className="contactUs-section_wrapper">
           <div className="slider">
             <div className="slider_wrapper">
               <p>Contact Us</p>

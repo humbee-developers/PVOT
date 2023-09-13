@@ -62,9 +62,11 @@ a {
 }
 .footer-left-nav-link-icons svg.svg-inline--fa.fa-arrow-up {
   transform: rotate(45deg);
+  transition: all 0.6s;
 }
-.footer-left-nav-link:hover svg {
-  animation: cross 0.5s;
+
+.footer-left-nav-link:hover .footer-left-nav-link-icons svg {
+  transform: rotate(405deg);
 }
 @keyframes r {
   0% {
@@ -80,7 +82,7 @@ a {
     transform: translate(0, 0);
   }
 }
-@keyframes cross {
+/* @keyframes cross {
   0% {
     transform: translate(0, 0) rotate(45deg);
   }
@@ -93,7 +95,7 @@ a {
   100% {
     transform: translate(0, 0) rotate(45deg);
   }
-}
+} */
 .footer-left-nav-link-icons {
   padding: 0 5px;
 }

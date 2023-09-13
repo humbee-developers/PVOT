@@ -14,8 +14,18 @@
   height: 38px !important;
   line-height: 32px !important;
 }
+.nav-link .btn_text {
+  font-size: 16px;
+}
+button.navbar-toggler.collapsed {
+  padding: 0;
+}
+
 .nav_icon_link {
   line-height: 28px !important;
+}
+.desktop_menu {
+  display: flex;
 }
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -30,6 +40,15 @@
     height: auto !important;
     z-index: 999 !important;
     width: 100% !important;
+  }
+  .navbar-expand-lg .navbar-toggler {
+    display: block;
+  }
+  .ham_btn {
+    display: none !important;
+  }
+  .mobile_menu {
+    display: none;
   }
 }
 .nav-link:hover {
@@ -150,6 +169,14 @@
   }
   button.navbar-toggler {
     z-index: 11;
+    text-align: inherit;
+  }
+  .desktop_menu {
+    display: none;
+  }
+  .mobile_menu {
+    display: flex;
+    flex-direction: column;
   }
 
   /* if want to use common btn hover effect then remove below css */
