@@ -23,7 +23,7 @@ const Home = () => {
       <Animation/>
       {/*<TextRevealEffect />*/}
       <ServicesText />
-      <Services />
+      <Services/>
       <Text/>
       <Rooler/>
      

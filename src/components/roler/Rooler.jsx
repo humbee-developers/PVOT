@@ -76,9 +76,7 @@ const TextRevealEffect = () => {
           className="roller-text xyz"
           initial={{ x: 1400, opacity: 1 }} // Start position from right
           animate={controlsRightToLeft}
-          style={{}}
-        >
-          boundaries
+          style={{}}>boundaries
         </motion.div>
       </div>
     </div>
