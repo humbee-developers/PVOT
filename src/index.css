@@ -1,26 +1,38 @@
 @font-face {
-    font-family: "FONTSPRING";
-    src: local("FONTSPRING"),
-      url("./fonts/Fontspring-DEMO-freigeist-conregular.otf") format("truetype");
-    font-weight: normal;
-  }
+  font-family: "FONTSPRING";
+  src: local("FONTSPRING"),
+    url("./fonts/Fontspring-DEMO-freigeist-conregular.otf") format("truetype");
+  font-weight: normal;
+}
 @font-face {
-    font-family: "FONTSPRING-bold";
-    src: local("FONTSPRING-bold"),
-      url("./fonts/Fontspring-DEMO-freigeist-conbolditalic.otf") format("truetype");
-    font-weight: normal;
-  }
+  font-family: "FONTSPRING-bold";
+  src: local("FONTSPRING-bold"),
+    url("./fonts/Fontspring-DEMO-freigeist-conbolditalic.otf")
+      format("truetype");
+  font-weight: normal;
+}
 @font-face {
-    font-family: "FONTSPRING-bold-italic";
-    src: local("FONTSPRING-bold-italic"),
-      url("./fonts/Fontspring-DEMO-freigeist-bolditalic.otf") format("truetype");
-    font-weight: normal;
-  }
- 
+  font-family: "FONTSPRING-bold-italic";
+  src: local("FONTSPRING-bold-italic"),
+    url("./fonts/Fontspring-DEMO-freigeist-bolditalic.otf") format("truetype");
+  font-weight: normal;
+}
+
 @font-face {
-    font-family: "FONTSPRING-black";
-    src: local("FONTSPRING-black"),
-      url("./fonts/Fontspring-DEMO-freigeist-black.otf") format("truetype");
-    font-weight: normal;
-  }
- 
+  font-family: "FONTSPRING-black";
+  src: local("FONTSPRING-black"),
+    url("./fonts/Fontspring-DEMO-freigeist-black.otf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "FONTSPRING-conMedium";
+  src: local("FONTSPRING-conMedium"),
+    url("./fonts/Fontspring-DEMO-freigeist-conmedium.otf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "FONTSPRING-conMediumItalic";
+  src: local("FONTSPRING-conMediumItalic"),
+    url("./fonts/Fontspring-DEMO-freigeist-conmediumitalic.otf") format("truetype");
+  font-weight: normal;
+}

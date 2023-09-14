@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import "./text.css";
-const Text = () => {
-  const line1 = "With an amazing team in place, in";
-  const line2 = "our second year we focused on pushing boundaries ";
-  const line3 = "and empowering brands to grow";
+import PropTypes from "prop-types";
+const Text = ({ line_1, line_2, line_3 }) => {
+  const line1 = line_1;
+  const line2 = line_2;
+  const line3 = line_3;
 
   const letters1 = Array.from(line1);
   const letters2 = Array.from(line2);
@@ -50,44 +51,53 @@ const Text = () => {
   };
 
   return (
-<div style={{backgroundColor:"black",color:"white"}}>
-<div ref={ref} style={{ overflow: "hidden", ...paragraphStyle }}>
-<motion.div
-  variants={containerVariants}
-  initial="hidden"
-  animate={inView ? "visible" : "hidden"}
->
-  {letters1.map((letter, index) => (
-    <motion.span variants={childVariants} key={index}>
-      {letter === " " ? "\u00A0" : letter}
-    </motion.span>
-  ))}
-</motion.div>
-<motion.div
-  variants={containerVariants}
-  initial="hidden"
-  animate={inView ? "visible" : "hidden"}
->
-  {letters2.map((letter, index) => (
-    <motion.span variants={childVariants} key={index}>
-      {letter === " " ? "\u00A0" : letter}
-    </motion.span>
-  ))}
-</motion.div>
-<motion.div
-  variants={containerVariants}
-  initial="hidden"
-  animate={inView ? "visible" : "hidden"}
->
-  {letters3.map((letter, index) => (
-    <motion.span variants={childVariants} key={index}>
-      {letter === " " ? "\u00A0" : letter}
-    </motion.span>
-  ))}
-</motion.div>
-</div>
-</div>
+    <div
+      style={{ backgroundColor: "black", color: "white" }}
+      className="animatedText"
+    >
+      <div ref={ref} style={{ overflow: "hidden", ...paragraphStyle }}>
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+        >
+          {letters1.map((letter, index) => (
+            <motion.span variants={childVariants} key={index}>
+              {letter === " " ? "\u00A0" : letter}
+            </motion.span>
+          ))}
+        </motion.div>
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+        >
+          {letters2.map((letter, index) => (
+            <motion.span variants={childVariants} key={index}>
+              {letter === " " ? "\u00A0" : letter}
+            </motion.span>
+          ))}
+        </motion.div>
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+        >
+          {letters3.map((letter, index) => (
+            <motion.span variants={childVariants} key={index}>
+              {letter === " " ? "\u00A0" : letter}
+            </motion.span>
+          ))}
+        </motion.div>
+      </div>
+    </div>
   );
 };
 
 export default Text;
+
+Text.propsTypes = {
+  line_1: PropTypes.string,
+  line_2: PropTypes.string,
+  line_3: PropTypes.string,
+};

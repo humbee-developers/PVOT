@@ -39,8 +39,18 @@ h3.testimonial_slider_heading {
   display: flex;
   align-items: center;
 }
+.testimonial_slider_client_name{
+  font-family: "Inter";
+  font-weight: 600;
+  color: #000;
+  font-size: 20px;
+}
 .testimonial_slider_client_data {
   margin-left: 24px;
+}
+.testimonial_slider_client_content{
+  font-size: 18px;
+  font-weight: 400;
 }
 .testimonial_slider_client_image img {
   border-radius: 100%;

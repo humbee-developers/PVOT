@@ -1,6 +1,9 @@
 .c-client-logos_row:last-child {
     display: none;
   }
+  .c-text-wrapper.cc-people{
+    font-family: "FONTSPRING-bold-italic";
+  }
   
   @media only screen and (max-width: 991px) {
     .c-client-logos_row:last-child {
@@ -130,6 +133,7 @@
         display: -ms-flexbox;
         display: flex;
         height: 5.75em;
+        text-transform: uppercase;
       }
       .c-title-4 {
         margin-top: 0;
@@ -150,6 +154,7 @@
         font-variation-settings: "wght" 645;
         letter-spacing: -0.08em;
         text-transform: uppercase;
+        font-family: "FONTSPRING-bold-italic";
       }
       .c-title-1.cc-saol {
         text-transform: none;
@@ -385,6 +390,7 @@
               -ms-flex-align: center;
               align-items: center;
               text-align: center;
+              text-transform: uppercase;
             }
             .c-title-4 {
               font-size: 28px;

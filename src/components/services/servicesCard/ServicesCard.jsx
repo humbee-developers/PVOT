@@ -9,7 +9,6 @@ const ServicesCard = () => {
     target: ref,
   });
   const x = useTransform(scrollYProgress, [0, 1], ["60%", "-95%"]);
-  console.log(scrollYProgress);
   return (
     <div className="servicesCard" ref={ref}>
       <div className="servicesCard_inner">
