@@ -1,5 +1,5 @@
 .services_text {
-  font-size: 8rem !important;
+  font-size: 7rem !important;
   text-align: center;
   color: white;
   width: 100% !important;
@@ -9,7 +9,7 @@
     font-size: 68px !important;
   }
   .xyz {
-    margin-top: 10rem;
-    width: 100% !important;
+    /* margin-top: 10rem; */
+    /* width: 100% !important; */
   }
 }
