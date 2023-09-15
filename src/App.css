@@ -22,3 +22,6 @@ span.btn_text {
 .hover_btn:hover .btn_text {
   top: -100%;
 }
+.mobile_menu_open {
+  overflow: hidden;
+}
