@@ -9,11 +9,11 @@ const containerVariants = {
 
 const textVariants = {
   hidden: { opacity: 0, y: 200 },
-  visible: { opacity: 1, y:20 , transition: { duration: 2, delay: 0.1 } },
+  visible: { opacity: 1, y:20 , transition: { duration: 2, delay: 1 } },
 };
 const textVariants2 = {
   hidden: { opacity: 0, y: 200 },
-  visible: { opacity: 1, y:20 , transition: { duration: 2, delay: 1 } },
+  visible: { opacity: 1, y:20 , transition: { duration: 2, delay: 2 } },
 };
 
 const TextAnimation = () => {
