@@ -82,27 +82,27 @@ const Achievements = () => {
                   </p>
                 </div>
 
-                <div className="swiper-slider2">
+                {/* <div className="swiper-slider2">
                   <p className="swiper-text">
                     Using agile data analysis supported by data science, our
                     process has proven to deliver constant business growth
                   </p>
-                </div>
+                </div> */}
 
-                <div className="swiper-slider3">
+                {/* <div className="swiper-slider3">
                   <p className="swiper-text">
                     Ideas have to be manifested, tested and proven to work.
                     Continued experiments are one of our key drivers
                   </p>
-                </div>
+                </div> */}
 
-                <div className="swiper-slider4">
+                {/* <div className="swiper-slider4">
                   <p className="swiper-text">
                     Solid Strategy aligned with business needs and robust data
                     analysis are fundamental ingredients to extract actionable
                     insights
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -139,7 +139,7 @@ const Achievements = () => {
               </div>
               <div className="card-list1">
                 <motion.div
-                  className="card-container1"
+                  className="card-container"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.6 }}

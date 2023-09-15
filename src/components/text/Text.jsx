@@ -60,6 +60,7 @@ const Text = ({ line_1, line_2, line_3 }) => {
           variants={containerVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
+          className="text_line"
         >
           {letters1.map((letter, index) => (
             <motion.span variants={childVariants} key={index}>
@@ -71,6 +72,7 @@ const Text = ({ line_1, line_2, line_3 }) => {
           variants={containerVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
+          className="text_line"
         >
           {letters2.map((letter, index) => (
             <motion.span variants={childVariants} key={index}>
@@ -82,6 +84,7 @@ const Text = ({ line_1, line_2, line_3 }) => {
           variants={containerVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
+          className="text_line"
         >
           {letters3.map((letter, index) => (
             <motion.span variants={childVariants} key={index}>
