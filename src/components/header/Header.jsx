@@ -19,7 +19,7 @@ const Header = () => {
   }
 
   return (
-    <div className="header">
+    <div>
       <div className="hero" id="hro">
         <Navbar expand="lg" className="">
           <Container>
