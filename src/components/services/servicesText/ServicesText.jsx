@@ -56,7 +56,10 @@ const ServicesText = () => {
   }, [inView, controlsLeftToRight, controlsRightToLeft]);
 
   return (
-    <div style={{ height: "100vh", backgroundColor: "black", color: "white" }}>
+    <div
+      style={{ backgroundColor: "black", color: "white" }}
+      className="services_text_sec"
+    >
       <div
         ref={ref}
         style={{
@@ -90,7 +93,7 @@ const ServicesText = () => {
           animate={controlsLeftToRight}
           // style={{ transition: "all 0.3s ease-in-out" }}
         >
-          Search Engine Optimization[seo]
+          Search Engine Optimization
         </motion.div>
         <motion.div
           className="roller-text services_text xyz"
@@ -98,7 +101,7 @@ const ServicesText = () => {
           animate={controlsRightToLeft}
           // style={{ transition: "all 0.3s ease-in-out" }}
         >
-          Advertising & Marketing
+          Advertising and Marketing
         </motion.div>
       </div>
     </div>
