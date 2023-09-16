@@ -13,15 +13,13 @@ const Header = () => {
     setActive(!active);
   };
   if (active) {
-    // document.body.classList.add("mobile_menu_open");
-    let demo = document.querySelector(".hero");
-    demo.classList.add("demo");
+    document.body.classList.add("mobile_menu_open");
   } else {
-    // document.body.classList.remove("mobile_menu_open");
+    document.body.classList.remove("mobile_menu_open");
   }
 
   return (
-    <div>
+    <div className="header">
       <div className="hero" id="hro">
         <Navbar expand="lg" className="">
           <Container>
@@ -52,7 +50,7 @@ const Header = () => {
                     className="nav-link nav_icon_link"
                     style={{ backgroundColor: "white" }}
                   >
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="logo" />
                   </Link>
                   <Link to="/services" className="nav-link hover_btn">
                     <span className="btn_text">Services</span>
