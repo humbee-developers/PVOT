@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../../images/Mask.png";
+import logo from "../../images/home-icon.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./header.css";
 import { Link } from "react-router-dom";
@@ -78,6 +78,12 @@ const Header = () => {
                   </Link>
                 </div>
                 <div className="mobile_menu">
+                  <Navbar.Toggle onClick={handleToggle}>
+                    <Link to="/" className="nav-link hover_btn">
+                      <span className="btn_text">Home</span>
+                      <span className="btn_text">Home</span>
+                    </Link>
+                  </Navbar.Toggle>
                   <Navbar.Toggle onClick={handleToggle}>
                     <Link to="/services" className="nav-link hover_btn">
                       <span className="btn_text">Services</span>
