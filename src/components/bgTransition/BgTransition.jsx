@@ -8,7 +8,7 @@ const BgTransition = () => {
     target: ref,
   });
   const y = useTransform(scrollYProgress, [1, 1], ["100%", "0%"]);
-//   const x = useTransform(scrollYProgress, [1, 1], ["100%", "-20%"]);
+  //   const x = useTransform(scrollYProgress, [1, 1], ["100%", "-20%"]);
   return (
     <div className="bgTransition" ref={ref}>
       <div className="bgTransition_wrapper">
