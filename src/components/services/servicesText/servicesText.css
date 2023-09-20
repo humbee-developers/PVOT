@@ -1,3 +1,6 @@
+.services_text_sec {
+  min-height: 100vh;
+}
 .services_text {
   font-size: 7rem !important;
   text-align: center;
@@ -7,6 +10,9 @@
 @media screen and (max-width: 991px) {
   .services_text {
     font-size: 68px !important;
+  }
+  .services_text_sec {
+    min-height: 100%;
   }
   .xyz {
     /* margin-top: 10rem; */

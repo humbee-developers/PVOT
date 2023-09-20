@@ -5,7 +5,7 @@
 .servicesCard_wrapper {
   display: flex;
 }
-.servicesCard_wrapper img{
+.servicesCard_wrapper img {
   margin: 0 20px;
 }
 .servicesCard_inner {
@@ -13,4 +13,22 @@
   top: 10%;
   display: flex;
   overflow: hidden;
+}
+
+.servicesCard_wrapper_mobile {
+  display: none;
+}
+@media (max-width: 767px) {
+  .servicesCard_wrapper_mobile {
+    display: block;
+    text-align: center;
+  }
+  .servicesCard_wrapper_mobile img{
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 20px 0;
+  }
+  .servicesCard_wrapper {
+    display: none;
+  }
 }

@@ -19,6 +19,13 @@ const ServicesCard = () => {
           <img src={sliderImage} alt="slide1" />
           <img src={sliderImage} alt="slide1" />
         </motion.div>
+        <div className="servicesCard_wrapper_mobile">
+          <img src={sliderImage} alt="slide1" />
+          <img src={sliderImage} alt="slide1" />
+          <img src={sliderImage} alt="slide1" />
+          <img src={sliderImage} alt="slide1" />
+          <img src={sliderImage} alt="slide1" />
+        </div>
       </div>
     </div>
   );
