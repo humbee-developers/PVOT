@@ -1,106 +1,72 @@
-import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import { useRef, useEffect } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import gsap from "gsap";
 import "./text.css";
 import PropTypes from "prop-types";
-const Text = ({ line_1, line_2, line_3 }) => {
-  const line1 = line_1;
-  const line2 = line_2;
-  const line3 = line_3;
+// const phrase = "With an amazing team in place, in our second year we focused on pushing boundaries and empowering brands to grow";
 
-  const letters1 = Array.from(line1);
-  const letters2 = Array.from(line2);
-  const letters3 = Array.from(line3);
+export default function Home({ text }) {
+  let refs = useRef([]);
+  const body = useRef(null);
+  const container = useRef(null);
+  const phrase = text;
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    createAnimation();
+  }, []);
 
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
+  const createAnimation = () => {
+    gsap.to(refs.current, {
+      scrollTrigger: {
+        trigger: container.current,
+        scrub: true,
+        start: `top`,
+        end: `+=${window.innerHeight / 1.5}`,
+      },
       opacity: 1,
-      transition: { staggerChildren: 0.03, delayChildren: 0.04 },
-    },
+      color: "white",
+      ease: "none",
+      stagger: 0.1,
+    });
   };
 
-  const childVariants = {
-    visible: {
-      opacity: 1,
-      x: 0,
-      y: 0,
-      transition: {
-        type: "spring",
-        damping: 12,
-        stiffness: 100,
-      },
-    },
-    hidden: {
-      opacity: 0,
-      x: -20,
-      y: 10,
-      transition: {
-        type: "spring",
-        damping: 12,
-        stiffness: 100,
-      },
-    },
+  const splitWords = (phrase) => {
+    let body = [];
+    phrase.split(" ").forEach((word, i) => {
+      const letters = splitLetters(word);
+      body.push(<p key={word + "_" + i}>{letters}</p>);
+    });
+    return body;
   };
 
-  const [ref, inView] = useInView();
-
-  const paragraphStyle = {
-    textAlign: "center",
-    lineHeight: "1.5",
-    fontSize: "2.4rem",
+  const splitLetters = (word) => {
+    let letters = [];
+    word.split("").forEach((letter, i) => {
+      letters.push(
+        <span
+          key={letter + "_" + i}
+          ref={(el) => {
+            refs.current.push(el);
+          }}
+        >
+          {letter}
+        </span>
+      );
+    });
+    return letters;
   };
 
   return (
-    <div
-      style={{ backgroundColor: "black", color: "white" }}
-      className="animatedText"
-    >
-      <div ref={ref} style={{ overflow: "hidden", ...paragraphStyle }}>
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-          className="text_line"
-        >
-          {letters1.map((letter, index) => (
-            <motion.span variants={childVariants} key={index}>
-              {letter === " " ? "\u00A0" : letter}
-            </motion.span>
-          ))}
-        </motion.div>
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-          className="text_line"
-        >
-          {letters2.map((letter, index) => (
-            <motion.span variants={childVariants} key={index}>
-              {letter === " " ? "\u00A0" : letter}
-            </motion.span>
-          ))}
-        </motion.div>
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-          className="text_line"
-        >
-          {letters3.map((letter, index) => (
-            <motion.span variants={childVariants} key={index}>
-              {letter === " " ? "\u00A0" : letter}
-            </motion.span>
-          ))}
-        </motion.div>
-      </div>
+    <div style={{ backgroundColor: "black" }}>
+      <main ref={container} className="main">
+        <div ref={body} className="body">
+          {splitWords(phrase)}
+        </div>
+      </main>
     </div>
   );
-};
+}
 
-export default Text;
-
-Text.propsTypes = {
-  line_1: PropTypes.string,
-  line_2: PropTypes.string,
-  line_3: PropTypes.string,
+Home.propTypes = {
+  text: PropTypes.string,
 };

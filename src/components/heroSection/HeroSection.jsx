@@ -1,90 +1,41 @@
-import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import ani from "../../images/Group 1.png";
-import sphere from "../../images/3d-sphere.png";
-import "./heroSection.css";
-const HeroSection = () => {
-  const textVariants = {
-    hidden: { y: -20, opacity: 0 },
-    visible: { y: 0, opacity: 1, transition: { duration: 1 } },
-    exit: { y: 20, opacity: 0, transition: { duration: 1 } },
-  };
+import React from "react";
+import { motion } from "framer-motion";
+import img17 from "../../images/image17.png";
+import "./heroSection.css"
+const containerVariants = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 1 } },
+};
 
-  const textContent = [
-    "AWESOME",
-    "Strategies",
-    "Designs",
-    "Concepts",
-    "Brands",
-  ];
+const textVariants = {
+  hidden: { opacity: 0, y: 200 },
+  visible: { opacity: 1, y:20 , transition: { duration: 2, delay: 1 } },
+};
+const textVariants2 = {
+  hidden: { opacity: 0, y: 200 },
+  visible: { opacity: 1, y:20 , transition: { duration: 2, delay: 2 } },
+};
 
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % textContent.length);
-    }, 2000);
-
-    return () => clearInterval(interval);
-  }, []);
-
+const TextAnimation = () => {
   return (
-    <div>
-      <div className="hero-heading">
-        <motion.img
-          className="sphere-image"
-          src={sphere}
-          animate={{ rotate: 360 }}
-          transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-        />
-        <div className="text">
-          <motion.h1
-            className="hero-text"
-            initial={{ x: -1000 }}
-            animate={{ x: 300 }}
-            transition={{
-              duration: 2,
-              delay: 1,
-            }}
-          >
-            WE CREATE
-          </motion.h1>
+   <div style={{backgroundColor:"black"}}>
+   <motion.div
+   className="x"
+   variants={containerVariants}
+   initial="hidden"
+   animate="visible"
+ >
+ <motion.img className="imag" src={img17} variants={textVariants2}/>
+   <motion.div className="text  one" variants={textVariants}>
+     PV
+   </motion.div>
 
-          <motion.div
-            className="x"
-            initial={{ x: 2000 }}
-            animate={{ x: 600 }}
-            transition={{
-              duration: 2,
-              delay: 1,
-            }}
-          >
-            <motion.img
-              className="Rotating-arrow"
-              src={ani}
-              alt="Rotating Image"
-              initial={{ rotate: 0 }}
-              animate={{ rotate: -360 }}
-              transition={{ duration: 3, ease: "linear" }}
-            />
-
-            <AnimatePresence mode="wait">
-              <motion.h1
-                key={textContent[currentIndex]}
-                variants={textVariants}
-                initial="hidden"
-                animate="visible"
-                exit="exit"
-                className="hero-text extra-style"
-              >
-                {textContent[currentIndex]}
-              </motion.h1>
-            </AnimatePresence>
-          </motion.div>
-        </div>
-      </div>
-    </div>
+   <motion.div className="text  two" variants={textVariants}>
+     OT
+   </motion.div>
+ </motion.div>
+   </div>
   );
 };
 
-export default HeroSection;
+export default TextAnimation;

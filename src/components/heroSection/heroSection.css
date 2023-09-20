@@ -14,7 +14,7 @@
 .imag {
   height: 97%;
   position: absolute;
-  z-index: 2;
+  z-index: 999;
   max-width: 100%;
 }
 @media screen and (max-width: 991px) {
@@ -24,14 +24,24 @@
  }
   .imag {
     height: 50%;
+    z-index: 0;
   }
   .one {
     font-size: 7.5rem;
-    left: 2rem;
+    left: 4rem;
     position: absolute;
     bottom: 17rem;
     font-weight: 300;
-    bottom: 25rem;
+    bottom: 4rem;
+    font-family: "FONTSPRING";
+  }
+  .two {
+    font-size: 7.5rem;
+    left: 13rem;
+    position: absolute;
+    bottom: 17rem;
+    font-weight: 300;
+    bottom: 4rem;
     font-family: "FONTSPRING";
   }
   .extra-style {

@@ -20,18 +20,18 @@ const Home = () => {
     <Fragment>
       <HeroSection />
       <Text
-        line_1={"With an amazing team in place, in"}
-        line_2={"our second year we focused on pushing boundaries "}
-        line_3={"and empowering brands to grow"}
+        text={
+          "With an amazing team in place, in our second year we focused on pushing boundaries and empowering brands to grow"
+        }
       />
       {/* <TextRevealEffect /> */}
       <Animation />
       <ServicesText />
       <Services />
       <Text
-        line_1={"We use Webflow as a development"}
-        line_2={"tool to push boundaries and redefine what’s possible "}
-        line_3={"with a design driven approach."}
+        text={
+          "We use Webflow as a development tool to push boundaries and redefine what's possible with a design driven approach."
+        }
       />
       <BgTransition />
       <Card />

@@ -3,8 +3,9 @@ import Button from "react-bootstrap/Button";
 import { motion, useScroll, useTransform } from "framer-motion";
 import PropTypes from "prop-types";
 import { useRef } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import btnArrow from "../../../images/btn_arrow.svg";
 
 const PortfolioCardItem = ({ image }) => {
   const ref = useRef(null);
@@ -41,11 +42,12 @@ const PortfolioCardItem = ({ image }) => {
               </span>
             </div>
             <div className="arrow_icon">
-              <FontAwesomeIcon
+              {/* <FontAwesomeIcon
                 icon={faArrowRight}
                 style={{ color: "#ffffff" }}
                 className="btnArrow"
-              />
+              /> */}
+              <img src={btnArrow} alt="btnArrow" />
             </div>
           </Button>
         </div>
