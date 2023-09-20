@@ -2,7 +2,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../../images/whiteArrow.svg";
+import logo from "../../images/home-icon.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./header.css";
 import { Link } from "react-router-dom";
