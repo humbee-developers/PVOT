@@ -31,6 +31,7 @@
 @media (max-width: 767px) {
   .main {
     height: 50vh;
+    align-items: end;
   }
   .body {
     width: 80%;

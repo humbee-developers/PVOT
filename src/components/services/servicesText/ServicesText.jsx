@@ -1,19 +1,29 @@
-import "./servicesText.css";
-import { useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import  { useRef, useEffect } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
+import './servicesText.css';
 
-const ServicesText = () => {
-  const [ref, inView] = useInView({
-    triggerOnce: false, // Allow multiple triggers
-    threshold: 0.5, // Adjust the threshold as needed
-  });
-
-  const controlsLeftToRight = useAnimation();
-  const controlsRightToLeft = useAnimation();
-
-  const windowWidth = window.innerWidth;
-  console.log(windowWidth);
+export default function Home() {
+  const firstText = useRef(null);
+  const secondText = useRef(null);
+  const thirdText = useRef(null);
+  const forthText = useRef(null);
+  const fifthText = useRef(null);
+  const sixthText = useRef(null);
+  const seventhText = useRef(null);
+  const eighthText = useRef(null);
+  const slider = useRef(null);
+  const slider1 = useRef(null);
+  const slider2 = useRef(null);
+  const slider3 = useRef(null);
+  let xPercentSlider1 = 0;
+  let xPercentSlider2 = 0;
+  let xPercentSlider3 = 0;
+  let xPercentSlider4 = 0;
+  let directionSlider1 = -1;
+  let directionSlider2 = -1;
+  let directionSlider3 = -1;
+  let directionSlider4 = -1;
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -152,5 +162,4 @@ const ServicesText = () => {
       </div>
     </main>
   );
-};
-export default ServicesText;
+}
