@@ -14,7 +14,7 @@ import ServicesText from "../components/services/servicesText/ServicesText";
 import Card from "../components/card/Card";
 import Animation from "../components/animation/Animation";
 import BgTransition from "../components/bgTransition/BgTransition";
-
+0
 const Home = () => {
   return (
     <Fragment>
@@ -35,6 +35,7 @@ const Home = () => {
       />
       <BgTransition />
       <Card />
+      {/* <Stack /> */}
       {/* <Portfolio /> */}
       <Achievements />
       <OurTeam />

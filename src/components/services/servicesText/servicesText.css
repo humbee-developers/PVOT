@@ -1,6 +1,6 @@
 .mainxx {
   position: relative;
-  display: flex;
+  /* display: flex; */
   height: 130vh;
   background-color: black;
   /* margin-bottom: 60vh; */
@@ -11,19 +11,22 @@
 .sliderx {
   position: relative;
   white-space: nowrap;
+  
 }
 .sliderContainerx {
   margin-top: 5rem;
+  overflow: hidden;
 }
 
 .sliderx p {
   position: relative;
   margin: 0px;
   color: white;
-  font-size: 120px;
+  font-size: 5rem;
   font-weight: 400;
   font-family: "FONTSPRING-bold";
   /* padding-right: 50px; */
+  width: 80%;
 }
 
 .sliderx p:nth-of-type(2) {
