@@ -1,5 +1,5 @@
 .c-section {
-    position: relative;
+    /* position: relative; */
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -18,15 +18,15 @@
     padding-bottom: 0;
   }
   .c-section.cc-transition {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+    /* position: -webkit-sticky;
+    position: sticky; */
+    top: 50px;
     z-index: 0;
     /* overflow: hidden; */
   }
 
   .c-transition-bg {
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     top: 0;
     right: 0;
@@ -46,8 +46,8 @@
     background-size: cover;
   }
   .c-transition {
-    position: -webkit-sticky;
-    position: sticky;
+    /* position: -webkit-sticky;
+    position: sticky; */
     top: -200vh;
     z-index: 0;
     min-height: 300vh;
@@ -92,8 +92,8 @@
     justify-content: center;
   }
   .c-project {
-    position: -webkit-sticky;
-    position: sticky;
+    /* position: -webkit-sticky;
+    position: sticky; */
     top: 24vh;
     width: 100%;
     margin-bottom: 10em;
@@ -102,8 +102,8 @@
     transform-origin: 50% 0%;
   }
   .c-project.cc-1 {
-    position: -webkit-sticky;
-    position: sticky;
+    /* position: -webkit-sticky;
+    position: sticky; */
     width: 100%;
     -webkit-transform-origin: 50% 0%;
     -ms-transform-origin: 50% 0%;
@@ -135,7 +135,7 @@
     object-fit: contain;
   }
   .c-project_details {
-    position: absolute;
+    /* position: absolute; */
     display: none;
     padding: 1.25em 3em;
   }
