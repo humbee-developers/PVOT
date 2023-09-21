@@ -15,7 +15,7 @@ import Text from "../components/text/Text";
 // import TextRevealEffect from "../components/roler/Rooler";
 import ServicesText from "../components/services/servicesText/ServicesText";
 import BgTransition from "../components/bgTransition/BgTransition";
-
+0
 const Home = () => {
   return (
     <Fragment>
@@ -36,6 +36,7 @@ const Home = () => {
       />
       <BgTransition />
       <Card />
+      {/* <Stack /> */}
       {/* <Portfolio /> */}
       <Achievements />
       <OurTeam />
