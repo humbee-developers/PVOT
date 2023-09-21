@@ -1,0 +1,168 @@
+.logo_section {
+  position: relative;
+}
+
+.logo_section_bg {
+  padding-top: 2em !important;
+}
+
+.logo_section_image {
+  text-align: center;
+  padding: 0 20px;
+}
+.logo_section_image img {
+  max-width: 100%;
+}
+.logo_section_leftImage {
+  position: absolute;
+  top: 30%;
+  left: -25%;
+  animation: leftIcon infinite 120s linear;
+  opacity: 0.5;
+}
+.logo_section_rightImage {
+  position: absolute;
+  top: 45%;
+  right: -25%;
+  animation: rightIcon infinite 120s linear;
+  opacity: 0.5;
+}
+.logo_section_leftImage img {
+  width: 600px;
+}
+.logo_section_rightImage img {
+  width: 600px;
+}
+@keyframes rightIcon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes leftIcon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.c-clients-bg-logo {
+  z-index: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c-client-card {
+  max-width: 100%;
+  text-align: center;
+}
+.c-client-card img {
+  max-width: 100%;
+}
+.c-client {
+  position: relative;
+
+  width: 100%;
+  height: 80em;
+}
+.sticky_logo_section {
+  overflow: hidden;
+  padding-bottom: 12em;
+}
+@media(max-width:1440px){
+  
+}
+@media (max-width: 1199px) {
+  .logo_section_leftImage {
+    top: 35%;
+    left: -22%;
+  }
+  .logo_section_rightImage {
+    top: 48%;
+    right: -25%;
+  }
+  .logo_section_leftImage img {
+    width: 500px;
+  }
+  .logo_section_rightImage img {
+    width: 500px;
+  }
+  .logo_section {
+    padding: 20px 0 90px;
+  }
+}
+@media (max-width: 991px) {
+  .logo_section_bg {
+    padding-top: 7em !important;
+  }
+
+  .logo_section_leftImage {
+    top: 35%;
+  }
+  .logo_section_rightImage {
+    top: 48%;
+  }
+  .logo_section_leftImage img {
+    width: 400px;
+  }
+  .logo_section_rightImage img {
+    width: 400px;
+  }
+  .sticky_logo_section {
+    padding-bottom: 5em;
+  }
+  .partners_and_client {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .logo_section_leftImage {
+    top: 34%;
+  }
+  .logo_section_rightImage {
+    top: 46%;
+  }
+  .logo_section_leftImage img {
+    width: 300px;
+  }
+  .logo_section_rightImage img {
+    width: 300px;
+  }
+  .logo_section {
+    padding: 20px 0 60px;
+  }
+  .sticky_logo_section {
+    padding-bottom: 3em;
+  }
+}
+@media (max-width: 575px) {
+  .logo_section_leftImage {
+    top: 32%;
+  }
+  .logo_section_rightImage {
+    top: 42%;
+  }
+  .logo_section_leftImage img {
+    width: 200px;
+  }
+  .logo_section_rightImage img {
+    width: 200px;
+  }
+  .logo_section {
+    padding: 20px 0 60px;
+  }
+}

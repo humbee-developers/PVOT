@@ -1,0 +1,194 @@
+.navbar-brand {
+  color: white;
+  z-index: 11;
+}
+.hero {
+  background-color: black;
+}
+.nav-link {
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin: 2px 8px;
+  background-color: #000;
+  height: 38px !important;
+  line-height: 32px !important;
+}
+.nav-link .btn_text {
+  font-size: 16px;
+}
+button.navbar-toggler.collapsed {
+  padding: 0;
+}
+
+.nav_icon_link {
+  line-height: 28px !important;
+}
+.desktop_menu {
+  display: flex;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 2px 7px;
+  }
+  .nav_icon_link {
+    padding: 2px 11px !important;
+  }
+  .hero {
+    position: absolute !important;
+    background: black !important;
+    height: auto !important;
+    z-index: 999 !important;
+    width: 100% !important;
+  }
+  .navbar-expand-lg .navbar-toggler {
+    display: block;
+  }
+  .ham_btn {
+    display: none !important;
+  }
+  .mobile_menu {
+    display: none;
+  }
+}
+.nav-link:hover {
+  color: black;
+}
+.nav-link:focus {
+  color: #fff;
+}
+
+.row .three {
+  padding: 80px 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+}
+
+.hamburger .line {
+  width: 35px;
+  height: 3px;
+  background-color: #ecf0f1;
+  display: block;
+  margin: 6px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+#hamburger-1.active .line:nth-child(2) {
+  opacity: 0;
+}
+
+#hamburger-1.active .line:nth-child(1) {
+  -webkit-transform: translateY(13px) rotate(45deg);
+  -ms-transform: translateY(13px) rotate(45deg);
+  -o-transform: translateY(13px) rotate(45deg);
+  transform: translateY(6px) rotate(45deg);
+}
+
+#hamburger-1.active .line:nth-child(3) {
+  -webkit-transform: translateY(-13px) rotate(-45deg);
+  -ms-transform: translateY(-13px) rotate(-45deg);
+  -o-transform: translateY(-13px) rotate(-45deg);
+  transform: translateY(-13px) rotate(-45deg);
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse.collapsing {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: black;
+    z-index: 1;
+    height: 100vh;
+    transition: all 0.3s ease-out;
+    transform: translateY(100%);
+    /* margin-top: auto; */
+  }
+  .navbar-collapse.collapse {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: black;
+    z-index: 10;
+    transition: all 0.3s ease-out;
+    height: 100vh;
+  }
+  .nav-link {
+    line-height: 35px !important;
+    border: none;
+    margin: 20px 0;
+    position: relative;
+    transition: all 0.5s;
+    width: 45%;
+  }
+  .nav-link:hover span {
+    transform: translateX(1.3em);
+    transition: all 0.5s;
+  }
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 34px;
+    height: 5px;
+    background-color: white;
+    transform: translateY(-50%);
+    transition: all 0.4s ease-in-out;
+    transform: scaleX(0) translateY(-50%);
+    opacity: 0;
+    transform-origin: left center;
+  }
+  .nav-link:hover::before {
+    transform: scaleX(1) translateY(-50%);
+    opacity: 1;
+  }
+  .nav-link .btn_text {
+    font-size: 40px;
+    margin: 0 20px;
+  }
+  .nav_icon_link {
+    display: none;
+  }
+  .navbar-nav {
+    padding: 150px 0;
+  }
+  .brand .navbar-brand {
+    z-index: 2;
+  }
+  button.navbar-toggler {
+    z-index: 11;
+    text-align: inherit;
+  }
+  .desktop_menu {
+    display: none;
+  }
+  .mobile_menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* if want to use common btn hover effect then remove below css */
+  .nav-link span:last-child {
+    display: none;
+  }
+  .nav-link:hover .btn_text {
+    top: 0 !important;
+  }
+}
+@media (max-width: 575px) {
+  .nav-link {
+    width: 100%;
+  }
+}

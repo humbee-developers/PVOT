@@ -1,0 +1,434 @@
+.c-client-logos_row:last-child {
+    display: none;
+  }
+  .c-text-wrapper.cc-people{
+    font-family: "FONTSPRING-bold-italic";
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .c-client-logos_row:last-child {
+      display: flex;
+    }
+  
+    .c-client-logos_row {
+      -webkit-animation: marquee 20s linear infinite;
+      -moz-animation: marquee 20s linear infinite;
+      -ms-animation: marquee 20s linear infinite;
+      -o-animation: marquee 20s linear infinite;
+      animation: marquee 20s linear infinite;
+    }
+  
+    .cc-reverse .c-client-logos_row {
+      -webkit-animation: marquee 20s linear reverse infinite;
+      -moz-animation: marquee 20s linear reverse infinite;
+      -ms-animation: marquee 20s linear reverse infinite;
+      -o-animation: marquee 20s linear reverse infinite;
+      animation: marquee 20s linear reverse infinite;
+    }
+  }
+  
+  .c-clients-words .c-title-4 {
+    -webkit-transition: transform 500ms cubic-bezier(1, 0, 0, 1);
+    transition: transform 500ms cubic-bezier(1, 0, 0, 1);
+  }
+  
+  .c-team-card:nth-child(6n + 1) {
+    transform: translate(0%, 0%);
+  }
+  
+  .c-team-card:nth-child(6n + 2) {
+    transform: translate(23%, -42%);
+  }
+  
+  .c-team-card:nth-child(6n + 3) {
+    transform: translate(-14%, 14%);
+  }
+  
+  .c-team-card:nth-child(6n + 4) {
+    transform: translate(35%, 0%);
+  }
+  
+  .c-team-card:nth-child(6n + 5) {
+    transform: translate(7%, -42%);
+  }
+  
+  .c-team-card:nth-child(6n + 6) {
+    transform: translate(0%, 14%);
+  }
+  
+  .c-team-card:last-child {
+    transform: translate(-0.5em, 2em);
+  }
+  
+  @media screen and (max-width: 568px) {
+    .c-team-card:nth-child(6n + 1) {
+      transform: translate(0%, 0%);
+    }
+  
+    .c-team-card:nth-child(6n + 2) {
+      transform: translate(-0.4em, -4em);
+    }
+  
+    .c-team-card:nth-child(6n + 3) {
+      transform: translate(0em, 0em);
+    }
+  
+    .c-team-card:nth-child(6n + 4) {
+      transform: translate(0.5em, -1em);
+    }
+  
+    .c-team-card:nth-child(6n + 5) {
+      transform: translate(0.25em, -4em);
+    }
+  
+    .c-team-card:nth-child(6n + 6) {
+      transform: translate(-0.5em, 0em);
+    }
+  
+    .c-team-card:last-child {
+      transform: translate(-0.5em, 0em);
+    }
+  }
+  
+  .c-clients-bg-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        width: 100%;
+      }
+  
+      .c-clients-bg-sticky {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+      }
+  
+      .c-clients-bg {
+        z-index: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        overflow: hidden;
+        padding-top: 12em;
+        padding-bottom: 15em;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+  
+      .c-text-wrapper {
+        overflow: hidden;
+      }
+      .c-text-wrapper.cc-people {
+        position: absolute;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        height: 5.75em;
+        text-transform: uppercase;
+      }
+      .c-title-4 {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #fff;
+        font-size: 5em;
+        line-height: 1;
+      }
+      .c-title-4.cc-bold {
+        font-variation-settings: "wght" 532;
+      }
+      .c-title-1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 22.5em;
+        color: #fffbfb;
+        line-height: 1.4;
+        font-variation-settings: "wght" 645;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
+        font-family: "FONTSPRING-bold-italic";
+      }
+      .c-title-1.cc-saol {
+        text-transform: none;
+      }
+      .c-title-1.cc-opacity-5 {
+        opacity: 0.05;
+      }
+      .c-container {
+        display: block;
+        width: 100%;
+        max-width: 1440px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 2.5em;
+        padding-left: 2.5em;
+        border-radius: 4px;
+      }
+      .c-container.cc-10cols {
+        max-width: 68.875em;
+      }
+      .c-container.cc-8cols {
+        max-width: 924px;
+      }
+      .c-container.cc-6cols {
+        max-width: 704px;
+      }
+      .c-container.cc-relative {
+        position: relative;
+        z-index: 1;
+      }
+      .c-team {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 80em;
+        max-width: 56em;
+        margin-left: auto;
+        padding-top: 3em;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        grid-column-gap: 2em;
+       
+      }
+      .c-team-card {
+        width: 100%;
+        max-width: 13.125em;
+        min-width: 13.125em;
+        text-align: right;
+      }
+      .c-team-card_image {
+        width: 13.125em;
+      }
+      .c-team_name {
+        position: absolute;
+        left: 0.75em;
+        top: auto;
+        right: auto;
+        bottom: 0.75em;
+        z-index: 10;
+      }
+      .c-section-divider {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 2em;
+        padding-bottom: 0.375em;
+        padding-left: 3px;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        grid-column-gap: 3px;
+        border-bottom: 1px solid #d2d2d9;
+      }
+      .c-section-divider.cc-black-bg {
+        border-bottom-color: #3e3e46;
+      }
+      .c-section-divider.cc-black-bg.cc-space-between {
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+      }
+      .c-section-divider.cc-black-bg.cc-space-between.cc-no-border {
+        margin-bottom: 0;
+        border-bottom-style: none;
+      }
+      .c-section-divider_circle {
+        width: 0.375em;
+        height: 0.375em;
+        border-radius: 50%;
+        background-color: #1b1b1b;
+      }
+      .c-section-divider_circle.cc-white {
+        background-color: #fff;
+      }
+      .c-text-5 {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: white;
+        font-size: 0.75em;
+        line-height: 1.3;
+      }
+      .c-team-card_image {
+        width: 13.125em;
+      }
+      .c-text-3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.13em;
+        color: white;
+        line-height: 1.3;
+      }
+      .c-text-3.cc-bold {
+        font-variation-settings: "wght" 532;
+      }
+      .c-custom-code {
+        display: none;
+      }
+  
+      @media screen and (max-width: 991px){
+        .c-text-3.cc-bold {
+              font-size: 11px;
+            }
+        .c-text-3 {
+              font-size: 16px;
+            }
+        .c-team-card_image {
+              width: 100%;
+            }
+        .cc-tablet_hide {
+              display: none;
+            }
+        .c-text-5 {
+              font-size: 10px;
+            }
+        .c-text-5 {
+              font-size: 12px;
+            }
+        .c-section-divider {
+              margin-bottom: 64px;
+              padding-bottom: 6px;
+            }
+        .c-section-divider {
+              margin-bottom: 4em;
+            }
+            .c-section-divider.cc-black-bg {
+              margin-bottom: 2em;
+            }
+        .c-team_name {
+              left: 4px;
+              bottom: 4px;
+            }
+        .c-team {
+              max-width: 100%;
+              grid-column-gap: 0.25em;
+            }
+            .c-team-card {
+              max-width: 28%;
+            }
+            .c-team-card_image {
+              width: 100%;
+            }
+        .c-team {
+              max-width: 100%;
+              -webkit-box-pack: justify;
+              -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+              justify-content: space-between;
+              grid-row-gap: 2.5em;
+            }
+            .c-team-card {
+              max-width: 25%;
+            }
+        .c-team {
+              height: auto;
+              max-width: 100%;
+              grid-column-gap: 1em;
+            }
+            .c-team-card {
+              max-width: 25%;
+              min-width: 25%;
+            }
+            .c-team-card_image {
+              width: 100%;
+            }
+        .c-container {
+              padding-right: 16px;
+              padding-left: 16px;
+            }
+        .c-container {
+              padding-right: 16px;
+              padding-left: 16px;
+            }
+        .c-container.cc-relative {
+              -webkit-box-flex: 1;
+              -webkit-flex: 1;
+              -ms-flex: 1;
+              flex: 1;
+            }
+        .c-clients-bg {
+              padding-top: 60px;
+              padding-bottom: 260px;
+            }
+            .c-clients-bg-sticky {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+            }
+            .c-text-wrapper.cc-people {
+              height: 60px;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+              flex-direction: column;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+              -ms-flex-align: center;
+              align-items: center;
+              text-align: center;
+              text-transform: uppercase;
+            }
+            .c-title-4 {
+              font-size: 28px;
+            }
+            .c-clients-words {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+              flex-direction: column;
+              grid-row-gap: 1em;
+              -webkit-transition: -webkit-transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+              transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+              transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1),
+                -webkit-transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+            }
+          
+            .c-title-1 {
+              font-size: 25vw;
+            }
+            
+      }
+      @media screen and (max-width: 767px){
+        .c-clients-bg {
+              padding-bottom: 280px;
+            }
+      }
+  
+  
+  
+  
+      @media screen and (max-width: 479px){
+        .c-clients-bg {
+              padding-top: 140px;
+              padding-bottom: 320px;
+            }
+      }

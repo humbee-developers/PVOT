@@ -1,0 +1,79 @@
+.rectangleCard_btn {
+  background-color: transparent !important;
+}
+.get-in-touch {
+  color: #656565;
+  font-size: 20px;
+}
+.together {
+  font-size: 2.3rem;
+  max-width: 230px;
+}
+.common-card-text {
+  margin-block: 60px -30px;
+  margin-bottom: 16px;
+  font-size: 6rem;
+}
+
+.rectangle-button-text {
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  display: flex;
+
+  flex-direction: column;
+  height: 1.2em;
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+  margin-right: 9px;
+}
+.rectangle-button-icon {
+  margin-left: 8px;
+  position: relative;
+  z-index: 1;
+}
+.rectangle-button-icon img {
+  width: 15px;
+  height: 10px;
+}
+.second {
+  padding: 17px 28px;
+  background-color: #1f1f1f;
+  border-radius: 31px;
+  color: white;
+}
+.first {
+  padding: 60px 60px;
+}
+.third {
+  display: flex;
+  justify-content: space-between;
+}
+.box_arrow img {
+  width: 22px;
+  height: 18px;
+}
+.arrow_icon img{
+  width: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-button {
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .first {
+    padding: 19px 20px;
+  }
+  .common-card-text {
+    font-size: 4.5rem;
+    margin-block: 30px -15px;
+  }
+  .together {
+    font-size: 2rem;
+  }
+}

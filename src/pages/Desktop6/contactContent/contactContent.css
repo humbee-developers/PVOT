@@ -1,0 +1,105 @@
+.contact_content {
+  border-top: 1px solid #4f4f4f;
+}
+
+.contact_content_left_heading {
+  color: #4f4f4f;
+  font-family: "Plus Jakarta Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 35px;
+}
+.contact_content_right_heading {
+  color: #4f4f4f;
+  font-family: "Plus Jakarta Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 35px;
+}
+.contact_content_wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: 26px 0 0;
+  justify-content: space-between;
+  margin: 0 -10px;
+}
+.contact_content_left {
+  width: 276px;
+  padding: 0 10px;
+}
+.contact_content_right {
+  width: 276px;
+  padding: 0 10px;
+}
+.contact_content_left_text {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contact_content_right_text {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contact_content_left_mail {
+  margin: 37px 0 0;
+}
+.contact_content_left_mail a {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #fff;
+  border-radius: 74px;
+}
+.hover_btn a {
+  display: inline-block;
+  height: 40px;
+  line-height: 35px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: 0.3s;
+}
+span.btn_text {
+  display: block;
+  margin: 0px 20px;
+  height: 100%;
+  position: relative;
+  top: 0%;
+  transition: 0.3s;
+  color: white;
+  background-color: transparent;
+}
+.contact_content_left_mail a:hover .btn_text {
+  top: -100%;
+}
+.contact_content_left_mail a:hover{
+  background-color: white;
+  color: black;
+}
+@media (max-width: 991px) {
+  .contact_content_left_text {
+    font-size: 18px;
+  }
+  .contact_content_right_text {
+    font-size: 18px;
+  }
+  .contact_content_left_heading {
+    margin: 0 0 20px;
+  }
+  .contact_content_right_heading {
+    margin: 0 0 20px;
+  }
+  .contact_content_left_mail a {
+    padding: 0 15px;
+  }
+}

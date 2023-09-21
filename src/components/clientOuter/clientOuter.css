@@ -1,0 +1,11 @@
+.clients-outer {
+  padding: 60px 60px;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .clients-outer {
+    padding: 30px 24px;
+    color: white;
+  }
+}
