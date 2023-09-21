@@ -4,7 +4,7 @@
   align-items:center;
   justify-content: center;
   /* margin-bottom: 100vh; */
-  
+  font-family: "FONTSPRING"
 }
 
 .body{
@@ -22,4 +22,14 @@
 
 .body span{
   opacity: 0.4;
+}
+@media(max-width:991px){
+  .main{
+    height: 75vh;
+  }
+}
+@media(max-width:767px){
+  .main{
+    height: 50vh;
+  }
 }

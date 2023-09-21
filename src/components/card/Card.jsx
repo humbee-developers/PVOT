@@ -23,7 +23,7 @@ const Card = () => {
                   >
                     <img
                       src={i0}
-                      width="900"
+                      // width="900"
                       alt=""
                       className="c-image-contain"
                     />
@@ -40,7 +40,7 @@ const Card = () => {
                   >
                     <img
                       src={i1}
-                      width="900"
+                      // width="900"
                       alt=""
                       className="c-image-contain"
                     />
@@ -57,7 +57,7 @@ const Card = () => {
                   >
                     <img
                       src={i2}
-                      width="900"
+                      // width="900"
                       alt=""
                       className="c-image-contain"
                     />
@@ -74,7 +74,7 @@ const Card = () => {
                   >
                     <img
                       src={i3}
-                      width="900"
+                      // width="900"
                       alt=""
                       className="c-image-contain"
                     />
@@ -91,7 +91,7 @@ const Card = () => {
                   >
                     <img
                       src={i4}
-                      width="900"
+                      // width="900"
                       alt=""
                       className="c-image-contain"
                     />
@@ -100,7 +100,7 @@ const Card = () => {
                     </div>
                   </a>
                 </div>
-                <div no-pointer="1" className="c-project cc-invisible"></div>
+                {/* <div no-pointer="1" className="c-project cc-invisible"></div> */}
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import "./rectangleCard.css";
 import btnArrow from "../src/images/whiteArrow.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+// import  FontAwesomeIcon  from "@fortawesome/react-fontawesome";
+// import  faArrowRight from "@fortawesome/free-solid-svg-icons";
 import Button from "react-bootstrap/Button";
 
 const rectangleCard = () => {
@@ -22,11 +22,12 @@ const rectangleCard = () => {
             <span className="footer-button-text btn_text">Contacts us</span>
           </div>
           <div className="arrow_icon">
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faArrowRight}
               style={{ color: "#ffffff" }}
               className="btnArrow"
-            />
+            /> */}
+            <img src={btnArrow} alt="btnArrow" />
           </div>
         </Button>
       </div>

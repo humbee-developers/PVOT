@@ -20,12 +20,20 @@ const Home = () => {
   return (
     <Fragment>
       <HeroSection />
-      <Text/>
+      <Text
+        text={
+          "With an amazing team in place, in our second year we focused on pushing boundaries and empowering brands to grow"
+        }
+      />
       {/* <TextRevealEffect /> */}
       <Animation />
       <ServicesText />
       <Services />
-      <Text/>
+      <Text
+        text={
+          "We use Webflow as a development tool to push boundaries and redefine what's possible with a design driven approach."
+        }
+      />
       <BgTransition />
       <Card />
       {/* <Portfolio /> */}
