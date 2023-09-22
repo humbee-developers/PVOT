@@ -21,7 +21,7 @@ export default function Home({ text }) {
         trigger: container.current,
         scrub: true,
         start: `top`,
-        end: `+=${window.innerHeight / 1.5}`,
+        end: `+=${window.innerHeight / 2.5}`,
       },
       opacity: 1,
       color: "white",

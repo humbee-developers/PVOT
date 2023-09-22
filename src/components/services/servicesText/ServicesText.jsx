@@ -48,9 +48,9 @@ export default function Home() {
         scrub: 0.25,
         start: 0,
         end: window.innerHeight,
-        onUpdate: (e) => (directionSlider2 = e.direction * -1),
+        onUpdate: (e) => (directionSlider2 = e.direction * 1),
       },
-      x: '-500px',
+      x: '500px',
     });
     requestAnimationFrame(animate1);
   }, []);
@@ -78,9 +78,9 @@ export default function Home() {
         scrub: 0.25,
         start: 0,
         end: window.innerHeight,
-        onUpdate: (e) => (directionSlider4 = e.direction * -1),
+        onUpdate: (e) => (directionSlider4 = e.direction * 1),
       },
-      x: '-500px',
+      x: '500px',
     });
     requestAnimationFrame(animate3);
   }, []);
@@ -96,7 +96,7 @@ export default function Home() {
     gsap.set(firstText.current, { xPercent: xPercentSlider1 });
     gsap.set(secondText.current, { xPercent: xPercentSlider1 });
     requestAnimationFrame(animate);
-    xPercentSlider1 += 0.2 * directionSlider1;
+    xPercentSlider1 += 0.09 * directionSlider1;
   };
 
   const animate1 = () => {
@@ -108,7 +108,7 @@ export default function Home() {
     gsap.set(thirdText.current, { xPercent: xPercentSlider2 });
     gsap.set(forthText.current, { xPercent: xPercentSlider2 });
     requestAnimationFrame(animate1);
-    xPercentSlider2 += 0.1 * directionSlider2;
+    xPercentSlider2 += 0.09 * directionSlider2;
   };
 
   const animate2 = () => {
@@ -120,7 +120,7 @@ export default function Home() {
     gsap.set(fifthText.current, { xPercent: xPercentSlider3 }); // Use fifthText for slider2
     gsap.set(sixthText.current, { xPercent: xPercentSlider3 }); // Use sixthText for slider2
     requestAnimationFrame(animate2);
-    xPercentSlider3 += 0.2 * directionSlider3;
+    xPercentSlider3 += 0.09 * directionSlider3;
   };
 
   const animate3 = () => {
@@ -132,7 +132,7 @@ export default function Home() {
     gsap.set(seventhText.current, { xPercent: xPercentSlider4 });
     gsap.set(eighthText.current, { xPercent: xPercentSlider4 }); 
     requestAnimationFrame(animate3);
-    xPercentSlider4 += 0.3 * directionSlider4;
+    xPercentSlider4 += 0.09 * directionSlider4;
   };
   
 

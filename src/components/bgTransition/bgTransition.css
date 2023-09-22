@@ -17,12 +17,12 @@
   width: 100%;
 }
 .bgTransition_1 {
-  width: 25%;
+  width: 100%;
   background-color: #000;
   height: 100%;
   transition: all 0.5s;
 }
-.bgTransition_2 {
+/* .bgTransition_2 {
   width: 25%;
   background-color: #000;
   height: 100%;
@@ -39,4 +39,4 @@
   background-color: #000;
   height: 100%;
   transition: all 0.5s;
-}
+} */
