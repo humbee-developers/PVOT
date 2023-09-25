@@ -30,7 +30,7 @@
 }
 @media (max-width: 767px) {
   .main {
-    height: 50vh;
+    height: 100vh;
     align-items: end;
   }
   .body {
