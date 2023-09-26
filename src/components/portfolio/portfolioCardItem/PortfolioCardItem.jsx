@@ -31,7 +31,7 @@ const PortfolioCardItem = ({ image }) => {
           <div className="portfolioCardItem_heading">
             <h6>Lorem Impsun</h6>
           </div>
-          <div className="portfolioCardItem_text">Lorem Impsum</div>
+      ``    <div className="portfolioCardItem_text">Lorem Impsum</div>
           <Button className="footer-button  ">
             <div className="btn_flex hover_btn">
               <span className="footer-button-text btn_text">

@@ -41,7 +41,7 @@ const Home = () => {
       {/* <Portfolio /> */}
       <Achievements />
       <OurTeam />
-      <LogoSection />
+      {/* <LogoSection /> */}
       <Testimonial />
       {/* <Amazing2023 /> */}
       <ContactUs />
