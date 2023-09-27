@@ -1,10 +1,10 @@
 import { Fragment } from "react";
 import HeroSection from "../components/heroSection/HeroSection";
-import Services from "../components/services/Services";
+// import Services from "../components/services/Services";
 // import Portfolio from "../components/portfolio/PortfolioCard";
 import Achievements from "../components/achievements/Achievements";
 import OurTeam from "../components/ourTeam/OurTeam";
-import LogoSection from "../components/logoSection/LogoSection";
+// import LogoSection from "../components/logoSection/LogoSection";
 import Testimonial from "../components/testimonial/Testimonial";
 // import Animation from "../components/animation/Animation";
 // import Rooler from "../components/roler/Rooler";
@@ -16,6 +16,7 @@ import Text from "../components/text/Text";
 import ServicesText from "../components/services/servicesText/ServicesText";
 import BgTransition from "../components/bgTransition/BgTransition";
 import LottieAnimation from "../components/animation/Animation";
+import ServicesScrollSlider from "../components/servicesSrollSlider/ServicesScrollSlider";
 0
 const Home = () => {
   return (
@@ -29,7 +30,8 @@ const Home = () => {
       {/* <TextRevealEffect /> */}
       <LottieAnimation />
       <ServicesText />
-      <Services />
+      {/* <Services /> */}
+      <ServicesScrollSlider />
       <Text
         text={
           "We use Webflow as a development tool to push boundaries and redefine what's possible with a design driven approach."
