@@ -99,7 +99,7 @@ const Achievements = () => {
                 {/* <div className="swiper-slider4">
                   <p className="swiper-text">
                     Solid Strategy aligned with business needs and robust data
-                    analysis are fundamental ingredients to extract actionable
+                    analysis are fundamental ingredients to actionable
                     insights
                   </p>
                 </div> */}
