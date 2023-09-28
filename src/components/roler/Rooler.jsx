@@ -14,7 +14,7 @@ const TextRevealEffect = () => {
   useEffect(() => {
     if (inView) {
       controlsLeftToRight.start({
-        x: 1200, // Start from the left
+        x: 1200,
         opacity: 1,
         transition: {
           x: { type: "spring", stiffness: 4 },
