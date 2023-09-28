@@ -96,13 +96,7 @@ const Achievements = () => {
                   </p>
                 </div> */}
 
-                {/* <div className="swiper-slider4">
-                  <p className="swiper-text">
-                    Solid Strategy aligned with business needs and robust data
-                    analysis are fundamental actionable
-                    insights
-                  </p>
-                </div> */}
+                
               </div>
             </div>
 
