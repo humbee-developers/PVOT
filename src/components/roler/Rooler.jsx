@@ -32,7 +32,7 @@ const TextRevealEffect = () => {
       });
     } else {
       controlsLeftToRight.start({
-        x: -1100, // Animate back to the left when out of view
+        x: -1100, 
         opacity: 1,
         transition: {
           x: { type: "spring", stiffness: 4 },
