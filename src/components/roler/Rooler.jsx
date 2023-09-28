@@ -4,8 +4,8 @@ import { useInView } from "react-intersection-observer";
 import "./rooler.css";
 const TextRevealEffect = () => {
   const [ref, inView] = useInView({
-    triggerOnce: false, // Allow multiple triggers
-    threshold: 0.5, // Adjust the threshold as needed
+    triggerOnce: false, 
+    threshold: 0.5, 
   });
 
   const controlsLeftToRight = useAnimation();
