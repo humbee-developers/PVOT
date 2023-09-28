@@ -41,7 +41,7 @@ const TextRevealEffect = () => {
       });
 
       controlsRightToLeft.start({
-        x: 1100, // Animate back to the right when 
+        x: 1100, // Animate back to the right 
         opacity: 1,
         transition: {
           x: { type: "spring", stiffness: 4 },
