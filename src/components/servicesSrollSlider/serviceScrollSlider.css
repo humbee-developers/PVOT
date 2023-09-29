@@ -1,6 +1,7 @@
 .servicesCard {
   background-color: #000;
   height: 380vh;
+  padding: 200px 0 0;
 }
 .servicesText {
   transition: all 0.5s;
@@ -17,7 +18,7 @@
 }
 .work2 {
   position: relative;
-  padding: 150px 0;
+  padding: 150px 0; 
   background-color: #000;
 
   display: block;
@@ -139,8 +140,7 @@
   .servicesText_mobile h2 {
     font-size: 50px;
     font-family: "FONTSPRING";
-    padding: 30px 0;
-    margin: 0;
+    margin: 30px 0 100px;
   }
   .services_card_mobile {
     display: block;
@@ -156,7 +156,9 @@
   }
   .servicesCard {
     height: 100%;
+    padding: 100px 0 0;
   }
+ 
 }
 
 @media (max-width: 767px) {
@@ -171,6 +173,6 @@
   }
   .servicesText_mobile h2 {
     font-size: 40px;
-    
+    margin: 30px 0 40px;
   }
 }
