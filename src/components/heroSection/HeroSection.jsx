@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import img17 from "../../images/image17.png";
 import "./heroSection.css"

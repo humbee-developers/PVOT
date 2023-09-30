@@ -13,11 +13,13 @@ import Card from "../components/card/Card";
 import ContactUs from "../components/contactUs/ContactUs";
 import Text from "../components/text/Text";
 // import TextRevealEffect from "../components/roler/Rooler";
-import ServicesText from "../components/services/servicesText/ServicesText";
+// import ServicesText from "../components/services/servicesText/ServicesText";
 import BgTransition from "../components/bgTransition/BgTransition";
 import LottieAnimation from "../components/animation/Animation";
 import ServicesScrollSlider from "../components/servicesSrollSlider/ServicesScrollSlider";
-0
+import ServicesTextExp from "../components/services/setvicesTextExp/ServicesTextExp";
+// import MyComponent from "../components/services/newServiceText/NewServicesText";
+0;
 const Home = () => {
   return (
     <Fragment>
@@ -29,8 +31,10 @@ const Home = () => {
       />
       {/* <TextRevealEffect /> */}
       <LottieAnimation />
-      <ServicesText />
+      {/* <ServicesText /> */}
+      <ServicesTextExp />
       {/* <Services /> */}
+      {/* <MyComponent /> */}
       <ServicesScrollSlider />
       <Text
         text={

@@ -137,13 +137,14 @@
   padding-top: 12em;
   padding-bottom: 15em;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
+  /* -webkit-justify-content: center; */
   -ms-flex-pack: center;
-  justify-content: center;
+  /* justify-content: center; */
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c-text-wrapper {
@@ -321,10 +322,17 @@
   .c-text-wrapper.cc-people {
     font-size: 13px;
   }
+  .c-title-1 {
+    font-size: 19.5em;
+  }
 }
 @media (max-width: 1199px) {
   .c-text-wrapper.cc-people {
     font-size: 11px;
+  }
+
+  .c-title-1 {
+    font-size: 17em;
   }
 }
 @media screen and (max-width: 991px) {
@@ -431,6 +439,7 @@
     text-align: center;
     text-transform: uppercase;
     left: inherit;
+    width: 100%;
   }
   .c-title-4 {
     font-size: 28px;

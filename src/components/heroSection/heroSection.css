@@ -10,6 +10,7 @@
   font-size: 20rem;
   font-weight: 400;
   color: white;
+  font-family: "FONTSPRING-bold-italic";
 }
 .imag {
   height: 97%;
@@ -33,7 +34,6 @@
     bottom: 17rem;
     font-weight: 300;
     bottom: 4rem;
-    font-family: "FONTSPRING";
   }
   .two {
     font-size: 7.5rem;
@@ -42,7 +42,6 @@
     bottom: 17rem;
     font-weight: 300;
     bottom: 4rem;
-    font-family: "FONTSPRING";
   }
   .extra-style {
     bottom: 17rem;
