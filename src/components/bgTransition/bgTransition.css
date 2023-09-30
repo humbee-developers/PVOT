@@ -1,7 +1,6 @@
 .bgTransition {
   min-height: 500px;
   position: relative;
-  /* background: linear-gradient(81deg, #009ffd -68.92%, #2a2a72 95.74%); */
   background-color: #7443ff;
 }
 .bgTransition_wrapper {
