@@ -1,0 +1,119 @@
+.servicesCard {
+  background-color: #000;
+  height: 380vh;
+}
+.servicesText {
+  transition: all 0.5s;
+  position: relative;
+}
+.servicesText h2 {
+  font-size: 60px;
+  font-family: "FONTSPRING";
+  transition: all 0.5s;
+}
+.servicesCard_wrapper_mobile {
+  display: none;
+}
+.work2 {
+  position: relative;
+  padding: 150px 0;
+  background-color: #000;
+
+  display: block;
+}
+.gallery_box {
+  position: absolute;
+  left: 50%;
+  /* top: 50%; */
+  /* transform: translate(-50%, -50%) rotateX(-8deg); */
+  transform: translateX(-50%);
+  /* transition: all 0.5s; */
+  /* transform-style: preserve-3d; */
+  /* height: 200vh; */
+}
+.gallery_box_outer {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  transform: perspective(1000px);
+  transform-style: preserve-3d;
+  display: flex !important;
+  justify-content: space-between !important;
+  transition: all 0.3s;
+}
+.gallery_box_in {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center center;
+  background-size: cover;
+  transition: all 0.3s;
+  transform: translateZ(450px);
+  /* transform: rotateY(0deg) translateZ(450px); */
+}
+.gallery_box_in img {
+  max-width: 100%;
+}
+
+.gallery_box_in:nth-child(1) {
+  transform: rotateY(0deg) translateZ(450px);
+}
+.gallery_box_in:nth-child(2) {
+  transform: rotateY(40deg) translateZ(450px);
+}
+.gallery_box_in:nth-child(3) {
+  transform: rotateY(80deg) translateZ(450px);
+}
+.gallery_box_in:nth-child(4) {
+  transform: rotateY(120deg) translateZ(450px);
+}
+.gallery_box_in:nth-child(5) {
+  transform: rotateY(160deg) translateZ(450px);
+}
+.gallery_box_in:nth-child(6) {
+  transform: rotateY(200deg) translateZ(450px);
+}
+.gallery_box_in:nth-child(7) {
+  transform: rotateY(240deg) translateZ(450px);
+}
+.gallery_box_in:nth-child(8) {
+  transform: rotateY(280deg) translateZ(450px);
+}
+.gallery_box_in:nth-child(9) {
+  transform: rotateY(320deg) translateZ(450px);
+}
+@media (max-width: 1600px) {
+  .servicesCard {
+    height: 410vh;
+  }
+}
+
+@media (max-width: 991px) {
+  .work2 {
+    display: none;
+  }
+  .servicesCard_wrapper_mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 40px;
+  }
+  .servicesCard_wrapper_mobile img {
+    width: 48%;
+  }
+  .servicesCard {
+    height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .servicesCard_wrapper_mobile {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 20px;
+    flex-direction: column;
+  }
+  .servicesCard_wrapper_mobile img {
+    width: 100%;
+  }
+}

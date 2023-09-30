@@ -106,3 +106,15 @@
     
 }
 }
+
+@media(max-width:767px){
+  .x {
+    height: 60vh;
+  }
+  .one {
+    bottom: 10rem;
+  }
+  .two {
+    bottom: 10rem;
+  }
+}

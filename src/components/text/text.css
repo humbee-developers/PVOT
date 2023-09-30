@@ -1,10 +1,10 @@
 .main {
   display: flex;
-  height: 100vh;
-  align-items: center;
+  height: 120vh;
+  align-items: end;
   justify-content: center;
-  /* margin-bottom: 100vh; */
   font-family: "FONTSPRING";
+  padding: 0 0 20rem;
 }
 
 .body {
@@ -25,12 +25,13 @@
 }
 @media (max-width: 991px) {
   .main {
-    height: 75vh;
+    height: 110vh;
   }
 }
 @media (max-width: 767px) {
   .main {
-    height: 50vh;
+    height: 100vh;
+    align-items: end;
   }
   .body {
     width: 80%;

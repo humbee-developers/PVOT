@@ -26,14 +26,14 @@ function LottieAnimation() {
     if (inView) {
       controls.start({
         opacity: 1,
-        scale: 0.5, 
+        scale: 0.5, // Set the scale to 2.4 when in view
         transition: { duration: 3 },
 
       });
     } else {
       controls.start({
         opacity: 1,
-        scale: 0.2, 
+        scale: 0.2, // Set the scale to 0.4 when out of view
       });
     }
   }, [inView, controls]);
@@ -42,9 +42,9 @@ function LottieAnimation() {
     
 
  <div style={{backgroundColor:"black"}}>
- <section scroller="0" class="c-section cc-highlights">
-   <div class="c-transition">
-     <div class="c-section cc-transition">
+ <section scroller="0" className="c-section cc-highlights">
+   <div className="c-transition">
+     <div className="c-section cc-transition">
          
            <Rooler/>   
            <motion.div

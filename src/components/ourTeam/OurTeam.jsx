@@ -1,6 +1,3 @@
-
-import React from 'react'
-
 import Rectangle1 from "../../images/Rectangle1.png";
 import Rectangle2 from "../../images/Rectangle2.png";
 import Rectangle3 from "../../images/Rectangle3.png";
@@ -9,29 +6,40 @@ import Rectangle5 from "../../images/Rectangle5.png";
 import Rectangle6 from "../../images/Rectangle6.png";
 import Rectangle7 from "../../images/Rectangle7.png";
 import Rectangle8 from "../../images/Rectangle8.png";
+import logoSectionImage from "../../images/logo_section.png";
+import { useInView } from "react-intersection-observer";
 import "./ourTeam.css";
 
 const OurTeam = () => {
+  const [ref, inView] = useInView(500);
+
   return (
-    <div className="" style={{ backgroundColor: "black" }}>
-      <section id="clients" className="c-section cc-clients">
+    <div className="" style={{ backgroundColor: "black", padding: "0 0 30px" }}>
+      <section id="clients" className="c-section team_client cc-clients">
         <div className="c-clients-bg-sticky">
           <div className="c-clients-bg">
             <div className="c-text-wrapper cc-people">
-              <div className="c-title-4 cc-bold">We thank our </div>
+              <div className="c-title-4 cc-bold">We thank our</div>
               <div className="c-clients-words">
-                <div
-                  data-w-id="0d92ac70-188b-eaec-0989-3053937ea7ca"
-                  className="c-title-4 cc-bold"
-                >
-                  people
-                </div>
-                <div
-                  data-w-id="3c2df8c3-511e-8cc5-2dae-7e225afab2c4"
-                  className="c-title-4 cc-bold"
-                >
-                  partners and clients
-                </div>
+                {inView !== true && (
+                  <div
+                    data-w-id="0d92ac70-188b-eaec-0989-3053937ea7ca"
+                    className={`c-title-4 cc-bold ${
+                      inView !== true && "peopleText"
+                    }`}
+                  >
+                    {" "}
+                    people
+                  </div>
+                )}
+                {inView && (
+                  <div
+                    data-w-id="3c2df8c3-511e-8cc5-2dae-7e225afab2c4"
+                    className={`c-title-4 cc-bold ${inView && "clientText"}`}
+                  >
+                    partners and clients
+                  </div>
+                )}
               </div>
             </div>
 
@@ -51,7 +59,7 @@ const OurTeam = () => {
                 </div>
                 <img
                   src={Rectangle1}
-                  loading="lazy"
+                  loading=" "
                   alt=""
                   className="c-team-card_image"
                 />
@@ -164,6 +172,9 @@ const OurTeam = () => {
                   <div className="c-text-3 cc-bold">Aiden Rodriguez</div>
                 </div>
               </div>
+            </div>
+            <div className="logo_image" ref={ref}>
+              <img src={logoSectionImage} alt="team" />
             </div>
           </div>
         </div>
