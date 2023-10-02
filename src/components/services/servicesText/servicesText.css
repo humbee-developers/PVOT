@@ -1,9 +1,7 @@
 .mainxx {
   position: relative;
-  /* display: flex; */
   height: 130vh;
   background-color: black;
-  /* margin-bottom: 60vh; */
 
   overflow: hidden;
 }
