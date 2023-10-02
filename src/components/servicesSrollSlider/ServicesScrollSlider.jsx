@@ -57,21 +57,27 @@ const ServicesScrollSlider = () => {
           <div className="gallery_box_outer" ref={ref2}>
             <div className="gallery_box_in">
               <img src={sliderImage} alt="sliderImage" />
+              <div className="servicesCardText">Digital Marketing</div>
             </div>
             <div className="gallery_box_in">
               <img src={sliderImage} alt="sliderImage" />
+              <div className="servicesCardText">Content Marketing</div>
             </div>
             <div className="gallery_box_in">
               <img src={sliderImage} alt="sliderImage" />
+              <div className="servicesCardText">Branding & Advertising</div>
             </div>
             <div className="gallery_box_in">
               <img src={sliderImage} alt="sliderImage" />
+              <div className="servicesCardText">Web Development</div>
             </div>
             <div className="gallery_box_in">
               <img src={sliderImage} alt="sliderImage" />
+              <div className="servicesCardText">Creative Visualisation</div>
             </div>
             <div className="gallery_box_in">
               <img src={sliderImage} alt="sliderImage" />
+              <div className="servicesCardText">Marketing Consulting</div>
             </div>
             {/* <div className="gallery_box_in">
               <img src={sliderImage} alt="sliderImage" />
@@ -96,12 +102,24 @@ const ServicesScrollSlider = () => {
         </div>
 
         <div className="servicesCard_wrapper_mobile">
-          <img src={sliderImage} alt="slide1" />
-          <img src={sliderImage} alt="slide1" />
-          <img src={sliderImage} alt="slide1" />
-          <img src={sliderImage} alt="slide1" />
-          <img src={sliderImage} alt="slide1" />
-          <img src={sliderImage} alt="slide1" />
+          <div className="serviceCard_mobile">
+            <img src={sliderImage} alt="slide1" />
+          </div>
+          <div className="serviceCard_mobile">
+            <img src={sliderImage} alt="slide1" />
+          </div>
+          <div className="serviceCard_mobile">
+            <img src={sliderImage} alt="slide1" />
+          </div>
+          <div className="serviceCard_mobile">
+            <img src={sliderImage} alt="slide1" />
+          </div>
+          <div className="serviceCard_mobile">
+            <img src={sliderImage} alt="slide1" />
+          </div>
+          <div className="serviceCard_mobile">
+            <img src={sliderImage} alt="slide1" />
+          </div>
         </div>
       </div>
     </div>
