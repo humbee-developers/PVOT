@@ -2,7 +2,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import "./serviceScrollSlider.css";
 import { useEffect, useRef } from "react";
-import sliderImage from "../../images/slider_image1.png";
+import sliderImage from "../../images/servicesImage.jpg";
 import "./serviceScrollSlider.css";
 
 const ServicesScrollSlider = () => {
@@ -104,21 +104,27 @@ const ServicesScrollSlider = () => {
         <div className="servicesCard_wrapper_mobile">
           <div className="serviceCard_mobile">
             <img src={sliderImage} alt="slide1" />
+            <div className="servicesCardText">Digital Marketing</div>
           </div>
           <div className="serviceCard_mobile">
             <img src={sliderImage} alt="slide1" />
+            <div className="servicesCardText">Content Marketing</div>
           </div>
           <div className="serviceCard_mobile">
             <img src={sliderImage} alt="slide1" />
+            <div className="servicesCardText">Branding & Advertising</div>
           </div>
           <div className="serviceCard_mobile">
             <img src={sliderImage} alt="slide1" />
+            <div className="servicesCardText">Web Development</div>
           </div>
           <div className="serviceCard_mobile">
             <img src={sliderImage} alt="slide1" />
+            <div className="servicesCardText">Creative Visualisation</div>
           </div>
           <div className="serviceCard_mobile">
             <img src={sliderImage} alt="slide1" />
+            <div className="servicesCardText">Marketing Consulting</div>
           </div>
         </div>
       </div>
