@@ -18,7 +18,7 @@
 }
 .work2 {
   position: relative;
-  padding: 150px 0; 
+  padding: 150px 0;
   background-color: #000;
 
   display: block;
@@ -73,6 +73,10 @@
 }
 .gallery_box_in:nth-child(6) {
   transform: rotateY(300deg) translateZ(550px);
+}
+.servicesCardText {
+  text-align: center;
+  color: white;
 }
 /* .gallery_box_in:nth-child(7) {
   transform: rotateY(240deg) translateZ(450px);
@@ -151,14 +155,20 @@
     justify-content: space-between;
     margin: 0 40px;
   }
-  .servicesCard_wrapper_mobile img {
+  .serviceCard_mobile{
     width: 48%;
+  }
+  .servicesCard_wrapper_mobile img {
+    width: 100%;
   }
   .servicesCard {
     height: 100%;
     padding: 100px 0 0;
   }
- 
+  .servicesCardText{
+    font-size: 28px;
+    margin: 20px 0 40px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -168,11 +178,12 @@
     margin: 0 20px;
     flex-direction: column;
   }
-  .servicesCard_wrapper_mobile img {
+  .serviceCard_mobile {
     width: 100%;
   }
   .servicesText_mobile h2 {
     font-size: 40px;
     margin: 30px 0 40px;
   }
+ 
 }

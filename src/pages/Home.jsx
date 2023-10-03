@@ -9,8 +9,8 @@ import Testimonial from "../components/testimonial/Testimonial";
 // import Animation from "../components/animation/Animation";
 // import Rooler from "../components/roler/Rooler";
 import Card from "../components/card/Card";
-// import Amazing2023 from "../components/amazing2023/Amazing2023";
-import ContactUs from "../components/contactUs/ContactUs";
+import Amazing2023 from "../components/amazing2023/Amazing2023";
+// import ContactUs from "../components/contactUs/ContactUs";
 import Text from "../components/text/Text";
 // import TextRevealEffect from "../components/roler/Rooler";
 // import ServicesText from "../components/services/servicesText/ServicesText";
@@ -50,8 +50,8 @@ const Home = () => {
       <OurTeam />
       {/* <LogoSection /> */}
       <Testimonial />
-      {/* <Amazing2023 /> */}
-      <ContactUs />
+      <Amazing2023 />
+      {/* <ContactUs /> */}
     </Fragment>
   );
 };
