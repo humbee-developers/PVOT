@@ -34,7 +34,7 @@ function ServicesTextExp() {
               start: "top 100%",
               end: "top top",
             },
-            transition: "0.5s ease-out",
+            transition: "1s ease-out",
           }
         );
       });
