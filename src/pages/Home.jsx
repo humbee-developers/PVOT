@@ -26,7 +26,7 @@ const Home = () => {
       <HeroSection />
       <Text
         text={
-          "Whether it’s brand or website, WE LOVE DETAILS Focused on Details and empowering brands to grow."
+          "Whether it’s brand or website WE LOVE DETAILS Focused on Details and empowering brands to grow."
           
         }
       />
