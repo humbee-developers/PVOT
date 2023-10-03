@@ -22,21 +22,73 @@ const Amazing2023 = () => {
         end: "bottom+=3000px center-=200px",
         scrub: true,
         pin: true,
+        onUpdate: (scrollTrigger) => {
+          const scrollProgress = scrollTrigger.progress;
+          const scrollSpeed = 1 + scrollProgress * 2; // Adjust this factor as needed
+  
+          // Update the animation's time
+          tl.time(scrollSpeed * scrollProgress);
+        },
       },
     });
-
+  
     tl.to(".scrolling-icon", {
-      duration: 20,
+      duration: 0.1,
       x:
         (checkWidth < 1200 ? 450 : 550) ||
         (checkWidth < 991 ? 320 : 450) ||
         (checkWidth < 767 ? 250 : 320),
       ease: "none",
-   
     });
-    //  550, 450, 370, 280, 150
   }, [checkWidth]);
-  console.log(checkWidth);
+  
+  
+  
+
+  useEffect(() => {
+    const t2 = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".amazing",
+        start: "top center-=350px",
+        end: "bottom+=30px center-=20px",
+        scrub: true,
+    
+      },
+    });
+
+    t2.to(".lastText", {
+      duration: 1,
+      y:150,
+      ease: "none",
+      opacity:0
+    });
+  }, [checkWidth]);
+
+  useEffect(() => {
+    const t3 = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".amazing",
+        start: "top center-=350px",
+        end: "bottom+=30px center-=20px",
+        opacity:"0",
+        scrub: true,
+    
+      },
+    });
+
+    t3.to(".lastText1", {
+      duration: 1,
+      delay:1,
+      y:195,
+      ease: "none",
+      opacity:1
+    });
+  }, [checkWidth]);
+
+
+
+
+
   return (
     <div className="amazing_animation">
       <div className="amazing">
@@ -63,7 +115,8 @@ const Amazing2023 = () => {
                 </div>
               </div>
               <span>2</span>
-              <span className="lastText">3</span>
+              <span className="lastText">2</span>
+              <span style={{position:"absolute",right:"13%",top:"-34%",opacity:"0"}} className="lastText1">3</span>
             </div>
           </div>
 
@@ -85,4 +138,5 @@ const Amazing2023 = () => {
     </div>
   );
 };
+
 export default Amazing2023;

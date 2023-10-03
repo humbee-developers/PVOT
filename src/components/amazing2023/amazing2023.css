@@ -19,8 +19,9 @@
 }
 .amazing_heading h2 {
   font-family: "FONTSPRING-black";
-  font-size: 89.971px;
+  font-size: 70px;
   font-weight: 850;
+  margin-right: 8rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -72,8 +73,8 @@
 
 .scrolling-icon {
   position: absolute;
-  top: 87%;
-  left: 28%;
+  top: 116%;
+  left: 13%;
   transform: translate(-50%, -50%);
   font-size: 24px;
   transition: left 1s ease-out;
@@ -141,3 +142,5 @@
     font-size: 140px;
   }
 }
+
+

@@ -95,7 +95,14 @@
     top: -100%;
   }
 }
+
+@media (max-width: 1550px) {
+  .servicesCard {
+    height: 570vh;
+  }
+}
 @media (max-width: 1440px) {
+  
   .gallery_box_in:nth-child(1) {
     transform: rotateY(0deg) translateZ(450px);
   }
