@@ -26,13 +26,13 @@ const Amazing2023 = () => {
     });
 
     tl.to(".scrolling-icon", {
-      duration: 20,
-      x:
-        (checkWidth < 1200 ? 450 : 550) ||
-        (checkWidth < 991 ? 320 : 450) ||
-        (checkWidth < 767 ? 250 : 320),
+      duration: 1,
+      position:"absolute",
+      x:"150%",
+        // (checkWidth < 1200 ? 450 : 550) ||
+        // (checkWidth < 991 ? 320 : 450) ||
+        // (checkWidth < 767 ? 250 : 320),
       ease: "none",
-   
     });
     //  550, 450, 370, 280, 150
   }, [checkWidth]);
@@ -70,10 +70,10 @@ const Amazing2023 = () => {
           <div className="amazing_bgHeading">
             <motion.h2
               className="service-text"
-              initial={{ y: 1000 }}
-              animate={{ y: 20 }}
+              initial={{ y: 250, opacity: 0 }}
+              animate={{ y: 20, opacity: 1 }}
               transition={{
-                duration: 1,
+                duration: 0.5,
                 delay: 1,
               }}
             >

@@ -7,7 +7,7 @@ import OurTeam from "../components/ourTeam/OurTeam";
 // import LogoSection from "../components/logoSection/LogoSection";
 import Testimonial from "../components/testimonial/Testimonial";
 // import Animation from "../components/animation/Animation";
-// import Rooler from "../components/roler/Rooler";
+import Rooler from "../components/roler/Rooler";
 import Card from "../components/card/Card";
 import Amazing2023 from "../components/amazing2023/Amazing2023";
 // import ContactUs from "../components/contactUs/ContactUs";
@@ -34,6 +34,7 @@ const Home = () => {
       <LottieAnimation />
       {/* <ServicesText /> */}
       <ServicesTextExp />
+      <ServicesScrollSlider />
       {/* <Services /> */}
       {/* <MyComponent /> */}
    
@@ -42,6 +43,7 @@ const Home = () => {
           "Standing out from the crowd is not easy, but with a distinctive brand design you are almost there. A creative tailor-made suit, for your brand!"
         }
       />
+      <Rooler firstText={"Crafting"} lastText={"Experiences"} />
       <BgTransition />
       <Card />
       {/* <Stack /> */}

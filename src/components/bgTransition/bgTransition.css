@@ -1,7 +1,8 @@
 .bgTransition {
-  min-height: 500px;
+  min-height: 800px;
   position: relative;
   background-color: #7443ff;
+  overflow: hidden;
 }
 .bgTransition_wrapper {
   display: flex;
@@ -18,7 +19,7 @@
   width: 100%;
   background-color: #000;
   height: 100%;
-  transition: all 0.5s;
+  transition: all 1s ease-out;
 }
 /* .bgTransition_2 {
   width: 25%;

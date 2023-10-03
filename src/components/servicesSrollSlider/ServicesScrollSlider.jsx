@@ -57,39 +57,48 @@ const ServicesScrollSlider = () => {
           <div className="gallery_box_outer" ref={ref2}>
             <div className="gallery_box_in">
               <img src={sliderImage} alt="sliderImage" />
-              <div className="servicesCardText">Digital Marketing</div>
+              <div className="servicesCardText">
+                {" "}
+                Integrated Marketing Solutions
+              </div>
             </div>
             <div className="gallery_box_in">
               <img src={sliderImage} alt="sliderImage" />
-              <div className="servicesCardText">Content Marketing</div>
+              <div className="servicesCardText">
+                Digital Content Creation and SEO
+              </div>
             </div>
             <div className="gallery_box_in">
               <img src={sliderImage} alt="sliderImage" />
-              <div className="servicesCardText">Branding & Advertising</div>
+              <div className="servicesCardText">
+                Digital & Performance Marketing
+              </div>
             </div>
             <div className="gallery_box_in">
               <img src={sliderImage} alt="sliderImage" />
-              <div className="servicesCardText">Web Development</div>
+              <div className="servicesCardText">
+                Video Production and Photography
+              </div>
             </div>
             <div className="gallery_box_in">
               <img src={sliderImage} alt="sliderImage" />
-              <div className="servicesCardText">Creative Visualisation</div>
+              <div className="servicesCardText">Technology and Design</div>
             </div>
             <div className="gallery_box_in">
               <img src={sliderImage} alt="sliderImage" />
-              <div className="servicesCardText">Marketing Consulting</div>
-            </div>
-            {/* <div className="gallery_box_in">
-              <img src={sliderImage} alt="sliderImage" />
+              <div className="servicesCardText"> Branding & Advertising</div>
             </div>
             <div className="gallery_box_in">
-              {" "}
               <img src={sliderImage} alt="sliderImage" />
+              <div className="servicesCardText">Media Planning and Buying</div>
             </div>
             <div className="gallery_box_in">
-              {" "}
               <img src={sliderImage} alt="sliderImage" />
-            </div> */}
+              <div className="servicesCardText">
+                {" "}
+                E-commerce Strategy and Execution
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -104,11 +113,32 @@ const ServicesScrollSlider = () => {
         <div className="servicesCard_wrapper_mobile">
           <div className="serviceCard_mobile">
             <img src={sliderImage} alt="slide1" />
-            <div className="servicesCardText">Digital Marketing</div>
+            <div className="servicesCardText">
+              {" "}
+              Integrated Marketing Solutions
+            </div>
           </div>
           <div className="serviceCard_mobile">
             <img src={sliderImage} alt="slide1" />
-            <div className="servicesCardText">Content Marketing</div>
+            <div className="servicesCardText">
+              Digital Content Creation and SEO
+            </div>
+          </div>
+          <div className="serviceCard_mobile">
+            <img src={sliderImage} alt="slide1" />
+            <div className="servicesCardText">
+              Digital & Performance Marketing
+            </div>
+          </div>
+          <div className="serviceCard_mobile">
+            <img src={sliderImage} alt="slide1" />
+            <div className="servicesCardText">
+              Video Production and Photography
+            </div>
+          </div>
+          <div className="serviceCard_mobile">
+            <img src={sliderImage} alt="slide1" />
+            <div className="servicesCardText">Technology and Design</div>
           </div>
           <div className="serviceCard_mobile">
             <img src={sliderImage} alt="slide1" />
@@ -116,15 +146,13 @@ const ServicesScrollSlider = () => {
           </div>
           <div className="serviceCard_mobile">
             <img src={sliderImage} alt="slide1" />
-            <div className="servicesCardText">Web Development</div>
+            <div className="servicesCardText">Media Planning and Buying</div>
           </div>
           <div className="serviceCard_mobile">
             <img src={sliderImage} alt="slide1" />
-            <div className="servicesCardText">Creative Visualisation</div>
-          </div>
-          <div className="serviceCard_mobile">
-            <img src={sliderImage} alt="slide1" />
-            <div className="servicesCardText">Marketing Consulting</div>
+            <div className="servicesCardText">
+              E-commerce Strategy and Execution
+            </div>
           </div>
         </div>
       </div>
