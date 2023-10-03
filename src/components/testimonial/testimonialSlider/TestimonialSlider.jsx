@@ -32,8 +32,8 @@ const TestimonialSlider = () => {
               <div className="testimonial_slide_heading_sec">
                 <h3 className="testimonial_slider_heading">
                   <img src={quote} alt="quate" />
-                  Awsmd focuses on the end-user and helps improve retention.
-                  They excel in user experience and big-picture thinking.
+                  Their attention to detail is unmatched. They took the time to understand
+                  our brand, and it paid off in the results.
                 </h3>
               </div>
               <div className="testimonial_slider_client">
@@ -56,8 +56,8 @@ const TestimonialSlider = () => {
               <div className="testimonial_slide_heading_sec">
                 <h3 className="testimonial_slider_heading">
                   <img src={quote} alt="quate" />
-                  Awsmd focuses on the end-user and helps improve retention.
-                  They excel in user experience and big-picture thinking.
+                  PVOT doesn't just create websites; they craft digital masterpieces. Our
+                  brand's online presence has never been more captivating.
                 </h3>
               </div>
               <div className="testimonial_slider_client">
@@ -80,8 +80,8 @@ const TestimonialSlider = () => {
               <div className="testimonial_slide_heading_sec">
                 <h3 className="testimonial_slider_heading">
                   <img src={quote} alt="quate" />
-                  Awsmd focuses on the end-user and helps improve retention.
-                  They excel in user experience and big-picture thinking.
+                  PVOT focuses on the end-user and helps improve retention. They excel in
+                  user experience and big-picture thinking.
                 </h3>
               </div>
               <div className="testimonial_slider_client">

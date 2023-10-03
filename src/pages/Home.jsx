@@ -26,7 +26,8 @@ const Home = () => {
       <HeroSection />
       <Text
         text={
-          "With an amazing team in place, in our second year we focused on pushing boundaries and empowering brands to grow"
+          "Whether it’s brand or website, WE LOVE DETAILS Focused on Details and empowering brands to grow."
+          
         }
       />
       {/* <TextRevealEffect /> */}
@@ -35,10 +36,10 @@ const Home = () => {
       <ServicesTextExp />
       {/* <Services /> */}
       {/* <MyComponent /> */}
-      <ServicesScrollSlider />
+   
       <Text
         text={
-          "We use Webflow as a development tool to push boundaries and redefine what's possible with a design driven approach."
+          "Standing out from the crowd is not easy, but with a distinctive brand design you are almost there. A creative tailor-made suit, for your brand!"
         }
       />
       <BgTransition />

@@ -165,7 +165,7 @@ const Footer = () => {
         </div>
         <div className="footer-end" style={{ marginTop: "80px" }}>
           <p className="footer-end-text">
-            © Awsmd 2023. All rights reserved
+            © PVOT 2023. All rights reserved
             <span className="footer-end-span"></span>
             <a className="footer-end-link" href="">
               Privacy Policy
