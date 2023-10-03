@@ -37,7 +37,7 @@ const Home = () => {
       <ServicesScrollSlider />
       {/* <Services /> */}
       {/* <MyComponent /> */}
-   
+
       <Text
         text={
           "Standing out from the crowd is not easy, but with a distinctive brand design you are almost there. A creative tailor-made suit, for your brand!"

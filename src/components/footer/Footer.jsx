@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./footer.css";
 import btnArrow from "../../images/btn_arrow.svg";
 import crossArrow from "../../images/crossArrow.svg";
+import logo from "../../images/PVOT-Design-Final-Logo-White.png";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 // import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
@@ -11,7 +12,9 @@ const Footer = () => {
   return (
     <div className="footer">
       <Container className="container">
-        <div className="logo">LOGO</div>
+        <div className="logo">
+          <img src={logo} alt="logo" className="logo" />
+        </div>
         <div className="main-footer">
           <div className="main-footer-left">
             <h2 className="footer-heading-text">
@@ -87,7 +90,7 @@ const Footer = () => {
                           icon={faArrowUp}
                           style={{ color: "#8b8b8b" }}
                         /> */}
-                         <img src={crossArrow} alt="btnArrow" />
+                        <img src={crossArrow} alt="btnArrow" />
                       </span>
                     </a>
                   </li>

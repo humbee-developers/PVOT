@@ -7,12 +7,12 @@ import "./animation.css"
 function LottieAnimation() {
   const controls = useAnimation();
   const [ref, inView] = useInView();
-
+ 
   useEffect(() => {
     const container = document.querySelector('.c-sphere-lottie');
     const anim = lottie.loadAnimation({
       container,
-      path: 'https://assets.website-files.com/63b386e70e89095e936cc9c2/63b7a56290828f5d7ac9bde4_sphere.json', // Replace with your animation URL
+      path: 'https://assets.website-files.com/63b386e70e89095e936cc9c2/63b7a56290828f5d7ac9bde4_sphere.json', 
       renderer: 'svg',
       loop: true,
       autoplay: true,
