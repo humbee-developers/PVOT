@@ -101,10 +101,9 @@
     top: -100%;
   }
 }
-
-@media (max-width: 1550px) {
+@media(max-width:1550px){
   .servicesCard {
-    height: 570vh;
+    height: 485vh;
   }
 }
 @media (max-width: 1440px) {

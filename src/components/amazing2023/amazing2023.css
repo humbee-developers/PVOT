@@ -73,8 +73,8 @@
 
 .scrolling-icon {
   position: absolute;
-  top: 116%;
-  left: 13%;
+  top: 88%;
+  left: 29%;
   transform: translate(-50%, -50%);
   font-size: 24px;
   transition: left 1s ease-out;
@@ -139,8 +139,50 @@
     width: 45px;
   }
   .amazing_bgHeading h2 {
-    font-size: 140px;
+    font-size: 130px;
   }
+  .amazing_heading h2 {
+    font-size: 50px;
+    margin: 0;
+}
+.amazing_year span {
+  font-size: 85px;
+  line-height: 90px;
+}
+.ball_text {
+  font-size: 33px;
+  margin: 13px 0 0;
+}
 }
 
+@media(max-width:575px){
+  .amazing_bgHeading h2 {
+    font-size: 60px;
+  }
+  .amazing_heading h2 {
+    font-size: 18px;
+    line-height: 30px;
+}
+.ball_text {
+  font-size: 19px;
+  margin: 5px 0 0;
+}
+img.ball_image {
+  width: 22px;
+}
+.ball_container {
+  margin: 0;
+}
+.amazing_year span {
+  font-size: 45px;
+  line-height: 58px;
+}
+.amazing_bgHeading {
+  top: 8%;
+}
+.scrolling-icon {
+  top: 92%;
+  left: 37%;
+}
+}
 

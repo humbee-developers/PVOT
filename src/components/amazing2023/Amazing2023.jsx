@@ -35,7 +35,9 @@ const Amazing2023 = () => {
     tl.to(".scrolling-icon", {
       duration: 0.1,
       x:
-        550,
+        (checkWidth < 1200 ? 450 : 550) ||
+        (checkWidth < 991 ? 320 : 450) ||
+        (checkWidth < 767 ? 250 : 320),
       ease: "none",
     });
   }, [checkWidth]);
@@ -114,7 +116,7 @@ const Amazing2023 = () => {
               </div>
               <span>2</span>
               <span className="lastText">2</span>
-              <span style={{position:"absolute",right:"13%",top:"-34%",opacity:"0"}} className="lastText1">3</span>
+              <span style={{position:"absolute",right:"16%",top:"-34%",opacity:"0"}} className="lastText1">3</span>
             </div>
           </div>
 
