@@ -19,7 +19,7 @@ const Amazing2023 = () => {
       scrollTrigger: {
         trigger: ".amazing",
         start: "top center-=400px",
-        end: "bottom+=3000px center-=200px",
+        end: "bottom+=200px center-=200px",
         scrub: true,
         pin: true,
         onUpdate: (scrollTrigger) => {
@@ -33,7 +33,7 @@ const Amazing2023 = () => {
     });
   
     tl.to(".scrolling-icon", {
-      duration: 0.1,
+      duration: 1,
       x:
         (checkWidth < 1200 ? 450 : 550) ||
         (checkWidth < 991 ? 320 : 450) ||
@@ -77,8 +77,8 @@ const Amazing2023 = () => {
     });
 
     t3.to(".lastText1", {
-      duration: 1,
-      delay:1,
+      duration: 2,
+      delay:2,
       y:195,
       ease: "none",
       opacity:1

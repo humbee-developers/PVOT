@@ -17,7 +17,7 @@ const TextRevealEffect = ({ firstText, lastText }) => {
     if (inView) {
       controlsLeftToRight.start({
         x: 1400,
-        opacity: [1, 0], // Animate opacity from 0.2 to 1
+        opacity: [1, 1], // Animate opacity from 0.2 to 1
         transition: {
           x: { type: "spring", stiffness: 6 },
           opacity: { duration: 2 },
@@ -26,7 +26,7 @@ const TextRevealEffect = ({ firstText, lastText }) => {
 
       controlsRightToLeft.start({
         x: -1500,
-        opacity: [1, 0], // Animate opacity from 0.2 to 1
+        opacity: [1, 1], // Animate opacity from 0.2 to 1
         transition: {
           x: { type: "spring", stiffness: 6 },
           opacity: { duration: 2 },
@@ -35,7 +35,7 @@ const TextRevealEffect = ({ firstText, lastText }) => {
     } else {
       controlsLeftToRight.start({
         x: -1200,
-        opacity: [1, 0], // Animate opacity from 0.2 to 1
+        opacity: [1, 1], // Animate opacity from 0.2 to 1
         transition: {
           x: { type: "spring", stiffness: 6 },
           opacity: { duration: 1 },
@@ -44,7 +44,7 @@ const TextRevealEffect = ({ firstText, lastText }) => {
 
       controlsRightToLeft.start({
         x: 1200,
-        opacity: [1, 0], // Animate opacity from 0.2 to 1
+        opacity: [1, 1], // Animate opacity from 0.2 to 1
         transition: {
           x: { type: "spring", stiffness: 6 },
           opacity: { duration: 0.5 },
