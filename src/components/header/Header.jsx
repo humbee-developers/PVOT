@@ -2,12 +2,13 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../../images/home-icon.svg";
+import home from "../../images/home-icon.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./header.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import FramerMagnetic from "../../../Common/magnetic";
+import logo from "../../images/PVOT-Design-Final-Logo-White.png"
 const Header = () => {
   const [active, setActive] = useState(false);
 
@@ -26,7 +27,7 @@ const Header = () => {
         <Navbar expand="lg" className="">
           <Container>
             <Link className="brand navbar-brand" to="/">
-              PVOT
+             <img src={logo} alt="logo" className="logo" />
             </Link>
             <Navbar.Toggle
               aria-controls="basic-navbar-nav"
@@ -54,7 +55,7 @@ const Header = () => {
                     style={{ backgroundColor: "white" }}
                   >
                   <FramerMagnetic>
-                    <img src={logo} alt="logo" />
+                    <img src={home} alt="logo" />
                     </FramerMagnetic>
                   </Link>
                   

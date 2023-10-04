@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import PropTypes from "prop-types";
 import "./rooler.css";
-const TextRevealEffect = () => {
+const TextRevealEffect = ({ firstText, lastText }) => {
   const [ref, inView] = useInView({
     triggerOnce: false, // Allow multiple triggers
     threshold: 0.5, // Adjust the threshold as needed
@@ -14,38 +15,38 @@ const TextRevealEffect = () => {
   useEffect(() => {
     if (inView) {
       controlsLeftToRight.start({
-        x: 1200, // Start from the left
+        x: 1400, // Start from the left
         opacity: 1,
         transition: {
-          x: { type: "spring", stiffness: 4 },
-          opacity: { duration: 2 },
+          x: { type: "spring", stiffness: 6 },
+          opacity: { duration: 1 },
         },
       });
 
       controlsRightToLeft.start({
-        x: -1400, // Start from the right
+        x: -1500, // Start from the right
         opacity: 1,
         transition: {
-          x: { type: "spring", stiffness: 4 },
-          opacity: { duration: 2 },
+          x: { type: "spring", stiffness: 6 },
+          opacity: { duration: 0.5 },
         },
       });
     } else {
       controlsLeftToRight.start({
-        x: -1100, // Animate back to the left when out of view
+        x: -1200, // Animate back to the left when out of view
         opacity: 1,
         transition: {
-          x: { type: "spring", stiffness: 4 },
-          opacity: { duration: 2 },
+          x: { type: "spring", stiffness: 6 },
+          opacity: { duration: 1 },
         },
       });
 
       controlsRightToLeft.start({
-        x: 1100, // Animate back to the right when out of view
+        x: 1200, // Animate back to the right when out of view
         opacity: 1,
         transition: {
-          x: { type: "spring", stiffness: 4 },
-          opacity: { duration: 2 },
+          x: { type: "spring", stiffness: 6 },
+          opacity: { duration: 0.5 },
         },
       });
     }
@@ -68,7 +69,7 @@ const TextRevealEffect = () => {
           animate={controlsLeftToRight}
           style={{}}
         >
-          Pushing
+          {firstText}
         </motion.div>
 
         {/* Duplicate the motion.div with the same animation properties */}
@@ -76,7 +77,9 @@ const TextRevealEffect = () => {
           className="roller-text xyz"
           initial={{ x: 1400, opacity: 1 }} // Start position from right
           animate={controlsRightToLeft}
-          style={{}}>boundaries
+          style={{}}
+        >
+          {lastText}
         </motion.div>
       </div>
     </div>
@@ -84,3 +87,8 @@ const TextRevealEffect = () => {
 };
 
 export default TextRevealEffect;
+
+TextRevealEffect.propTypes = {
+  firstText: PropTypes.string,
+  lastText: PropTypes.string,
+};

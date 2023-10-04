@@ -46,7 +46,7 @@ function LottieAnimation() {
    <div className="c-transition">
      <div className="c-section cc-transition">
          
-           <Rooler/>   
+           <Rooler firstText={"pushing"} lastText={"boundries"} />   
            <motion.div
            className="c-sphere-lottie-wrapper"
            ref={ref}

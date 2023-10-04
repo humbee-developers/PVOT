@@ -123,10 +123,10 @@ const Amazing2023 = () => {
           <div className="amazing_bgHeading">
             <motion.h2
               className="service-text"
-              initial={{ y: 1000 }}
-              animate={{ y: 20 }}
+              initial={{ y: 250, opacity: 0 }}
+              animate={{ y: 20, opacity: 1 }}
               transition={{
-                duration: 1,
+                duration: 0.5,
                 delay: 1,
               }}
             >
