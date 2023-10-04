@@ -100,7 +100,7 @@ const Amazing2023 = () => {
             <div className="amazing_year_wrapper">
               <span>2</span>
               <div className="ball_container">
-                <img src={amazing2023Image} alt="amazing_2023_image" />
+                <img src={amazing2023Image} className="ball-outer" alt="" />
 
                 <div className="scrolling-container">
                   <div className="scrolling-icon">
@@ -115,8 +115,8 @@ const Amazing2023 = () => {
                 </div>
               </div>
               <span>2</span>
-              <span className="lastText">2</span>
-              <span style={{position:"absolute",right:"16%",top:"-34%",opacity:"0"}} className="lastText1">3</span>
+              <span className="lastText" style={{marginLeft:"-5px"}}>2</span>
+              <span style={{position:"absolute",right:"11%",top:"-37%",opacity:"0"}} className="lastText1">3</span>
             </div>
           </div>
 

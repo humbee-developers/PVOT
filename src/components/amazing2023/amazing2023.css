@@ -28,9 +28,12 @@
 .amazing_year span {
   font-size: 230px;
   line-height: 150px;
+  margin-bottom: 31px;
+  margin-left: 30px;
 }
-.amazing_year img {
+.amazing_year .ball_image{
   max-width: 100%;
+
   display: block;
   transition: all 0.5s ease-out;
 }
@@ -48,6 +51,10 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+}
+.ball-outer{
+  width: 105% !important;
+
 }
 .amazing_bgHeading {
   position: absolute;
@@ -73,8 +80,8 @@
 
 .scrolling-icon {
   position: absolute;
-  top: 88%;
-  left: 29%;
+  top: 116%;
+  left: 14%;
   transform: translate(-50%, -50%);
   font-size: 24px;
   transition: left 1s ease-out;
