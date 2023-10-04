@@ -35,9 +35,7 @@ const Amazing2023 = () => {
     tl.to(".scrolling-icon", {
       duration: 0.1,
       x:
-        (checkWidth < 1200 ? 450 : 550) ||
-        (checkWidth < 991 ? 320 : 450) ||
-        (checkWidth < 767 ? 250 : 320),
+        550,
       ease: "none",
     });
   }, [checkWidth]);
