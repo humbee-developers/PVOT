@@ -5,13 +5,23 @@ export default function Framer({children}) {
     const ref = useRef(null);
     const [position, setPosition] = useState({x:0,y:0});
 
+    // const handleMouse = (e) => {
+    //     const { clientX, clientY } = e;
+    //     const {height, width, left, top} = ref.current.getBoundingClientRect();
+    //     const middleX = clientX - (left + width/2)
+    //     const middleY = clientY - (top + height/2)
+    //     setPosition({x: middleX, y: middleY})
+    // }
     const handleMouse = (e) => {
         const { clientX, clientY } = e;
-        const {height, width, left, top} = ref.current.getBoundingClientRect();
-        const middleX = clientX - (left + width/2)
-        const middleY = clientY - (top + height/2)
-        setPosition({x: middleX, y: middleY})
+        const { height, width, left, top } = ref.current.getBoundingClientRect();
+        const divisionFactor = 4; // Adjust this value to reduce the effect further
+        const middleX = (clientX - (left + width / 2)) / divisionFactor;
+        const middleY = (clientY - (top + height / 2)) / divisionFactor;
+        setPosition({ x: middleX, y: middleY });
     }
+    
+    
 
     const reset = () => {
         setPosition({x:0, y:0})

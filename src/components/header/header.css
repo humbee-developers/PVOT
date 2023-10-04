@@ -5,6 +5,9 @@
 .hero {
   background-color: black;
 }
+.navbar{
+  padding-top: 1rem;
+}
 .nav-link {
   color: white;
   border: 1px solid white;
