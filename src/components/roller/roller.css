@@ -18,6 +18,7 @@
     .yearz .t1z {
       font-size: 230px;
       line-height: 150px;
+      font-family: "FONTSPRING";
       opacity: 1;
       position: absolute;
       margin-bottom: 31px;
@@ -32,6 +33,7 @@
       position: absolute;
       left: 92rem;
       top: 9rem;
+      font-family: "FONTSPRING";
       margin-left: 30px;
     }
     .year_wrapperz {
