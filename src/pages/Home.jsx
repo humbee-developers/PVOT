@@ -20,7 +20,6 @@ import ServicesScrollSlider from "../components/servicesSrollSlider/ServicesScro
 import ServicesTextExp from "../components/services/setvicesTextExp/ServicesTextExp";
 // import MyComponent from "../components/services/newServiceText/NewServicesText";
 import Roller from "../components/roller/Roller";
-0;
 const Home = () => {
   return (
     <Fragment>

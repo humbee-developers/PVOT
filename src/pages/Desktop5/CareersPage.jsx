@@ -4,7 +4,7 @@ import RectangleCard from "../../../Common/RectangleCard";
 const CareerPage = () => {
   return (
     <div className="career_page" style={{ backgroundColor: "#000" }}>
-      <HeroHeading bigHeading={"Careers"} />
+      <HeroHeading bigHeading={"Careers"} hoverText={"Our Servicessss-"} />
       <CareerCard />
       <RectangleCard />
     </div>
