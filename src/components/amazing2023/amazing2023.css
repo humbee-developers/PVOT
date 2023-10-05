@@ -92,11 +92,6 @@
 }
 
 @media (max-width: 1199px) {
-.amazing_animation{
-  display: none;
-}
-
-
   .scrolling-icon {
     top: 96%;
     left: 35%;

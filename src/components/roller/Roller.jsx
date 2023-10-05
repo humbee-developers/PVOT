@@ -1,4 +1,4 @@
-import "./rooler.css";
+import "./roller.css";
 import { useEffect, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
@@ -13,7 +13,7 @@ const TextRevealEffect  = () => {
   useEffect(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: ".ama",
+        trigger: ".amaz",
         start: "top center-=400px",
         end: "bottom+=100px center-=200px",
         scrub: true,
@@ -32,15 +32,15 @@ const TextRevealEffect  = () => {
   useEffect(() => {
     const t3 = gsap.timeline({
       scrollTrigger: {
-        trigger: ".ama",
+        trigger: ".amaz",
         start: "top center-=350px",
         end: "bottom+=30px center-=20px",
-        opacity: "0",
+        opacity: "1",
         scrub: true,
       },
     });
 
-    t3.to(".t1", {
+    t3.to(".t1z", {
       duration: 1,
       delay: 0,
       x: 1250,
@@ -52,15 +52,15 @@ const TextRevealEffect  = () => {
   useEffect(() => {
     const t3 = gsap.timeline({
       scrollTrigger: {
-        trigger: ".ama",
+        trigger: ".amaz",
         start: "top center-=350px",
         end: "bottom+=30px center-=20px",
-        opacity: "0",
+        opacity: "1",
         scrub: true,
       },
     });
 
-    t3.to(".t2", {
+    t3.to(".t2z", {
       duration: 1,
       delay: 0,
       x: -1250,
@@ -70,13 +70,13 @@ const TextRevealEffect  = () => {
   }, [checkWidth]);
 
   return (
-    <div className="amazing_ani">
-      <div className="ama">
-        <div className="wrapper">
-          <div className="year">
-            <div className="year_wrapper">
-              <div className="t1">Pushing</div>
-              <div className="t2">Boundaries</div>
+    <div className="amazing_aniz">
+      <div className="amaz">
+        <div className="wrapperz">
+          <div className="yearz">
+            <div className="year_wrapperz">
+              <div className="t1z">Crafting</div>
+              <div className="t2z">Experiences</div>
             </div>
           </div>
         </div>

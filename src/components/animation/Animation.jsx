@@ -27,13 +27,13 @@ function LottieAnimation() {
       controls.start({
         opacity: 1,
         scale: 0.5, // Set the scale to 2.4 when in view
-        transition: { duration: 3 },
+        transition: { duration: 1 },
 
       });
     } else {
       controls.start({
         opacity: 1,
-        scale: 0.2, // Set the scale to 0.4 when out of view
+        scale: 0.5, // Set the scale to 0.4 when out of view
       });
     }
   }, [inView, controls]);
@@ -46,11 +46,11 @@ function LottieAnimation() {
    <div className="c-transition">
      <div className="c-section cc-transition">
          
-           <Rooler firstText={"pushing"} lastText={"boundries"} />   
+           <Rooler  />   
            <motion.div
            className="c-sphere-lottie-wrapper"
            ref={ref}
-           initial={{ opacity: 0, scale: 0.2 }}
+           initial={{ opacity: 0, scale: 0.5 }}
            animate={controls}>
            <div className="c-sphere-lottie" />
          </motion.div>

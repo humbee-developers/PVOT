@@ -48,9 +48,10 @@
 .c-transition {
   position: -webkit-sticky;
   position: sticky;
-  top: -200vh;
+  top: -100vh;
   z-index: 0;
-  min-height: 300vh;
+  min-height: 150vh;
+  height: 150vh;
 }
 .c-section.cc-projects {
   padding-bottom: 0;

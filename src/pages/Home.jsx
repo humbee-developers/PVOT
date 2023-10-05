@@ -7,7 +7,7 @@ import OurTeam from "../components/ourTeam/OurTeam";
 // import LogoSection from "../components/logoSection/LogoSection";
 import Testimonial from "../components/testimonial/Testimonial";
 // import Animation from "../components/animation/Animation";
-import Rooler from "../components/roler/Rooler";
+// import Rooler from "../components/roler/Rooler";
 import Card from "../components/card/Card";
 import Amazing2023 from "../components/amazing2023/Amazing2023";
 // import ContactUs from "../components/contactUs/ContactUs";
@@ -19,11 +19,13 @@ import LottieAnimation from "../components/animation/Animation";
 import ServicesScrollSlider from "../components/servicesSrollSlider/ServicesScrollSlider";
 import ServicesTextExp from "../components/services/setvicesTextExp/ServicesTextExp";
 // import MyComponent from "../components/services/newServiceText/NewServicesText";
+import Roller from "../components/roller/Roller";
 0;
 const Home = () => {
   return (
     <Fragment>
       <HeroSection />
+    
       <Text
         text={
           "Whether it’s brand or website WE LOVE DETAILS Focused on Details and empowering brands to grow."
@@ -43,7 +45,8 @@ const Home = () => {
           "Standing out from the crowd is not easy, but with a distinctive brand design you are almost there. A creative tailor-made suit, for your brand!"
         }
       />
-      <Rooler firstText={"Crafting"} lastText={"Experiences"} />
+      <Roller/>
+      
       <BgTransition />
       <Card />
       {/* <Stack /> */}

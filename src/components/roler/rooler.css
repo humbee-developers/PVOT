@@ -1,20 +1,54 @@
-.roller-text {
-  font-size: 15rem;
-  text-align: center;
-  color: white;
-  font-family: "FONTSPRING-black";
-  /* font-style: normal; */
-  text-transform: lowercase;
+.ama {
+  background-color: #000000;
+  color: #fff;
+  padding: 200px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-.roller-text.xyz {
-  font-family: "FONTSPRING-conMediumItalic";
-  font-weight: 550;
+.amazing_ani {
+  overflow: hidden;
+  background-color: #000000;
 }
+.wrapper {
+  position: relative;
+}
+
+.year .t1 {
+  font-size: 230px;
+  line-height: 150px;
+  opacity: 1;
+  position: absolute;
+  margin-bottom: 31px;
+  right: -1rem;
+  margin-left: 30px;
+}
+.t2 {
+  font-size: 230px;
+  line-height: 150px;
+  margin-bottom: 31px;
+  opacity: 1;
+  position: absolute;
+  left: 92rem;
+  top: 9rem;
+  margin-left: 30px;
+}
+.year_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 991px) {
-  .roller-text {
-    font-size: 68px;
+  .year .t2 {
+    font-size: 85px;
+    left: 23rem;
+    top: 7rem;
   }
-  .xyz {
-    margin-top: 10rem;
+  .year .t1 {
+    position: absolute;
+    font-size: 80px;
+    right: 0rem;
   }
 }
