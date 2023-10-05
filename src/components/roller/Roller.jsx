@@ -76,7 +76,7 @@ const TextRevealEffect  = () => {
           <div className="yearz">
             <div className="year_wrapperz">
               <div className="t1z">Crafting</div>
-              <div className="t2z">Experiences</div>
+              <div className="t2z">Experience</div>
             </div>
           </div>
         </div>
