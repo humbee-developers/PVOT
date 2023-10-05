@@ -19,7 +19,7 @@ import LottieAnimation from "../components/animation/Animation";
 import ServicesScrollSlider from "../components/servicesSrollSlider/ServicesScrollSlider";
 import ServicesTextExp from "../components/services/setvicesTextExp/ServicesTextExp";
 // import MyComponent from "../components/services/newServiceText/NewServicesText";
-0;
+// 0;
 const Home = () => {
   return (
     <Fragment>
