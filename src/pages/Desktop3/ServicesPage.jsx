@@ -9,7 +9,7 @@ import hoverImage from "../../images/i2.webp"
 
 const servicesPageCardContent = [
   {
-    title: "C2 Montreal",
+    title: "Digital Content Creation & SEO",
     src: "c2montreal.png",
     // color: "#000000",
     description:
@@ -17,21 +17,43 @@ const servicesPageCardContent = [
       image:hoverImage
   },
   {
-    title: "Office Studio",
+    title: "Digital & Performance Marketing",
     src: "officestudio.png",
     // color: "#8C8C8C",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
+      image:hoverImage
   },
   {
-    title: "Locomotive",
+    title: "Video Production and Photography",
     src: "locomotive.png",
     // color: "#EFE8D3",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
   },
   {
-    title: "Silencio",
+    title: "Technology and Design",
+    src: "silencio.png",
+    // color: "#706D63",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
+  },
+  {
+    title: "Branding & Advertising",
+    src: "silencio.png",
+    // color: "#706D63",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
+  },
+  {
+    title: "Media Planning and Buying",
+    src: "silencio.png",
+    // color: "#706D63",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
+  },
+  {
+    title: "E-commerce Strategy and Execution",
     src: "silencio.png",
     // color: "#706D63",
     description:

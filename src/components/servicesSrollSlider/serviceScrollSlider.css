@@ -35,7 +35,8 @@
 }
 .gallery_box_outer {
   width: 300px;
-  height: 200px;
+  /* height: 120px;                                                  this height 120px is working in laptop perfect and smooth */
+  height: 120px;
   position: relative;
   transform: perspective(1000px);
   transform-style: preserve-3d;
@@ -49,11 +50,12 @@
   position: absolute;
   background-position: center center;
   background-size: cover;
-  transition: all 0.3s;
+  transition: all 0.5s;
   transform: translateZ(450px);
 }
 .gallery_box_in img {
   max-width: 100%;
+  border-radius: 15px;
 }
 
 .gallery_box_in:nth-child(1) {
@@ -97,9 +99,9 @@
   .servicesCard {
     height: 410vh;
   }
-  .servicesText {
-    top: -100%;
-  }
+  /* .servicesText {
+    top: -100%;                     in laptop view this top is not working 
+  } */
 }
 @media(max-width:1550px){
   .servicesCard {

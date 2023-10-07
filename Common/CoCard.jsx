@@ -119,7 +119,7 @@ export default function commonCard({ modal, projects }) {
                 style={{ backgroundColor: color }}
                 key={`modal_${index}`}
               >
-                <img src={hoverImage} width={300} height={0} alt="image" />
+                <img src={hoverImage2} width={300} height={0} alt="image" />
               </div>
             );
           })}
