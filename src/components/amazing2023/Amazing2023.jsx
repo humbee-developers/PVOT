@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import "./amazing2023.css";
-import amazing2023Image from "../../images/amazing_2023_image.svg";
+import amazing2023Image from "../../images/2023-outer.png";
 import ball from "../../images/3d_ball.svg";
 import { useEffect, useState } from "react";
 import gsap from "gsap";
@@ -35,8 +35,8 @@ const Amazing2023 = () => {
     tl.to(".scrolling-icon", {
       duration: 1,
       x:
-        (checkWidth < 1200 ? 450 : 550) ||
-        (checkWidth < 991 ? 320 : 450) ||
+        (checkWidth < 1200 ? 188 : 496) ||
+        (checkWidth < 991 ? 320 : 136) ||
         (checkWidth < 767 ? 250 : 320),
       ease: "none",
     });
@@ -116,7 +116,7 @@ const Amazing2023 = () => {
               </div>
               <span>2</span>
               <span className="lastText" style={{marginLeft:"-5px"}}>2</span>
-              <span style={{position:"absolute",right:"11%",top:"-37%",opacity:"0"}} className="lastText1">3</span>
+              <span  className="lastText1">3</span>
             </div>
           </div>
 

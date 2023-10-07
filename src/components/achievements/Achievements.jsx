@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 // import ListGroup from "react-bootstrap/ListGroup";
 import img3d1 from "../../images/img3d1.png";
 import img3d2 from "../../images/img3d2.png";
-import Test from "../../../common/Test";
+import Test from "../../../Common/Test";
 import img3d3 from "../../images/img3d3.png";
 import "./achievement.css";
 import PropTypes from "prop-types";
