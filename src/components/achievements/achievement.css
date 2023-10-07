@@ -1,9 +1,9 @@
 .achievement{
-  padding: 20px 0;
+  padding: 1px 0;
 }
 .detail-heading {
-  margin-top: 23px;
-  display: flex;
+  margin-top: 5px;
+  /* display: flex; */
   align-items: center;
   justify-content: space-between;
   position: relative;
@@ -14,13 +14,13 @@
   color: #000;
 }
 .detail-content-divider {
-  padding-block: 33px;
+  padding-block: 15px;
   display: flex;
   align-items: center;
 }
 
 .about-detail-content-head {
-  padding-top: 20px;
+  padding-top: 2px;
   max-width: 550px;
   width: 100%;
 }
@@ -111,7 +111,7 @@
   font-size: 19px;
 }
 .title {
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 16px;
   font: 600 18px/1.2 Inter;
   color: #999796;
@@ -171,10 +171,11 @@
     width: 173px;
   }
   .card-list1 {
-    margin: 0 -1px;
+    margin: 0 -5px;
   }
   .swiper-text {
     max-width: 100%;
+    margin-top: 1rem;
   }
 }
 

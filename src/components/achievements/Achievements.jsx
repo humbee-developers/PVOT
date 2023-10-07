@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 // import ListGroup from "react-bootstrap/ListGroup";
 import img3d1 from "../../images/img3d1.png";
 import img3d2 from "../../images/img3d2.png";
+import Test from "../../../common/Test";
 import img3d3 from "../../images/img3d3.png";
 import "./achievement.css";
 import PropTypes from "prop-types";
@@ -65,7 +66,12 @@ const Achievements = () => {
     <div className="achievement">
       <Container>
         <div className="detail-heading">
-          <h2 className="heading">We Strive to Innovate </h2>
+        <div className="containerz">
+        <div className="achievement-body">
+          <Test primary={"We Strive to Innovate"} secondary={"We Strive to Innovate"} />
+          
+        </div>
+      </div>
         </div>
 
         <div className="detail-content-divider">
