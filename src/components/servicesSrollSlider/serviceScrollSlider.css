@@ -59,7 +59,7 @@
 }
 
 .gallery_box_in:nth-child(1) {
-  transform: rotateY(0deg) translateZ(550px);
+  transform: rotateY(0deg) translateZ(551px);
 }
 .gallery_box_in:nth-child(2) {
   transform: rotateY(42.8deg) translateZ(550px);
