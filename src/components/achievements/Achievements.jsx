@@ -2,10 +2,11 @@ import { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import Container from "react-bootstrap/Container";
 // import ListGroup from "react-bootstrap/ListGroup";
-import img3d1 from "../../images/img3d1.png";
-import img3d2 from "../../images/img3d2.png";
+import img3d1 from "../../images/taskdone.png";
+import img3d2 from "../../images/review.png";
 import Test from "../../../Common/Test";
-import img3d3 from "../../images/img3d3.png";
+import img3d3 from "../../images/teamwork5.png";
+import img3d4 from "../../images/teamwork4.png";
 import "./achievement.css";
 import PropTypes from "prop-types";
 
@@ -93,7 +94,7 @@ const Achievements = () => {
 
             <h3 className="title">Some Number About Us</h3>
 
-            <div>
+            <div> 
               <div className="card-list1">
                 <motion.div
                   className="card-container"
@@ -118,7 +119,7 @@ const Achievements = () => {
                   <Card
                     title="100k"
                     description="We’ve gathered dozens of reviews from the clients and + 100k reviews from their users"
-                    imageSrc={img3d2}
+                    imageSrc={img3d2} 
                   />
                 </motion.div>
               </div>
@@ -132,7 +133,8 @@ const Achievements = () => {
                   <Card
                     title="+10"
                     description="Years of experience"
-                    imageSrc={img3d3}
+                    
+                    imageSrc={img3d3} 
                   />
                 </motion.div>
                 <motion.div
@@ -146,7 +148,7 @@ const Achievements = () => {
                     style={{ border: "none" }}
                     title="+280"
                     description="Team members all over the world"
-                    imageSrc={img3d1}
+                    imageSrc={img3d4}
                   />
                 </motion.div>
               </div>

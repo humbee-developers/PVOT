@@ -35,7 +35,7 @@
 }
 .gallery_box_outer {
   width: 300px;
-  /* height: 120px;                                                  this height 120px is working in laptop perfect and smooth */
+  /* height: 120px;                            this height 120px is working in laptop perfect and smooth */
   height: 120px;
   position: relative;
   transform: perspective(1000px);
