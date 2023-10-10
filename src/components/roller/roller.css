@@ -55,3 +55,47 @@
       }
     }
     
+
+
+    .bgTransition {
+      min-height: 800px;
+      position: relative;
+      background-color: #7443ff;
+      overflow: hidden;
+    }
+    .bgTransition_wrapper {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    
+      justify-content: space-between;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+    }
+    .bgTransition_1 {
+      width: 100%;
+      background-color: #000;
+      height: 100%;
+      transition: all 1s ease-out;
+    }
+    /* .bgTransition_2 {
+      width: 25%;
+      background-color: #000;
+      height: 100%;
+      transition: all 0.5s;
+    }
+    .bgTransition_3 {
+      width: 25%;
+      background-color: #000;
+      height: 100%;
+      transition: all 0.5s;
+    }
+    .bgTransition_4 {
+      width: 25%;
+      background-color: #000;
+      height: 100%;
+      transition: all 0.5s;
+    } */
+    

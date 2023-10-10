@@ -1,6 +1,6 @@
 .main {
   display: flex;
-  height: 120vh;
+  height: 90vh !important;
   align-items: end;
   justify-content: center;
   font-family: "FONTSPRING";

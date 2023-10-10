@@ -22,6 +22,7 @@ export default function Home({ text }) {
         scrub: true,
         start: `top`,
         end: `+=${window.innerHeight / 2.5}`,
+        pin:true
       },
       opacity: 1,
       color: "white",

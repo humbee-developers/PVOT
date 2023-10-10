@@ -2,13 +2,15 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import "./serviceScrollSlider.css";
 import { useEffect, useRef } from "react";
-import sliderImage from "../../images/servicesImage.jpg";
+import sliderImage1 from "../../images/servicesImage1.png";
+import sliderImage2 from "../../images/servicesImage2.png";
+import sliderImage3 from "../../images/servicesImage3.png";
 import "./serviceScrollSlider.css";
 
 const ServicesScrollSlider = () => {
   const ref1 = useRef(null);
   const ref2 = useRef(null);
-  //   const ref3 = useRef(null);
+    const ref3 = useRef(null);
 
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
@@ -19,6 +21,7 @@ const ServicesScrollSlider = () => {
         end: "bottom+=3000px center-=200px",
         scrub: true,
         pin: true,
+        
       },
     });
 
@@ -26,7 +29,9 @@ const ServicesScrollSlider = () => {
       duration: 20,
       rotateY: -300,
       ease: "none",
+      opacity:1
     });
+    
     // gsap.timeline({
     //   scrollTrigger: {
     //     trigger: ".servicesText",
@@ -55,45 +60,45 @@ const ServicesScrollSlider = () => {
             <h2>Services</h2>
           </div>
           <div className="gallery_box_outer" ref={ref2}>
-            <div className="gallery_box_in">
-              <img src={sliderImage} alt="sliderImage" />
+            <div className="gallery_box_in" ref={ref3}>
+              <img src={sliderImage1} alt="sliderImage" />
               <div className="servicesCardText">
                 {" "}
                 Integrated Marketing Solutions
               </div>
             </div>
-            <div className="gallery_box_in">
-              <img src={sliderImage} alt="sliderImage" />
+            <div className="gallery_box_in" ref={ref3}>
+              <img src={sliderImage2} alt="sliderImage" />
               <div className="servicesCardText">
                 Digital Content Creation and SEO
               </div>
             </div>
-            <div className="gallery_box_in">
-              <img src={sliderImage} alt="sliderImage" />
+            <div className="gallery_box_in" ref={ref3}>
+              <img src={sliderImage3} alt="sliderImage" />
               <div className="servicesCardText">
                 Digital & Performance Marketing
               </div>
             </div>
-            <div className="gallery_box_in">
-              <img src={sliderImage} alt="sliderImage" />
+            <div className="gallery_box_in" ref={ref3}>
+              <img src={sliderImage1} alt="sliderImage" />
               <div className="servicesCardText">
                 Video Production and Photography
               </div>
             </div>
-            <div className="gallery_box_in">
-              <img src={sliderImage} alt="sliderImage" />
+            <div className="gallery_box_in" ref={ref3}>
+              <img src={sliderImage2} alt="sliderImage" />
               <div className="servicesCardText">Technology and Design</div>
             </div>
-            <div className="gallery_box_in">
-              <img src={sliderImage} alt="sliderImage" />
+            <div className="gallery_box_in" ref={ref3}>
+              <img src={sliderImage3} alt="sliderImage" />
               <div className="servicesCardText"> Branding & Advertising</div>
             </div>
-            <div className="gallery_box_in">
-              <img src={sliderImage} alt="sliderImage" />
+            <div className="gallery_box_in" ref={ref3}>
+              <img src={sliderImage1} alt="sliderImage" />
               <div className="servicesCardText">Media Planning and Buying</div>
             </div>
-            <div className="gallery_box_in">
-              <img src={sliderImage} alt="sliderImage" />
+            <div className="gallery_box_in" >
+              <img src={sliderImage2} alt="sliderImage" />
               <div className="servicesCardText">
                 {" "}
                 E-commerce Strategy and Execution
@@ -112,44 +117,44 @@ const ServicesScrollSlider = () => {
 
         <div className="servicesCard_wrapper_mobile">
           <div className="serviceCard_mobile">
-            <img src={sliderImage} alt="slide1" />
+            <img src={sliderImage1} alt="slide1" />
             <div className="servicesCardText">
               {" "}
               Integrated Marketing Solutions
             </div>
           </div>
           <div className="serviceCard_mobile">
-            <img src={sliderImage} alt="slide1" />
+            <img src={sliderImage2} alt="slide1" />
             <div className="servicesCardText">
               Digital Content Creation and SEO
             </div>
           </div>
           <div className="serviceCard_mobile">
-            <img src={sliderImage} alt="slide1" />
+            <img src={sliderImage3} alt="slide1" />
             <div className="servicesCardText">
               Digital & Performance Marketing
             </div>
           </div>
           <div className="serviceCard_mobile">
-            <img src={sliderImage} alt="slide1" />
+            <img src={sliderImage1} alt="slide1" />
             <div className="servicesCardText">
               Video Production and Photography
             </div>
           </div>
           <div className="serviceCard_mobile">
-            <img src={sliderImage} alt="slide1" />
+            <img src={sliderImage2} alt="slide1" />
             <div className="servicesCardText">Technology and Design</div>
           </div>
           <div className="serviceCard_mobile">
-            <img src={sliderImage} alt="slide1" />
+            <img src={sliderImage3} alt="slide1" />
             <div className="servicesCardText">Branding & Advertising</div>
           </div>
           <div className="serviceCard_mobile">
-            <img src={sliderImage} alt="slide1" />
+            <img src={sliderImage1} alt="slide1" />
             <div className="servicesCardText">Media Planning and Buying</div>
           </div>
           <div className="serviceCard_mobile">
-            <img src={sliderImage} alt="slide1" />
+            <img src={sliderImage2} alt="slide1" />
             <div className="servicesCardText">
               E-commerce Strategy and Execution
             </div>
