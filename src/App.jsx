@@ -8,6 +8,8 @@ import CareerPage from "./pages/Desktop5/CareersPage";
 import MediaPage from "./pages/Desktop7/MediaPage";
 import KnowUsPage from "./pages/Desktop8/KnowUsPage";
 import "./app.css";
+import DigitalContent from "./pages/Desktop3/InnerPages/DigitalContent";
+import IntegratedMarketing from "./pages/Desktop3/InnerPages/IntegratedMarketing";
 const App = () => {
   return (
     <>
@@ -20,6 +22,8 @@ const App = () => {
           <Route path="/career" element={<CareerPage />} />
           <Route path="/blog" element={<MediaPage />} />
           <Route path="/knowUs" element={<KnowUsPage/>}/>
+          <Route path="/digitalContent" element={<DigitalContent/>}/>
+          <Route path="/integratedMarketing" element={<IntegratedMarketing/>}/>
         </Routes>
       </Layout>
     </>

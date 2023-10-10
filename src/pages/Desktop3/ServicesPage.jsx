@@ -6,15 +6,26 @@ import Mask from "../../images/Mask group.png";
 import ServicesPageCardItem from "./ServicesPageCardItem";
 import { useState } from "react";
 import hoverImage from "../../images/i2.webp"
+import { Link } from "react-router-dom"; 
 
 const servicesPageCardContent = [
+  {
+    title: "Integrated Marketing Solutions",
+    src: "c2montreal.png",
+    // color: "#000000",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
+      image:hoverImage,
+      link: "/integratedMarketing",
+  },
   {
     title: "Digital Content Creation & SEO",
     src: "c2montreal.png",
     // color: "#000000",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
-      image:hoverImage
+      image:hoverImage,
+      link: "/digitalContent",
   },
   {
     title: "Digital & Performance Marketing",
@@ -22,7 +33,9 @@ const servicesPageCardContent = [
     // color: "#8C8C8C",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
-      image:hoverImage
+      image:hoverImage,
+      link:"",
+      
   },
   {
     title: "Video Production and Photography",
@@ -30,6 +43,7 @@ const servicesPageCardContent = [
     // color: "#EFE8D3",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
+      link:"",
   },
   {
     title: "Technology and Design",
@@ -37,6 +51,7 @@ const servicesPageCardContent = [
     // color: "#706D63",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
+      link:"",
   },
   {
     title: "Branding & Advertising",
@@ -44,6 +59,7 @@ const servicesPageCardContent = [
     // color: "#706D63",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
+      link:"",
   },
   {
     title: "Media Planning and Buying",
@@ -51,6 +67,7 @@ const servicesPageCardContent = [
     // color: "#706D63",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
+      link:"",
   },
   {
     title: "E-commerce Strategy and Execution",
@@ -58,6 +75,7 @@ const servicesPageCardContent = [
     // color: "#706D63",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
+      link:"",
   },
 ];
 
@@ -67,25 +85,24 @@ const ServicesPage = () => {
     <div>
       <div className="" style={{ backgroundColor: "black" }}>
         <HeroHeading bigHeading="Services" hoverText={"Our Servicessss-"} />
-        {/* <CoCard title="Website Design" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque."/>
-      <CoCard title="Social Media Marketing" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque."/>
-      <CoCard title="Search engine optimization" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque."/>
-      <CoCard title="Advertising & Marketing" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque."/> */}
         <div className={"servicesPageCard"}>
           <div className={"servicesPageCard_wrapper"}>
             {servicesPageCardContent.map((project, index) => {
               return (
-                <ServicesPageCardItem
-                  index={index}
-                  title={project.title}
-                  setModal={setModal}
+                <Link
+                  to={project.link || "/"} // Use the link from the card or "/" as a fallback
                   key={index}
-                  description={project.description}
-                />
+                >
+                  <ServicesPageCardItem
+                    index={index}
+                    title={project.title}
+                    setModal={setModal}
+                    description={project.description}
+                  />
+                </Link>
               );
             })}
           </div>
-          <CoCard modal={modal} projects={servicesPageCardContent}  />
         </div>
         <RectangleCard title="Website Design" />
       </div>
@@ -93,22 +110,22 @@ const ServicesPage = () => {
         style={{ width: "100%", overflow: "hidden", backgroundColor: "black" }}
       >
         <motion.div
-          initial={{ x: "100%" }} // Initial position (off-screen to the right)
-          animate={{ x: "-100%" }} // Target position (off-screen to the left)
+          initial={{ x: "100%" }}
+          animate={{ x: "-100%" }}
           transition={{
-            duration: 26, // Adjust the duration of the animation
-            ease: "linear", // Use linear easing for a continuous motion
-            repeat: Infinity, // Repeat the animation indefinitely
+            duration: 26,
+            ease: "linear",
+            repeat: Infinity,
           }}
           style={{
             width: "auto",
-            height: "200px", // Adjust the height of the container as needed
-            backgroundColor: "black", // Optional background color
+            height: "200px",
+            backgroundColor: "black",
             display: "flex",
           }}
         >
           <img
-            src={Mask} // Replace with your image source
+            src={Mask}
             alt="Moving Image"
             style={{ width: "auto", height: "100%" }}
           />
