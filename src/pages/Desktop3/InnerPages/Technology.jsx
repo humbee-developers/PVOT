@@ -3,15 +3,18 @@ import LeftImage from "../../../components/leftImageRightSliderImage/LeftImage";
 import RightSlider from "../../../components/leftImageRightSliderImage/RightSlider";
 import RightSliderImage from '../../../components/leftImageRightSliderImage/RightSliderImage';
 import InnerPageHeader from '../../../../Common/innerPageHeader';
+import InnerCommonButton from "../../../../Common/innerCommonButton";
+import InnerPage2 from "../../../../Common/innerPage2";
 import leftImage from "../../../images/inner-image3-1.png"
 import rightTopImage from "../../../images/inner-image3-2.png"
 import rightBottomImage from "../../../images/inner-image3-3.png"
 import technologyBanner from "../../../images/technology-banner.png"
 import logo from "../../../images/PVOT-Design-Final-Logo-White.png"
+import hero from "../../../images/hero.png"
 
 const Technology = () => {
   return (
-    <>
+    <div style={{backgroundColor:"black"}}>
     <div>Technology</div>
       {/* Left right image slider  start */}
       <InnerPageHeader header={technologyBanner} logo={logo}/>
@@ -52,9 +55,19 @@ const Technology = () => {
         </div>
       </div>
 
+      <InnerPage2
+        img8={hero}
+        innertext={
+          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente harum saepe eum dolore ipsum iste, molestiae soluta cumque sunt quisquam, quia voluptatem perferendis blanditiis! Maxime veritatis nulla mollitia eius consequatur molestias saepe inventore quisquam eveniet magnam accusantium amet, atque explicabo dolore, quo vero at sint?"
+        }
+        internalHeader={"Lorem Ipsum is simply dummy text of the printing  "}
+      />
+
+      <InnerCommonButton />
+
       {/* Left right image slider  end */}
     <RelatedServices />
-    </>
+    </div>
   )
 }
 
