@@ -101,6 +101,7 @@
   }
   .leftImage {
     width: 100%;
+    margin: 0 0 40px;
   }
   .leftImage img {
     width: 100%;
@@ -110,5 +111,11 @@
   }
   .rightSliderImage img {
     width: 100%;
+  }
+  .rightSliderImage{
+    width: 50%;
+  }
+  .rightSlider {
+    width: 50%;
   }
 }
