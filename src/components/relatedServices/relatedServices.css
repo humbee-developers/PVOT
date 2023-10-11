@@ -69,9 +69,10 @@
 @media(max-width:767px){
     .relatedServices_heading h2 {
         font-size: 40px;
-        line-height: 90px;
+        line-height: 50px;
     }
     .relatedServices_slide_btn {
         padding-left: 20px;
+        padding-right: 55px;
     }
 }
