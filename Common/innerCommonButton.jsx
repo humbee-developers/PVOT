@@ -1,11 +1,12 @@
 import React from 'react'
 import innerCommon from "./../src/images/innerbuttonimage.png"
+import "./innerbutton.css"
 const innerCommonButton = () => {
   return (
     <div>
-    <div style={{cursor:"pointer",backgroundColor:"#735b9f",width:"232px",margin:"0px 87px"}}>
+    <div className='common_button_outer'>
     <img src={innerCommon} alt="" />
-    <div  style={{fontSize:"25px",position:"absolute",bottom:"-167rem",left:"8rem"}}>Contact Now -</div>
+    <a href='/contact-us'  style={{fontSize:"25px",position:"absolute",bottom:"-167rem",left:"8rem"}}>Contact Now -</a>
     </div>
     </div>
   )

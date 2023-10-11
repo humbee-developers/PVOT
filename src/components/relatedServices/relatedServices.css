@@ -11,7 +11,7 @@
 .relatedServices_heading_wrapper {
   display: flex;
   align-items: center;
-  margin: 0 0 38px 38px;
+  margin: 0 0 0px 38px;
 }
 .relatedServices_heading h2 {
   font-family: "FONTSPRING";
@@ -22,6 +22,7 @@
 }
 .relatedServices_slide_btn {
   display: flex;
+  margin-top: 10px;
   align-items: center;
   padding-left: 50px;
 }
@@ -29,6 +30,7 @@
   transform: rotate(180deg);
   cursor: pointer;
   width: 43px;
+
   margin-left: 10px;
 }
 
@@ -44,7 +46,8 @@
   flex-direction: column;
 }
 .relatedServicesItem_card img {
-  max-width: 100%;
+  width: 93%;
+  height: auto;
   border-radius: 15px;
   margin: 0 0 35px;
 }

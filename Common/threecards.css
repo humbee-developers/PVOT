@@ -1,0 +1,5 @@
+.threecards_outer{
+      display: flex;
+      padding: 0px 95px;
+      justify-content: space-evenly;
+}
