@@ -24,7 +24,7 @@ const DigitalContent = () => {
 
       <div className='internal2_4th_section'>
       <div className='internal2_4section'>
-      <div className='internal2_4section_text'>Lorem Ipsum is simply  dummy</div>
+      <div className='internal2_4section_text'>Lorem Ipsum is simply  dummy.</div>
       </div>
       <div className="internal2_4section">
       <div className='internal2_4section_image_container'>
