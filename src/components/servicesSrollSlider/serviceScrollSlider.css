@@ -6,12 +6,15 @@
 .servicesText {
   transition: all 0.5s;
   position: absolute;
-  top: -130%;
+  top: -250px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .servicesText h2 {
-  font-size: 60px;
-  font-family: "FONTSPRING";
+  font-size: 153px;
+  font-family: "FONTSPRING-bold-italic";
   transition: all 0.5s;
+  text-transform: uppercase;
 }
 .services_card_mobile {
   display: none;
@@ -35,8 +38,7 @@
 }
 .gallery_box_outer {
   width: 300px;
-  /* height: 120px;                            this height 120px is working in laptop perfect and smooth */
-  height: 120px;
+  height: 200px;
   position: relative;
   transform: perspective(1000px);
   transform-style: preserve-3d;
@@ -53,38 +55,39 @@
   transition: all 0.5s;
   transform: translateZ(450px);
 }
+
 .gallery_box_in img {
   max-width: 100%;
-  border-radius: 15px;
 }
 
 .gallery_box_in:nth-child(1) {
-  transform: rotateY(0deg) translateZ(551px);
+  transform: rotateY(0deg) translateZ(550px);
 }
 .gallery_box_in:nth-child(2) {
-  transform: rotateY(42.8deg) translateZ(550px);
+  transform: rotateY(42.8deg) translateZ(480px);
 }
 .gallery_box_in:nth-child(3) {
-  transform: rotateY(85.6deg) translateZ(550px);
+  transform: rotateY(85.6deg) translateZ(480px);
 }
 .gallery_box_in:nth-child(4) {
-  transform: rotateY(128.4deg) translateZ(550px);
+  transform: rotateY(128.4deg) translateZ(480px);
 }
 .gallery_box_in:nth-child(5) {
-  transform: rotateY(171.2deg) translateZ(550px);
+  transform: rotateY(171.2deg) translateZ(480px);
 }
 .gallery_box_in:nth-child(6) {
-  transform: rotateY(214deg) translateZ(550px);
+  transform: rotateY(214deg) translateZ(480px);
 }
 .gallery_box_in:nth-child(7) {
-  transform: rotateY(256.8deg) translateZ(550px);
+  transform: rotateY(256.8deg) translateZ(480px);
 }
 .gallery_box_in:nth-child(8) {
-  transform: rotateY(299.6deg) translateZ(550px);
+  transform: rotateY(299.6deg) translateZ(480px);
 }
 .servicesCardText {
   text-align: center;
   color: white;
+  font-family: "FONTSPRING";
 }
 /* .gallery_box_in:nth-child(7) {
   transform: rotateY(240deg) translateZ(450px);
@@ -95,21 +98,29 @@
 .gallery_box_in:nth-child(9) {
   transform: rotateY(320deg) translateZ(450px);
 } */
+
+/* .card {
+  scale: 1;
+  transition: all 0.5s;
+}
+.card:hover {
+  scale: 1.1;
+} */
+
 @media (max-width: 1600px) {
   .servicesCard {
     height: 410vh;
   }
-  /* .servicesText {
-    top: -100%;                     in laptop view this top is not working 
-  } */
+  .servicesText {
+    top: -100%;
+  }
 }
-@media(max-width:1550px){
+@media (max-width: 1550px) {
   .servicesCard {
     height: 570vh;
   }
 }
 @media (max-width: 1440px) {
-  
   .gallery_box_in:nth-child(1) {
     transform: rotateY(0deg) translateZ(450px);
   }
@@ -136,6 +147,10 @@
   }
 }
 @media (max-width: 1199px) {
+  .servicesText h2 {
+    font-size: 110px;
+  }
+
   .gallery_box_in:nth-child(1) {
     transform: rotateY(0deg) translateZ(420px);
   }
@@ -168,9 +183,10 @@
   }
 
   .servicesText_mobile h2 {
-    font-size: 50px;
-    font-family: "FONTSPRING";
+    font-size: 80px;
+    font-family: "FONTSPRING-bold-italic";
     margin: 30px 0 100px;
+    text-transform: uppercase;
   }
   .services_card_mobile {
     display: block;
@@ -181,17 +197,18 @@
     justify-content: space-between;
     margin: 0 40px;
   }
-  .serviceCard_mobile{
+  .serviceCard_mobile {
     width: 48%;
   }
   .servicesCard_wrapper_mobile img {
     width: 100%;
+    border-radius: 15px;
   }
   .servicesCard {
     height: 100%;
     padding: 100px 0 0;
   }
-  .servicesCardText{
+  .servicesCardText {
     font-size: 28px;
     margin: 20px 0 40px;
   }
@@ -208,8 +225,7 @@
     width: 100%;
   }
   .servicesText_mobile h2 {
-    font-size: 40px;
+    font-size: 60px;
     margin: 30px 0 40px;
   }
- 
 }
