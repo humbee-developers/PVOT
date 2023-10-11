@@ -1,12 +1,13 @@
 import React from 'react'
 
-const innerPageHeader = () => {
+import "./innerpageheader.css"
+const innerPageHeader = (props) => {
   return (
     <div>
-    <img className="internal_page1_image1" src={imx} alt="" />
+    <img className="internal_page1_image1" src={props.header} alt="" />
       <div className="internal_page1">
         <div className="internal_page1_inner">
-          <img src={logo} alt="" className="logo" />
+          <img src={props.logo} alt="" className="logo" />
         </div>
         <div className="internal_page1_inner1">
           <div className="internal_heading">OVERVIEW</div>

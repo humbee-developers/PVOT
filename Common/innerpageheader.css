@@ -1,0 +1,29 @@
+.internal_page1_image1 {
+      width: 100%;
+    }
+    .logo {
+      max-width: 100%;
+      width: 100px;
+    }
+    
+    .internal_page1 {
+      display: flex;
+      margin: 70px;
+      justify-content: space-between;
+    }
+    
+    .internal_page1_inner1 {
+      width: 40%;
+    }
+    .internal_page1_inner2 {
+      width: 30%;
+    }
+    .internal_text {
+      color: white;
+      font-family: "FONTSPRING";
+      font-size: 17px;
+    }
+    .internal_heading {
+      color: white;
+      font-size: 22px;
+    }
