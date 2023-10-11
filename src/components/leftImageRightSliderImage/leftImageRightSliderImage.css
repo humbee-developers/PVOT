@@ -1,0 +1,114 @@
+.leftImageRightSliderImage {
+  padding: 200px 0;
+  background-color: #000;
+  color: #fff;
+}
+.leftImageRightSliderImage_container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.leftImageRightSliderImage_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftImageRightSliderImage_right_top {
+  display: flex;
+  margin: 0 0 20px;
+}
+.leftImageRightSliderImage_right_bottom {
+  display: flex;
+}
+.leftImageRightSliderImage_right_bottom .rightSlider {
+  margin-left: 22px;
+  margin-right: 0;
+}
+.rightSlider {
+  width: 47%;
+  background-color: #181818;
+  border-radius: 15px;
+  margin-right: 22px;
+}
+.rightSlider_wrapper {
+  padding: 47px 20px 20px;
+}
+.rightSlider_wrapper_title {
+  font-family: "FONTSPRING";
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 20px;
+}
+.rightSlider_wrapper_content {
+  font-family: "FONTSPRING";
+  font-size: 14px;
+  font-weight: 400;
+}
+.rightSlider_prev img {
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.rightSlider_next img {
+  cursor: pointer;
+}
+.rightSlider_wrapper_counter_and_btns {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightSlider_btns {
+  display: flex;
+}
+.rightSlider_prev {
+  margin-right: 5px;
+}
+.rightSlider_next {
+  margin-left: 5px;
+}
+.slider_counter {
+  background: white;
+  color: black;
+  border-radius: 12px;
+  padding: 0 10px;
+  font-weight: 600;
+}
+.leftImage {
+  /* margin-right: 20px; */
+  width: 49%;
+}
+.leftImage img {
+  max-width: 100%;
+}
+.leftImageRightSliderImage_right {
+  width: 49%;
+}
+.rightSliderImage img {
+  max-width: 100%;
+  height: 100%;
+}
+@media (max-width: 1199px) {
+  .leftImageRightSliderImage_container {
+    max-width: 991px;
+  }
+}
+@media (max-width: 991px) {
+  .leftImageRightSliderImage_container {
+    max-width: 767px;
+  }
+  .leftImageRightSliderImage_wrapper {
+    flex-direction: column;
+  }
+  .leftImage {
+    width: 100%;
+  }
+  .leftImage img {
+    width: 100%;
+  }
+  .leftImageRightSliderImage_right {
+    width: 100%;
+  }
+  .rightSliderImage img {
+    width: 100%;
+  }
+}
