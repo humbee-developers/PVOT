@@ -34,7 +34,6 @@ const servicesPageCardContent = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
       image:hoverImage,
-      link:"",
       link :"/digital-performance"
       
   },
