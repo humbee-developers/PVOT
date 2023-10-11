@@ -3,10 +3,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation} from "swiper/modules";
 import PropTypes from "prop-types";
 import arrowIcon from "../../images/relatedServicesSliderIcon.svg";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const RightSlider = ({ text1, text2, title1, title2 }) => {
   const [current, setCurrent] = useState(1);

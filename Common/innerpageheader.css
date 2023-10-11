@@ -1,5 +1,9 @@
 .internal_page1_image1 {
+  height: 45rem;
       width: 100%;
+    }
+    .inner_page_main{
+      background-color: black;
     }
     .logo {
       max-width: 100%;

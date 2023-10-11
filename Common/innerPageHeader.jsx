@@ -3,7 +3,7 @@ import React from 'react'
 import "./innerpageheader.css"
 const innerPageHeader = (props) => {
   return (
-    <div>
+    <div className='inner_page_main'>
     <img className="internal_page1_image1" src={props.header} alt="" />
       <div className="internal_page1">
         <div className="internal_page1_inner">

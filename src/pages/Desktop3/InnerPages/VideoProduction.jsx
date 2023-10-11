@@ -1,6 +1,6 @@
 import React from 'react'
 import imx from "../../../images/yellowbg.png"
-import innerCommon from "../../../images/innerbuttonimage.png"
+import InnerCommonButton from "../../../../Common/innerCommonButton"
 import logo from "../../../images/PVOT-Design-Final-Logo-White.png";
 import imgxx from "../../../images/icecream.png"
 import bottles from "../../../images/bottles.png"
@@ -8,6 +8,7 @@ import icewater from "../../../images/icewater.png";
 import InnerPageHeader from "../../../../Common/innerPageHeader";
 import "./VideoProduction.css"
 import RelatedServices from '../../../components/relatedServices/RelatedServices'
+
 import ThreeCards from "../../../../Common/threeCards";
 const DigitalContent = () => {
   return (
@@ -42,9 +43,8 @@ const DigitalContent = () => {
         </div>
       </div>
       
-      <div className='common_button_custom'>
-      <img src={innerCommon} alt="" />
-      <a  href='/contact-us'  style={{fontSize:"25px",position:"absolute",bottom:"-209.5rem",left:"10rem"}}>Contact Now -</a>
+      <div className='innerbutton_custon_spacing'>
+      <InnerCommonButton/>
       </div>
     <RelatedServices />
     </div>
