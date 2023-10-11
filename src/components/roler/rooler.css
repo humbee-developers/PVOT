@@ -23,6 +23,7 @@
   position: absolute;
   margin-bottom: 31px;
   right: 0rem;
+  top: -12rem;
   margin-left: 30px;
 }
 .t2 {
@@ -33,7 +34,7 @@
   font-family: "FONTSPRING";
   position: absolute;
   left: 92rem;
-  top: 9rem;
+  top: 6rem;
   margin-left: 30px;
 }
 .year_wrapper {

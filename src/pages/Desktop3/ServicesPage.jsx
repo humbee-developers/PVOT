@@ -16,7 +16,7 @@ const servicesPageCardContent = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
       image:hoverImage,
-      link: "/integratedMarketing",
+      link: "/integrated-Marketing",
   },
   {
     title: "Digital Content Creation & SEO",
@@ -25,7 +25,7 @@ const servicesPageCardContent = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
       image:hoverImage,
-      link: "/digitalContent",
+      link: "/digital-Content",
   },
   {
     title: "Digital & Performance Marketing",
@@ -35,6 +35,7 @@ const servicesPageCardContent = [
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
       image:hoverImage,
       link:"",
+      link :"/digital-performance"
       
   },
   {
@@ -43,7 +44,7 @@ const servicesPageCardContent = [
     // color: "#EFE8D3",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
-      link:"",
+      link:"/Video-production",
   },
   {
     title: "Technology and Design",
@@ -51,7 +52,7 @@ const servicesPageCardContent = [
     // color: "#706D63",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
-      link:"",
+      link:"/Technology",
   },
   {
     title: "Branding & Advertising",
@@ -59,7 +60,7 @@ const servicesPageCardContent = [
     // color: "#706D63",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
-      link:"",
+      link:"/branding-advertising",
   },
   {
     title: "Media Planning and Buying",
@@ -67,7 +68,7 @@ const servicesPageCardContent = [
     // color: "#706D63",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
-      link:"",
+      link:"/media-planning",
   },
   {
     title: "E-commerce Strategy and Execution",
@@ -75,7 +76,7 @@ const servicesPageCardContent = [
     // color: "#706D63",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum praesentium nam molestias voluptates laborum, iste hic sit alias fuga velit incidunt quae itaque ea voluptas soluta blanditiis illum cumque.",
-      link:"",
+      link:"/e-commerce",
   },
 ];
 

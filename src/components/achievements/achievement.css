@@ -1,6 +1,9 @@
 .achievement{
   padding: 1px 0;
 }
+.achievement-body{
+  width: 42%;
+}
 .detail-heading {
   margin-top: 5px;
   /* display: flex; */
@@ -14,7 +17,7 @@
   color: #000;
 }
 .detail-content-divider {
-  padding-block: 15px;
+  padding-block: 0px;
   display: flex;
   align-items: center;
 }
@@ -106,12 +109,14 @@
   font: 400 26px/1.38 Plus Jakarta Sans;
   letter-spacing: -0.01em;
   max-width: 28em;
+  margin-left: 8px;
   color: #878787;
   position: relative;
   font-size: 19px;
 }
 .title {
-  margin-top: 20px;
+  margin-top: 5px;
+  margin-left: 8px;
   font-size: 16px;
   font: 600 18px/1.2 Inter;
   color: #999796;
@@ -142,12 +147,12 @@
 }
 .image1{
   height: auto;
-  width: 175px;
+  width: 85%;
 }
 .outer-image-info1 {
   position: absolute;
-  right: -13px;
-  bottom: 5px;
+  right: -36px;
+  bottom: 13px;
   max-width: 180px;
   transform: translate(0%, 10%);
   border-radius: 0 0 30px 0;
@@ -567,6 +572,9 @@
   }
 }
 @media (max-width: 991px) {
+  .achievement-body{
+    width: 100%;
+  }
   .detail-content-divider {
     max-width: 767px;
     margin: 0 auto;

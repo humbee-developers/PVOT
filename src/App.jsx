@@ -10,6 +10,12 @@ import KnowUsPage from "./pages/Desktop8/KnowUsPage";
 import "./app.css";
 import DigitalContent from "./pages/Desktop3/InnerPages/DigitalContent";
 import IntegratedMarketing from "./pages/Desktop3/InnerPages/IntegratedMarketing";
+import DigitalPerformance from "./pages/Desktop3/InnerPages/DigitalPerformance";
+import VideoProduction from "./pages/Desktop3/InnerPages/VideoProduction";
+import Technology from "./pages/Desktop3/InnerPages/Technology";
+import MediaPlanning from "./pages/Desktop3/InnerPages/MediaPlanning";
+import Ecommerce from "./pages/Desktop3/InnerPages/Ecommerce";
+import BrandingAdvertising from "./pages/Desktop3/InnerPages/BrandingAdvertising";
 const App = () => {
   return (
     <>
@@ -22,8 +28,14 @@ const App = () => {
           <Route path="/career" element={<CareerPage />} />
           <Route path="/blog" element={<MediaPage />} />
           <Route path="/knowUs" element={<KnowUsPage/>}/>
-          <Route path="/digitalContent" element={<DigitalContent/>}/>
-          <Route path="/integratedMarketing" element={<IntegratedMarketing/>}/>
+          <Route path="/digital-content" element={<DigitalContent/>}/>
+          <Route path="/integrated-marketing" element={<IntegratedMarketing/>}/>
+          <Route path="/digital-performance" element={<DigitalPerformance/>}/>
+          <Route path="/video-production" element={<VideoProduction/>}/>
+          <Route path="/technology" element={<Technology/>}/>
+          <Route path="/e-commerce" element={<Ecommerce/>}/>
+          <Route path="/media-planning" element={<MediaPlanning/>}/>
+          <Route path="/branding-advertising" element={<BrandingAdvertising/>}/>
         </Routes>
       </Layout>
     </>

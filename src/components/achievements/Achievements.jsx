@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import Container from "react-bootstrap/Container";
 // import ListGroup from "react-bootstrap/ListGroup";
-import img3d1 from "../../images/taskdone.png";
+import img3d1 from "../../images/completedtask.png";
 import img3d2 from "../../images/review.png";
 import Test from "../../../Common/Test";
 import img3d3 from "../../images/teamwork5.png";

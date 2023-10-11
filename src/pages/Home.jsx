@@ -21,7 +21,7 @@ import ServicesTextExp from "../components/services/setvicesTextExp/ServicesText
 // import MyComponent from "../components/services/newServiceText/NewServicesText";
 import Roller from "../components/roller/Roller";
 import Example from "../components/servicesSrollSlider/NewServicesSlider";
-import New3Dslider from "../components/servicesSrollSlider/New3DSlider";
+// import New3Dslider from "../components/servicesSrollSlider/New3DSlider";
 
 const Home = () => {
   return (
@@ -37,9 +37,9 @@ const Home = () => {
       {/* <TextRevealEffect /> */}
       <LottieAnimation />
       {/* <ServicesText /> */}
-      <ServicesTextExp />
-      <ServicesScrollSlider />
-      {/* <Example /> */}
+      
+      {/*<ServicesScrollSlider />*/}
+       
       {/* <New3Dslider /> */}
       {/* <Services /> */}
       {/* <MyComponent /> */}

@@ -16,6 +16,7 @@ function LottieAnimation() {
       renderer: 'svg',
       loop: true,
       autoplay: true,
+      pin: true,
     });
     return () => {
       anim.destroy();
@@ -26,14 +27,14 @@ function LottieAnimation() {
     if (inView) {
       controls.start({
         opacity: 1,
-        scale: 0.5, // Set the scale to 2.4 when in view
+        scale: 0.4, // Set the scale to 2.4 when in view
         transition: { duration: 1 },
 
       });
     } else {
       controls.start({
-        opacity: 1,
-        scale: 0.5, // Set the scale to 0.4 when out of view
+        opacity: 0,
+        scale: 0.4, // Set the scale to 0.4 when out of view
       });
     }
   }, [inView, controls]);

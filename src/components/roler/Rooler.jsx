@@ -41,9 +41,9 @@ const TextRevealEffect  = () => {
     });
 
     t3.to(".t1", {
-      duration: 1,
+      duration: 0.5,
       delay: 0,
-      x: 1250,
+      x: 1000,
       ease: "none",
       opacity: 0,
     });
@@ -61,9 +61,9 @@ const TextRevealEffect  = () => {
     });
 
     t3.to(".t2", {
-      duration: 1,
+      duration: 0.5,
       delay: 0,
-      x: -1250,
+      x: -1000,
       ease: "none",
       opacity: 0,
     });
