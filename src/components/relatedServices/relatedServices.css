@@ -1,0 +1,77 @@
+.relatedServices {
+  padding: 200px 0;
+  background-color: #000;
+  color: #fff;
+}
+.relatedServices_container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.relatedServices_heading_wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0 0 38px 38px;
+}
+.relatedServices_heading h2 {
+  font-family: "FONTSPRING";
+  font-size: 84px;
+  line-height: 131px;
+  font-weight: 400;
+  margin: 0;
+}
+.relatedServices_slide_btn {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.relatedServices-prev img {
+  transform: rotate(180deg);
+  cursor: pointer;
+  width: 43px;
+  margin-left: 10px;
+}
+
+.relatedServices-next img {
+  cursor: pointer;
+  width: 43px;
+  margin-right: 10px;
+}
+.relatedServicesItem_card {
+  padding: 0 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+.relatedServicesItem_card img {
+  max-width: 100%;
+  border-radius: 15px;
+  margin: 0 0 35px;
+}
+.relatedServicesItem_card_text{
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+
+}
+@media(max-width:991px){
+    .relatedServices_heading h2 {
+        font-size: 60px;
+    }
+    .relatedServices-next img {
+        width: 38px;
+    }
+    .relatedServices-prev img {
+        width: 38px;
+    }
+}
+@media(max-width:767px){
+    .relatedServices_heading h2 {
+        font-size: 40px;
+        line-height: 90px;
+    }
+    .relatedServices_slide_btn {
+        padding-left: 20px;
+    }
+}
