@@ -2,14 +2,14 @@
       display: flex;
       margin-top: 2rem;
       justify-content: space-around;
-      padding: 0 120px;
+      padding: 0 0px;
 }
 .seventy_thirty_one{
 width: 70%;
 }
 .seventy_thirty_one .seventy_img{
 width: 100%;
-margin: 0 -38px;
+margin: 0 0px;
 height: 95%;
 }
 .seventy_thirty_two{
@@ -17,5 +17,5 @@ height: 95%;
 }
 
 .seventy_thirty_two .seventy_img2{
-      margin: 0 -16px;
+      margin: 0 0px;
 }
