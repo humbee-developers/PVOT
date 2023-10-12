@@ -58,6 +58,16 @@
     line-height: 32px;
 
 }
+@media(max-width:1340px){
+  .relatedServices_heading h2 {
+    font-size: 72px;
+}
+}
+@media(max-width:1199px){
+  .relatedServices_heading h2 {
+    font-size: 66px;
+}
+}
 @media(max-width:991px){
     .relatedServices_heading h2 {
         font-size: 60px;

@@ -10,6 +10,7 @@ import girl_shopping from "../../../images/inner_girl_shopping.png";
 import rightTopImage from "../../../images/inner-image7-2.png";
 import rightBottomImage from "../../../images/inner-image7-3.png";
 import LeftImageRightSliderImage from "../../../components/leftImageRightSliderImage/LeftImageRightSliderImage";
+import BigServicesInnerText from "../../../../Common/ServicesInnerBigText";
 
 const Ecommerce = () => {
   return (

@@ -18,7 +18,7 @@ const LeftImageRightSliderImage = ({
 }) => {
   return (
     <div className="leftImageRightSliderImage">
-      <div className="leftImageRightSliderImage_container">
+      <div className="common_container">
         <div className="leftImageRightSliderImage_wrapper">
           <LeftImage image={leftImage} />
           <div className="leftImageRightSliderImage_right">

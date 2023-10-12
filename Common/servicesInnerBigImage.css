@@ -1,0 +1,33 @@
+.servicesInnerBigImage{
+    background-color: #000;
+}
+.servicesInnerBigImage_container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.servicesInnerBigImage_wrapper img {
+  max-width: 100%;
+  width: 100%;
+}
+
+@media (max-width: 1340px) {
+  .servicesInnerBigImage_container {
+    max-width: 1199px;
+  }
+}
+@media (max-width: 1199px) {
+  .servicesInnerBigImage_container {
+    max-width: 991px;
+  }
+}
+@media (max-width: 991px) {
+  .servicesInnerBigImage_container {
+    max-width: 767px;
+  }
+}
+@media (max-width: 767px) {
+  .servicesInnerBigImage_container {
+    max-width: 100%px;
+  }
+}

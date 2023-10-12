@@ -20,4 +20,4 @@ const MediaPlanning = () => {
   )
 }
 
-export default MediaPlanning
+export default MediaPlanning;
