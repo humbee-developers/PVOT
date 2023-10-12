@@ -13,6 +13,7 @@ import "./innermultiplecards.css";
 
 const innerMultipleCards = () => {
   return (
+    <div className="common_container">
     <div className="inner_multiple_cards_parent">
       <div className="inner_multiple_cards_1">
         <div className="inner_multiple_card1 multiple_cards_custom1">
@@ -50,6 +51,8 @@ const innerMultipleCards = () => {
           <img className="multiple_cards_img_setting" src={innerfluidmobile} alt="" />
         </div>
       </div>
+    </div>
+    
     </div>
   );
 };
