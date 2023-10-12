@@ -3,15 +3,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { Autoplay, Navigation} from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import PropTypes from "prop-types";
 import arrowIcon from "../../images/relatedServicesSliderIcon.svg";
 import { useState } from "react";
 
 const RightSlider = ({ text1, text2, title1, title2 }) => {
   const [current, setCurrent] = useState(1);
-  console.log(current);
-
+  const [totalSlide, setTotalSlide] = useState();
   return (
     <div className="rightSlider">
       <Swiper
@@ -27,6 +26,11 @@ const RightSlider = ({ text1, text2, title1, title2 }) => {
           // disabledClass: "swiper-button-disabled",
         }}
         onSlideChange={(index) => setCurrent(index.realIndex + 1)}
+        onBeforeInit={(index) =>
+          setTotalSlide(
+            index.wrapperEl.querySelectorAll(".swiper-slide").length
+          )
+        }
         // autoplay={{ delay: 1500 }}
         className="rightSlider_inner"
       >
@@ -43,7 +47,9 @@ const RightSlider = ({ text1, text2, title1, title2 }) => {
           </div>
         </SwiperSlide>
         <div className="rightSlider_wrapper_counter_and_btns">
-          <div className="slider_counter">2 / {current}</div>
+          <div className="slider_counter">
+            {current}/{totalSlide}
+          </div>
           <div className="rightSlider_btns">
             <div className="rightSlider_prev">
               <img src={arrowIcon} alt="arrowIcon" />
