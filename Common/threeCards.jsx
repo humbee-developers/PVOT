@@ -1,7 +1,4 @@
-import React from "react";
-
 import RightSlider from "./../src/components/leftImageRightSliderImage/RightSlider";
-
 import "./threecards.css";
 const threeCards = (props) => {
   return (

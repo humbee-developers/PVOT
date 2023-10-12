@@ -41,7 +41,6 @@
 }
 .relatedServicesItem_card {
   padding: 0 30px;
-
   display: flex;
   flex-direction: column;
 }
@@ -51,53 +50,55 @@
   border-radius: 15px;
   margin: 0 0 10px;
 }
-.relatedServicesItem_card_text{
-    font-family: "Inter";
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 32px;
-
+.relatedServicesItem_card_text {
+  font-family: "Inter";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 32px;
 }
-@media(max-width:1340px){
+@media (max-width: 1340px) {
   .relatedServices_heading h2 {
     font-size: 72px;
+  }
 }
-}
-@media(max-width:1199px){
+@media (max-width: 1199px) {
   .relatedServices_heading h2 {
     font-size: 66px;
+  }
+  .relatedServicesItem_card {
+    padding: 0 20px;
+  }
 }
+@media (max-width: 991px) {
+  .relatedServices_heading h2 {
+    font-size: 60px;
+  }
+  .relatedServices-next img {
+    width: 38px;
+  }
+  .relatedServices-prev img {
+    width: 38px;
+  }
 }
-@media(max-width:991px){
-    .relatedServices_heading h2 {
-        font-size: 60px;
-    }
-    .relatedServices-next img {
-        width: 38px;
-    }
-    .relatedServices-prev img {
-        width: 38px;
-    }
-}
-@media(max-width:767px){
-    .relatedServices_heading h2 {
-        font-size: 40px;
-        line-height: 50px;
-    }
-    .relatedServices_slide_btn {
-        padding-left: 20px;
-        padding-right: 55px;
-    }
-    .relatedServices {
-        padding: 60px 0;
-      }
-      .relatedServices-next img {
-        width: 28px;
-    }
-    .relatedServices-prev img {
-        width: 28px;
-    }
-    .relatedServices-next img {
-        margin-right: 5px;
-    }
+@media (max-width: 767px) {
+  .relatedServices_heading h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .relatedServices_slide_btn {
+    padding-left: 20px;
+    padding-right: 55px;
+  }
+  .relatedServices {
+    padding: 60px 0;
+  }
+  .relatedServices-next img {
+    width: 28px;
+  }
+  .relatedServices-prev img {
+    width: 28px;
+  }
+  .relatedServices-next img {
+    margin-right: 5px;
+  }
 }
