@@ -71,4 +71,4 @@ const Technology = () => {
   )
 }
 
-export default Technology
+export default Technology;
