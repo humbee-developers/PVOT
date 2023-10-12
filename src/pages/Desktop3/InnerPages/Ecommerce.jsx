@@ -3,6 +3,7 @@ import leftImage from "../../../images/inner-image7-1.png";
 import rightTopImage from "../../../images/inner-image7-2.png";
 import rightBottomImage from "../../../images/inner-image7-3.png";
 import LeftImageRightSliderImage from "../../../components/leftImageRightSliderImage/LeftImageRightSliderImage";
+import BigServicesInnerText from "../../../../Common/ServicesInnerBigText";
 
 const Ecommerce = () => {
   return (
@@ -29,6 +30,7 @@ const Ecommerce = () => {
         }
         rightBottomImage={rightBottomImage}
       />
+      <BigServicesInnerText text={"Lorem Ipsum is simply dummy text of the printing"} />
       <RelatedServices />
     </>
   );

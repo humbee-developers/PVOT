@@ -16,14 +16,12 @@ const RelatedServices = () => {
   function checkWidthSize() {
     setResize(window.innerWidth);
   }
-  console.log(resize);
   let showCard = (resize < 767 ? 1 : resize < 991 ? 2 : 3) 
-  console.log(showCard);
   window.addEventListener("resize", checkWidthSize);
   const location = useLocation();
   return (
     <div className="relatedServices">
-      <div className="relatedServices_container">
+      <div className="common_container">
         <div className="relatedServices_wrapper">
           <div className="relatedServices_heading_wrapper">
             <div className="relatedServices_heading">
@@ -56,7 +54,7 @@ const RelatedServices = () => {
             {relatedServicesData.map((item, index) => {
               return (
                 location.pathname !== item.link && (
-                  <SwiperSlide>
+                  <SwiperSlide key={index}>
                     <RelatedServicesItem
                       key={index}
                       title={item.title}

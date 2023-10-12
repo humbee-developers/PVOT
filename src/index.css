@@ -7,8 +7,7 @@
 @font-face {
   font-family: "FONTSPRING-bold";
   src: local("FONTSPRING-bold"),
-    url("./font/Freigeist-Bold.ttf")
-      format("truetype");
+    url("./font/Freigeist-Bold.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
@@ -35,4 +34,35 @@
   src: local("FONTSPRING-conMediumItalic"),
     url("./font/Freigeist-MediumItalic.ttf") format("truetype");
   font-weight: normal;
+}
+
+.common_container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@media (max-width: 1600px) {
+  .common_container {
+    max-width: 1340px;
+  }
+}
+@media (max-width: 1340px) {
+  .common_container {
+    max-width: 1199px;
+  }
+}
+@media (max-width: 1199px) {
+  .common_container {
+    max-width: 991px;
+  }
+}
+@media (max-width: 991px) {
+  .common_container {
+    max-width: 767px;
+  }
+}
+@media (max-width: 767px) {
+  .common_container {
+    max-width: 100%;
+  }
 }

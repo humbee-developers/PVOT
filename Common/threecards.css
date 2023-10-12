@@ -2,6 +2,7 @@
       display: flex;
       padding: 0px 129px;
       justify-content: space-evenly;
+      margin: 0 0 44px;
 }
 .threecards_one{
       width: 33.33%;

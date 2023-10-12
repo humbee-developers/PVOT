@@ -13,6 +13,9 @@ import rightTopImage from "../../../images/inner-image1-4.png";
 import rightBottomImage from "../../../images/inner-image1-5.png";
 import "../../../components/leftImageRightSliderImage/leftImageRightSliderImage.css";
 import LeftImageRightSliderImage from "../../../components/leftImageRightSliderImage/LeftImageRightSliderImage";
+import BigServicesInnerText from "../../../../Common/ServicesInnerBigText";
+import ServicesInnerBigImage from "../../../../Common/ServicesInnerBigImage";
+import ServicesInnerLeftText from "../../../../Common/ServicesInnerLeftText";
 const BrandingAdvertising = () => {
   return (
     <div className="asdf" style={{ backgroundColor: "black" }}>
@@ -40,14 +43,22 @@ const BrandingAdvertising = () => {
         rightBottomImage={rightBottomImage}
       />
 
-      <InnerPage2
+      {/* <InnerPage2
         img8={img8}
         innertext={
           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente harum saepe eum dolore ipsum iste, molestiae soluta cumque sunt quisquam, quia voluptatem perferendis blanditiis! Maxime veritatis nulla mollitia eius consequatur molestias saepe inventore quisquam eveniet magnam accusantium amet, atque explicabo dolore, quo vero at sint?"
         }
         internalHeader={"Lorem Ipsum is simply dummy text of the printing  "}
+      /> */}
+      <BigServicesInnerText
+        text={"Lorem Ipsum is simply dummy text of the printing"}
       />
-
+      <ServicesInnerBigImage image={img8} />
+      <ServicesInnerLeftText
+        text={
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        }
+      />
       <div className="internal_5th_img_outer">
         <div className="internal_5th_1">
           <img className="internal_5th_img " src={img9} alt="" />
