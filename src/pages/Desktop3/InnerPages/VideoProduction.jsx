@@ -10,9 +10,6 @@ import "./VideoProduction.css"
 import RelatedServices from '../../../components/relatedServices/RelatedServices'
 import mango_cup from "../../../images/mangocup.png";
 import can_bottle from "../../../images/canbottle.png";
-import "./VideoProduction.css";
-import RelatedServices from "../../../components/relatedServices/RelatedServices";
-
 import ThreeCards from "../../../../Common/threeCards";
 import ServicesInnerBigImage from "../../../../Common/ServicesInnerBigImage";
 import ServicesInnerLeftText from "../../../../Common/ServicesInnerLeftText";
