@@ -12,7 +12,7 @@
     
     .internal_page1 {
       display: flex;
-      margin: 70px;
+      padding: 70px;
       justify-content: space-between;
     }
     

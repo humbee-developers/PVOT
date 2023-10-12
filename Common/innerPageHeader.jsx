@@ -1,10 +1,8 @@
-import React from 'react'
-
-import "./innerpageheader.css"
+import "./innerpageheader.css";
 const innerPageHeader = (props) => {
   return (
-    <div className='inner_page_main'>
-    <img className="internal_page1_image1" src={props.header} alt="" />
+    <div className="inner_page_main">
+      <img className="internal_page1_image1" src={props.header} alt="" />
       <div className="internal_page1">
         <div className="internal_page1_inner">
           <img src={props.logo} alt="" className="logo" />
@@ -28,9 +26,8 @@ const innerPageHeader = (props) => {
           </div>
         </div>
       </div>
-    
     </div>
-  )
-}
+  );
+};
 
-export default innerPageHeader
+export default innerPageHeader;

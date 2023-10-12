@@ -14,8 +14,8 @@ import BigServicesInnerText from "../../../../Common/ServicesInnerBigText";
 
 const Ecommerce = () => {
   return (
-    <div style={{backgroundColor:"black"}}>
-    <InnerPageHeader header={inner_header_e_commerce} logo={logo} />
+    <div style={{ backgroundColor: "black" }}>
+      <InnerPageHeader header={inner_header_e_commerce} logo={logo} />
       <LeftImageRightSliderImage
         leftImage={leftImage}
         topTitle1={"Brand Identity"}
@@ -37,7 +37,19 @@ const Ecommerce = () => {
         }
         rightBottomImage={rightBottomImage}
       />
-      <FlexImages image1={delivery_boy} image2={girl_shopping} text1={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "} text2={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "}/>
+      <BigServicesInnerText
+        text={"Lorem Ipsum is simply dummy text of the printing "}
+      />
+      <FlexImages
+        image1={delivery_boy}
+        image2={girl_shopping}
+        text1={
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "
+        }
+        text2={
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "
+        }
+      />
       <InnerCommonButton />
       <RelatedServices />
     </div>
