@@ -18,27 +18,29 @@ const DigitalContent = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
       <InnerPageHeader header={innerlaptop} logo={logo} />
-      <div className="similar_cards_outer">
-        <div className="similar_cards1">
-          <img src={innerglobal} alt="" />
-        </div>
-        <div className="similar_cards2">
-          <RightSlider
-            className="xbxbx"
-            title1={"Brand Identity"}
-            title2={"Brand Identity"}
-            text1={
-              "Creating almost a personification of Jolie, this beautiful wordmark feels feminine and clean. The varied weights and character angles of the custom wordmark combine to create a strong and timeless wordmark."
-            }
-            text2={
-              "Creating almost a personification of Jolie, this beautiful wordmark feels feminine and clean. The varied weights and character angles of the custom wordmark combine to create a strong and timeless wordmark."
-            }
-          />
-        </div>
-        <div className="similar_cards3">
-          <img src={innerglobal2} alt="" />
-        </div>
-      </div>
+  <div className="common_container">
+  <div className="similar_cards_outer">
+  <div className="similar_cards1">
+    <img className="similar_card_img" src={innerglobal} alt="" />
+  </div>
+  <div className="similar_cards2">
+    <RightSlider
+      className="xbxbx"
+      title1={"Brand Identity"}
+      title2={"Brand Identity"}
+      text1={
+        "Creating almost a personification of Jolie, this beautiful wordmark feels feminine and clean. The varied weights and character angles of the custom wordmark combine to create a strong and timeless wordmark."
+      }
+      text2={
+        "Creating almost a personification of Jolie, this beautiful wordmark feels feminine and clean. The varied weights and character angles of the custom wordmark combine to create a strong and timeless wordmark."
+      }
+    />
+  </div>
+  <div className="similar_cards3">
+    <img className="similar_card_img" src={innerglobal2} alt="" />
+  </div>
+</div>
+  </div>
       <SeventyThirty seventy_img={profit} thirty_img={seo} />
       <BigServicesInnerText
         text={"Lorem Ipsum is simply dummy text of the printing "}
