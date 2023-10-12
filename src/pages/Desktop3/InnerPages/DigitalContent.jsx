@@ -11,6 +11,7 @@ import InnerPage2 from "../../../../Common/innerPage2";
 import RightSlider from "../../../components/leftImageRightSliderImage/RightSlider";
 import InnerCommonButton from "../../../../Common/innerCommonButton";
 import InnerPageHeader from "../../../../Common/innerPageHeader";
+import SeventyThirty from "../../../../Common/SeventyThirty";
 import "./digitalcontent.css"
 const DigitalContent = () => {
   return (
@@ -34,15 +35,7 @@ const DigitalContent = () => {
    <img src={innerglobal2} alt="" />
    </div>
    </div>
-
-   <div className='seventy_thirty'>
-   <div className='seventy_thirty_one'>
-   <img className='seventy_img' src={profit} alt="" />
-   </div>
-   <div className='seventy_thirty_two'>
-   <img className='seventy_img2' src={seo} alt="" />
-   </div>
-   </div>
+   <SeventyThirty img1={profit} img2={seo}/>
 
    <InnerPage2
         img8={innerAi}

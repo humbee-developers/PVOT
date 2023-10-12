@@ -1,14 +1,14 @@
 import React from 'react'
-import canbottle from "./../src/images/canbottle.png";
+
 import RightSlider from "./../src/components/leftImageRightSliderImage/RightSlider";
-import mangocup from "./../src/images/mangocup.png";
+
 import "./threecards.css"
-const threeCards = () => {
+const threeCards = (props) => {
   return (
     <div>
     <div className='threecards_outer'>
     <div className='threecards_one'>
-    <img src={canbottle} alt="" />
+    <img src={props.cane_image} alt="" />
     </div>
     <div className='threecards_two'>
     <RightSlider className="xbxbx"  title1={"Brand Identity"}
@@ -21,7 +21,7 @@ const threeCards = () => {
     }/>
     </div>
     <div className='threecards_three'>
-    <img src={mangocup} alt="" />
+    <img src={props.mango_cup} alt="" />
     </div>
     
     </div>

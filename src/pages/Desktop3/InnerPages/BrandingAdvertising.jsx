@@ -4,6 +4,7 @@ import InnerCommonButton from "../../../../Common/innerCommonButton";
 import RelatedServices from "../../../components/relatedServices/RelatedServices";
 import InnerPageHeader from "../../../../Common/innerPageHeader";
 import InnerPage2 from "../../../../Common/innerPage2";
+import FlexImages from  "../../../../Common/flexImages";
 import img8 from "../../../images/inner-image1-8.png";
 import img9 from "../../../images/inner-image1-9.png";
 import img10 from "../../../images/inner-image1-10.png";
@@ -47,24 +48,7 @@ const BrandingAdvertising = () => {
         }
         internalHeader={"Lorem Ipsum is simply dummy text of the printing  "}
       />
-
-      <div className="internal_5th_img_outer">
-        <div className="internal_5th_1">
-          <img className="internal_5th_img " src={img9} alt="" />
-          <div className="internal_5th_img_text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the{" "}
-          </div>
-        </div>
-        <div className="internal_5th_1">
-          <img className="internal_5th_img" src={img10} alt="" />
-          <div className="internal_5th_img_text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the{" "}
-          </div>
-        </div>
-      </div>
-
+      <FlexImages image1={img9} image2={img10} text1={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "} text2={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "}/>
       <InnerCommonButton />
       <RelatedServices />
     </div>

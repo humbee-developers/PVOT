@@ -8,13 +8,14 @@ import icewater from "../../../images/icewater.png";
 import InnerPageHeader from "../../../../Common/innerPageHeader";
 import "./VideoProduction.css"
 import RelatedServices from '../../../components/relatedServices/RelatedServices'
-
+import mango_cup from "../../../images/mangocup.png";
+import can_bottle from "../../../images/canbottle.png";
 import ThreeCards from "../../../../Common/threeCards";
 const DigitalContent = () => {
   return (
     <div  style={{backgroundColor:"black"}}>
     <InnerPageHeader header={imx} logo={logo} />
-    <ThreeCards/>
+    <ThreeCards cane_image={can_bottle} mango_cup={mango_cup}/>
     <div className="internal2_img_outer">
         <img className="internal2__img" src={imgxx} alt="" />
         <div className="internal2_img_text_outer">

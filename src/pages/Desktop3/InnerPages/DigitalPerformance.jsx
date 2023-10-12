@@ -1,7 +1,9 @@
 import React from 'react'
 import RelatedServices from '../../../components/relatedServices/RelatedServices'
 import InnerPageHeader from "../../../../Common/innerPageHeader";
+import InnerMultipleCards from "../../../../Common/innerMultipleCards";
 import RightSlider from "../../../components/leftImageRightSliderImage/RightSlider";
+import InnerCommonButton from "../../../../Common/innerCommonButton";
 import logo from "../../../images/PVOT-Design-Final-Logo-White.png";
 import innercloud from "../../../images/inner_cloud.png";
 import innertempo from "../../../images/inner_tempo.png";
@@ -24,6 +26,10 @@ const DigitalPerformance = () => {
     <div className='innercloud_sec_inner_two'>
     <img className='innercloud_sec_inner_img' src={innertempo} alt="" />
     </div>
+    </div>
+    <div>
+    <InnerMultipleCards/>
+    <InnerCommonButton />
     </div>
     <RelatedServices />
   

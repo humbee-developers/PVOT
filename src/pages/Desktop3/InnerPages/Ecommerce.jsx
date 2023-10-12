@@ -1,13 +1,20 @@
 import RelatedServices from "../../../components/relatedServices/RelatedServices";
+import InnerPageHeader from "../../../../Common/innerPageHeader";
+import InnerCommonButton from "../../../../Common/innerCommonButton";
+import FlexImages from "../../../../Common/flexImages";
+import inner_header_e_commerce from "../../../images/inner_e_commerce_header_image.png";
+import logo from "../../../images/PVOT-Design-Final-Logo-White.png";
 import leftImage from "../../../images/inner-image7-1.png";
+import delivery_boy from "../../../images/inner_delivery_boy.png";
+import girl_shopping from "../../../images/inner_girl_shopping.png";
 import rightTopImage from "../../../images/inner-image7-2.png";
 import rightBottomImage from "../../../images/inner-image7-3.png";
 import LeftImageRightSliderImage from "../../../components/leftImageRightSliderImage/LeftImageRightSliderImage";
 
 const Ecommerce = () => {
   return (
-    <>
-      <div>Ecommerce</div>
+    <div style={{backgroundColor:"black"}}>
+    <InnerPageHeader header={inner_header_e_commerce} logo={logo} />
       <LeftImageRightSliderImage
         leftImage={leftImage}
         topTitle1={"Brand Identity"}
@@ -29,8 +36,10 @@ const Ecommerce = () => {
         }
         rightBottomImage={rightBottomImage}
       />
+      <FlexImages image1={delivery_boy} image2={girl_shopping} text1={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "} text2={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "}/>
+      <InnerCommonButton />
       <RelatedServices />
-    </>
+    </div>
   );
 };
 

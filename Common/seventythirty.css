@@ -1,0 +1,21 @@
+.seventy_thirty{
+      display: flex;
+      margin-top: 2rem;
+      justify-content: space-around;
+      padding: 0 120px;
+}
+.seventy_thirty_one{
+width: 70%;
+}
+.seventy_thirty_one .seventy_img{
+width: 100%;
+margin: 0 -38px;
+height: 95%;
+}
+.seventy_thirty_two{
+      width: 30%;
+}
+
+.seventy_thirty_two .seventy_img2{
+      margin: 0 -16px;
+}
