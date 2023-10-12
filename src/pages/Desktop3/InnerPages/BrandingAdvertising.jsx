@@ -3,7 +3,6 @@ import logo from "../../../images/PVOT-Design-Final-Logo-White.png";
 import InnerCommonButton from "../../../../Common/innerCommonButton";
 import RelatedServices from "../../../components/relatedServices/RelatedServices";
 import InnerPageHeader from "../../../../Common/innerPageHeader";
-import InnerPage2 from "../../../../Common/innerPage2";
 import FlexImages from  "../../../../Common/flexImages";
 import img8 from "../../../images/inner-image1-8.png";
 import img9 from "../../../images/inner-image1-9.png";

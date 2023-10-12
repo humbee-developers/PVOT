@@ -16,7 +16,7 @@ const RelatedServices = () => {
   function checkWidthSize() {
     setResize(window.innerWidth);
   }
-  let showCard = (resize < 767 ? 1 : resize < 991 ? 2 : 3) 
+  let showCard = resize < 767 ? 1 : resize < 991 ? 2 : 3;
   window.addEventListener("resize", checkWidthSize);
   const location = useLocation();
   return (
@@ -28,11 +28,11 @@ const RelatedServices = () => {
               <h2>Related Services</h2>
             </div>
             <div className="relatedServices_slide_btn">
-              <div className="relatedServices-next">
-                <img src={arrowIcon} alt="arrow_right" />
-              </div>
               <div className="relatedServices-prev">
                 <img src={arrowIcon} alt="arrow_left" />
+              </div>
+              <div className="relatedServices-next">
+                <img src={arrowIcon} alt="arrow_right" />
               </div>
             </div>
           </div>
