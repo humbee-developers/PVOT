@@ -10,6 +10,7 @@
   height: 100%;
   border-radius: 32px;
   color: white;
+  padding: 0;
 }
 .inner_multiple_cards_2 {
   display: flex;
@@ -27,4 +28,46 @@
 .multiple_cards_img_setting {
   width: 100%;
   margin: 0 5px;
+}
+@media (max-width: 991px) {
+  .inner_multiple_cards_2,
+  .inner_multiple_cards_1 {
+    display: block;
+  }
+  .multiple_cards_custom2,
+  .multiple_cards_custom1 {
+    width: 100%;
+    margin: -7px;
+    margin-top: 15px;
+  }
+  .inner_multiple_card1 .rightSlider {
+    padding: 0;
+    margin: 8px;
+  }
+  .multiple_cards_img_setting {
+    width: 100%;
+    margin: 5px 5px;
+}
+}
+
+@media (max-width: 767px) {
+  .inner_multiple_cards_2,
+  .inner_multiple_cards_1 {
+    display: block;
+  }
+  .multiple_cards_custom2,
+  .multiple_cards_custom1 {
+    width: 100%;
+    margin: -7px;
+    height: 380px;
+    margin-top: 15px;
+  }
+  .inner_multiple_card1 .rightSlider {
+    padding: 0;
+    margin: 8px;
+  }
+  .multiple_cards_img_setting {
+    width: 100%;
+    margin: 5px 5px;
+}
 }

@@ -7,8 +7,6 @@ import innerindustria from "../src/images/inner_industria.png";
 import innerclock from "../src/images/inner_clock.png";
 import inneroldtv from "../src/images/inner_oldtv.png";
 import innerfluidmobile from "../src/images/inner_fluidmobile.png";
-
-
 import "./innermultiplecards.css";
 
 const innerMultipleCards = () => {
