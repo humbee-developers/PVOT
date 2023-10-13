@@ -20,32 +20,23 @@ const Technology = () => {
         leftImage={leftImage}
         topTitle1={"Brand Identity"}
         topTitle2={"Brand Messaging"}
-        topText1={
-          "Creating almost a personification of Jolie, this beautiful wordmark feels feminine and clean. The varied weights and character angles of the custom wordmark combine to create a strong and timeless wordmark."
-        }
-        topText2={
-          "Creating almost a personification of Jolie, this beautiful wordmark feels feminine and clean. The varied weights and character angles of the custom wordmark combine to create a strong and timeless wordmark."
-        }
+        topText1={ "Creating almost a personification of Jolie, this beautiful wordmark feels feminine and clean. The varied weights and character angles of the custom wordmark combine to create a strong and timeless wordmark."}
+
+        topText2={ "Creating almost a personification of Jolie, this beautiful wordmark feels feminine and clean. The varied weights and character angles of the custom wordmark combine to create a strong and timeless wordmark." }
+
         rightTopImage={rightTopImage}
         bottomTitle1={"Brand Identity"}
         bottomTitle2={"Brand Messaging"}
-        bottomText1={
-          "The particular challenge of the brand voice definition was to communicate in a way that peaked the interest of the viewer and encouraged them to pay attention to the impact their water had on their wellness and beauty routines."
-        }
-        bottomText2={
-          "The particular challenge of the brand voice definition was to communicate in a way that peaked the interest of the viewer and encouraged them to pay attention to the impact their water had on their wellness and beauty routines."
-        }
-        rightBottomImage={rightBottomImage}
-      />
+        bottomText1={"The particular challenge of the brand voice definition was to communicate in a way that peaked the interest of the viewer and encouraged them to pay attention to the impact their water had on their wellness and beauty routines." }
+        bottomText2={ "The particular challenge of the brand voice definition was to communicate in a way that peaked the interest of the viewer and encouraged them to pay attention to the impact their water had on their wellness and beauty routines." }
+        rightBottomImage={rightBottomImage}/>
+
       <BigServicesInnerText
-        text={"Lorem Ipsum is simply dummy text of the printing"}
-      />
+        text={"Lorem Ipsum is simply dummy text of the printing"} />
       <ServicesInnerBigImage image={servicesInnerBigImage} />
+      
       <ServicesInnerLeftText
-        text={
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-        }
-      />
+        text={ "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book" } />
       <RelatedServices />
     </>
   );
