@@ -11,6 +11,7 @@ import rightTopImage from "../../../images/inner-image7-2.png";
 import rightBottomImage from "../../../images/inner-image7-3.png";
 import LeftImageRightSliderImage from "../../../components/leftImageRightSliderImage/LeftImageRightSliderImage";
 import BigServicesInnerText from "../../../../Common/ServicesInnerBigText";
+import Twenty_Five_Fifty from "../../../../Common/twenty_Five_Fifty";
 
 const Ecommerce = () => {
   return (
@@ -40,6 +41,10 @@ const Ecommerce = () => {
       <BigServicesInnerText
         text={"Lorem Ipsum is simply dummy text of the printing "}
       />
+
+      <Twenty_Five_Fifty/>
+
+
       <FlexImages
         image1={delivery_boy}
         image2={girl_shopping}

@@ -3,4 +3,24 @@
   width: 232px;
   margin: 0px 0px;
   position: relative;
+  margin-top: 2rem;
+}
+.common_button_link{
+font-size: 25px ;
+position: absolute;
+top: 0%;
+left: 40px;
+transform:translateY(50%) ;
+}
+
+@media (max-width: 991px){
+.common_button_link{
+  
+}
+}
+
+@media (max-width: 767px){
+  .common_button_link{
+
+  }
 }
