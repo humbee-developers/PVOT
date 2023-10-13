@@ -1,9 +1,10 @@
 .internal_page1_image1 {
-  height: 45rem;
       width: 100%;
+      min-height: 780px;
     }
     .inner_page_main{
       background-color: black;
+      padding: 100px 0 0;
     }
     .logo {
       max-width: 100%;

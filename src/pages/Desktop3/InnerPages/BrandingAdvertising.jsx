@@ -1,9 +1,9 @@
-import imx from "../../../images/inner-image-heading1.png";
+import imx from "../../../images/servicesBanner.png";
 import logo from "../../../images/PVOT-Design-Final-Logo-White.png";
 import InnerCommonButton from "../../../../Common/innerCommonButton";
 import RelatedServices from "../../../components/relatedServices/RelatedServices";
 import InnerPageHeader from "../../../../Common/innerPageHeader";
-import FlexImages from  "../../../../Common/flexImages";
+import FlexImages from "../../../../Common/flexImages";
 import img8 from "../../../images/inner-image1-8.png";
 import img9 from "../../../images/inner-image1-9.png";
 import img10 from "../../../images/inner-image1-10.png";
@@ -20,7 +20,6 @@ const BrandingAdvertising = () => {
   return (
     <div className="asdf" style={{ backgroundColor: "black" }}>
       <InnerPageHeader header={imx} logo={logo} />
-
       <LeftImageRightSliderImage
         leftImage={leftImage}
         topTitle1={"Brand Identity"}
@@ -59,7 +58,16 @@ const BrandingAdvertising = () => {
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
         }
       />
-      <FlexImages image1={img9} image2={img10} text1={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "} text2={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "}/>
+      <FlexImages
+        image1={img9}
+        image2={img10}
+        text1={
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "
+        }
+        text2={
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "
+        }
+      />
       <InnerCommonButton />
       <RelatedServices />
     </div>
