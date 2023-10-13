@@ -10,6 +10,7 @@
   height: 100%;
   border-radius: 32px;
   color: white;
+  padding: 0;
 }
 .inner_multiple_cards_2 {
   display: flex;
