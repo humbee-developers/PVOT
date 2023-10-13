@@ -6,7 +6,7 @@ const innerCommonButton = () => {
     <div className='common_container'>
     
     <div className='common_button_outer'>
-    <img src={innerCommon} alt="" />
+    <img className='common_button_image' src={innerCommon} alt="" />
     <a className='common_button_link' href='/contact-us'>Contact Now -</a>
     </div>
     

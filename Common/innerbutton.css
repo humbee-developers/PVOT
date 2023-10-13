@@ -12,15 +12,45 @@ top: 0%;
 left: 40px;
 transform:translateY(50%) ;
 }
+.common_button_image{
+width: 100%;
+}
 
 @media (max-width: 991px){
 .common_button_link{
-  
+  font-size: 19px;
+  position: absolute;
+  top: -14%;
+  left: 23px;
+  transform: translateY(50%);
+}
+.common_button_outer {
+  background-color: #735b9f;
+  width: 165px;
+  margin: 0px 0px;
+  position: relative;
+}
+.common_button_image{
+width: 100%;
 }
 }
 
 @media (max-width: 767px){
   .common_button_link{
-
+    font-size: 20px;
+    position: absolute;
+    top: -16%;
+    left: 21px;
+    transform: translateY(50%);
+  }
+  .common_button_image{
+width: 100%;
+  }
+  .common_button_outer {
+    background-color: #735b9f;
+    width: 165px;
+    margin: 0px 0px;
+    position: relative;
+    
   }
 }

@@ -109,6 +109,12 @@
   }
 }
 @media (max-width: 991px) {
+
+  .leftImageRightSliderImage {
+    padding: 20px 0;
+    background-color: #000;
+    color: #fff;
+  }
   .leftImageRightSliderImage_container {
     max-width: 767px;
   }
@@ -133,6 +139,13 @@
   }
   .rightSlider {
     width: 50%;
+  }
+}
+@media (max-width: 767px){
+  .leftImageRightSliderImage {
+    padding: 20px 0;
+    background-color: #000;
+    color: #fff;
   }
 }
 
