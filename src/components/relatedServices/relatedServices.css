@@ -103,4 +103,10 @@
   .relatedServicesItem_card img {
     width: 100%;
   }
+  .relatedServicesItem_card {
+    padding: 0 10px;
+  }
+  .relatedServices_heading_wrapper {
+    margin: 0 0 38px 10px;
+  }
 }
