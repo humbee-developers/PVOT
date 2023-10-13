@@ -8,16 +8,16 @@
 
 .internal_page1 {
   display: flex;
-  padding: 70px;
+  padding: 70px 0;
   justify-content: space-between;
 }
 
-.internal_page1_inner1 {
+/* .internal_page1_inner1 {
   width: 40%;
-}
-.internal_page1_inner2 {
+} */
+/* .internal_page1_inner2 {
   width: 30%;
-}
+} */
 .internal_text {
   color: white;
   font-family: "FONTSPRING";
@@ -58,25 +58,4 @@
   color: white;
   font-family: "FONTSPRING";
   font-weight: 300;
-}
-.internal_5th_img_outer {
-  display: flex;
-  justify-content: space-between;
-  margin: 40px 0;
-}
-.internal_5th_img {
-  width: 100%;
-}
-.internal_5th_1 {
-  width: 48%;
-}
-.internal_5th_img_text{
-      color: white;
-      margin-top: 1rem;
-      width: 80%;
-      font-family: "FONTSPRING";
-      font-weight: 100;
-}
-.innerbutton_custom{
-  
 }
