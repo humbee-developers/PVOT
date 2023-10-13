@@ -13,6 +13,7 @@ import ServicesInnerBigImage from "../../../../Common/ServicesInnerBigImage";
 import ServicesInnerLeftText from "../../../../Common/ServicesInnerLeftText";
 import canImage from "../../../images/canbottle.png";
 import bottleImage from "../../../images/inner-image2-2.png";
+import TextImage from "../../../components/textImage/TextImage";
 const DigitalContent = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
@@ -24,7 +25,7 @@ const DigitalContent = () => {
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
         }
       />
-      <div className="internal2_4th_section">
+      {/* <div className="internal2_4th_section">
         <div className="internal2_4section">
           <div className="internal2_4section_text">
             Lorem Ipsum is simply dummy
@@ -35,7 +36,9 @@ const DigitalContent = () => {
             <img src={icewater} alt="" />
           </div>
         </div>
-      </div>
+      </div> */}
+
+      <TextImage text={"Lorem Ipsum is simply dummy"} image={icewater} />
 
       <ServicesInnerBigImage image={bottles} />
       <ServicesInnerLeftText
