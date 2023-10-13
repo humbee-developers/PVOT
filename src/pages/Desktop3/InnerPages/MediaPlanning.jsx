@@ -19,15 +19,13 @@ const MediaPlanning = () => {
       <InnerPageHeader header={inner_tv_lamp} logo={logo} />
       <ThreeCards cane_image={podcast} mango_cup={newspaper} />
       <ServicesInnerBigImage image={servicesBigImage1} />
+      
       <BigServicesInnerText
-        text={"Lorem Ipsum is simply dummy text of the printing "}
-      />
+        text={"Lorem Ipsum is simply dummy text of the printing "}/>
       <ServicesInnerBigImage image={servicesBigImage2} />
+
       <ServicesInnerLeftText
-        text={
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-        }
-      />
+        text={ "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book" } />
       <InnerCommonButton />
       <RelatedServices />
     </div>
