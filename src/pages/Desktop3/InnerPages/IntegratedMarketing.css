@@ -62,7 +62,7 @@
 .internal_5th_img_outer {
   display: flex;
   justify-content: space-between;
-  margin: 40px 83px;
+  /* margin: 40px 83px; */
 }
 .internal_5th_img {
   width: 100%;

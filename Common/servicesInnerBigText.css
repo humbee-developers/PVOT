@@ -44,8 +44,11 @@
     max-width: 100%;
   }
   .internal_4th_header_text {
-    font-size: 60px;
-    line-height: 80px;
+    font-size: 31px;
+    line-height: 49px;
     margin: 0 10px;
   }
+  .internal_4th_header_outer {
+    padding: 25px 0px;
+}
 }
