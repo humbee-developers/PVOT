@@ -2,6 +2,7 @@
   padding: 100px 0;
   background-color: #000;
   color: #fff;
+  overflow: hidden;
 }
 .relatedServices_container {
   max-width: 1440px;
@@ -94,11 +95,12 @@
   }
   .relatedServices-next img {
     width: 28px;
+    margin-right: 5px;
   }
   .relatedServices-prev img {
     width: 28px;
   }
-  .relatedServices-next img {
-    margin-right: 5px;
+  .relatedServicesItem_card img {
+    width: 100%;
   }
 }
