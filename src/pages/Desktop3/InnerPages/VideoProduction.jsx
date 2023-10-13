@@ -5,7 +5,6 @@ import imgxx from "../../../images/icecream.png";
 import bottles from "../../../images/bottles.png";
 import icewater from "../../../images/icewater.png";
 import InnerPageHeader from "../../../../Common/innerPageHeader";
-import "./VideoProduction.css";
 import RelatedServices from "../../../components/relatedServices/RelatedServices";
 import ThreeCards from "../../../../Common/threeCards";
 import ServicesInnerBigImage from "../../../../Common/ServicesInnerBigImage";

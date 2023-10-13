@@ -7,7 +7,6 @@ import RelatedServices from "../../../components/relatedServices/RelatedServices
 import InnerCommonButton from "../../../../Common/innerCommonButton";
 import InnerPageHeader from "../../../../Common/innerPageHeader";
 import SeventyThirty from "../../../../Common/SeventyThirty";
-import Similar_cards from "../../../../Common/similar_cards"
 import ThreeCards from "../../../../Common/threeCards";
 import BigServicesInnerText from "../../../../Common/ServicesInnerBigText";
 import ServicesInnerBigImage from "../../../../Common/ServicesInnerBigImage";

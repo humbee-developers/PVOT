@@ -10,7 +10,6 @@ import inner_chart from "../../../images/inner_chart.png";
 import inner_graph from "../../../images/inner_graph.png";
 import four_circle from "../../../images/inner_four_circle.png";
 import space_circle from "../../../images/inner_space_circle.png";
-import "./IntegratedMarketing.css";
 import ServicesInnerLeftText from "../../../../Common/ServicesInnerLeftText";
 const IntegratedMarketing = () => {
   return (

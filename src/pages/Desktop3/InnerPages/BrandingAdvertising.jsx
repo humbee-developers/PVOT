@@ -7,7 +7,6 @@ import FlexImages from "../../../../Common/flexImages";
 import img8 from "../../../images/inner-image1-8.png";
 import img9 from "../../../images/inner-image1-9.png";
 import img10 from "../../../images/inner-image1-10.png";
-import "./IntegratedMarketing.css";
 import leftImage from "../../../images/inner-image1-2.png";
 import rightTopImage from "../../../images/inner-image1-4.png";
 import rightBottomImage from "../../../images/inner-image1-5.png";
