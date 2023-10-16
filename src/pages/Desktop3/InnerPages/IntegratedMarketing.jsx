@@ -14,7 +14,7 @@ import ServicesInnerLeftText from "../../../../Common/ServicesInnerLeftText";
 const IntegratedMarketing = () => {
   return (
     <div className="asdf" style={{ backgroundColor: "black" }}>
-    <InnerPageHeader header={three_dlaptop} logo={logo} />
+    <InnerPageHeader header={three_dlaptop} logo={logo} inner_ani_text1={"Integrated"} inner_ani_text2={"Marketing Solutions"} />
     <FlexImages image1={inner_chart} image2={inner_graph} />
     <BigServicesInnerText
         text={"Lorem Ipsum is simply dummy text of the printing"}/>

@@ -15,7 +15,7 @@ import TextImage from "../../../components/textImage/TextImage";
 const DigitalContent = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
-      <InnerPageHeader header={imx} logo={logo} />
+      <InnerPageHeader header={imx} logo={logo} inner_ani_text1={"Video Production"} inner_ani_text2={"and Photography"} />
       <ThreeCards cane_image={canImage} mango_cup={bottleImage} />
       <ServicesInnerBigImage image={imgxx} />
       <ServicesInnerLeftText

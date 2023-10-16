@@ -10,7 +10,7 @@ import ServicesInnerLeftText from "../../../../Common/ServicesInnerLeftText";
 const DigitalPerformance = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
-      <InnerPageHeader header={innercloud} logo={logo} />
+      <InnerPageHeader header={innercloud} logo={logo} inner_ani_text1={"Digital and"} inner_ani_text2={"Performance Marketing"} />
       <ThirtySeventy/>
       <BigServicesInnerText
         text={"Lorem Ipsum is simply dummy text of the printing "}/>
