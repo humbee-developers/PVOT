@@ -1,8 +1,9 @@
-import "./heroHeading.css";
+
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import gsap from "gsap";
+import "./heroHeading.css";
 const HeroHeading = ({ bigHeading, hoverText }) => {
   const outer = useRef(null);
   const inner = useRef(null);
