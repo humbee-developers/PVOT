@@ -1,5 +1,6 @@
 import React from 'react'
 import innerCommon from "./../src/images/innerbuttonimage.png"
+import { Link } from "react-router-dom"; 
 import "./innerbutton.css"
 const innerCommonButton = () => {
   return (
@@ -7,7 +8,7 @@ const innerCommonButton = () => {
     
     <div className='common_button_outer'>
     <img className='common_button_image' src={innerCommon} alt="" />
-    <a className='common_button_link' href='/contact-us'>Contact Now -</a>
+    <Link className='common_button_link' to='/contact-us'>Contact Now -</Link>
     </div>
     
     </div>

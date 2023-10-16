@@ -16,7 +16,7 @@ import innerglobal2 from "../../../images/inner_global2.png";
 const DigitalContent = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
-      <InnerPageHeader header={innerlaptop} logo={logo} />
+      <InnerPageHeader header={innerlaptop} logo={logo} inner_ani_text1={"Digital Content"} inner_ani_text2={"Creation and SEO"} />
       <ThreeCards cane_image={innerglobal} mango_cup={innerglobal2} />
       <SeventyThirty seventy_img={profit} thirty_img={seo} />
       <BigServicesInnerText

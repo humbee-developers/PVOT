@@ -1,6 +1,8 @@
 import { useFormik } from "formik";
 import "./contactForm.css";
 import { ContactFormSchemas } from "../../../schemas/ContactFormSchemas";
+import innerCommon from "../../../images/innerbuttonimage.png";
+import { Link } from "react-router-dom"; 
 
 const ContactForm = () => {
   const initialValue = {
@@ -49,7 +51,7 @@ const ContactForm = () => {
             )}
           </div>
           <div className="field">
-            <label htmlFor="email">Email address</label>
+            <label htmlFor="email">Email</label>
             <input
               type="email"
               name="email"
@@ -84,29 +86,16 @@ const ContactForm = () => {
               <p className="error">{errors.onYourMind}</p>
             )}
           </div>
-          <div className="accept_check">
-            <div className="checkbox_flex">
-              <input
-                type="checkbox"
-                name="checkbox"
-                onChange={handleChange}
-                value={values.checkbox}
-                checked={values.checkbox}
-              />
-              <div className="accept_pvot">
-                I here by accept pvot{" "}
-                <span>General terms & Privacy Policy</span>{" "}
-              </div>
-            </div>
-            {touched.checkbox && errors.checkbox && (
-              <p className="error">{errors.checkbox}</p>
-            )}
-          </div>
           <div className="field">
-            <button type="submit" className="submit_btn hover_btn">
-              <span className="btn_text">Send Message</span>
-              <span className="btn_text">Send Message</span>
-            </button>
+      
+    
+          <div className='common_button_outer2'>
+          <img className='common_button_image2' src={innerCommon} alt="" />
+          <Link style={{color:"black"}} className='common_button_link2' to='/contact-us'>Submit -</Link>
+          </div>
+    
+
+          
           </div>
         </form>
       </div>

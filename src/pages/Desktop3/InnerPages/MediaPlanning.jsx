@@ -15,7 +15,7 @@ import servicesBigImage2 from "../../../images/mediaPlaningServicesImages2.png"
 const MediaPlanning = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
-      <InnerPageHeader header={inner_tv_lamp} logo={logo} />
+      <InnerPageHeader header={inner_tv_lamp} logo={logo} inner_ani_text1={"Media Planning"} inner_ani_text2={"and Buying"} />
       <ThreeCards cane_image={podcast} mango_cup={newspaper} />
       <ServicesInnerBigImage image={servicesBigImage1} />
 

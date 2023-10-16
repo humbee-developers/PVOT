@@ -1,5 +1,4 @@
 .contact_form {
-  background-color: #000;
   color: #ffff;
   padding: 20px 0;
 }
@@ -12,12 +11,12 @@
   margin: 0 0 24px;
 }
 .field input {
-  border-radius: 14px;
-  background: #323238;
+  background: #000000;
   border: none;
+  border-bottom: 1px solid gray;
   color: #fff;
   height: 45px;
-  font-family: "Plus Jakarta Sans";
+  font-family: "FONTSPRING";
   font-size: 18px;
   padding: 0 20px;
 }
@@ -26,10 +25,9 @@
 }
 .field label {
   color: #fff;
-  font-family: "Plus Jakarta Sans";
-  font-size: 21px;
+  font-family: "FONTSPRING";
+  font-size: 20px;
   font-style: normal;
-  font-weight: 600;
   line-height: normal;
   margin: 0 0 10px;
 }
@@ -69,4 +67,44 @@ p.error {
 }
 .checkbox_flex input {
   width: 17px;
+}
+
+.common_button_outer2 {
+  background-color: #735b9f;
+  width: 180px;
+  margin: 0px 0px;
+  position: relative;
+  margin-top: 2rem;
+}
+.common_button_link2{
+font-size: 25px ;
+position: absolute;
+top: -18%;
+    left: 44px;
+transform:translateY(50%) ;
+}
+.common_button_image2{
+width: 100%;
+}
+
+
+
+@media (max-width: 767px){
+  .common_button_link2{
+    font-size: 20px;
+    position: absolute;
+    top: -10%;
+    left: 42px;
+    transform: translateY(50%);
+  }
+  .common_button_image2{
+width: 100%;
+  }
+  .common_button_outer2 {
+    background-color: #735b9f;
+    width: 165px;
+    margin: 0px 0px;
+    position: relative;
+    
+  }
 }

@@ -16,7 +16,7 @@ import Twenty_Five_Fifty from "../../../../Common/twenty_Five_Fifty";
 const Ecommerce = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
-      <InnerPageHeader header={inner_header_e_commerce} logo={logo} />
+      <InnerPageHeader header={inner_header_e_commerce} logo={logo} inner_ani_text1={"E-commerce Strategy"} inner_ani_text2={"E-commerce Strategy"} />
       <LeftImageRightSliderImage
         leftImage={leftImage}
         topTitle1={"Brand Identity"}

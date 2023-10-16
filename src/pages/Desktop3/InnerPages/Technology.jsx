@@ -15,7 +15,7 @@ const Technology = () => {
   return (
     <>
       <div>Technology</div>
-      <InnerPageHeader header={technologyBanner} logo={logo} />
+      <InnerPageHeader header={technologyBanner} logo={logo} inner_ani_text1={"Technology &"} inner_ani_text2={"Design"} />
       <LeftImageRightSliderImage
         leftImage={leftImage}
         topTitle1={"Brand Identity"}

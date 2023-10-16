@@ -18,7 +18,7 @@ import ServicesInnerLeftText from "../../../../Common/ServicesInnerLeftText";
 const BrandingAdvertising = () => {
   return (
     <div className="asdf" style={{ backgroundColor: "black" }}>
-      <InnerPageHeader header={imx} logo={logo} />
+      <InnerPageHeader header={imx} logo={logo}  inner_ani_text1={"Branding &"} inner_ani_text2={"Advertising"}/>
       <LeftImageRightSliderImage
         leftImage={leftImage}
         topTitle1={"Brand Identity"}

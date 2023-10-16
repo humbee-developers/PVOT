@@ -147,13 +147,13 @@
 }
 .image1{
   height: auto;
-  width: 85%;
+  width: 100%;
 }
 .outer-image-info1 {
   position: absolute;
-  right: -36px;
-  bottom: 13px;
-  max-width: 180px;
+  right: -6px;
+  bottom: 3px;
+  max-width: 140px;
   transform: translate(0%, 10%);
   border-radius: 0 0 30px 0;
   z-index: 1;
@@ -187,6 +187,15 @@
     max-width: 100%;
     margin-top: 1rem;
   }
+  .outer-image-info1 {
+    position: absolute;
+    right: -6px;
+    bottom: 3px;
+    max-width: 188px;
+    transform: translate(0%, 10%);
+    border-radius: 0 0 30px 0;
+    z-index: 1;
+}
 }
 
 .about-detail-circle-head {
