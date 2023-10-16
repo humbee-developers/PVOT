@@ -33,40 +33,22 @@
   font-size: 22px;
   font-family: "FONTSPRING";
 }
-.inner_heading_animation_text1{
-  font-size: 65px;
+.inner_heading_animation_text1 {
+  font-size: 105px;
+  position: absolute;
+  top: 19rem;
+  left: 1rem;
   color: white;
-
 }
-.inner_heading_animation_text2{
-  font-size: 65px;
+.inner_heading_animation_text2 {
+  font-size: 95px;
   color: white;
-
+  position: absolute;
+  top: 19rem;
+  font-family: "FONTSPRING";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.inner_page_animation {
+}
 
 @media (max-width: 991px) {
   .internal_page1_inner {
@@ -86,9 +68,26 @@
     width: 40%;
     padding: 0 20px;
   }
+
+  .inner_heading_animation_text1 {
+    font-size: 30px;
+    position: absolute;
+    top: 5rem;
+    left: -2rem;
+    color: white;
+  }
+  .inner_heading_animation_text2 {
+    font-size: 27px;
+    color: white;
+    position: absolute;
+    top: 0rem;
+    left: -2rem;
+    font-family: "FONTSPRING";
+  }
 }
+
 @media (max-width: 767px) {
-  .internal_page1{
+  .internal_page1 {
     flex-direction: column;
     margin: 0;
   }
@@ -98,5 +97,21 @@
   }
   .internal_page1_inner2 {
     width: 100%;
+  }
+
+  .inner_heading_animation_text1 {
+    font-size: 30px;
+    position: absolute;
+    top: 5rem;
+    left: -2rem;
+    color: white;
+  }
+  .inner_heading_animation_text2 {
+    font-size: 27px;
+    color: white;
+    position: absolute;
+    top: 0rem;
+    left: -2rem;
+    font-family: "FONTSPRING";
   }
 }
