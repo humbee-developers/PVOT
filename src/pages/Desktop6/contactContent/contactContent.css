@@ -102,7 +102,7 @@ span.btn_text {
 }
 @media (max-width: 767px) {
   .contact_content_left {
-    width: 276px;
+    width: 100%;
     padding: 0 0px;
     margin: 35px 0px 50px;
   }

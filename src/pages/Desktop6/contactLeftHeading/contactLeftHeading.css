@@ -1,9 +1,9 @@
 .contact_left_heading h2 {
-  background: #F54B34;
-  background: linear-gradient(to right, #F54B34 39%, #5CBBFF 100%);
+  background: #f54b34;
+  background: linear-gradient(to right, #f54b34 39%, #5cbbff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
+
   text-align: center;
   font-family: "FONTSPRING";
   font-size: 113px;
@@ -15,13 +15,13 @@
 
 @media (max-width: 1199px) {
   .contact_left_heading h2 {
-    font-size: 120px;
+    font-size: 90px;
   }
 }
 
 @media (max-width: 991px) {
   .contact_left_heading h2 {
-    font-size: 80px;
+    font-size: 70px;
   }
 }
 
@@ -34,6 +34,6 @@
 }
 @media (max-width: 575px) {
   .contact_left_heading h2 {
-    font-size:65px
+    font-size: 50px;
   }
 }

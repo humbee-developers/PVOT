@@ -43,7 +43,7 @@ button.navbar-toggler.collapsed {
     padding: 2px 11px !important;
   }
   .hero {
-    position: absolute !important;
+    /* position: absolute !important; */
     background: black !important;
     height: auto !important;
     z-index: 999 !important;

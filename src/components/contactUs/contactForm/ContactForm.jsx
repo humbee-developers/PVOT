@@ -2,7 +2,7 @@ import { useFormik } from "formik";
 import "./contactForm.css";
 import { ContactFormSchemas } from "../../../schemas/ContactFormSchemas";
 import innerCommon from "../../../images/innerbuttonimage.png";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
 const ContactForm = () => {
   const initialValue = {
@@ -87,15 +87,10 @@ const ContactForm = () => {
             )}
           </div>
           <div className="field">
-      
-    
-          <div className='common_button_outer2'>
-          <img className='common_button_image2' src={innerCommon} alt="" />
-          <Link style={{color:"black"}} className='common_button_link2' to='/contact-us'>Submit -</Link>
-          </div>
-    
-
-          
+            <div className="common_button_outer2">
+              <img className="common_button_image2" src={innerCommon} alt="" />
+              <button type="submit" className="submit_btn">Submit -</button>
+            </div>
           </div>
         </form>
       </div>
