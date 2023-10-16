@@ -103,7 +103,7 @@ const Amazing2023 = () => {
                 <img src={amazing2023Image} className="ball-outer" alt="" />
 
                 <div className="scrolling-container">
-                  <div className="scrolling-icon">
+                   <div className="scrolling-icon">
                     <img
                       src={ball}
                       alt="3d_ball"
