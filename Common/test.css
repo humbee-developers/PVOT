@@ -10,12 +10,13 @@
   .achievement-textContainer{
       position: relative;
       cursor: pointer;
+      font-family: "FONTSPRING";
   }
     
   .achievement-textContainer .achievement-primary,.achievement-secondary{
-      font-size: 4vw;
-      line-height: 6vw;
-      font-weight: 500;
+      font-size: 3.6vw;
+      line-height: 7vw;
+      font-weight: 700;
       margin: 0px;
       color: rgb(0, 0, 0);
   }
@@ -23,7 +24,8 @@
   .achievement-textContainer .achievement-secondary{
       position: absolute;
       top: 0;
-      font-size: 4vw;
+      font-weight: 700;
+      font-size: 3.6vw;
       color: black;
       opacity: 0;
   }
