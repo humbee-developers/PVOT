@@ -1,18 +1,19 @@
 import "./servicesPageCardItem.css";
+import PropTypes from "prop-types";
 
 export default function ServicesPageCardItem({
   index,
   title,
-  setModal,
+  setHoverImage,
   description,
 }) {
   return (
     <div
       onMouseEnter={() => {
-        setModal({ active: true, index });
+        setHoverImage({ active: true, index });
       }}
       onMouseLeave={() => {
-        setModal({ active: false, index });
+        setHoverImage({ active: false, index });
       }}
       className={"project"}
     >
@@ -21,3 +22,10 @@ export default function ServicesPageCardItem({
     </div>
   );
 }
+
+ServicesPageCardItem.propTypes = {
+  index: PropTypes.number,
+  title: PropTypes.string,
+  setHoverImage: PropTypes.func,
+  description: PropTypes.string,
+};
