@@ -1,34 +1,128 @@
-.servicesCard {
+/* .servicesCard {
   position: relative;
   height: 300vh;
-}
-.servicesCard_wrapper {
+} */
+/* .servicesCard_wrapper {
   display: flex;
-}
-.servicesCard_wrapper img {
+} */
+/* .servicesCard_wrapper img {
   margin: 0 20px;
-}
-.servicesCard_inner {
+} */
+/* .servicesCard_inner {
   position: sticky;
   top: 10%;
   display: flex;
   overflow: hidden;
-}
+} */
 
-.servicesCard_wrapper_mobile {
+/* .servicesCard_wrapper_mobile {
   display: none;
+} */
+.services {
+  padding: 0 0 100px;
+}
+.services_heading h2 {
+  font-family: "FONTSPRING-bold-italic";
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+/* .servicesCard {
+  padding: 100px 0;
+} */
+.servicesCard_item_wrapper {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(255 255 255 / 14%);
+  border-radius: 44px;
+  padding: 20px;
+}
+.servicesCard_item_image img {
+  max-width: 100%;
+  border-radius: 25px;
+  height: 100%;
+}
+.servicesCard_item_image {
+  width: 25%;
+}
+.servicesCard_item_content {
+  width: 75%;
+  padding: 20px 50px 20px 100px;
+}
+h2.services_card_item_heading {
+  margin: 0 0 30px;
+}
+.services_card_item_text {
+  margin: 0 0 40px;
+  font-size: 22px;
+}
+a img.services_card_item_link {
+  max-width: 100%;
+  width: 50px;
+  transition: all 0.3s;
+}
+a img.services_card_item_link:hover {
+  transform: rotate(-30deg);
+}
+.servicesCard_item {
+  margin: 0 0 50px;
+}
+@media (max-width: 1199px) {
+  .servicesCard_item_image {
+    width: 35%;
+  }
+  .servicesCard_item_content {
+    width: 65%;
+    padding: 20px 50px;
+  }
+  .services_card_item_text {
+    margin: 0 0 30px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 991px) {
+  .servicesCard_item_content {
+    padding: 20px 30px;
+  }
+  h2.services_card_item_heading {
+    font-size: 38px;
+    margin: 0 0 20px;
+  }
+  .services_card_item_text {
+    margin: 0 0 20px;
+  }
 }
 @media (max-width: 767px) {
-  .servicesCard_wrapper_mobile {
+  /* .servicesCard_wrapper_mobile {
     display: block;
     text-align: center;
   }
-  .servicesCard_wrapper_mobile img{
+  .servicesCard_wrapper_mobile img {
     max-width: 100%;
     padding: 0 20px;
     margin: 20px 0;
   }
   .servicesCard_wrapper {
     display: none;
+  } */
+  .servicesCard_item_wrapper {
+    flex-direction: column;
+  }
+  .servicesCard_item_image {
+    width: 100%;
+  }
+  .servicesCard_item_image img {
+    width: 100%;
+  }
+  .servicesCard_item_content {
+    width: 100%;
+    padding: 20px 0;
+  }
+  h2.services_card_item_heading {
+    font-size: 30px;
+  }
+  .services_card_item_text {
+    font-size: 17px;
   }
 }

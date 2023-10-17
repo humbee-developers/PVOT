@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import HeroSection from "../components/heroSection/HeroSection";
-// import Services from "../components/services/Services";
+import Services from "../components/services/Services";
 // import Portfolio from "../components/portfolio/PortfolioCard";
 import Achievements from "../components/achievements/Achievements";
 import OurTeam from "../components/ourTeam/OurTeam";
@@ -38,10 +38,10 @@ const Home = () => {
       <LottieAnimation />
       {/* <ServicesText /> */}
       
-      {/*<ServicesScrollSlider />*/}
+      {/* <ServicesScrollSlider /> */}
        
       {/* <New3Dslider /> */}
-      {/* <Services /> */}
+      <Services />
       {/* <MyComponent /> */}
 
       <Text

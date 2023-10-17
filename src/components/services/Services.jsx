@@ -9,9 +9,9 @@ import ServicesCard from "./servicesCard/ServicesCard";
 const Services = () => {
   return (
     <div className="services">
-      <div className="services_wrapper">
-        <div className="slider-container">
-          <motion.h1
+      {/* <div className="services_wrapper"> */}
+        {/* <div className="slider-container"> */}
+          {/* <motion.h1
             className="service-text"
             initial={{ y: 400 }}
             animate={{ y: 800 }}
@@ -22,10 +22,10 @@ const Services = () => {
             style={{ position: "sticky" }}
           >
             Services
-          </motion.h1>
+          </motion.h1> */}
           <ServicesCard />
-        </div>
-      </div>
+        {/* </div> */}
+      {/* </div> */}
     </div>
   );
 };

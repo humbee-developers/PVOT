@@ -17,7 +17,7 @@ const TextRevealEffect  = () => {
         start: "top center-=400px",
         end: "bottom+=100px center-=200px",
         scrub: true,
-        pin: true,
+        // pin: true,
         onUpdate: (scrollTrigger) => {
           const scrollP = scrollTrigger.progress;
           const scrollSpeed = 1 + scrollP * 2;
