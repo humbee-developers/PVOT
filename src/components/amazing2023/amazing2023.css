@@ -29,6 +29,7 @@
   font-size: 230px;
   line-height: 150px;
   margin-bottom: 31px;
+  font-family: "FONTSPRING";
   margin-left: 30px;
 }
 .amazing_year .ball_image{
@@ -66,7 +67,9 @@
   position: absolute;
   right: 11%;
   top: -37%;
+  font-family: "FONTSPRING";
   opacity: 0;
+  
 
 
 }
@@ -96,6 +99,7 @@
 }
 .ball_text {
   font-size: 65px;
+  font-family: "FONTSPRING";
   margin: 32px 0 0;
 }
 

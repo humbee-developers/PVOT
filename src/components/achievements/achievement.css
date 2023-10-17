@@ -110,6 +110,7 @@
   letter-spacing: -0.01em;
   max-width: 28em;
   margin-left: 8px;
+  font-family: "FONTSPRING";
   color: #878787;
   position: relative;
   font-size: 19px;
@@ -117,8 +118,9 @@
 .title {
   margin-top: 5px;
   margin-left: 8px;
+  font-family: "FONTSPRING";
   font-size: 16px;
-  font: 600 18px/1.2 Inter;
+  font-weight: 600;
   color: #999796;
 }
 .card-container-section1 {
@@ -166,15 +168,17 @@
 .card-heading1 {
   font: 700 52px/1.3 Plus Jakarta Sans;
   color: #000;
+  font-family: "FONTSPRING";
   font-size: 43px;
 }
 .card-comment1 {
   margin-top: 5px; 
   font: 400 14px/1.25 Inter;
   color: #6c6c6c;
+  font-family: "FONTSPRING";
   font-weight: 500;
-  max-width: 9em;
-  font-size: 12px;
+  max-width: 11em;
+  font-size: 14px;
 }
 @media screen and (max-width: 768px) {
   .card-outer1 {
@@ -186,6 +190,7 @@
   .swiper-text {
     max-width: 100%;
     margin-top: 1rem;
+    font-family: "FONTSPRING";
   }
   .outer-image-info1 {
     position: absolute;
