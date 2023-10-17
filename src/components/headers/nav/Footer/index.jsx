@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function Footer() {
     return (
-        <div className="footer">
+        <div className="footer_navbar">
             <ul className='ul'>
                 <motion.li 
                     custom={[0.3, 0]} 

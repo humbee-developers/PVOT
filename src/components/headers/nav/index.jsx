@@ -62,7 +62,7 @@ export default function NavSection() {
       className="new_nav"
     >
       <div className="wrapper">
-        <div className="container">
+        <div className="container_navbar">
           <Body
             links={links}
             selectedLink={selectedLink}
