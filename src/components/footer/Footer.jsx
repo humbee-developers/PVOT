@@ -45,8 +45,8 @@ const Footer = () => {
             <p className="footer-small-text">
               Don’t like the forms? Drop us a line via email.
             </p>
-            <a className="footer-email" href="">
-              link-testing.com
+            <a className="footer-email" href="pvot@123.com">
+            pvot@email.com
             </a>
           </div>
           <div className="main-footer-right">
@@ -60,8 +60,8 @@ const Footer = () => {
                   <li className="footer-left-items-list">
                     Our Email
                     <br />
-                    <a style={{ textDecoration: "underline" }} href="">
-                      testing-email.com
+                    <a style={{ textDecoration: "underline" }} href="pvot@123.com">
+                      pvot@email.com
                     </a>
                   </li>
 
