@@ -36,6 +36,8 @@
 .inner_heading_animation_text1 {
   font-size: 105px;
   position: absolute;
+  font-family: "FONTSPRING";
+  font-weight: 600;
   top: 19rem;
   left: 1rem;
   color: white;
@@ -72,6 +74,8 @@
   .inner_heading_animation_text1 {
     font-size: 30px;
     position: absolute;
+    font-weight: 600;
+    font-family: "FONTSPRING";
     top: 5rem;
     left: -2rem;
     color: white;

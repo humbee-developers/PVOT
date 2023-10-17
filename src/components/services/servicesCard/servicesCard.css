@@ -56,6 +56,7 @@ h2.services_card_item_heading {
 .services_card_item_text {
   margin: 0 0 40px;
   font-size: 22px;
+  font-family: "FONTSPRING";
 }
 a img.services_card_item_link {
   max-width: 100%;

@@ -9,11 +9,11 @@ const containerVariants = {
 
 const textVariants = {
   hidden: { opacity: 0, y: 100 },
-  visible: { opacity: 1, x:50, transition: { duration: 2, delay: 1 } },
+  visible: { opacity: 1, x:50,y:-20, transition: { duration: 1, delay: 0.5 } },
 };
 const textVariants1 = {
   hidden: { opacity: 0, y: 220 },
-  visible: { opacity: 1, x: 90, transition: { duration: 2, delay: 2.3 } },
+  visible: { opacity: 1, x: 90, y:90, transition: { duration: 1, delay: 0.5 } },
 };
 const innerPageHeader = (props) => {
   return (

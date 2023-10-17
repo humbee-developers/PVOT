@@ -4,6 +4,7 @@
 }
 .know-us-title {
   font-size: 50px;
+  font-family: "FONTSPRING";
   flex: 1;
   text-align: center;
   font-weight: 600;
@@ -22,6 +23,7 @@
   }
   .know-us-title {
     font-size: 32px;
+    font-family: "FONTSPRING";
     padding: 0px 25px;
     text-align: inherit;
   }
@@ -37,6 +39,7 @@
   } */
   .know-us-text-inner {
     padding: 0px 25px;
+    font-family: "FONTSPRING";
     font-size: 16px;
   }
   .know-us-image {
