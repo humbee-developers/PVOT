@@ -1,81 +1,79 @@
 .containerz {
-      overflow:hidden;
-     
-  }
-  .achievement-body{
-      display: flex;
-      flex-direction: column;
-  }
-    
-  .achievement-textContainer{
-      position: relative;
-      cursor: pointer;
-      font-family: "FONTSPRING";
-  }
-    
-  .achievement-textContainer .achievement-primary,.achievement-secondary{
-      font-size: 3.6vw;
-      line-height: 7vw;
-      font-weight: 700;
-      margin: 0px;
-      color: rgb(0, 0, 0);
-  }
-    
-  .achievement-textContainer .achievement-secondary{
-      position: absolute;
-      top: 0;
-      font-weight: 700;
-      font-size: 3.6vw;
-      color: black;
-      opacity: 0;
-  }
+  overflow: hidden;
+}
+.achievement-body {
+  display: flex;
+  flex-direction: column;
+}
 
+.achievement-textContainer {
+  position: relative;
+  cursor: pointer;
+  font-family: "FONTSPRING";
+}
 
-.achievement-textContainer{
-    transform-style: preserve-3d;
-    transition: transform 0.4s;
+.achievement-textContainer .achievement-primary,
+.achievement-secondary {
+  font-size: 3.6vw;
+  line-height: 7vw;
+  font-weight: 700;
+  margin: 0px;
+  color: rgb(0, 0, 0);
+}
+
+.achievement-textContainer .achievement-secondary {
+  position: absolute;
+  top: 0;
+  font-weight: 700;
+  font-size: 3.6vw;
+  color: black;
+  opacity: 0;
+}
+
+.achievement-textContainer {
+  transform-style: preserve-3d;
+  transition: transform 0.4s;
 }
 
 .achievement-textContainer p {
-      transition: all 0.4s;
-  }
-  
-
-.achievement-textContainer .achievement-secondary{
-    transform: rotateX(-90deg) translateY(3.5vw);
-    transform-origin: bottom center;
+  transition: all 0.4s;
 }
 
-.achievement-textContainer:hover{ 
-    transform: rotateX(90deg);
+.achievement-textContainer .achievement-secondary {
+  transform: rotateX(-90deg) translateY(3.5vw);
+  transform-origin: bottom center;
 }
 
-.achievement-textContainer:hover .achievement-primary{
-    transform: translateY(-100%);
-    opacity: 0;
+.achievement-textContainer:hover {
+  transform: rotateX(90deg);
 }
 
-.achievement-textContainer:hover .achievement-secondary{
-    opacity: 1;
+.achievement-textContainer:hover .achievement-primary {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.achievement-textContainer:hover .achievement-secondary {
+  opacity: 1;
+  font-weight: 500;
+}
+@media screen and (max-width: 991px) {
+  .achievement-textContainer .achievement-primary {
+    margin-top: 25px;
+    font-size: 50px;
     font-weight: 500;
-}
-@media screen and (max-width: 991px){
-    .achievement-textContainer .achievement-primary{
-        margin-top: 25px;
-        font-size: 50px;
-        font-weight: 500;
-        line-height: 12vw;
-    }
+    line-height: 12vw;
+  }
 
-    .achievement-textContainer .achievement-secondary{
-        margin-top: 25px;
-        font-size: 50px;
-        font-weight: 500;
-        line-height: 12vw;
-    }
+  .achievement-textContainer .achievement-secondary {
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 12vw;
+  }
 
-    .achievement-textContainer .achievement-secondary{
-        transform: rotateX(-90deg) translateY(13.5vw);
-        transform-origin: bottom center;
-    }
+  .achievement-textContainer .achievement-secondary {
+    transform: rotateX(-90deg) translateY(13.5vw);
+    transform-origin: bottom center;
+  }
 }
