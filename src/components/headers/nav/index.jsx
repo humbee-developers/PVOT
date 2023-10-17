@@ -47,7 +47,7 @@ const links = [
   },
 ];
 
-export default function NavSection() {
+export default function NavSection({navLinkHandler}) {
   const [selectedLink, setSelectedLink] = useState({
     isActive: false,
     index: 0,
@@ -67,13 +67,10 @@ export default function NavSection() {
             links={links}
             selectedLink={selectedLink}
             setSelectedLink={setSelectedLink}
+            handleNavLink={navLinkHandler}
           />
           <Footer />
         </div>
-
-        {/* <div className="nav_image">
-        <img src={links[selectedLink.index].src} isActive={selectedLink.isActive}/>
-        </div> */}
         <NavImage
           src={links[selectedLink.index].src}
           isActive={selectedLink.isActive}
