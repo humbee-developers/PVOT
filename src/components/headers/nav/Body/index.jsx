@@ -26,7 +26,7 @@ export default function Body({ links, selectedLink, setSelectedLink }) {
   return (
     <div className="nav_body">
       {links.map((link, index) => {
-        const { title, to } = link;
+        const { title, href} = link;
         return (
           <Link key={`l_${index}`} to={href}>
             <motion.p

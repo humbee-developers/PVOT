@@ -1,67 +1,84 @@
-import  './style.css';
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import { height } from '../anim';
-import Body from './Body';
-import Footer from './Footer';
-import Image from "../../../images/blog_1.png"
-import {Link} from "react-router-dom"
+import "./style.css";
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { height } from "../anim";
+import Body from "./Body";
+import Footer from "./Footer";
+import image1 from "../../../images/blog_1.png";
+import image2 from "../../../images/blog_2.png";
+import { Link } from "react-router-dom";
+import NavImage from "./Image";
 
 const links = [
   {
     title: "Home",
-    Link: "/",
-    src: "blog_1.png"
+    href: "/",
+    src: image1,
   },
   {
     title: "Services",
-    Link: "/shop",
-    src: ""
+    href: "/services",
+    src: image2,
   },
   {
-    title: "About Us",
-    Link: "/about",
-    src: ""
+    title: "Know-us",
+    href: "/knowUs",
+    src: image1,
   },
   {
     title: "Portfolio",
-    Link: "/lookbook",
-    src: ""
+    href: "/portfolio",
+    src: image2,
   },
   {
     title: "Blogs",
-    Link: "/contact",
-    src: ""
+    href: "/blog",
+    src: image1,
   },
   {
     title: "Career",
-    Link: "/contact",
-    src: ""
+    href: "/career",
+    src: image2,
   },
   {
-    title: "Contact us",
-    Link: "/contact",
-    src: ""
-  }
-]
+    title: "Contact-us",
+    href: "/contact-us",
+    src: image1,
+  },
+];
 
-export default function Index() {
-
-  const [selectedLink, setSelectedLink] = useState({isActive: false, index: 0});
+export default function NavSection() {
+  const [selectedLink, setSelectedLink] = useState({
+    isActive: false,
+    index: 0,
+  });
 
   return (
-    <motion.div variants={height} initial="initial" animate="enter" exit="exit" className="nav">
+    <motion.div
+      variants={height}
+      initial="initial"
+      animate="enter"
+      exit="exit"
+      className="new_nav"
+    >
       <div className="wrapper">
         <div className="container">
-          <Body links={links} selectedLink={selectedLink} setSelectedLink={setSelectedLink}/>
+          <Body
+            links={links}
+            selectedLink={selectedLink}
+            setSelectedLink={setSelectedLink}
+          />
           <Footer />
         </div>
 
-        <div className="nav_image">
-        <Image src={links[selectedLink.index].src} isActive={selectedLink.isActive}/>
-        </div>
-        
+        {/* <div className="nav_image">
+        <img src={links[selectedLink.index].src} isActive={selectedLink.isActive}/>
+        </div> */}
+        <NavImage
+          src={links[selectedLink.index].src}
+          isActive={selectedLink.isActive}
+        />
       </div>
     </motion.div>
-  )
+  );
 }

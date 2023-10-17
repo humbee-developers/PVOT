@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import FramerMagnetic from "../../../Common/magnetic";
 import logo from "../../images/PVOT-Design-Final-Logo-White.png"
+import NewNav from "../headers/index";
 const Header = () => {
   const [active, setActive] = useState(false);
 
@@ -24,7 +25,7 @@ const Header = () => {
   return (
     <div>
       <div className="hero" id="hro">
-        <Navbar expand="lg" className="">
+        {/* <Navbar expand="lg" className="">
           <Container>
             <Link className="brand navbar-brand" to="/">
              <img src={logo} alt="logo" className="logo" />
@@ -154,7 +155,8 @@ const Header = () => {
               </Nav>
             </Navbar.Collapse>
           </Container>
-        </Navbar>
+        </Navbar> */}
+        <NewNav />
       </div>
     </div>
   );

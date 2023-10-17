@@ -17,9 +17,7 @@ const BgTransition = () => {
   const y3 = useTransform(scrollYProgress, [1, 0], ["-30%", "-70%"]);
   //   const x = useTransform(scrollYProgress, [1, 1], ["100%", "-20%"]);
   return (
-   <div>
-
-<div className="bgTransition" ref={ref}>
+    <div className="bgTransition" ref={ref}>
       <div className="bgTransition_wrapper">
         <motion.div
           className="bgTransition_1"
@@ -41,7 +39,6 @@ const BgTransition = () => {
         ></motion.div>
       </div>
     </div>
-   </div>
   );
 };
 

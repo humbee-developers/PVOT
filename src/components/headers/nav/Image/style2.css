@@ -1,9 +1,10 @@
-.imageContainer {
+.nav_image {
   display: none;
 }
 
+
 @media only screen and (min-width: 1000px) {
-  .imageContainer {
+  .nav_image {
     display: block;
     width: 500px;
     height: 450px;

@@ -1,9 +1,10 @@
-.header {
+.header_sec {
   background-color: #000000;
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 20px;
+  z-index: 9999;
 }
 .background {
   background-color: black;
@@ -44,7 +45,7 @@
   display: none;
 }
 
-.el {
+.new_header_el {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,46 +59,47 @@
 }
 
 .label p:nth-of-type(2) {
-    position: absolute;
-    opacity: 0;
-  }
-  
-  .burger {
-    width: 22.5px;
-    position: relative;
-    pointer-events: none;
-  }
-  
-  .burger::after,
-  .burger::before {
-    content: "";
-    height: 1px;
-    width: 100%;
-    background-color: black;
-    position: relative;
-    display: block;
-    transition: all 1s cubic-bezier(0.76, 0, 0.24, 1);
-  }
-  
-  .burger::after {
-    top: -4px;
-  }
-  
-  .burger::before {
-    top: 4px;
-  }
-  
-  .burgerActive::after {
-    transform: rotate(45deg);
-    top: -1px;
-  }
-  
-  .burgerActive::before {
-    transform: rotate(-45deg);
-    top: 1px;
-  }
-  
+  position: absolute;
+  opacity: 0;
+}
 
+.burger {
+  width: 22.5px;
+  position: relative;
+  pointer-events: none;
+}
+
+.burger::after,
+.burger::before {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  display: block;
+  transition: all 1s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.burger::after {
+  top: -4px;
+}
+
+.burger::before {
+  top: 4px;
+}
+
+.burgerActive::after {
+  transform: rotate(45deg);
+  top: -1px;
+}
+
+.burgerActive::before {
+  transform: rotate(-45deg);
+  top: 1px;
+}
+.nav_icon_custom img{
+width: 100px;
+}
 @media only screen and (min-width: 600px) {
   .header {
     padding: 20px;

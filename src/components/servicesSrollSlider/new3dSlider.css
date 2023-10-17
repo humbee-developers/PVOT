@@ -1,4 +1,4 @@
-.abcd{
+/* .abcd{
     padding: 0;
     margin: 0;
     height: 600vh;
@@ -48,5 +48,5 @@
 .wheel__card img{
     max-width: 100%;
     pointer-events: none;
-    z-index: 999;
-}
+    z-index: 999 ;
+} */
