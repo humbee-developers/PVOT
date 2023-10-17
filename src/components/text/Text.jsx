@@ -27,7 +27,8 @@ export default function Home({ text }) {
       opacity: 1,
       color: "white",
       ease: "none",
-      stagger: 0.1,
+  
+      stagger: 10,
     });
   };
 
