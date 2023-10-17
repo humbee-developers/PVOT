@@ -6,6 +6,10 @@ import PropTypes from "prop-types";
 // const phrase = "With an amazing team in place, in our second year we focused on pushing boundaries and empowering brands to grow";
 
 export default function Home({ text }) {
+
+
+
+  
   let refs = useRef([]);
   const body = useRef(null);
   const container = useRef(null);
@@ -28,7 +32,7 @@ export default function Home({ text }) {
       color: "white",
       ease: "none",
   
-      stagger: 11,
+      stagger: 0.9,
     });
   };
 
