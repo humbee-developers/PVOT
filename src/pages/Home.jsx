@@ -50,7 +50,7 @@ const Home = () => {
       />
       <Roller/>
       
-      <BgTransition />
+      {/* <BgTransition /> */}
       <Card />
       {/* <Stack /> */}
       {/* <Portfolio /> */}
