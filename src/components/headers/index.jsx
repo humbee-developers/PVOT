@@ -2,11 +2,16 @@ import "./style1.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { opacity, background } from "./anim";
+import { opacity } from "./anim";
 import NavSection from "./nav/index";
 import logoImage from "../../images/PVOT-Design-Final-Logo-White.png";
+
 export default function index() {
   const [isActive, setIsActive] = useState(false);
+
+  const handleNavLink = () => {
+    setIsActive(!isActive);
+  };
 
   return (
     <div className="header_sec">
@@ -41,14 +46,16 @@ export default function index() {
           </div>
         </div>
       </div>
-      <motion.div
+      {/* <motion.div
         variants={background}
         initial="initial"
         animate={isActive ? "open" : "closed"}
         className="background"
-      ></motion.div>
+      ></motion.div> */}
       <AnimatePresence mode="wait">
-        {isActive && <NavSection />}
+        {isActive && (
+          <NavSection navLinkHandler={handleNavLink} />
+        )}
       </AnimatePresence>
     </div>
   );

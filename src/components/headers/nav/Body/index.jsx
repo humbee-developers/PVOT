@@ -1,9 +1,15 @@
 import { motion } from "framer-motion";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./style4.css";
 import { blur, translate } from "../../anim";
+import { useState } from "react";
 
-export default function Body({ links, selectedLink, setSelectedLink }) {
+export default function Body({
+  links,
+  selectedLink,
+  setSelectedLink,
+  handleNavLink,
+}) {
   const getChars = (word) => {
     let chars = [];
     word.split("").forEach((char, i) => {
@@ -26,9 +32,13 @@ export default function Body({ links, selectedLink, setSelectedLink }) {
   return (
     <div className="nav_body">
       {links.map((link, index) => {
-        const { title, href} = link;
+        const { title, href } = link;
         return (
-          <Link key={`l_${index}`} to={href}>
+          <Link
+            key={`l_${index}`}
+            to={href}
+            onClick={() => handleNavLink(handleNavLink)}
+          >
             <motion.p
               onMouseOver={() => {
                 setSelectedLink({ isActive: true, index });
