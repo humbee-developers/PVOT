@@ -55,7 +55,8 @@ export default function NavSection({navLinkHandler}) {
 
   return (
     <motion.div
-      variants={height}
+      // variants={height}
+      style={{height:"100vh", overflow:"hidden"}}
       initial="initial"
       animate="enter"
       exit="exit"
