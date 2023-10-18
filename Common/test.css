@@ -10,9 +10,12 @@
   position: relative;
   cursor: pointer;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   font-family: "FONTSPRING";
 >>>>>>> ab82beb298433755f2af6fe20584a0b211fbe00b
+=======
+>>>>>>> 6420e489a0a177affc87da57763ab2443c9bc66d
 }
 
 .achievement-textContainer .achievement-primary,
@@ -23,14 +26,19 @@
   margin: 0px;
   color: rgb(0, 0, 0);
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: "FONTSPRING";
 =======
 >>>>>>> ab82beb298433755f2af6fe20584a0b211fbe00b
+=======
+  font-family: "FONTSPRING";
+>>>>>>> 6420e489a0a177affc87da57763ab2443c9bc66d
 }
 
 .achievement-textContainer .achievement-secondary {
   position: absolute;
   top: 0;
+<<<<<<< HEAD
 <<<<<<< HEAD
   font-size: 3.6vw;
   color: rgb(0, 0, 0);
@@ -39,6 +47,10 @@
   font-size: 3.6vw;
   color: black;
 >>>>>>> ab82beb298433755f2af6fe20584a0b211fbe00b
+=======
+  font-size: 3.6vw;
+  color: rgb(0, 0, 0);
+>>>>>>> 6420e489a0a177affc87da57763ab2443c9bc66d
   opacity: 0;
 }
 
@@ -68,9 +80,12 @@
 .achievement-textContainer:hover .achievement-secondary {
   opacity: 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   font-weight: 500;
 >>>>>>> ab82beb298433755f2af6fe20584a0b211fbe00b
+=======
+>>>>>>> 6420e489a0a177affc87da57763ab2443c9bc66d
 }
 @media screen and (max-width: 991px) {
   .achievement-textContainer .achievement-primary {

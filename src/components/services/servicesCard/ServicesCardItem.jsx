@@ -16,7 +16,7 @@ const ServicesCardItem = ({ image, heading, text, link }) => {
     setResize(window.innerWidth);
   };
   window.addEventListener("resize", handleMobileWidth);
-  console.log("card", resize);
+  // console.log("card", resize);
 
   return (
     <motion.div

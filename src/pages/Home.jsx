@@ -22,6 +22,7 @@ import ServicesTextExp from "../components/services/setvicesTextExp/ServicesText
 import Roller from "../components/roller/Roller";
 import Example from "../components/servicesSrollSlider/NewServicesSlider";
 // import New3Dslider from "../components/servicesSrollSlider/New3DSlider";
+import NewServicesSLider from "../components/servicesSrollSlider/NewServicesSlider"
 
 const Home = () => {
   return (
@@ -38,6 +39,7 @@ const Home = () => {
       {/* <ServicesText /> */}
       
       {/* <ServicesScrollSlider /> */}
+      {/* <NewServicesSLider /> */}
        
       {/* <New3Dslider /> */}
       <Services />

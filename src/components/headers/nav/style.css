@@ -1,7 +1,15 @@
 .nav {
   overflow: hidden;
 }
-
+/* .new_nav {
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  z-index: 99999;
+  background-color: #000;
+  top: 0;
+  padding: 100px 0 0;
+} */
 .wrapper {
   display: flex;
   gap: 20px;

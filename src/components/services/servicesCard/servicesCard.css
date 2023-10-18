@@ -65,7 +65,7 @@ a img.services_card_item_link {
   transition: all 0.3s;
 }
 a img.services_card_item_link:hover {
-  transform: rotate(-30deg);
+  transform: rotate(-88deg);
 }
 .servicesCard_item {
   margin: 0 0 50px;

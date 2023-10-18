@@ -8,10 +8,19 @@ import logoImage from "../../images/PVOT-Design-Final-Logo-White.png";
 
 export default function index() {
   const [isActive, setIsActive] = useState(false);
+  const [toggle, setToggle] = useState(false);
 
   const handleNavLink = () => {
     setIsActive(!isActive);
   };
+  const handleToggle = () => {
+    setToggle(!toggle);
+  };
+  if (toggle) {
+    document.body.classList.add("mobile_menu_open");
+  } else {
+    document.body.classList.remove("mobile_menu_open");
+  }
 
   return (
     <div className="header_sec">
@@ -22,6 +31,7 @@ export default function index() {
         <div
           onClick={() => {
             setIsActive(!isActive);
+            handleToggle();
           }}
           className="new_header_el"
         >
@@ -53,9 +63,7 @@ export default function index() {
         className="background"
       ></motion.div> */}
       <AnimatePresence mode="wait">
-        {isActive && (
-          <NavSection navLinkHandler={handleNavLink} />
-        )}
+        {isActive && <NavSection navLinkHandler={handleNavLink} />}
       </AnimatePresence>
     </div>
   );
