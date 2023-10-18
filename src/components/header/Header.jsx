@@ -1,27 +1,8 @@
-
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import home from "../../images/home-icon.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./header.css";
-import { Link } from "react-router-dom";
-import { useState } from "react";
-import FramerMagnetic from "../../../Common/magnetic";
-import logo from "../../images/PVOT-Design-Final-Logo-White.png"
 import NewNav from "../headers/index";
 const Header = () => {
-  const [active, setActive] = useState(false);
-
-  const handleToggle = () => {
-    setActive(!active);
-  };
-  if (active) {
-    document.body.classList.add("mobile_menu_open");
-  } else {
-    document.body.classList.remove("mobile_menu_open");
-  }
-
+ 
   return (
     <div>
       <div className="hero" id="hro">

@@ -6,7 +6,7 @@ import { opacity } from "./anim";
 import NavSection from "./nav/index";
 import logoImage from "../../images/PVOT-Design-Final-Logo-White.png";
 
-export default function index() {
+export default function NewNav() {
   const [isActive, setIsActive] = useState(false);
   const [toggle, setToggle] = useState(false);
 
@@ -25,7 +25,15 @@ export default function index() {
   return (
     <div className="header_sec">
       <div className="bar">
-        <Link className="nav_icon_custom" to="/">
+        <Link
+          className="nav_icon_custom"
+          to="/"
+          onClick={() => {
+            if (isActive) {
+              setIsActive(!isActive);
+            }
+          }}
+        >
           <img src={logoImage} alt="logoImage" />
         </Link>
         <div
@@ -56,12 +64,6 @@ export default function index() {
           </div>
         </div>
       </div>
-      {/* <motion.div
-        variants={background}
-        initial="initial"
-        animate={isActive ? "open" : "closed"}
-        className="background"
-      ></motion.div> */}
       <AnimatePresence mode="wait">
         {isActive && <NavSection navLinkHandler={handleNavLink} />}
       </AnimatePresence>
