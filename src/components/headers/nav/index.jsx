@@ -1,13 +1,12 @@
 import "./style.css";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { height } from "../anim";
 import Body from "./Body";
 import Footer from "./Footer";
 import image1 from "../../../images/blog_1.png";
 import image2 from "../../../images/blog_2.png";
-import { Link } from "react-router-dom";
 import NavImage from "./Image";
+import PropTypes from "prop-types";
 
 const links = [
   {
@@ -47,7 +46,7 @@ const links = [
   },
 ];
 
-export default function NavSection({navLinkHandler}) {
+export default function NavSection({ navLinkHandler }) {
   const [selectedLink, setSelectedLink] = useState({
     isActive: false,
     index: 0,
@@ -56,7 +55,7 @@ export default function NavSection({navLinkHandler}) {
   return (
     <motion.div
       // variants={height}
-      style={{height:"100vh", overflow:"hidden"}}
+      style={{ height: "100vh", overflow: "hidden" }}
       initial="initial"
       animate="enter"
       exit="exit"
@@ -80,3 +79,6 @@ export default function NavSection({navLinkHandler}) {
     </motion.div>
   );
 }
+NavSection.propTypes = {
+  navLinkHandler: PropTypes.func,
+};

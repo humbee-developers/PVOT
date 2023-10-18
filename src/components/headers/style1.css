@@ -1,11 +1,10 @@
 .header_sec {
   background-color: #000000;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   box-sizing: border-box;
   padding: 20px;
-
-  z-index: 9999;
+  z-index: 999999;
 }
 .background {
   background-color: black;
@@ -50,6 +49,9 @@
   justify-content: center;
   gap: 8px;
   cursor: pointer;
+  position: fixed;
+  right: 20px;
+  z-index: 99999999;
 }
 .label {
   position: relative;

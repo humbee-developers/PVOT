@@ -1,11 +1,21 @@
 .nav {
   overflow: hidden;
 }
-
-.wrapper {
+.new_nav {
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  z-index: 99999;
+  background-color: #000;
+  top: 0;
+  padding: 100px 0 0;
+  width: 100%;
+}
+.new_nav .wrapper {
   display: flex;
   gap: 20px;
   margin-bottom: 80px;
+  padding: 0 20px;
 }
 
 .container_navbar {

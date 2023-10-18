@@ -1,52 +1,59 @@
 import "./servicesCard.css";
-import image from "../../../images/servicesImage1.png";
+import image1 from "../../../images/servicesImage1.png";
+import image2 from "../../../images/servicesImage2.png";
+import image3 from "../../../images/servicesImage3.png";
+import image4 from "../../../images/servicesImage4.png";
+import image5 from "../../../images/servicesImage5.png";
+import image6 from "../../../images/servicesImage6.png";
+import image7 from "../../../images/servicesImage7.png";
+import image8 from "../../../images/servicesImage8.png";
 import ServicesCardItem from "./ServicesCardItem";
 
 const ServicesCardsData = [
   {
-    image: image,
+    image: image2,
     heading: "Integrated Marketing Solutions",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores facere et laudantium atque neque, porro consectetur error, officia, numquam alias perferendis sapiente? Excepturi placeat error!",
     link: "/integrated-marketing",
   },
   {
-    image: image,
+    image: image6,
     heading: "Digital Content Creation & SEO",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores facere et laudantium atque neque, porro consectetur error, officia, numquam alias perferendis sapiente? Excepturi placeat error!",
     link: "/digital-Content",
   },
   {
-    image: image,
+    image: image7,
     heading: "Digital & Performance Marketing",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores facere et laudantium atque neque, porro consectetur error, officia, numquam alias perferendis sapiente? Excepturi placeat error !",
     link: "/digital-performance",
   },
   {
-    image: image,
+    image: image1,
     heading: "Video Production and Photography",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores facere et laudantium atque neque, porro consectetur error, officia, numquam alias perferendis sapiente? Excepturi placeat error !",
     link: "/Video-production",
   },
   {
-    image: image,
+    image: image8,
     heading: "Technology and Design",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores facere et laudantium atque neque, porro consectetur error, officia, numquam alias perferendis sapiente? Excepturi placeat error !",
     link: "/Technology",
   },
   {
-    image: image,
+    image: image3,
     heading: "Branding & Advertising",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores facere et laudantium atque neque, porro consectetur error, officia, numquam alias perferendis sapiente? Excepturi placeat error!",
     link: "/branding-advertising",
   },
   {
-    image: image,
+    image: image5,
     heading: "Media Planning and Buying",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores facere et laudantium atque neque, porro consectetur error, officia, numquam alias perferendis sapiente? Excepturi placeat error !",
     link: "/media-planning",
   },
   {
-    image: image,
+    image: image4,
     heading: "E-commerce Strategy and Execution",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores facere et laudantium atque neque, porro consectetur error, officia, numquam alias perferendis sapiente? Excepturi placeat error !",
     link: "/e-commerce",

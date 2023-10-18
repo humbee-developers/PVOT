@@ -6,22 +6,40 @@ import { opacity } from "./anim";
 import NavSection from "./nav/index";
 import logoImage from "../../images/PVOT-Design-Final-Logo-White.png";
 
-export default function index() {
+export default function NewNav() {
   const [isActive, setIsActive] = useState(false);
+  const [toggle, setToggle] = useState(false);
 
   const handleNavLink = () => {
     setIsActive(!isActive);
   };
+  const handleToggle = () => {
+    setToggle(!toggle);
+  };
+  if (toggle) {
+    document.body.classList.add("mobile_menu_open");
+  } else {
+    document.body.classList.remove("mobile_menu_open");
+  }
 
   return (
     <div className="header_sec">
       <div className="bar">
-        <Link className="nav_icon_custom" to="/">
+        <Link
+          className="nav_icon_custom"
+          to="/"
+          onClick={() => {
+            if (isActive) {
+              setIsActive(!isActive);
+            }
+          }}
+        >
           <img src={logoImage} alt="logoImage" />
         </Link>
         <div
           onClick={() => {
             setIsActive(!isActive);
+            handleToggle();
           }}
           className="new_header_el"
         >
@@ -46,16 +64,8 @@ export default function index() {
           </div>
         </div>
       </div>
-      {/* <motion.div
-        variants={background}
-        initial="initial"
-        animate={isActive ? "open" : "closed"}
-        className="background"
-      ></motion.div> */}
       <AnimatePresence mode="wait">
-        {isActive && (
-          <NavSection navLinkHandler={handleNavLink} />
-        )}
+        {isActive && <NavSection navLinkHandler={handleNavLink} />}
       </AnimatePresence>
     </div>
   );
