@@ -186,6 +186,7 @@
   .c-sphere-lottie-wrapper {
     width: 100%;
     left: 0;
+    top: 14rem;
   }
   .c-section.cc-transition {
     padding-top: 20vh;
@@ -222,11 +223,22 @@
   .c-text-2 {
     font-size: 16px;
   }
+  .c-section{
+    min-height: 66vh;
+  }
 }
 @media (max-width: 767px) {
   .c-section.cc-transition {
     padding-top: 10vh;
     padding-bottom: 0;
+  }
+  .c-sphere-lottie-wrapper {
+    width: 100%;
+    left: 0;
+    top: 14rem;
+  }
+  .c-section{
+    min-height: 66vh;
   }
 }
 @media screen and (max-width: 479px) {
@@ -239,5 +251,8 @@
   .c-project.cc-invisible {
     height: 30vh;
     margin-bottom: 0;
+  }
+  .c-section{
+    min-height: 66vh;
   }
 }

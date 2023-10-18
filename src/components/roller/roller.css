@@ -1,57 +1,84 @@
 .amaz {
-      background-color: #000000;
-      color: #fff;
-      padding: 200px 0;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-    }
-    .amazing_aniz {
-      overflow: hidden;
-      background-color: #000000;
-    }
-    .wrapperz {
-      position: relative;
-    }
-    
-    .yearz .t1z {
-      font-size: 230px;
-      line-height: 150px;
-      font-family: "FONTSPRING";
-      opacity: 1;
-      position: absolute;
-      margin-bottom: 31px;
-      right: -1rem;
-      margin-left: 30px;
-    }
-    .t2z {
-      font-size: 230px;
-      line-height: 150px;
-      margin-bottom: 31px;
-      opacity: 1;
-      position: absolute;
-      left: 92rem;
-      top: 9rem;
-      font-family: "FONTSPRING";
-      margin-left: 30px;
-    }
-    .year_wrapperz {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    @media screen and (max-width: 991px) {
-      .year .t2z {
-        font-size: 85px;
-        left: 23rem;
-        top: 7rem;
-      }
-      .year .t1z {
-        position: absolute;
-        font-size: 80px;
-        right: 0rem;
-      }
-    }
-    
+  background-color: #000000;
+  color: #fff;
+  padding: 200px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.amazing_aniz {
+  overflow: hidden;
+  background-color: #000000;
+}
+.wrapperz {
+  position: relative;
+}
+
+.yearz .t1z {
+  font-size: 230px;
+  line-height: 150px;
+  font-family: "FONTSPRING";
+  opacity: 1;
+  position: absolute;
+  margin-bottom: 31px;
+  right: 0rem;
+  margin-left: 30px;
+}
+.yearz .t2z {
+  font-size: 230px;
+  line-height: 150px;
+  margin-bottom: 31px;
+  opacity: 1;
+  position: absolute;
+  left: 92rem;
+  top: 9rem;
+  font-family: "FONTSPRING";
+  margin-left: 30px;
+}
+.year_wrapperz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .year .t2z {
+    font-size: 85px;
+    left: 23rem;
+    top: 7rem;
+  }
+  .year .t1z {
+    position: absolute;
+    font-size: 80px;
+    right: 0rem;
+    top: 0rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .amaz{
+    background-color: #000000;
+    color: #fff;
+    padding:  0;
+    height: 66vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .yearz .t2z {
+    font-size: 85px;
+    left: 23rem;
+    top: 7rem;
+  }
+  .yearz .t1z {
+    position: absolute;
+    font-size: 80px;
+    right: 0rem;
+    top: 0rem;
+  }
+  .pin-spacer{
+    padding: 0 !important;
+  }
+}

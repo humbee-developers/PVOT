@@ -226,6 +226,11 @@
   .c-projects-wrapper {
     width: 100%;
   }
+  .c-transition {
+    top: -200vh;
+    z-index: 0;
+    min-height: 115vh;
+  }
 }
 
 @media screen and (max-width: 479px) {

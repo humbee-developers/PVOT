@@ -26,7 +26,7 @@ const ServicesCardItem = ({ image, heading, text, link }) => {
         scale: scaleProgress,
         opacity: scrollYProgress,
       }}
-      initial={resize < 768 ? {y: 1500} : { y: 450 }}
+      initial={resize < 768 ? {y: 1400} : { y: 450 }}
     >
       <div className="servicesCard_item_wrapper">
         <div className="servicesCard_item_image">

@@ -63,7 +63,7 @@ const TextRevealEffect  = () => {
     t3.to(".t2z", {
       duration: 1,
       delay: 0,
-      x: -1350,
+      x: -1450,
       ease: "none",
       opacity: 0,
     });

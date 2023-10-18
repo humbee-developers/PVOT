@@ -94,6 +94,9 @@ a img.services_card_item_link:hover {
   .services_card_item_text {
     margin: 0 0 20px;
   }
+  .services {
+    padding: 0 0 1360px;
+  }
 }
 @media (max-width: 767px) {
   /* .servicesCard_wrapper_mobile {
@@ -110,6 +113,9 @@ a img.services_card_item_link:hover {
   } */
   .servicesCard_item_wrapper {
     flex-direction: column;
+  }
+  .services {
+    padding: 0 0 1360px;
   }
   .servicesCard_item_image {
     width: 100%;

@@ -47,11 +47,43 @@
   .year .t2 {
     font-size: 85px;
     left: 23rem;
-    top: 7rem;
+    top: 13rem;
   }
   .year .t1 {
     position: absolute;
     font-size: 80px;
     right: 0rem;
+    top: -2rem;
+  }
+  .ama {
+    background-color: #000000;
+    color: #fff;
+    padding: 0;
+    height: 66vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 767px) {
+  .ama {
+    background-color: #000000;
+    color: #fff;
+    padding:  0;
+    height: 66vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .year .t2 {
+    font-size: 85px;
+    left: 23rem;
+    top: 13rem;
+  }
+  .year .t1 {
+    position: absolute;
+    font-size: 80px;
+    right: 0rem;
+    top: -2rem;
   }
 }
