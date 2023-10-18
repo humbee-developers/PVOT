@@ -1,28 +1,28 @@
 .main {
   display: flex;
-  height: 120vh !important;
+  height: 140vh !important;
   align-items: end;
   justify-content: center;
   font-family: "FONTSPRING";
   padding: 0 0 20rem;
 }
 
-.body {
-  width: 60%;
+.body_text {
+  width: 77%;
   display: flex;
   transition: 0.3s ease;
   flex-wrap: wrap;
 }
 
-.body p {
-  font-size: 3.6vw;
+.body_text p {
+  font-size: 3.4vw;
   margin: 0px;
-  margin-right: 1.5vw;
-  font-weight: 700;
+  margin-right: 1.4vw;
+  /* font-weight: 700; */
 }
 
-.body span {
-  opacity: 0.4;
+.body_text span {
+  opacity: 0.3;
 }
 @media (max-width: 991px) {
   .main {
@@ -34,7 +34,7 @@
     height: 100vh;
     align-items: end;
   }
-  .body {
+  .body_text {
     width: 80%;
   }
 }

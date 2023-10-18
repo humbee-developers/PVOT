@@ -64,7 +64,7 @@ export default function Home({ text }) {
   return (
     <div style={{ backgroundColor: "black" }}>
       <main ref={container} className="main">
-        <div ref={body} className="body">
+        <div ref={body} className="body_text">
           {splitWords(phrase)}
         </div>
       </main>
