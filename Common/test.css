@@ -9,6 +9,10 @@
 .achievement-textContainer {
   position: relative;
   cursor: pointer;
+<<<<<<< HEAD
+=======
+  font-family: "FONTSPRING";
+>>>>>>> ab82beb298433755f2af6fe20584a0b211fbe00b
 }
 
 .achievement-textContainer .achievement-primary,
@@ -18,14 +22,23 @@
   font-weight: 700;
   margin: 0px;
   color: rgb(0, 0, 0);
+<<<<<<< HEAD
   font-family: "FONTSPRING";
+=======
+>>>>>>> ab82beb298433755f2af6fe20584a0b211fbe00b
 }
 
 .achievement-textContainer .achievement-secondary {
   position: absolute;
   top: 0;
+<<<<<<< HEAD
   font-size: 3.6vw;
   color: rgb(0, 0, 0);
+=======
+  font-weight: 700;
+  font-size: 3.6vw;
+  color: black;
+>>>>>>> ab82beb298433755f2af6fe20584a0b211fbe00b
   opacity: 0;
 }
 
@@ -54,6 +67,10 @@
 
 .achievement-textContainer:hover .achievement-secondary {
   opacity: 1;
+<<<<<<< HEAD
+=======
+  font-weight: 500;
+>>>>>>> ab82beb298433755f2af6fe20584a0b211fbe00b
 }
 @media screen and (max-width: 991px) {
   .achievement-textContainer .achievement-primary {

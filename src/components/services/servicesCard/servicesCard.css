@@ -51,6 +51,7 @@
   padding: 20px 50px 20px 100px;
 }
 h2.services_card_item_heading {
+  font-family: "FONTSPRING";
   margin: 0 0 30px;
 }
 .services_card_item_text {
@@ -121,6 +122,7 @@ a img.services_card_item_link:hover {
     padding: 20px 0;
   }
   h2.services_card_item_heading {
+    font-family: "FONTSPRING";
     font-size: 30px;
   }
   .services_card_item_text {
