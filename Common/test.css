@@ -9,7 +9,6 @@
 .achievement-textContainer {
   position: relative;
   cursor: pointer;
-  font-family: "FONTSPRING";
 }
 
 .achievement-textContainer .achievement-primary,
@@ -19,14 +18,14 @@
   font-weight: 700;
   margin: 0px;
   color: rgb(0, 0, 0);
+  font-family: "FONTSPRING";
 }
 
 .achievement-textContainer .achievement-secondary {
   position: absolute;
   top: 0;
-  font-weight: 700;
   font-size: 3.6vw;
-  color: black;
+  color: rgb(0, 0, 0);
   opacity: 0;
 }
 
@@ -55,7 +54,6 @@
 
 .achievement-textContainer:hover .achievement-secondary {
   opacity: 1;
-  font-weight: 500;
 }
 @media screen and (max-width: 991px) {
   .achievement-textContainer .achievement-primary {
