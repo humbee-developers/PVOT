@@ -31,7 +31,7 @@ const Home = () => {
     
       <Text
         text={
-          "Whether it’s brand or website WE LOVE DETAILS Focused on Details and empowering brands to grow."
+          "Whether it’s brand or website WE LOVE DETAILS Focused on Details and empowering brands to grow. Focused on Details and empowering brands to grow Focused on Details and empowering brands to grow"
         }
       />
       {/* <TextRevealEffect /> */}
@@ -45,11 +45,11 @@ const Home = () => {
       <Services />
       {/* <MyComponent /> */}
 
-      <Text
+      {/* <Text
         text={
           "Standing out from the crowd is not easy, but with a distinctive brand design you are almost there. A creative tailor-made suit, for your brand!"
         }
-      />
+      />*/}
       <Roller/>
       
       {/* <BgTransition /> */}
