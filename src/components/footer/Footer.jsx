@@ -18,11 +18,11 @@ const Footer = () => {
         <div className="main-footer">
           <div className="main-footer-left">
             <h2 className="footer-heading-text">
-              We would love to hear from you.
+              Emails, Calls, and Pigeon Carriers Welcome!
             </h2>
             <p className="footer-small-text">
-              Feel free to reach our if you want to collaborate with us, or
-              simply have a chat
+              But we prefer the first two for a quicker response. We're
+              greenhouse for your questions.
             </p>
             <Button className="footer-button  ">
               <div className="btn_flex hover_btn">
@@ -46,7 +46,7 @@ const Footer = () => {
               Don’t like the forms? Drop us a line via email.
             </p>
             <a className="footer-email" href="mailto:pvot@123.com">
-            pvot@email.com
+              pvot@email.com
             </a>
           </div>
           <div className="main-footer-right">
@@ -60,9 +60,7 @@ const Footer = () => {
                   <li className="footer-left-items-list">
                     Our Email
                     <br />
-                    <a  href="mailto:pvot@123.com">
-                      pvot@email.com
-                    </a>
+                    <a href="mailto:pvot@123.com">pvot@email.com</a>
                   </li>
 
                   <li className="footer-left-items-list">

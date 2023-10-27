@@ -13,7 +13,7 @@ const CoreTeam = () => {
     <div className="coreTeam">
       <HeadingAndContent
         title={"CORE TEAM"}
-        text={"We’re fortunate to have worked with some amazing clients."}
+        text={"We don't just think outside the box; we live outside of it."}
       />
       <div className="" style={{ backgroundColor: "black" }}>
         <div className="c-clients-bg logo_section_bg"></div>

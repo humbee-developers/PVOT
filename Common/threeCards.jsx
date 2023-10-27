@@ -10,14 +10,18 @@ const threeCards = (props) => {
         <div className="threecards_two">
           <RightSlider
             className="xbxbx"
-            title1={"Brand Identity"}
-            title2={"Brand Identity"}
-            text1={
-              "Creating almost a personification of Jolie, this beautiful wordmark feels feminine and clean. The varied weights and character angles of the custom wordmark combine to create a strong and timeless wordmark."
-            }
-            text2={
-              "Creating almost a personification of Jolie, this beautiful wordmark feels feminine and clean. The varied weights and character angles of the custom wordmark combine to create a strong and timeless wordmark."
-            }
+            title1={props.title1}
+            title2={props.title2}
+            title3={props.title3}
+            title4={props.title4}
+            title5={props.title5}
+            title6={props.title6}
+            text1={props.text1}
+            text2={props.text2}
+            text3={props.text3}
+            text4={props.text4}
+            text5={props.text5}
+            text6={props.text6}
           />
         </div>
         <div className="threecards_three">

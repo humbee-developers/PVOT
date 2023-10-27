@@ -67,12 +67,14 @@ const Achievements = () => {
     <div className="achievement">
       <Container>
         <div className="detail-heading">
-        <div className="containerz">
-        <div className="achievement-body">
-          <Test primary={"We Strive to Innovate"} secondary={"We Strive to Innovate"} />
-          
-        </div>
-      </div>
+          <div className="containerz">
+            <div className="achievement-body">
+              <Test
+                primary={"Creativity doesn't sleep, and neither do we!"}
+                secondary={"Creativity doesn't sleep, and neither do we!"}
+              />
+            </div>
+          </div>
         </div>
 
         <div className="detail-content-divider">
@@ -81,12 +83,13 @@ const Achievements = () => {
               <div className="swiper-wrapper">
                 <div className="swiper-slider1">
                   <p className="swiper-text">
-                    {" "}
                     <span style={{ color: "black", fontWeight: "500" }}>
-                      Solid Strategy
+                      We believe
                     </span>{" "}
-                    aligned with business needs and robust data analysis are
-                    fundamental ingredients to extract actionable insights
+                    in the power of creative storytelling, data-driven
+                    decisions, and a sprinkle of humor in everything we do.
+                    Let's drop the curtain and give you a peek behind the
+                    scenes!
                   </p>
                 </div>
               </div>
@@ -94,7 +97,7 @@ const Achievements = () => {
 
             <h3 className="title">Some Number About Us</h3>
 
-            <div> 
+            <div>
               <div className="card-list1">
                 <motion.div
                   className="card-container"
@@ -106,7 +109,7 @@ const Achievements = () => {
                     className="card-outer"
                     style={{ border: "none" }}
                     title="+300"
-                    description="We have successfully completed a total of 300+ projects"
+                    description="Happy Clients"
                     imageSrc={img3d1}
                   />
                 </motion.div>
@@ -117,9 +120,9 @@ const Achievements = () => {
                   transition={{ delay: 0.4 }}
                 >
                   <Card
-                    title="100k"
-                    description="We’ve gathered dozens of reviews from the clients and + 100k reviews from their users"
-                    imageSrc={img3d2} 
+                    title="12+"
+                    description="Years Of experience"
+                    imageSrc={img3d2}
                   />
                 </motion.div>
               </div>
@@ -131,10 +134,9 @@ const Achievements = () => {
                   transition={{ delay: 0.6 }}
                 >
                   <Card
-                    title="+10"
-                    description="Years of experience"
-                    
-                    imageSrc={img3d3} 
+                    title="98%"
+                    description="Project Success Rate"
+                    imageSrc={img3d3}
                   />
                 </motion.div>
                 <motion.div
@@ -146,8 +148,8 @@ const Achievements = () => {
                   <Card
                     className="card-outer"
                     style={{ border: "none" }}
-                    title="+280"
-                    description="Team members all over the world"
+                    title="24/7"
+                    description="Creative Energy"
                     imageSrc={img3d4}
                   />
                 </motion.div>

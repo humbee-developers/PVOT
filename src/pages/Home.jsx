@@ -22,25 +22,25 @@ import ServicesTextExp from "../components/services/setvicesTextExp/ServicesText
 import Roller from "../components/roller/Roller";
 import Example from "../components/servicesSrollSlider/NewServicesSlider";
 // import New3Dslider from "../components/servicesSrollSlider/New3DSlider";
-import NewServicesSLider from "../components/servicesSrollSlider/NewServicesSlider"
+import NewServicesSLider from "../components/servicesSrollSlider/NewServicesSlider";
 
 const Home = () => {
   return (
     <Fragment>
       <HeroSection />
-    
+
       <Text
         text={
-          "Whether it’s brand or website WE LOVE DETAILS Focused on Details and empowering brands to grow. Focused on Details and empowering brands to grow Focused on Details and empowering brands to grow"
+          "From typewriters to touchscreens, we've upgraded our toolkit, and boy, do we know how to write your success story! With 20+ years of experience, we'll design, strategize, and execute your project as smoothly as butter on a warm pav bhaji!"
         }
       />
       {/* <TextRevealEffect /> */}
       <LottieAnimation />
       {/* <ServicesText /> */}
-      
+
       {/* <ServicesScrollSlider /> */}
       {/* <NewServicesSLider /> */}
-       
+
       {/* <New3Dslider /> */}
       <Services />
       {/* <MyComponent /> */}
@@ -50,8 +50,8 @@ const Home = () => {
           "Standing out from the crowd is not easy, but with a distinctive brand design you are almost there. A creative tailor-made suit, for your brand!"
         }
       />*/}
-      <Roller/>
-      
+      <Roller />
+
       {/* <BgTransition /> */}
       <Card />
       {/* <Stack /> */}

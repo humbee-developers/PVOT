@@ -1,0 +1,58 @@
+.four_cards_wrapper {
+  display: flex;
+  margin: 100px -10px;
+}
+.four_cards_wrapper_inner {
+  width: 25%;
+  padding: 0 10px;
+}
+.four_cards_wrapper_inner .rightSlider {
+  width: 100%;
+  padding: 0;
+  color: white;
+  height: 100%;
+}
+.four_cards_image {
+  width: 25%;
+  padding: 0 10px;
+}
+.four_cards_image img {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 28px;
+}
+@media (max-width: 991px) {
+  .four_cards_wrapper {
+    margin: 100px -10px;
+    flex-wrap: wrap;
+  }
+  .four_cards_image {
+    width: 50%;
+    padding: 0 10px;
+    margin: 0 0 20px;
+  }
+  .four_cards_wrapper_inner {
+    width: 50%;
+    padding: 0 10px;
+    margin: 0 0 20px;
+  }
+  .four_cards_image img {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .four_cards_wrapper {
+    flex-direction: column;
+  }
+  .four_cards_image {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  .four_cards_wrapper_inner {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  .four_cards_wrapper_inner .swiper-slide {
+    height: 100% !important;
+  }
+}

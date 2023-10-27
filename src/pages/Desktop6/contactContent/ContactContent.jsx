@@ -6,10 +6,10 @@ const ContactContent = () => {
         <div className="contact_content_left">
           <div className="contact_content_left_sec">
             <div className="contact_content_left_heading">
-              want to say hello?
+            Great projects start with a hello!
             </div>
             <div className="contact_content_left_text">
-              We know you want to. You should just go ahead and write us.
+            And good things come to those who reach out.
             </div>
             <div className="contact_content_left_mail hover_btn">
               <a  href="mailto:pvot@123.com">
@@ -19,8 +19,6 @@ const ContactContent = () => {
             </div>
           </div>
         </div>
-        
-      
     </div>
   );
 };

@@ -2,7 +2,9 @@
   background-color: #000000;
   color: #fff;
 }
-
+.contact_us_page .inner_heading_animation_text1{
+  top: 50%;
+}
 .contact_us_page_container {
   overflow: hidden;
 }

@@ -23,10 +23,27 @@ const TextAnimation = () => {
         className="x"
         variants={containerVariants}
         initial="hidden"
-        animate="visible">
+        animate="visible"
+      >
         <motion.img className="imag" src={img17} variants={textVariants2} />
-        <motion.div className="text  one" variants={textVariants}>PV</motion.div>
-        <motion.div className="text  two" variants={textVariants}>OT</motion.div>
+        <motion.div className="text  one" variants={textVariants}>
+          PV<p>Where Ideas Take Flight</p>
+        </motion.div>
+        <motion.div className="text  two" variants={textVariants}>
+          OT<p> In the Digital Sky</p>
+        </motion.div>
+        <motion.div
+          className="mobile_text mobile_text_1"
+          variants={textVariants}
+        >
+          <p>Where Ideas Take Flight</p>
+        </motion.div>
+        <motion.div
+          className="mobile_text mobile_text_2"
+          variants={textVariants}
+        >
+          <p> In the Digital Sky</p>
+        </motion.div>
       </motion.div>
     </div>
   );
