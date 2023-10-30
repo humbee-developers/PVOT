@@ -35,7 +35,8 @@ const Amazing2023 = () => {
     tl.to(".scrolling-icon", {
       duration: 1,
       x:
-        (checkWidth < 1200 ? 188 : 496) ||
+      (checkWidth < 1199 ? 576 : 402) ||
+        (checkWidth > 1440 ? 577 : 577) ||
         (checkWidth < 991 ? 320 : 136) ||
         (checkWidth < 767 ? 250 : 320),
       ease: "none",

@@ -214,3 +214,22 @@ img.ball_image {
 }
 }
 
+
+@media(max-width:1200px){
+ 
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+  .scrolling-icon{
+    left: 29%;
+    top: 9.1rem;
+      }
+}
+@media screen and (min-width: 1441px) {
+  .scrolling-icon{
+    left: 29%;
+    top: 9.4rem;
+      }
+}
