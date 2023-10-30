@@ -7,7 +7,7 @@ const ClientOuter = () => {
     <div className="clients-outer">
       <HeadingAndContent
         title={"OUR CLIENTS"}
-        text={"We’re fortunate to have worked with some amazing clients."}
+        text={"The driving force behind our coffee addiction and creativity!"}
       />
       <div className="" style={{ backgroundColor: "black" }}>
           <div className="c-clients-bg logo_section_bg"></div>

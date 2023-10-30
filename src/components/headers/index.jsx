@@ -8,19 +8,19 @@ import logoImage from "../../images/PVOT-Design-Final-Logo-White.png";
 
 export default function NewNav() {
   const [isActive, setIsActive] = useState(false);
-  const [toggle, setToggle] = useState(false);
+  // const [toggle, setToggle] = useState(false);
 
   const handleNavLink = () => {
     setIsActive(!isActive);
   };
-  const handleToggle = () => {
-    setToggle(!toggle);
-  };
-  if (toggle) {
-    document.body.classList.add("mobile_menu_open");
-  } else {
-    document.body.classList.remove("mobile_menu_open");
-  }
+  // const handleToggle = () => {
+  //   setToggle(!toggle);
+  // };
+  // if (toggle) {
+  //   document.body.classList.add("mobile_menu_open");
+  // } else {
+  //   document.body.classList.remove("mobile_menu_open");
+  // }
 
   return (
     <div className="header_sec">
@@ -28,18 +28,18 @@ export default function NewNav() {
         <Link
           className="nav_icon_custom"
           to="/"
-          onClick={() => {
-            if (isActive) {
-              setIsActive(!isActive);
-            }
-          }}
+          // onClick={() => {
+          //   if (isActive) {
+          //     setIsActive(!isActive);
+          //   }
+          // }}
         >
           <img src={logoImage} alt="logoImage" />
         </Link>
         <div
           onClick={() => {
             setIsActive(!isActive);
-            handleToggle();
+            // handleToggle();
           }}
           className="new_header_el"
         >

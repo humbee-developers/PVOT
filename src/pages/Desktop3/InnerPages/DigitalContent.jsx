@@ -16,15 +16,59 @@ import innerglobal2 from "../../../images/inner_global2.png";
 const DigitalContent = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
-      <InnerPageHeader header={innerlaptop} logo={logo} inner_ani_text1={"Digital Content"} inner_ani_text2={"Creation and SEO"} />
-      <ThreeCards cane_image={innerglobal} mango_cup={innerglobal2} />
+      <InnerPageHeader
+        header={innerlaptop}
+        logo={logo}
+        inner_ani_text1={"Digital Content"}
+        inner_ani_text2={"Creation and SEO"}
+        overViewHeading={"OVERVIEW"}
+        servicesHeading={"SERVICES"}
+        overViewText={
+          "Welcome to the high-energy dance floor where creativity grooves to the beat of search engine algorithms. Digital Content Creation and SEO are the dynamic duo that makes your brand the life of the online party."
+        }
+        servicesText={
+          "Content Strategy, Content Creation, Search Engine Optimization, Keyword Magic, Social Media Sorcery, Data Wizadry "
+        }
+      />
+      <ThreeCards
+        cane_image={innerglobal}
+        mango_cup={innerglobal2}
+        title1={"Content Strategy"}
+        title2={"Content Creation"}
+        title3={"Search Engine Optimization (SEO)"}
+        title4={"Keyword Magic"}
+        title5={"Social Media Sorcery"}
+        title6={"Data Wizardry"}
+        text1={
+          "We're the masterminds who concoct the perfect content cocktail, mixing a dash of SEO, a pinch of creativity, and a whole lot of strategy."
+        }
+        text2={
+          "We turn ideas into words, and words into digital art. From blog posts to viral-worthy videos, if it's digital, we can craft it."
+        }
+        text3={
+          "We're the Sherlock Holmes of the internet, solving the mystery of how to get your brand on the first page of Google."
+        }
+        text4={
+          "Ever heard of the word 'SEO-vocado'? We make your content as keyword-savvy as a millennial ordering avocado toast."
+        }
+        text5={
+          "We make social media not just social but a bustling marketplace where your brand's voice is heard."
+        }
+        text6={
+          "We analyze data like fortune-tellers, predict trends, and tweak strategies to keep you ahead in the digital game."
+        }
+      />
       <SeventyThirty seventy_img={profit} thirty_img={seo} />
       <BigServicesInnerText
-        text={"Lorem Ipsum is simply dummy text of the printing "}/>
+        text={"Where Creativity and Algorithms Have a Love Affair!"}
+      />
       <ServicesInnerBigImage image={innerAi} />
       <ServicesInnerLeftText
-        text={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"}/>
-        <InnerCommonButton />
+        text={
+          "We're not just content creators; we're digital storytellers, wordsmiths, and meme magicians. We don't just play with words; we play with Google's heartstrings to make sure your brand stands in the spotlight. "
+        }
+      />
+      <InnerCommonButton />
       <RelatedServices />
     </div>
   );

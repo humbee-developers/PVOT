@@ -8,9 +8,9 @@ const ServicesPage = () => {
   return (
     <div>
       <div className="" style={{ backgroundColor: "black" }}>
-        <HeroHeading bigHeading="Services" hoverText={"Our Servicessss-"} />
+        <HeroHeading bigHeading="Services" hoverText={"Your sucess, served fresh daily--"} />
         <ServicesPageCard />
-        <RectangleCard title="Website Design" />
+        <RectangleCard title="Connect" />
       </div>
       <div
         style={{ width: "100%", overflow: "hidden", backgroundColor: "black" }}

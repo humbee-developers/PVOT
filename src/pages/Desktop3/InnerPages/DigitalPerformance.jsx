@@ -10,14 +10,29 @@ import ServicesInnerLeftText from "../../../../Common/ServicesInnerLeftText";
 const DigitalPerformance = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
-      <InnerPageHeader header={innercloud} logo={logo} inner_ani_text1={"Digital and"} inner_ani_text2={"Performance Marketing"} />
-      <ThirtySeventy/>
-      <BigServicesInnerText
-        text={"Lorem Ipsum is simply dummy text of the printing "}/>
-        <InnerMultipleCards />
-        <ServicesInnerLeftText
-          text={ "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"}/>
-        <InnerCommonButton />
+      <InnerPageHeader
+        header={innercloud}
+        logo={logo}
+        inner_ani_text1={"Digital and"}
+        inner_ani_text2={"Performance Marketing"}
+        overViewHeading={"OVERVIEW"}
+        servicesHeading={"SERVICES"}
+        overViewText={
+          "In the realm of Digital & Performance Marketing, we're the folks who sprinkle a little magic into your brand's online presence. Think of us as the navigators who help your brand set sail on the digital seas, with creativity as our compass and data as our North Star."
+        }
+        servicesText={
+          "Search Engine Marketing (SEM), Pay-Per-Click (PPC) Advertising, Social Media Advertising, Conversion Rate Optimization (CRO), Performance Analytics. "
+        }
+      />
+      <ThirtySeventy />
+      <BigServicesInnerText text={"Where Pixels and Profits Collide!"} />
+      <InnerMultipleCards />
+      <ServicesInnerLeftText
+        text={
+          "In the world of Digital & Performance Marketing, where we make sure your brand doesn't just exist online; it thrives, has a good laugh, and even throws a digital party or two!"
+        }
+      />
+      <InnerCommonButton />
       <RelatedServices />
     </div>
   );

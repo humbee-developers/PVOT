@@ -13,11 +13,10 @@
   font-family: "FONTSPRING";
 }
 .common-card-text {
-  margin-block: 70px -30px;
-    margin-bottom: -10px;
+  margin: 20px 0 30px;
     font-family: "FONTSPRING";
     font-weight: 600;
-    font-size: 100px;
+    font-size: 90px;
 }
 
 .rectangle-button-text {
@@ -63,6 +62,16 @@
 .arrow_icon img{
   width: 15px;
 }
+@media(max-width:1199px){
+  .common-card-text {
+      font-size: 80px;
+  }
+}
+@media(max-width:991px){
+  .common-card-text {
+      font-size: 70px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .footer-button {
@@ -75,8 +84,8 @@
     padding: 19px 20px;
   }
   .common-card-text {
-    font-size: 4.5rem;
-    margin-block: 30px -15px;
+    font-size: 45px;
+    margin: 20px 0 30px;
   }
   .together {
     font-size: 2rem;

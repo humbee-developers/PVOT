@@ -12,17 +12,27 @@
   color: white;
   font-family: "FONTSPRING-bold-italic";
 }
+.text p {
+  font-size: 25px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
 .imag {
   height: 97%;
   position: absolute;
   z-index: 9;
   max-width: 100%;
 }
+.mobile_text {
+  display: none;
+}
 @media screen and (max-width: 991px) {
- .text{
-  display: flex;
-  justify-content: space-around;
- }
+  .text {
+    display: flex;
+    justify-content: space-around;
+  }
   .imag {
     height: 50%;
     z-index: 0;
@@ -65,55 +75,83 @@
   .x {
     display: flex;
   }
-  
-  @media screen and (max-width: 768px) {
-    .hero-heading {
-      height: 100vh;
-    }
-    .sphere-image {
-      width: 100%;
-      height: auto;
-      margin-top: 4rem;
-    }
-    .hero-text {
-      font-size: 4rem;
-      color: white;
-      letter-spacing: -4px;
-      position: absolute;
-      bottom: 17rem;
-      font-weight: 300;
-      bottom: -6rem;
-     left: -17rem;
-    
-    }
-    .Rotating-arrow{
-      width: 100px;
-      margin-bottom: 0px;
-      position: absolute;
-      bottom: -19rem;
-      left: -28rem;
-    }
-    .extra-style{
-      bottom: -10rem;
-      font-weight: 500;
-      left: -32rem;
-    }
-    .x{
-      display: flex;
-    }
-    
-    
-}
+  .mobile_text {
+    display: block;
+    color: #fff;
+    font-family: "FONTSPRING-bold-italic";
+    font-size: 20px;
+  }
+  .mobile_text_1 {
+    position: absolute;
+    bottom: 45px;
+    left: 64px;
+    font-family: "FONTSPRING-bold-italic";
+  }
+  .mobile_text_2 {
+    position: absolute;
+    bottom: 10px;
+    left: 64px;
+    font-family: "FONTSPRING-bold-italic";
+  }
+  .text p {
+    display: none;
+  }
 }
 
-@media(max-width:767px){
+@media screen and (max-width: 768px) {
+  .hero-heading {
+    height: 100vh;
+  }
+  .sphere-image {
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+  }
+  .hero-text {
+    font-size: 4rem;
+    color: white;
+    letter-spacing: -4px;
+    position: absolute;
+    bottom: 17rem;
+    font-weight: 300;
+    bottom: -6rem;
+    left: -17rem;
+  }
+  .Rotating-arrow {
+    width: 100px;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: -19rem;
+    left: -28rem;
+  }
+  .extra-style {
+    bottom: -10rem;
+    font-weight: 500;
+    left: -32rem;
+  }
+  .x {
+    display: flex;
+  }
+}
+
+@media (max-width: 767px) {
   .x {
     height: 60vh;
+    flex-direction: column;
   }
   .one {
     bottom: 10rem;
   }
   .two {
     bottom: 10rem;
+  }
+  .mobile_text_1 {
+    bottom: 120px;
+    left: 64px;
+  }
+  .mobile_text_2 {
+    position: absolute;
+    bottom: 80px;
+    left: 64px;
   }
 }

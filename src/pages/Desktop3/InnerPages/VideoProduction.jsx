@@ -15,8 +15,32 @@ import TextImage from "../../../components/textImage/TextImage";
 const DigitalContent = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
-      <InnerPageHeader header={imx} logo={logo} inner_ani_text1={"Video Production"} inner_ani_text2={"and Photography"} />
-      <ThreeCards cane_image={canImage} mango_cup={bottleImage} />
+      <InnerPageHeader
+        header={imx}
+        logo={logo}
+        inner_ani_text1={"Video Production"}
+        inner_ani_text2={"and Photography"}
+        overViewHeading={"OVERVIEW"}
+        servicesHeading={"SERVICES"}
+        overViewText={
+          "grab your popcorn (or camera), and let's dive into a world where the ordinary becomes art, and pixels party like it's 1999. It's time to roll with camera, action, and a dash of humor"
+        }
+        servicesText={
+          "Videography, corporate Videos, product photography, Motion Graphics and Animation."
+        }
+      />
+      <ThreeCards
+        cane_image={canImage}
+        mango_cup={bottleImage}
+        title1={"Videography"}
+        title2={"Corporate Videos"}
+        title3={"Product Photography"}
+        title4={"Motion Graphics and Animation"}
+        text1={"Lights, camera, we're the action! We make every frame fabulous, even if the actors are just products and the scripts are more like bullet points."}
+        text2={" We take 'serious business' and turn it into 'seriously entertaining.' Corporate videos are our playground, and we're the jungle gym for your brand's charisma."}
+        text3={"Forget the top models; your products are the real stars here. We make them look so good, they can win a beauty pageant."}
+        text4={"Ever seen a video that's so visually epic, it makes your jaw drop? Yep, we're the ones responsible for those 'whoa' moments. Think of us as visual tricksters, turning your content into a magic show."}
+      />
       <ServicesInnerBigImage image={imgxx} />
       <ServicesInnerLeftText
         text={
