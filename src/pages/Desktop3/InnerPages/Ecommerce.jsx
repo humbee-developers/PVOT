@@ -2,7 +2,7 @@ import RelatedServices from "../../../components/relatedServices/RelatedServices
 import InnerPageHeader from "../../../../Common/innerPageHeader";
 import InnerCommonButton from "../../../../Common/innerCommonButton";
 import FlexImages from "../../../../Common/flexImages";
-import inner_header_e_commerce from "../../../images/inner_e_commerce_header_image.png";
+import inner_header_e_commerce from "../../../images/eCommerceBanner.png";
 import logo from "../../../images/PVOT-Design-Final-Logo-White.png";
 import leftImage from "../../../images/inner-image7-1.png";
 import delivery_boy from "../../../images/inner_delivery_boy.png";

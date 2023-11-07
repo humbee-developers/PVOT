@@ -1,4 +1,4 @@
-import imx from "../../../images/servicesBanner.png";
+import imx from "../../../images/brandBanner.png";
 import logo from "../../../images/PVOT-Design-Final-Logo-White.png";
 import InnerCommonButton from "../../../../Common/innerCommonButton";
 import RelatedServices from "../../../components/relatedServices/RelatedServices";

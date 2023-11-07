@@ -84,11 +84,31 @@ p.error {
 }
 
 .common_button_outer2 {
-  background-color: #735b9f;
+  background-color: #000;
+  border: 1px solid white;
   width: 180px;
   margin: 0px 0px;
   position: relative;
   margin-top: 2rem;
+  transition: all 0.5s;
+}
+.common_button_outer2 .submit_btn {
+  color: #fff;
+  transition: all 0.5s;
+}
+.common_button_outer2 img {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.common_button_outer2:hover {
+  background-color: #735b9f;
+  border: 1px solid transparent;
+}
+.common_button_outer2:hover .submit_btn {
+  color: #000;
+}
+.common_button_outer2:hover img {
+  opacity: 1;
 }
 .common_button_link2 {
   font-size: 25px;
@@ -100,6 +120,7 @@ p.error {
 .common_button_image2 {
   width: 100%;
 }
+
 
 @media (max-width: 767px) {
   .common_button_link2 {

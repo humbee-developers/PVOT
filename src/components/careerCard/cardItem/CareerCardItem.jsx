@@ -8,7 +8,7 @@ const CareerCardItem = () => {
     target: ref,
     offset: ["0 1", "2.5 1"],
   });
-  const scaleProgress = useTransform(scrollYProgress, [0.5, 1], [0.5, 1]);
+  const scaleProgress = useTransform(scrollYProgress, [0.5, 1], [0.8, 1]);
   console.log(scrollYProgress);
   return (
     <motion.div

@@ -12,7 +12,7 @@ import Card from "../components/card/Card";
 import Amazing2023 from "../components/amazing2023/Amazing2023";
 // import ContactUs from "../components/contactUs/ContactUs";
 import Text from "../components/text/Text";
-// import TextRevealEffect from "../components/roler/Rooler";
+import TextRevealEffect from "../components/roler/Rooler";
 // import ServicesText from "../components/services/servicesText/ServicesText";
 import BgTransition from "../components/bgTransition/BgTransition";
 import LottieAnimation from "../components/animation/Animation";
@@ -34,7 +34,6 @@ const Home = () => {
           "From typewriters to touchscreens, we've upgraded our toolkit, and boy, do we know how to write your success story! With 20+ years of experience, we'll design, strategize, and execute your project as smoothly as butter on a warm pav bhaji!"
         }
       />
-      {/* <TextRevealEffect /> */}
       <LottieAnimation />
       {/* <ServicesText /> */}
 

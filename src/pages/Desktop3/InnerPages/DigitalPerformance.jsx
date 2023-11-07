@@ -4,7 +4,7 @@ import InnerMultipleCards from "../../../../Common/innerMultipleCards";
 import ThirtySeventy from "../../../../Common/ThirtySeventy";
 import InnerCommonButton from "../../../../Common/innerCommonButton";
 import logo from "../../../images/PVOT-Design-Final-Logo-White.png";
-import innercloud from "../../../images/inner_cloud.png";
+import innercloud from "../../../images/digitalPerformance.png";
 import BigServicesInnerText from "../../../../Common/ServicesInnerBigText";
 import ServicesInnerLeftText from "../../../../Common/ServicesInnerLeftText";
 const DigitalPerformance = () => {

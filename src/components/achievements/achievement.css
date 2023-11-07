@@ -1,5 +1,5 @@
 .achievement{
-  padding: 20px 0 0;
+  padding: 40px 0 40px;
 }
 .achievement-body{
   width: 42%;
@@ -180,28 +180,7 @@
   max-width: 11em;
   font-size: 14px;
 }
-@media screen and (max-width: 768px) {
-  .card-outer1 {
-    width: 173px;
-  }
-  .card-list1 {
-    margin: 0 -5px;
-  }
-  .swiper-text {
-    max-width: 100%;
-    margin-top: 1rem;
-    font-family: "FONTSPRING";
-  }
-  .outer-image-info1 {
-    position: absolute;
-    right: -6px;
-    bottom: 3px;
-    max-width: 188px;
-    transform: translate(0%, 10%);
-    border-radius: 0 0 30px 0;
-    z-index: 1;
-}
-}
+
 
 .about-detail-circle-head {
   padding-left: 25px;
@@ -620,6 +599,26 @@
   .about-detail-content-head .title {
     margin-top: 20px;
   }
+  .card-outer1 {
+    width: 173px;
+  }
+  .card-list1 {
+    margin: 0 -5px;
+  }
+  .swiper-text {
+    max-width: 100%;
+    margin-top: 1rem;
+    font-family: "FONTSPRING";
+  }
+  .outer-image-info1 {
+    position: absolute;
+    right: -6px;
+    bottom: 3px;
+    max-width: 188px;
+    transform: translate(0%, 10%);
+    border-radius: 0 0 30px 0;
+    z-index: 1;
+}
 }
 @media (max-width: 399px) {
   .card-container {

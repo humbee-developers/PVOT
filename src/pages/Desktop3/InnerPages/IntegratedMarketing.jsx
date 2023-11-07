@@ -5,7 +5,7 @@ import SeventyThirty from "../../../../Common/SeventyThirty";
 import InnerCommonButton from "../../../../Common/innerCommonButton";
 import FlexImages from "../../../../Common/flexImages";
 import logo from "../../../images/PVOT-Design-Final-Logo-White.png";
-import three_dlaptop from "../../../images/inner_3d_laptop.png";
+import three_dlaptop from "../../../images/integratedMarketingBanner.png";
 import inner_chart from "../../../images/inner_chart.png";
 import inner_graph from "../../../images/inner_graph.png";
 import four_circle from "../../../images/inner_four_circle.png";

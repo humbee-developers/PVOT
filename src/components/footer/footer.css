@@ -73,6 +73,9 @@ a {
 .footer-left-nav-link:hover .footer-left-nav-link-icons img {
   transform: rotate(360deg);
 }
+a.footer-button {
+  width: 200px !important;
+}
 @keyframes r {
   0% {
     transform: translate(0, 0);

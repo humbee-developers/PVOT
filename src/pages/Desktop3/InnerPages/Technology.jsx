@@ -3,7 +3,7 @@ import InnerPageHeader from "../../../../Common/innerPageHeader";
 import leftImage from "../../../images/inner-image3-1.png";
 import rightTopImage from "../../../images/inner-image3-2.png";
 import rightBottomImage from "../../../images/inner-image3-3.png";
-import technologyBanner from "../../../images/technology-banner.png";
+import technologyBanner from "../../../images/technologyBanner.png";
 import logo from "../../../images/PVOT-Design-Final-Logo-White.png";
 import LeftImageRightSliderImage from "../../../components/leftImageRightSliderImage/LeftImageRightSliderImage";
 import BigServicesInnerText from "../../../../Common/ServicesInnerBigText";

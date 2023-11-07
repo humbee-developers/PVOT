@@ -19,7 +19,7 @@
   display: none;
 } */
 .services {
-  padding: 0 0 693px;
+  /* padding: 0 0 693px; */
 }
 .services_heading h2 {
   font-family: "FONTSPRING-bold-italic";
@@ -42,6 +42,12 @@
   max-width: 100%;
   border-radius: 25px;
   height: 100%;
+}
+.service_desk_image {
+  display: block;
+}
+.service_mobile_image {
+  display: none;
 }
 .servicesCard_item_image {
   width: 25%;
@@ -68,7 +74,7 @@ a img.services_card_item_link:hover {
   transform: rotate(-88deg);
 }
 .servicesCard_item {
-  margin: 0 0 50px;
+  padding: 0 0 50px;
 }
 @media (max-width: 1199px) {
   .servicesCard_item_image {
@@ -119,13 +125,19 @@ a img.services_card_item_link:hover {
   }
   .servicesCard_item_content {
     width: 100%;
-    padding: 20px 0;
+    padding: 27px 0 0;
   }
   h2.services_card_item_heading {
     font-family: "FONTSPRING";
-    font-size: 30px;
+    font-size: 27px;
   }
   .services_card_item_text {
-    font-size: 17px;
+    font-size: 16px;
+  }
+  .service_desk_image {
+    display: none;
+  }
+  .service_mobile_image {
+    display: block;
   }
 }

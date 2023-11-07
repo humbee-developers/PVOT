@@ -4,13 +4,13 @@ import "./clientOuter.css";
 
 const ClientOuter = () => {
   return (
-    <div className="clients-outer">
+    <div className="clients-outer our_client">
       <HeadingAndContent
         title={"OUR CLIENTS"}
         text={"The driving force behind our coffee addiction and creativity!"}
       />
       <div className="" style={{ backgroundColor: "black" }}>
-          <div className="c-clients-bg logo_section_bg"></div>
+          {/* <div className="c-clients-bg logo_section_bg"></div> */}
           <div className="c-container cc-relative">
             <div className="c-clients-content">
               <div

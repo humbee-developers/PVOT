@@ -1,6 +1,6 @@
 import logo from "../../../images/PVOT-Design-Final-Logo-White.png";
 import InnerPageHeader from "../../../../Common/innerPageHeader";
-import inner_tv_lamp from "../../../images/inner_tv_lamp.png";
+import inner_tv_lamp from "../../../images/mediaPlaningBanner.png";
 import podcast from "../../../images/inner_podcast.png";
 import newspaper from "../../../images/inner_newspaper.png";
 import InnerCommonButton from "../../../../Common/innerCommonButton";

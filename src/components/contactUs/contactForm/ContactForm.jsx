@@ -90,6 +90,7 @@ const ContactForm = () => {
             <div className="common_button_outer2">
               <img className="common_button_image2" src={innerCommon} alt="" />
               <button type="submit" className="submit_btn">Submit -</button>
+             
             </div>
           </div>
         </form>

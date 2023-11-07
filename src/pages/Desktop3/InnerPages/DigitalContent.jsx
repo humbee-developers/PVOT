@@ -1,4 +1,4 @@
-import innerlaptop from "../../../images/inner_laptop.png";
+import innerlaptop from "../../../images/digitalContentBanner.png";
 import logo from "../../../images/PVOT-Design-Final-Logo-White.png";
 import profit from "../../../images/inner_profit.png";
 import seo from "../../../images/inner_seo.png";

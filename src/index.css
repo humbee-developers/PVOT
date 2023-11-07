@@ -1,26 +1,26 @@
 @font-face {
   font-family: "FONTSPRING";
   src: local("FONTSPRING"),
-    url("./font/Freigeist-Regular.ttf") format("truetype");
+    url("./font/Gilroy-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "FONTSPRING-bold";
   src: local("FONTSPRING-bold"),
-    url("./font/Freigeist-Bold.ttf") format("truetype");
+    url("./font/Gilroy-Bold.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "FONTSPRING-bold-italic";
   src: local("FONTSPRING-bold-italic"),
-    url("./font/Freigeist-BoldItalic.ttf") format("truetype");
+    url("./font/Gilroy-BoldItalic.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "FONTSPRING-black";
   src: local("FONTSPRING-black"),
-    url("./font/Freigeist-Black.ttf") format("truetype");
+    url("./font/Gilroy-Black.ttf") format("truetype");
   font-weight: normal;
 }
 /* @font-face {
@@ -32,7 +32,7 @@
 @font-face {
   font-family: "FONTSPRING-conMediumItalic";
   src: local("FONTSPRING-conMediumItalic"),
-    url("./font/Freigeist-MediumItalic.ttf") format("truetype");
+    url("./font/Gilroy-MediumItalic.ttf") format("truetype");
   font-weight: normal;
 }
 

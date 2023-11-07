@@ -1,4 +1,4 @@
-import imx from "../../../images/yellowbg.png";
+import imx from "../../../images/videoProductionBanner.png";
 import InnerCommonButton from "../../../../Common/innerCommonButton";
 import logo from "../../../images/PVOT-Design-Final-Logo-White.png";
 import imgxx from "../../../images/icecream.png";
@@ -47,7 +47,7 @@ const DigitalContent = () => {
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
         }
       />
-      <TextImage text={"Lorem Ipsum is simply dummy"} image={icewater} />
+      <TextImage text={"Your Story, Our Lens"} image={icewater} />
       <ServicesInnerBigImage image={bottles} />
       <ServicesInnerLeftText
         text={

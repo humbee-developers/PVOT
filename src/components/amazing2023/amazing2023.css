@@ -27,12 +27,12 @@
 }
 .amazing_year span {
   font-size: 230px;
-    line-height: 140px;
-    margin-bottom: 32px;
-    font-family: "FONTSPRING";
-    margin-left: 30px;
+  line-height: 140px;
+  margin-bottom: 32px;
+  font-family: "FONTSPRING";
+  margin-left: 30px;
 }
-.amazing_year .ball_image{
+.amazing_year .ball_image {
   max-width: 100%;
 
   display: block;
@@ -53,9 +53,8 @@
   line-height: normal;
   text-transform: uppercase;
 }
-.ball-outer{
+.ball-outer {
   width: 100% !important;
-
 }
 .amazing_bgHeading {
   position: absolute;
@@ -63,15 +62,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.lastText1{
+.lastText1 {
   position: absolute;
   right: 148px;
   top: -96px;
   font-family: "FONTSPRING";
   opacity: 0;
-  
-
-
 }
 .ball_container {
   position: relative;
@@ -91,8 +87,8 @@
 
 .scrolling-icon {
   position: absolute;
-  top: 115%;
-  left: 15%;
+  top: 150px;
+  left: 29%;
   transform: translate(-50%, -50%);
   font-size: 24px;
   transition: left 1s ease-out;
@@ -105,8 +101,8 @@
 
 @media (max-width: 1199px) {
   .scrolling-icon {
-    top: 96%;
-    left: 35%;
+    top: 94%;
+    left: 30%;
   }
   .amazing_year span {
     font-size: 160px;
@@ -124,16 +120,19 @@
   img.ball_image {
     width: 75px;
   }
+  .ball_text {
+    font-size: 60px;
+  }
 }
 @media (max-width: 991px) {
   .scrolling-icon {
-    top: 98%;
-    left: 37%;
-}
-.ball_text {
-  font-size: 44px;
-  margin: 3px 0 0;
-}
+    top: 100%;
+    left: 33%;
+  }
+  .ball_text {
+    font-size: 44px;
+    margin: 3px 0 0;
+  }
   .amazing_bgHeading h2 {
     font-size: 165px;
   }
@@ -163,54 +162,52 @@
   .amazing_heading h2 {
     font-size: 50px;
     margin: 0;
-}
-.amazing_year span {
-  font-size: 85px;
-  line-height: 90px;
-}
-.ball_text {
-  font-size: 33px;
-  margin: 13px 0 0;
-}
+  }
+  .amazing_year span {
+    font-size: 85px;
+    line-height: 90px;
+  }
+  .ball_text {
+    font-size: 33px;
+    margin: 13px 0 0;
+  }
 }
 
-@media(max-width:575px){
+@media (max-width: 575px) {
   .amazing_bgHeading h2 {
     font-size: 74px;
   }
   .amazing_heading h2 {
     font-size: 18px;
     line-height: 30px;
-}
-.ball_text {
-  font-size: 20px;
-  margin: 20px 0 0;
-}
-img.ball_image {
-  width: 34px;
-}
-.ball_container {
-  /* margin-bottom: 15px; */
-}
-.amazing_year span {
-  font-size: 75px;
-  line-height: 58px;
-  margin-left: 2px;
+  }
+  .ball_text {
+    font-size: 20px;
+    margin: 20px 0 0;
+  }
+  img.ball_image {
+    width: 34px;
+  }
+  .ball_container {
+    /* margin-bottom: 15px; */
+  }
+  .amazing_year span {
+    font-size: 75px;
+    line-height: 58px;
+    margin-left: 2px;
     margin-bottom: -10px;
-}
-.amazing_bgHeading {
-  top: 8%;
-}
-.scrolling-icon {
-  top: 91%;
-  left: 27%;
-}
-.lastText1{
- top: -137%;
+  }
+  .amazing_bgHeading {
+    top: 8%;
+  }
+  .scrolling-icon {
+    top: 91%;
+    left: 27%;
+  }
+  .lastText1 {
+    top: -137%;
     position: absolute;
     right: 1%;
     opacity: 0;
-  
+  }
 }
-}
-
