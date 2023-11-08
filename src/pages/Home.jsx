@@ -59,7 +59,7 @@ const Home = () => {
       <OurTeam />
       {/* <LogoSection /> */}
       <Testimonial />
-      <Amazing2023 />
+      {/* <Amazing2023 /> */}
       {/* <ContactUs /> */}
     </Fragment>
   );
