@@ -34,25 +34,25 @@ const App = () => {
       <Layout>
         <ScrollTop />
         <Routes>
-          <Route path="/pvot" element={<Home />} />
-          <Route path="/pvot/contact-us" element={<ContactUsPage />} />
-          <Route path="/pvot/services" element={<ServicePage />} />
-          <Route path="/pvot/portfolio" element={<PortfolioPage />} />
-          <Route path="/pvot/career" element={<CareerPage />} />
-          <Route path="/pvot/blog" element={<MediaPage />} />
-          <Route path="/pvot/knowUs" element={<KnowUsPage />} />
-          <Route path="/pvot/digital-content" element={<DigitalContent />} />
+          <Route path="/PVOT" element={<Home />} />
+          <Route path="/PVOT/contact-us" element={<ContactUsPage />} />
+          <Route path="/PVOT/services" element={<ServicePage />} />
+          <Route path="/PVOT/portfolio" element={<PortfolioPage />} />
+          <Route path="/PVOT/career" element={<CareerPage />} />
+          <Route path="/PVOT/blog" element={<MediaPage />} />
+          <Route path="/PVOT/knowUs" element={<KnowUsPage />} />
+          <Route path="/PVOT/digital-content" element={<DigitalContent />} />
           <Route
-            path="/pvot/integrated-marketing"
+            path="/PVOT/integrated-marketing"
             element={<IntegratedMarketing />}
           />
-          <Route path="/pvot/digital-performance" element={<DigitalPerformance />} />
-          <Route path="/pvot/video-production" element={<VideoProduction />} />
-          <Route path="/pvot/technology" element={<Technology />} />
-          <Route path="/pvot/e-commerce" element={<Ecommerce />} />
-          <Route path="/pvot/media-planning" element={<MediaPlanning />} />
+          <Route path="/PVOT/digital-performance" element={<DigitalPerformance />} />
+          <Route path="/PVOT/video-production" element={<VideoProduction />} />
+          <Route path="/PVOT/technology" element={<Technology />} />
+          <Route path="/PVOT/e-commerce" element={<Ecommerce />} />
+          <Route path="/PVOT/media-planning" element={<MediaPlanning />} />
           <Route
-            path="/pvot/branding-advertising"
+            path="/PVOT/branding-advertising"
             element={<BrandingAdvertising />}
           />
         </Routes>

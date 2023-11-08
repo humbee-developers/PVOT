@@ -27,7 +27,7 @@ export default function NewNav() {
       <div className="bar">
         <Link
           className="nav_icon_custom"
-          to="/pvot"
+          to="/PVOT"
           // onClick={() => {
           //   if (isActive) {
           //     setIsActive(!isActive);

@@ -25,7 +25,7 @@ const Footer = () => {
               But we prefer the first two for a quicker response. We're
               greenhouse for your questions.
             </p>
-            <Link to={"/contact-us"} className="footer-button">
+            <Link to={"/PVOT/contact-us"} className="footer-button">
               <div className="btn_flex hover_btn">
                 <span className="footer-button-text btn_text">
                   Become a Client
