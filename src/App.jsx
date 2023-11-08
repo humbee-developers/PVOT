@@ -34,7 +34,7 @@ const App = () => {
       <Layout>
         <ScrollTop />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/pvot" element={<Home />} />
           <Route path="/contact-us" element={<ContactUsPage />} />
           <Route path="/services" element={<ServicePage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
