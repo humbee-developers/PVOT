@@ -30,7 +30,7 @@
   line-height: 140px;
   margin-bottom: 32px;
   font-family: "FONTSPRING";
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 .amazing_year .ball_image {
   max-width: 100%;
@@ -62,10 +62,17 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.lastText1 {
+.lastText_sec {
+  position: relative;
+}
+.lastText {
   position: absolute;
-  right: 148px;
-  top: -96px;
+  top: -70px;
+}
+.lastText1 {
+  position: absolute !important;
+  margin: 0 !important;
+  top: -250px;
   font-family: "FONTSPRING";
   opacity: 0;
 }

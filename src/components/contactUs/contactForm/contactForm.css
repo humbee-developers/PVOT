@@ -85,12 +85,13 @@ p.error {
 
 .common_button_outer2 {
   background-color: #000;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 180px;
   margin: 0px 0px;
   position: relative;
   margin-top: 2rem;
   transition: all 0.5s;
+  cursor: pointer;
 }
 .common_button_outer2 .submit_btn {
   color: #fff;
@@ -100,10 +101,7 @@ p.error {
   opacity: 0;
   transition: all 0.5s;
 }
-.common_button_outer2:hover {
-  background-color: #735b9f;
-  border: 1px solid transparent;
-}
+
 .common_button_outer2:hover .submit_btn {
   color: #000;
 }

@@ -9,7 +9,7 @@ const ServicesCardItem = ({ image, heading, text, link, mobileImage }) => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "0.5 1"],
+    offset: ["0 1", `${resize < 767 ? "0.8" : "1.2"} 1`],
   });
   const scaleProgress = useTransform(scrollYProgress, [0.5, 1], [0.8, 1]);
   const handleMobileWidth = () => {

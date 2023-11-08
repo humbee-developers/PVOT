@@ -141,9 +141,11 @@
   }
   .one {
     bottom: 10rem;
+    left: 3rem ;
   }
   .two {
     bottom: 10rem;
+    left: 12rem;
   }
   .mobile_text_1 {
     bottom: 120px;

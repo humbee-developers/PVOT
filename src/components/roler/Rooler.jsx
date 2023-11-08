@@ -11,8 +11,11 @@ const TextRevealEffect = () => {
   window.addEventListener("resize", checkWidthSize);
 
   let varY = 1100;
-
-  if (checkWidth < 1199 && checkWidth > 991) {
+  if (checkWidth > 1600) {
+    varY = 1300;
+  } else if (checkWidth < 1600 && checkWidth > 1440) {
+    varY = 1120;
+  } else if (checkWidth < 1199 && checkWidth > 991) {
     varY = 850;
     console.log("<1199");
   } else if (checkWidth < 991 && checkWidth > 767) {
@@ -29,7 +32,11 @@ const TextRevealEffect = () => {
   }
 
   let varX = -1300;
-  if (checkWidth < 1199 && checkWidth > 991) {
+  if (checkWidth > 1600) {
+    varX = -1050;
+  } else if (checkWidth < 1600 && checkWidth > 1440) {
+    varX = -1270;
+  } else if (checkWidth < 1199 && checkWidth > 991) {
     varX = -1350;
     console.log("<1199");
   } else if (checkWidth < 991 && checkWidth > 767) {
