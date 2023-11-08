@@ -57,8 +57,8 @@ const TextRevealEffect = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: ".ama",
-        start: "top center-=400px",
-        end: "bottom+=100px center-=200px",
+        start: "center center",
+        end: "+=100%",
         scrub: true,
         // pin: true,
         onUpdate: (scrollTrigger) => {
