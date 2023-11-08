@@ -19,7 +19,7 @@ import ServicesCardItem from "./ServicesCardItem";
 
 const ServicesCardsData = [
   {
-    image: image1,
+    image: image5,
     mobileImage: mobileImage1,
     heading: "Integrated Marketing Solutions",
     text: "Consider us your brand's personal assistant. We juggle the marketing madness, so you don't have to. Your brand shines, and you get more time for chai breaks!  Our mission? To make sure your brand's tale is the blockbuster that everyone loves.",
@@ -47,7 +47,7 @@ const ServicesCardsData = [
     link: "/PVOT/Video-production",
   },
   {
-    image: image5,
+    image: image1,
     mobileImage: mobileImage5,
     heading: "Technology and Design",
     text: "We're the tech geeks who ensure your website runs smoothly and the artists who make it look stunning. We blend the best of brains and aesthetics to create a digital experience that's both beautiful and efficient.",
@@ -61,14 +61,14 @@ const ServicesCardsData = [
     link: "/PVOT/branding-advertising",
   },
   {
-    image: image7,
+    image: image8,
     mobileImage: mobileImage7,
     heading: "Media Planning and Buying",
     text: "Planning, buying, and making your ads shine – it's all in a day's work. With us, your brand is front and center, like a lead actor in a blockbuster. We help you reach the right people, in the right place, at the right time.",
     link: "/PVOT/media-planning",
   },
   {
-    image: image8,
+    image: image7,
     mobileImage: mobileImage8,
     heading: "E-commerce Strategy and Execution",
     text: "Turning browsers into buyers? That's our superpower. We'll help you navigate the e-commerce jungle, ensuring your online store isn't just a place to shop, but an unforgettable experience. ",
