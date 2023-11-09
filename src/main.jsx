@@ -7,6 +7,8 @@ import "./font/Gilroy-BlackItalic.ttf";
 import "./font/Gilroy-Black.ttf";
 // import "./font/Fontspring-DEMO-freigeist-conmedium.otf";
 import "./font/Gilroy-MediumItalic.ttf";
+import "./font/Gilroy-Medium.ttf";
+import "./font/Gilroy-Light.ttf";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

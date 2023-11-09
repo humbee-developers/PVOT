@@ -1,0 +1,14 @@
+.pushing_boundries_desk {
+  display: block;
+}
+.pushing_boundries_mobile {
+  display: none;
+}
+@media (max-width: 767px) {
+  .pushing_boundries_desk {
+    display: none;
+  }
+  .pushing_boundries_mobile {
+    display: block;
+  }
+}

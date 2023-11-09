@@ -1,13 +1,11 @@
 @font-face {
   font-family: "gilroy";
-  src: local("gilroy"),
-    url("./font/Gilroy-Regular.ttf") format("truetype");
+  src: local("gilroy"), url("./font/Gilroy-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "gilroy-bold";
-  src: local("gilroy-bold"),
-    url("./font/Gilroy-Bold.ttf") format("truetype");
+  src: local("gilroy-bold"), url("./font/Gilroy-Bold.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
@@ -19,20 +17,24 @@
 
 @font-face {
   font-family: "gilroy-black";
-  src: local("gilroy-black"),
-    url("./font/Gilroy-Black.ttf") format("truetype");
+  src: local("gilroy-black"), url("./font/Gilroy-Black.ttf") format("truetype");
   font-weight: normal;
 }
-/* @font-face {
-  font-family: "FONTSPRING-conMedium";
-  src: local("FONTSPRING-conMedium"),
-    url("./fonts/Fontspring-DEMO-freigeist-conmedium.otf") format("truetype");
+@font-face {
+  font-family: "gilroy-medium";
+  src: local("gilroy-medium"),
+    url("./font/Gilroy-Medium.ttf") format("truetype");
   font-weight: normal;
-} */
+}
 @font-face {
   font-family: "gilroy-conMediumItalic";
   src: local("gilroy-conMediumItalic"),
     url("./font/Gilroy-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "gilroy-light";
+  src: local("gilroy-light"), url("./font/Gilroy-Light.ttf") format("truetype");
   font-weight: normal;
 }
 

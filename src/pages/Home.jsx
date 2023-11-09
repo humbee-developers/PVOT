@@ -23,6 +23,7 @@ import LeftRightAnimatedText from "../components/leftRightAnimatedText/LeftRight
 // import Example from "../components/servicesSrollSlider/NewServicesSlider";
 // import New3Dslider from "../components/servicesSrollSlider/New3DSlider";
 // import NewServicesSLider from "../components/servicesSrollSlider/NewServicesSlider";
+import "./home.css";
 
 const Home = () => {
   return (
@@ -34,7 +35,14 @@ const Home = () => {
           "From typewriters to touchscreens, we've upgraded our toolkit, and boy, do we know how to write your success story! With 20+ years of experience, we'll design, strategize, and execute your project as smoothly as butter on a warm pav bhaji!"
         }
       />
-      <LottieAnimation />
+      <div className="pushing_boundries">
+        <div className="pushing_boundries_desk">
+          <LottieAnimation />
+        </div>
+        <div className="pushing_boundries_mobile">
+          <LeftRightAnimatedText text1={"Pushing"} text2={"Boundries"} />
+        </div>
+      </div>
       {/* <ServicesText /> */}
 
       {/* <ServicesScrollSlider /> */}
