@@ -16,13 +16,13 @@ import TextRevealEffect from "../components/roler/Rooler";
 // import ServicesText from "../components/services/servicesText/ServicesText";
 import BgTransition from "../components/bgTransition/BgTransition";
 import LottieAnimation from "../components/animation/Animation";
-import ServicesScrollSlider from "../components/servicesSrollSlider/ServicesScrollSlider";
+// import ServicesScrollSlider from "../components/servicesSrollSlider/ServicesScrollSlider";
 import ServicesTextExp from "../components/services/setvicesTextExp/ServicesTextExp";
-// import MyComponent from "../components/services/newServiceText/NewServicesText";
 import Roller from "../components/roller/Roller";
-import Example from "../components/servicesSrollSlider/NewServicesSlider";
+import LeftRightAnimatedText from "../components/leftRightAnimatedText/LeftRightAnimatedText";
+// import Example from "../components/servicesSrollSlider/NewServicesSlider";
 // import New3Dslider from "../components/servicesSrollSlider/New3DSlider";
-import NewServicesSLider from "../components/servicesSrollSlider/NewServicesSlider";
+// import NewServicesSLider from "../components/servicesSrollSlider/NewServicesSlider";
 
 const Home = () => {
   return (
@@ -49,7 +49,9 @@ const Home = () => {
           "Standing out from the crowd is not easy, but with a distinctive brand design you are almost there. A creative tailor-made suit, for your brand!"
         }
       />*/}
-      <Roller />
+      {/* <Roller /> */}
+      <LeftRightAnimatedText text1={"Crafting"} text2={"Experience"} />
+      {/* <ServicesTextExp /> */}
 
       {/* <BgTransition /> */}
       <Card />

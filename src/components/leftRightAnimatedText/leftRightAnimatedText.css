@@ -1,0 +1,46 @@
+.left_right_animated_text {
+  overflow: hidden;
+  background-color: black;
+}
+
+.background-text {
+  padding: 150px 0;
+  transition: 1s ease-in-out all;
+  text-align: center;
+  list-style: none;
+  background: black;
+  height: 100vh !important;
+}
+
+.background-text__item {
+  font-style: normal;
+  /* font-weight: 900; */
+  line-height: 180px;
+  color: white;
+  text-align: center;
+  background: transparent;
+  z-index: -1111;
+  font-family: "FONTSPRING";
+  font-size: 200px;
+  margin: 100px 0;
+  transition: 0.2s ease-out all;
+  opacity: 1;
+}
+
+@media (max-width: 991px) {
+  .background-text__item {
+    font-style: normal;
+    /* font-weight: 900; */
+    font-size: 150px;
+    line-height: 140px;
+    color: white;
+    text-align: center;
+    background: transparent;
+    z-index: -1111;
+    font-family: "FONTSPRING";
+    font-size: 200px;
+    margin: 100px 0;
+    transition: 0.2s ease-out all;
+    opacity: 1;
+  }
+}

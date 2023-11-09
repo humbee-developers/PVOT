@@ -1,25 +1,25 @@
 @font-face {
-  font-family: "FONTSPRING";
-  src: local("FONTSPRING"),
+  font-family: "gilroy";
+  src: local("gilroy"),
     url("./font/Gilroy-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
-  font-family: "FONTSPRING-bold";
-  src: local("FONTSPRING-bold"),
+  font-family: "gilroy-bold";
+  src: local("gilroy-bold"),
     url("./font/Gilroy-Bold.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
-  font-family: "FONTSPRING-bold-italic";
-  src: local("FONTSPRING-bold-italic"),
+  font-family: "gilroy-bold-italic";
+  src: local("gilroy-bold-italic"),
     url("./font/Gilroy-BoldItalic.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "FONTSPRING-black";
-  src: local("FONTSPRING-black"),
+  font-family: "gilroy-black";
+  src: local("gilroy-black"),
     url("./font/Gilroy-Black.ttf") format("truetype");
   font-weight: normal;
 }
@@ -30,8 +30,8 @@
   font-weight: normal;
 } */
 @font-face {
-  font-family: "FONTSPRING-conMediumItalic";
-  src: local("FONTSPRING-conMediumItalic"),
+  font-family: "gilroy-conMediumItalic";
+  src: local("gilroy-conMediumItalic"),
     url("./font/Gilroy-MediumItalic.ttf") format("truetype");
   font-weight: normal;
 }
