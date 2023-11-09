@@ -22,7 +22,7 @@
   /* padding: 0 0 693px; */
 }
 .services_heading h2 {
-  font-family: "FONTSPRING-bold-italic";
+  font-family: "gilroy-bold-italic";
   font-weight: 600;
   font-size: 60px;
   line-height: 70px;
@@ -57,13 +57,13 @@
   padding: 20px 50px 20px 100px;
 }
 h2.services_card_item_heading {
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   margin: 0 0 30px;
 }
 .services_card_item_text {
   margin: 0 0 40px;
   font-size: 22px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
 }
 a img.services_card_item_link {
   max-width: 100%;
@@ -128,7 +128,7 @@ a img.services_card_item_link:hover {
     padding: 27px 0 0;
   }
   h2.services_card_item_heading {
-    font-family: "FONTSPRING";
+    font-family: "gilroy";
     font-size: 27px;
   }
   .services_card_item_text {

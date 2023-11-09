@@ -36,7 +36,7 @@
 .servicesBigText .inner p span {
   color: white;
   font-size: 118px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   line-height: 116px;
   font-weight: 400;
   text-align: left;
@@ -51,7 +51,7 @@
 @media (max-width: 1199px) {
   .servicesBigText .inner p span {
     font-size: 90px;
-    font-family: "FONTSPRING";
+    font-family: "gilroy";
     line-height: 100px;
   }
 }

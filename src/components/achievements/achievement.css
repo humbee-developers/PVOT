@@ -110,7 +110,7 @@
   letter-spacing: -0.01em;
   max-width: 28em;
   margin-left: 8px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   color: #878787;
   position: relative;
   font-size: 19px;
@@ -118,7 +118,7 @@
 .title {
   margin-top: 5px;
   margin-left: 8px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   font-size: 16px;
   font-weight: 600;
   color: #999796;
@@ -168,14 +168,14 @@
 .card-heading1 {
   font: 700 52px/1.3 Plus Jakarta Sans;
   color: #000;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   font-size: 43px;
 }
 .card-comment1 {
   margin-top: 5px;
   font: 400 14px/1.25 Inter;
   color: #6c6c6c;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   font-weight: 500;
   max-width: 11em;
   font-size: 14px;
@@ -280,6 +280,7 @@
   color: #000000;
   white-space: nowrap;
   transition: 0.4s ease-in-out;
+  font-family: "gilroy";
 }
 .circle-data1,
 .circle-data2,
@@ -607,7 +608,7 @@
   .swiper-text {
     max-width: 100%;
     margin-top: 1rem;
-    font-family: "FONTSPRING";
+    font-family: "gilroy";
   }
   .outer-image-info1 {
     position: absolute;

@@ -7,7 +7,7 @@
 }
 .common_button_link{
 font-size: 25px ;
-font-family: "FONTSPRING";
+font-family: "gilroy";
 position: absolute;
 top: 0%;
 left: 40px;
@@ -68,7 +68,7 @@ width: 100%;
   letter-spacing: 1px;
   display: inline-block;
   text-decoration: none;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   text-transform: uppercase;
 }
 .btn-flip:hover:after {

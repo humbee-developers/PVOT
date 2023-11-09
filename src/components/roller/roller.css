@@ -18,7 +18,7 @@
 .yearz .t1z {
   font-size: 200px;
   line-height: 150px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   opacity: 0;
   position: absolute;
   margin-bottom: 31px;
@@ -34,7 +34,7 @@
   position: absolute;
   left: 92rem;
   top: 9rem;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   margin-left: 30px;
   transition: all 0.5s ease-out;
 }

@@ -31,18 +31,18 @@
 }
 .internal_text {
   color: white;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   font-size: 17px;
 }
 .internal_heading {
   color: white;
   font-size: 22px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
 }
 .inner_heading_animation_text1 {
   font-size: 105px;
   position: absolute;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   font-weight: 600;
   bottom: 220px;
   left: 3rem;
@@ -65,7 +65,7 @@
   color: white;
   position: absolute;
   bottom: 100px;
-  font-family: "FONTSPRING-conMediumItalic";
+  font-family: "gilroy-conMediumItalic";
   left: 10rem;
 }
 .inner_page_animation {

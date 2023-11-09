@@ -23,15 +23,18 @@
   font-weight: 400;
   position: relative;
   align-items: center;
+  font-family: "gilroy";
 }
 .label p {
   margin: 0px;
   color: white;
+  font-family: "gilroy";
 }
 
 .bar a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+  font-family: "gilroy";
 }
 
 .shopContainer {
@@ -58,6 +61,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  font-family: "gilroy";
 }
 
 .label p:nth-of-type(2) {

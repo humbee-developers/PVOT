@@ -21,7 +21,7 @@ a {
 }
 .footer-heading-text {
   font: 600 60px/1 Inter;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   color: #ffffff;
   margin-bottom: 22px;
   font-size: 40px;
@@ -30,7 +30,7 @@ a {
 .footer-small-text {
   font: 400 16px/1.2 Inter;
   letter-spacing: -0.01em;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   color: #a9a9a9;
   font-size: 15px;
 }
@@ -49,7 +49,7 @@ a {
 }
 .footer-button-text.btn_text {
   color: #fff !important;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
 }
 .footer-button:active {
   background-color: black;
@@ -132,7 +132,7 @@ a.footer-button {
 .footer-email {
   display: block;
   margin-top: 11px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   letter-spacing: -0.02em;
   color: #a9a9a9;
 }
@@ -151,7 +151,7 @@ a.footer-button {
   font: 500 16px/1.2 Inter;
   letter-spacing: -0.01em;
   color: #64686a;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   display: flex;
   justify-content: space-between;
 }
@@ -162,20 +162,20 @@ a.footer-button {
 .footer-left-nav-heading {
   font: 600 18px/1.2 Inter;
   color: #ffffff;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   letter-spacing: -0.01em;
   margin-bottom: 20px;
 }
 .footer-left-items-list {
   font: 400 16px/1.2 Inter;
   color: #64686a;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   margin-top: 14px;
 }
 .footer-end-text {
   font: 500 14px/1.2 Inter;
   color: #ffffff;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   letter-spacing: -0.02em;
 }
 .footer-end-span {
@@ -193,7 +193,7 @@ a.footer-button {
   border-bottom: 1px solid #ffffff;
   font-weight: 500;
   color: #ffffff;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
 }
 
 @media screen and (max-width: 565px) {

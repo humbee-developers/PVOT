@@ -18,7 +18,7 @@
   background-color: red;
 }
 .amazing_heading h2 {
-  font-family: "FONTSPRING-black";
+  font-family: "gilroy-black";
   font-size: 70px;
   font-weight: 850;
   margin-right: 8rem;
@@ -29,7 +29,7 @@
   font-size: 230px;
   line-height: 140px;
   margin-bottom: 32px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   /* margin-left: 30px; */
 }
 .amazing_year .ball_image {
@@ -46,7 +46,7 @@
 
 .amazing_bgHeading h2 {
   color: rgba(255, 255, 255, 0.05);
-  font-family: "FONTSPRING-bold";
+  font-family: "gilroy-bold";
   font-size: 264.188px;
   font-style: italic;
   font-weight: 700;
@@ -73,7 +73,7 @@
   position: absolute !important;
   margin: 0 !important;
   top: -250px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   opacity: 0;
 }
 .ball_container {
@@ -102,7 +102,7 @@
 }
 .ball_text {
   font-size: 65px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   margin: 32px 0 0;
 }
 
