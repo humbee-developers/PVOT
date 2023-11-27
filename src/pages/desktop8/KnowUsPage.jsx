@@ -8,7 +8,7 @@ import CoreTeam from "../../components/coreTeam/CoreTeam";
 const KnowUsPage = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
-      <HeroHeading bigHeading={"KNOW US"} />
+      <HeroHeading bigHeading="Know Us" hoverText={"Your sucess, served fresh daily--"} />
 
       <div className="know-us-divider">
         <div className="know-us-title">WHAT DO WE DO?</div>

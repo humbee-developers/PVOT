@@ -26,7 +26,7 @@
 }
 h3.testimonial_slider_heading {
   color: #000;
-  font-family: "Plus Jakarta Sans";
+  font-family: "gilroy";
   font-size: 46.56px;
   font-style: normal;
   font-weight: 700;
@@ -44,6 +44,7 @@ h3.testimonial_slider_heading {
   font-weight: 600;
   color: #000;
   font-size: 20px;
+  font-family: "gilroy";
 }
 .testimonial_slider_client_data {
   margin-left: 24px;
@@ -51,6 +52,7 @@ h3.testimonial_slider_heading {
 .testimonial_slider_client_content{
   font-size: 18px;
   font-weight: 400;
+  font-family: "gilroy";
 }
 .testimonial_slider_client_image img {
   border-radius: 100%;

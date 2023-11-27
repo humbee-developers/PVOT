@@ -9,7 +9,7 @@ function ServicesTextExp() {
   useEffect(() => {
     document.body.style.overflow = "auto";
 
-    const backTextWrapper = document.querySelectorAll(".services_text");
+    const backTextWrapper = document.querySelectorAll(".services_text_wrapper");
 
     backTextWrapper.forEach((section) => {
       const textLines = section.querySelectorAll(".background-text__item");
@@ -33,6 +33,7 @@ function ServicesTextExp() {
               scrub: 1,
               start: "top 100%",
               end: "top top",
+              pin: true,
             },
             transition: "1s ease-out",
           }
@@ -43,12 +44,12 @@ function ServicesTextExp() {
 
   return (
     <div className="services_text">
-      <ul className="background-text">
-        <li className="background-text__item">Social Media Marketing</li>
-        <li className="background-text__item">Advertising & Marketing</li>
-        <li className="background-text__item">Search engine optimization</li>
-        <li className="background-text__item">Website design & development</li>
-      </ul>
+      <div className="services_text_wrapper">
+        <ul className="background-text">
+          <li className="background-text__item">Pushing</li>
+          <li className="background-text__item">Boundries</li>
+        </ul>
+      </div>
     </div>
   );
 }

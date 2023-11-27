@@ -1,38 +1,40 @@
 @font-face {
-  font-family: "FONTSPRING";
-  src: local("FONTSPRING"),
-    url("./font/Freigeist-Regular.ttf") format("truetype");
+  font-family: "gilroy";
+  src: local("gilroy"), url("./font/Gilroy-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
-  font-family: "FONTSPRING-bold";
-  src: local("FONTSPRING-bold"),
-    url("./font/Freigeist-Bold.ttf") format("truetype");
+  font-family: "gilroy-bold";
+  src: local("gilroy-bold"), url("./font/Gilroy-Bold.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
-  font-family: "FONTSPRING-bold-italic";
-  src: local("FONTSPRING-bold-italic"),
-    url("./font/Freigeist-BoldItalic.ttf") format("truetype");
+  font-family: "gilroy-bold-italic";
+  src: local("gilroy-bold-italic"),
+    url("./font/Gilroy-BoldItalic.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "FONTSPRING-black";
-  src: local("FONTSPRING-black"),
-    url("./font/Freigeist-Black.ttf") format("truetype");
+  font-family: "gilroy-black";
+  src: local("gilroy-black"), url("./font/Gilroy-Black.ttf") format("truetype");
   font-weight: normal;
 }
-/* @font-face {
-  font-family: "FONTSPRING-conMedium";
-  src: local("FONTSPRING-conMedium"),
-    url("./fonts/Fontspring-DEMO-freigeist-conmedium.otf") format("truetype");
-  font-weight: normal;
-} */
 @font-face {
-  font-family: "FONTSPRING-conMediumItalic";
-  src: local("FONTSPRING-conMediumItalic"),
-    url("./font/Freigeist-MediumItalic.ttf") format("truetype");
+  font-family: "gilroy-medium";
+  src: local("gilroy-medium"),
+    url("./font/Gilroy-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "gilroy-conMediumItalic";
+  src: local("gilroy-conMediumItalic"),
+    url("./font/Gilroy-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "gilroy-light";
+  src: local("gilroy-light"), url("./font/Gilroy-Light.ttf") format("truetype");
   font-weight: normal;
 }
 

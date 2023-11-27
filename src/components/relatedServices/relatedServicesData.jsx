@@ -11,42 +11,42 @@ const relatedServicesData = [
   {
     image: image8,
     title: "Technology and Design",
-    link: "/technology",
+    link: "/PVOT/technology",
   },
   {
     image: image6,
     title: "Digital Content Creation and SEO",
-    link: "/digital-content",
+    link: "/PVOT/digital-content",
   },
   {
     image: image7,
     title: "Digital & Performance Marketing",
-    link: "/digital-performance",
+    link: "/PVOT/digital-performance",
   },
   {
     image: image3,
     title: "Branding & Advertising",
-    link: "/branding-advertising",
+    link: "/PVOT/branding-advertising",
   },
   {
     image: image1,
     title: "Video Production & Photography",
-    link: "/video-production",
+    link: "/PVOT/video-production",
   },
   {
     image: image2,
     title: "Integrated Marketing and Solution",
-    link: "/integrated-marketing",
+    link: "/PVOT/integrated-marketing",
   },
   {
     image: image4,
     title: "E-commerce Strategy and Execution",
-    link: "/e-commerce",
+    link: "/PVOT/e-commerce",
   },
   {
     image: image5,
     title: "Media Planing & Buying",
-    link: "/media-planning",
+    link: "/PVOT/media-planning",
   },
 ];
 export default relatedServicesData;

@@ -3,7 +3,7 @@
   /* position: fixed; */
   width: 100%;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 45px;
   z-index: 999999;
 }
 .background {
@@ -22,15 +22,19 @@
   font-size: 12px;
   font-weight: 400;
   position: relative;
+  align-items: center;
+  font-family: "gilroy";
 }
 .label p {
   margin: 0px;
   color: white;
+  font-family: "gilroy";
 }
 
 .bar a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+  font-family: "gilroy";
 }
 
 .shopContainer {
@@ -50,13 +54,14 @@
   gap: 8px;
   cursor: pointer;
   position: fixed;
-  right: 20px;
+  right: 45px;
   z-index: 99999999;
 }
 .label {
   position: relative;
   display: flex;
   align-items: center;
+  font-family: "gilroy";
 }
 
 .label p:nth-of-type(2) {
@@ -98,8 +103,8 @@
   transform: rotate(-45deg);
   top: 1px;
 }
-.nav_icon_custom img{
-width: 100px;
+.nav_icon_custom img {
+  width: 100px;
 }
 @media only screen and (min-width: 600px) {
   .header {
@@ -112,5 +117,14 @@ width: 100px;
   .shop {
     display: block;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 767px) {
+  .header_sec {
+    padding: 20px;
+  }
+  .new_header_el {
+    right: 20px;
   }
 }

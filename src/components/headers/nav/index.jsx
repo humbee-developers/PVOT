@@ -11,37 +11,37 @@ import PropTypes from "prop-types";
 const links = [
   {
     title: "Home",
-    href: "/",
+    href: "/PVOT",
     src: image1,
   },
   {
     title: "Services",
-    href: "/services",
+    href: "/PVOT/services",
     src: image2,
   },
   {
     title: "Know-us",
-    href: "/knowUs",
+    href: "/PVOT/knowUs",
     src: image1,
   },
   {
     title: "Portfolio",
-    href: "/portfolio",
+    href: "/PVOT/portfolio",
     src: image2,
   },
   {
     title: "Blogs",
-    href: "/blog",
+    href: "/PVOT/blog",
     src: image1,
   },
   {
     title: "Career",
-    href: "/career",
+    href: "/PVOT/career",
     src: image2,
   },
   {
     title: "Contact-us",
-    href: "/contact-us",
+    href: "/PVOT/contact-us",
     src: image1,
   },
 ];

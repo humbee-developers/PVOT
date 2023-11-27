@@ -16,7 +16,7 @@ const CoreTeam = () => {
         text={"We don't just think outside the box; we live outside of it."}
       />
       <div className="" style={{ backgroundColor: "black" }}>
-        <div className="c-clients-bg logo_section_bg"></div>
+        {/* <div className="c-clients-bg logo_section_bg"></div> */}
         <div className="coreCard_inner">
           <div className="c-clients-content">
             <div

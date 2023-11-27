@@ -2,7 +2,7 @@
   display: none;
 }
 .c-text-wrapper.cc-people {
-  font-family: "FONTSPRING-bold-italic";
+  font-family: "gilroy-bold-italic";
 }
 
 @media only screen and (max-width: 991px) {
@@ -178,7 +178,7 @@
   font-variation-settings: "wght" 645;
   letter-spacing: -0.08em;
   text-transform: uppercase;
-  font-family: "FONTSPRING-bold-italic";
+  font-family: "gilroy-bold-italic";
 }
 .c-title-1.cc-saol {
   text-transform: none;
@@ -500,7 +500,7 @@
   }
   .team_client {
     min-height: auto !important;
-    height: 190vh !important;
+    height: 220vh !important;
     padding: 0 !important;
   }
   .logo_image {

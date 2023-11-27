@@ -14,7 +14,12 @@
 .know-us-text-inner {
   padding: 10px 118px;
 }
-
+.know-us-image-outer {
+  padding: 0 20px 40px;
+}
+.know-us-image-outer img {
+  max-width: 100%;
+}
 @media (max-width: 991px) {
   .know-us-divider {
     display: block;
@@ -42,7 +47,7 @@
   .know-us-image {
     border-radius: 14px;
   }
-  .know-us-image-outer {
-    padding: 2px 15px;
-  }
+  /* .know-us-image-outer {
+    padding: 0 20px 20px;
+  } */
 }

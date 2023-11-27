@@ -10,7 +10,7 @@
   position: relative;
   cursor: pointer;
 
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
 }
 
 .achievement-textContainer .achievement-primary,
@@ -21,9 +21,9 @@
   margin: 0px;
   color: rgb(0, 0, 0);
 
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
 
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
 }
 
 .achievement-textContainer .achievement-secondary {

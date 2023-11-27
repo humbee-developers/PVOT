@@ -21,7 +21,7 @@ export default function Home({ text }) {
         trigger: container.current,
         scrub: true,
         start: `top`,
-        end: `+=${window.innerHeight / 2.5}`,
+        end: `+=${window.innerHeight / 1}`,
         pin: true,
       },
       opacity: 1,
@@ -58,7 +58,7 @@ export default function Home({ text }) {
   };
 
   return (
-    <div style={{ backgroundColor: "black" }}>
+    <div style={{ backgroundColor: "black" }} className="animatedText">
       <main ref={container} className="main">
         <div ref={body} className="body_text">
           {splitWords(phrase)}

@@ -18,7 +18,7 @@
   background-color: red;
 }
 .amazing_heading h2 {
-  font-family: "FONTSPRING-black";
+  font-family: "gilroy-black";
   font-size: 70px;
   font-weight: 850;
   margin-right: 8rem;
@@ -27,12 +27,12 @@
 }
 .amazing_year span {
   font-size: 230px;
-    line-height: 140px;
-    margin-bottom: 32px;
-    font-family: "FONTSPRING";
-    margin-left: 30px;
+  line-height: 140px;
+  margin-bottom: 32px;
+  font-family: "gilroy";
+  /* margin-left: 30px; */
 }
-.amazing_year .ball_image{
+.amazing_year .ball_image {
   max-width: 100%;
 
   display: block;
@@ -46,16 +46,15 @@
 
 .amazing_bgHeading h2 {
   color: rgba(255, 255, 255, 0.05);
-  font-family: "FONTSPRING-bold";
+  font-family: "gilroy-bold";
   font-size: 264.188px;
   font-style: italic;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
 }
-.ball-outer{
+.ball-outer {
   width: 100% !important;
-
 }
 .amazing_bgHeading {
   position: absolute;
@@ -63,15 +62,19 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.lastText1{
+.lastText_sec {
+  position: relative;
+}
+.lastText {
   position: absolute;
-  right: 148px;
-  top: -96px;
-  font-family: "FONTSPRING";
+  top: -70px;
+}
+.lastText1 {
+  position: absolute !important;
+  margin: 0 !important;
+  top: -250px;
+  font-family: "gilroy";
   opacity: 0;
-  
-
-
 }
 .ball_container {
   position: relative;
@@ -91,22 +94,22 @@
 
 .scrolling-icon {
   position: absolute;
-  top: 115%;
-  left: 15%;
+  top: 150px;
+  left: 29%;
   transform: translate(-50%, -50%);
   font-size: 24px;
   transition: left 1s ease-out;
 }
 .ball_text {
   font-size: 65px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   margin: 32px 0 0;
 }
 
 @media (max-width: 1199px) {
   .scrolling-icon {
-    top: 96%;
-    left: 35%;
+    top: 94%;
+    left: 30%;
   }
   .amazing_year span {
     font-size: 160px;
@@ -124,16 +127,19 @@
   img.ball_image {
     width: 75px;
   }
+  .ball_text {
+    font-size: 60px;
+  }
 }
 @media (max-width: 991px) {
   .scrolling-icon {
-    top: 98%;
-    left: 37%;
-}
-.ball_text {
-  font-size: 44px;
-  margin: 3px 0 0;
-}
+    top: 100%;
+    left: 33%;
+  }
+  .ball_text {
+    font-size: 44px;
+    margin: 3px 0 0;
+  }
   .amazing_bgHeading h2 {
     font-size: 165px;
   }
@@ -163,73 +169,52 @@
   .amazing_heading h2 {
     font-size: 50px;
     margin: 0;
-}
-.amazing_year span {
-  font-size: 85px;
-  line-height: 90px;
-}
-.ball_text {
-  font-size: 33px;
-  margin: 13px 0 0;
-}
+  }
+  .amazing_year span {
+    font-size: 85px;
+    line-height: 90px;
+  }
+  .ball_text {
+    font-size: 33px;
+    margin: 13px 0 0;
+  }
 }
 
-@media(max-width:575px){
+@media (max-width: 575px) {
   .amazing_bgHeading h2 {
     font-size: 74px;
   }
   .amazing_heading h2 {
     font-size: 18px;
     line-height: 30px;
-}
-.ball_text {
-  font-size: 20px;
-  margin: 20px 0 0;
-}
-img.ball_image {
-  width: 34px;
-}
-.ball_container {
-  /* margin-bottom: 15px; */
-}
-.amazing_year span {
-  font-size: 75px;
-  line-height: 58px;
-  margin-left: 2px;
+  }
+  .ball_text {
+    font-size: 20px;
+    margin: 20px 0 0;
+  }
+  img.ball_image {
+    width: 34px;
+  }
+  .ball_container {
+    /* margin-bottom: 15px; */
+  }
+  .amazing_year span {
+    font-size: 75px;
+    line-height: 58px;
+    margin-left: 2px;
     margin-bottom: -10px;
-}
-.amazing_bgHeading {
-  top: 8%;
-}
-.scrolling-icon {
-  top: 91%;
-  left: 27%;
-}
-.lastText1{
- top: -137%;
+  }
+  .amazing_bgHeading {
+    top: 8%;
+  }
+  .scrolling-icon {
+    top: 91%;
+    left: 27%;
+  }
+  .lastText1 {
+    top: -137%;
     position: absolute;
     right: 1%;
     opacity: 0;
-  
-}
-}
-
-
-@media(max-width:1200px){
- 
-}
-
-
-
-@media screen and (min-width: 1024px) and (max-width: 1440px){
-  .scrolling-icon{
-    left: 29%;
-    top: 9.1rem;
-      }
-}
-@media screen and (min-width: 1441px) {
-  .scrolling-icon{
-    left: 29%;
-    top: 9.4rem;
-      }
+  }
 }

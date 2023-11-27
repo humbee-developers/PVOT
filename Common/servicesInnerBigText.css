@@ -1,4 +1,4 @@
-.internal_4th_header {
+/* .internal_4th_header {
   background-color: #000;
 }
 
@@ -10,37 +10,70 @@
 
 .internal_4th_header_outer {
   padding: 88px 0;
+} */
+.servicesBigText {
+  padding: 0 0 40px;
 }
-.internal_4th_header_text {
+
+.servicesBigText .wrapper {
+  min-height: 60vh !important;
+  height: 100%;
+  align-items: end;
+  justify-content: center;
+  padding: 120px 0 0 30px !important;
+}
+.servicesBigText .inner {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  position: static;
+}
+.servicesBigText .inner p {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+.servicesBigText .inner p span {
   color: white;
   font-size: 118px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
   line-height: 116px;
   font-weight: 400;
   text-align: left;
-  margin: 0 30px;
+  margin: 0 3px;
+  opacity: 0.3;
 }
-@media (max-width: 1360px) {
+/* @media (max-width: 1360px) {
   .internal_4th_header_container {
     max-width: 1199px;
   }
-}
+} */
 @media (max-width: 1199px) {
-  .internal_4th_header_container {
-    max-width: 991px;
+  .servicesBigText .inner p span {
+    font-size: 90px;
+    font-family: "gilroy";
+    line-height: 100px;
   }
 }
 @media (max-width: 991px) {
-  .internal_4th_header_container {
+  /* .internal_4th_header_container {
     max-width: 767px;
   }
   .internal_4th_header_text {
     font-size: 90px;
     line-height: 105px;
+  } */
+  .servicesBigText .inner p span {
+    font-size: 70px;
+    line-height: 85px;
+    margin: 0 2px;
+  }
+  .servicesBigText {
+    padding: 0 0 20px;
   }
 }
 @media (max-width: 767px) {
-  .internal_4th_header_container {
+  /* .internal_4th_header_container {
     max-width: 100%;
   }
   .internal_4th_header_text {
@@ -50,5 +83,16 @@
   }
   .internal_4th_header_outer {
     padding: 25px 0px;
-}
+  } */
+  .servicesBigText .inner p span {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0;
+  }
+  .servicesBigText .wrapper {
+    padding: 120px 0 0 0 !important;
+  }
+  .servicesBigText {
+    padding: 0;
+  }
 }

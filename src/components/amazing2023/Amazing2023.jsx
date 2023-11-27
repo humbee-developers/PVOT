@@ -12,6 +12,22 @@ const Amazing2023 = () => {
   function checkWidthSize() {
     setCheckWidth(window.innerWidth);
   }
+  let ballX = 570;
+  if (checkWidth < 1200 && checkWidth > 991) {
+    ballX = 312;
+    console.log("<1199");
+  } else if (checkWidth < 991 && checkWidth > 767) {
+    ballX = 630;
+    console.log("<991");
+  } else if (checkWidth < 767 > 476) {
+    ballX = 500;
+    console.log("<767");
+  } else if (checkWidth < 476) {
+    ballX = 125;
+  } else {
+    ballX = 570;
+    console.log(">1199");
+  }
   window.addEventListener("resize", checkWidthSize);
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
@@ -25,26 +41,19 @@ const Amazing2023 = () => {
         onUpdate: (scrollTrigger) => {
           const scrollProgress = scrollTrigger.progress;
           const scrollSpeed = 1 + scrollProgress * 2; // Adjust this factor as needed
-  
+
           // Update the animation's time
           tl.time(scrollSpeed * scrollProgress);
         },
       },
     });
-  
+
     tl.to(".scrolling-icon", {
       duration: 1,
-      x:
-      (checkWidth < 1199 ? 576 : 402) ||
-        (checkWidth > 1440 ? 577 : 577) ||
-        (checkWidth < 991 ? 320 : 136) ||
-        (checkWidth < 767 ? 250 : 320),
+      x: ballX,
       ease: "none",
     });
   }, [checkWidth]);
-  
-  
-  
 
   useEffect(() => {
     const t2 = gsap.timeline({
@@ -53,15 +62,14 @@ const Amazing2023 = () => {
         start: "top center-=350px",
         end: "bottom+=30px center-=20px",
         scrub: true,
-    
       },
     });
 
     t2.to(".lastText", {
       duration: 1,
-      y:150,
+      y: 200,
       ease: "none",
-      opacity:0
+      opacity: 0,
     });
   }, [checkWidth]);
 
@@ -71,24 +79,19 @@ const Amazing2023 = () => {
         trigger: ".amazing",
         start: "top center-=350px",
         end: "bottom+=30px center-=20px",
-        opacity:"0",
+        opacity: "0",
         scrub: true,
-    
       },
     });
 
     t3.to(".lastText1", {
       duration: 2,
-      delay:2,
-      y:195,
+      delay: 0,
+      y: 180,
       ease: "none",
-      opacity:1
+      opacity: 1,
     });
   }, [checkWidth]);
-
-
-
-
 
   return (
     <div className="amazing_animation">
@@ -104,7 +107,7 @@ const Amazing2023 = () => {
                 <img src={amazing2023Image} className="ball-outer" alt="" />
 
                 <div className="scrolling-container">
-                   <div className="scrolling-icon">
+                  <div className="scrolling-icon">
                     <img
                       src={ball}
                       alt="3d_ball"
@@ -116,8 +119,10 @@ const Amazing2023 = () => {
                 </div>
               </div>
               <span>2</span>
-              <span className="lastText" style={{marginLeft:"-5px"}}>2</span>
-              <span  className="lastText1">3</span>
+              <span className="lastText_sec" style={{ marginLeft: "-5px" }}>
+                <span className="lastText">2</span>
+                <span className="lastText1">3</span>
+              </span>
             </div>
           </div>
 

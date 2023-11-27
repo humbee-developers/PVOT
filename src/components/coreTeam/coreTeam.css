@@ -17,12 +17,19 @@
 .coreTeam_sec {
   height: 100%;
 }
+.coreCard_inner{
+  height: 200vh;
+  padding: 150px 0 100px;
+}
 @media (max-width: 991px) {
   .coreTeamCard {
     width: 50%;
   }
   .coreTeam {
     padding: 30px 24px;
+  }
+  .coreCard_inner{
+    height: 300vh;
   }
 }
 @media (max-width: 767px) {
@@ -34,6 +41,9 @@
   }
   .coreTeam_wrapper {
     margin: 0 ;
+  }
+  .coreCard_inner{
+    height: 570vh;
   }
 }
 

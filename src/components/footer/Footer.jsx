@@ -5,6 +5,7 @@ import "./footer.css";
 import btnArrow from "../../images/btn_arrow.svg";
 import crossArrow from "../../images/crossArrow.svg";
 import logo from "../../images/PVOT-Design-Final-Logo-White.png";
+import { Link } from "react-router-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 // import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
@@ -24,7 +25,7 @@ const Footer = () => {
               But we prefer the first two for a quicker response. We're
               greenhouse for your questions.
             </p>
-            <Button className="footer-button  ">
+            <Link to={"/PVOT/contact-us"} className="footer-button">
               <div className="btn_flex hover_btn">
                 <span className="footer-button-text btn_text">
                   Become a Client
@@ -41,7 +42,7 @@ const Footer = () => {
                 /> */}
                 <img src={btnArrow} alt="btnArrow" />
               </div>
-            </Button>
+            </Link>
             <p className="footer-small-text">
               Don’t like the forms? Drop us a line via email.
             </p>

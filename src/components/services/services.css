@@ -7,7 +7,7 @@
   overflow: hidden;
 }
 .service-text {
-  font-family: "FONTSPRING-bold";
+  font-family: "gilroy-bold";
   font-size: 153.034px;
   text-align: center;
 }
@@ -75,7 +75,7 @@
     height: 47rem;
   }
 
-  .swiper-slide {
+  .services  .swiper-slide {
     width: 100% !important;
     height: 36rem !important;
   }

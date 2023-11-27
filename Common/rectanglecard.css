@@ -1,7 +1,7 @@
 .rectangleCard_btn {
   background-color: transparent !important;
   margin-block: 20px 10px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
 }
 .get-in-touch {
   color: #656565;
@@ -10,11 +10,11 @@
 .together {
   font-size: 2rem;
   max-width: 230px;
-  font-family: "FONTSPRING";
+  font-family: "gilroy";
 }
 .common-card-text {
   margin: 20px 0 30px;
-    font-family: "FONTSPRING";
+    font-family: "gilroy";
     font-weight: 600;
     font-size: 90px;
 }
@@ -43,7 +43,7 @@
   height: 10px;
 }
 .second {
-  padding: 17px 28px;
+  padding: 40px;
   background-color: #1f1f1f;
   border-radius: 31px;
   color: white;

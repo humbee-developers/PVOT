@@ -2,10 +2,25 @@
   padding: 60px 60px;
   color: white;
 }
-
+.our_client .c-client-card img {
+  max-width: 100%;
+}
+.our_client .c-clients-content{
+  padding: 150px 0 100px;
+  height: 100vh;
+font-family: "gilroy";
+}
 @media (max-width: 991px) {
   .clients-outer {
     padding: 30px 24px;
     color: white;
   }
+}
+
+@media(max-width:767px){
+  /* .our_client .c-clients-content{
+    padding: 250px 0 100px;
+    height: 100vh;
+  
+  } */
 }
