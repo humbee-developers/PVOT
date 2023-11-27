@@ -15,6 +15,12 @@
   font-weight: normal;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
 @font-face {
   font-family: "gilroy-black";
   src: local("gilroy-black"), url("./font/Gilroy-Black.ttf") format("truetype");
