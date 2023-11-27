@@ -9,11 +9,13 @@ const containerVariants = {
 
 const textVariants = {
   hidden: { opacity: 0, y: 200 },
-  visible: { opacity: 1, y: 20, transition: { duration: 2, delay: 1 } },
+  
+  visible: { opacity: 1, y:-100, transition: {duration:1,delay: 2.8, type: "spring",   stiffness: 500, damping: 100, mass: 5  } },
+  
 };
 const textVariants2 = {
   hidden: { opacity: 0, y: 200 },
-  visible: { opacity: 1, y: 20, transition: { duration: 2, delay: 2 } },
+  visible: { opacity: 1, y: -100, transition: { duration: 10, delay: 3 ,type: "spring",stiffness: 500, damping: 100, mass: 10  } },
 };
 
 const TextAnimation = () => {
@@ -24,26 +26,31 @@ const TextAnimation = () => {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-      >
+
+        >
         <motion.img className="imag" src={img17} variants={textVariants2} />
-        <motion.div className="text  one" variants={textVariants}>
+
+        <motion.div className="text  one" variants={textVariants}
+        >
           PV<p>Where Ideas Take Flight</p>
         </motion.div>
+
         <motion.div className="text  two" variants={textVariants}>
           OT<p> In the Digital Sky</p>
         </motion.div>
+
         <motion.div
           className="mobile_text mobile_text_1"
-          variants={textVariants}
-        >
+          variants={textVariants}>
           <p>Where Ideas Take Flight</p>
         </motion.div>
+
         <motion.div
           className="mobile_text mobile_text_2"
-          variants={textVariants}
-        >
+          variants={textVariants}>
           <p> In the Digital Sky</p>
         </motion.div>
+
       </motion.div>
     </div>
   );
