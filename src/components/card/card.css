@@ -92,7 +92,7 @@
   justify-content: center;
 }
 .c-project {
-  position: -webkit-sticky;
+  /* position: -webkit-sticky; */
     position: sticky;
   top: 24vh;
   width: 100%;

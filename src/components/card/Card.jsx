@@ -26,7 +26,7 @@ const Card = () => {
     ScrollTrigger.create({
       trigger: card,
       start: "top top",
-      pin: true,
+      pin: false,
       pinSpacing: false,
       markers: false,
       id: "pin",
