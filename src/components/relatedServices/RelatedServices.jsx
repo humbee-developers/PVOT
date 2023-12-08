@@ -20,7 +20,7 @@ const RelatedServices = () => {
   window.addEventListener("resize", checkWidthSize);
   const location = useLocation();
   return (
-    <div className="relatedServices">
+    <div className="relatedServices mnb">
       <div className="common_container">
         <div className="relatedServices_wrapper">
           <div className="relatedServices_heading_wrapper">
