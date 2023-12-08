@@ -1,5 +1,6 @@
 import { Fragment } from "react";
-import HeroSection from "../components/heroSection/HeroSection";
+import HeroSection from "../components/heroSection/HeroSections";
+import Heros from "../components/heros/Heros";
 import Services from "../components/services/Services";
 import Achievements from "../components/achievements/Achievements";
 import OurTeam from "../components/ourTeam/OurTeam";
@@ -19,6 +20,7 @@ const Home = () => {
   return (
     <Fragment>
       <HeroSection />
+      {/* <Heros/> */}
 
       <Text
         text={

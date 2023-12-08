@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <>
-      <AnimatePresence mode="wait">{isLoading && <Loader />}</AnimatePresence>
+      {/* <AnimatePresence mode="wait">{isLoading && <Loader />}</AnimatePresence> */}
       <Layout>
         <ScrollTop />
         <Routes>

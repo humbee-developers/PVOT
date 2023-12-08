@@ -1,0 +1,98 @@
+.hero_text_outer {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+}
+.hero_text_animation{
+    color: white;
+}
+
+
+@keyframes gradient-text-animation {
+  from {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  to {
+    background-position: 0 50%;
+  }
+}
+.hero_text_animation.custom_color {
+      background: linear-gradient(
+            240deg,
+            #00A3FF,
+            #5768df,
+            #00A3FF,
+            #1b0f57,
+            rgb(55, 0, 255)
+          );
+          background-size: 200%;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          animation: gradient-text-animation 4s alternate infinite;
+    }
+
+
+
+
+.hero_text {
+  font-size: 87px;
+  top: 7rem;
+  font-style: normal;
+  font-weight: 300;
+  width: 37%;
+  color: white;
+  left: 3rem;
+  line-height: 108.92%;
+  letter-spacing: -1.56px;
+  position: absolute;
+}
+@media (min-width: 1600px) {
+  .hero_text {
+    font-size: 109px;
+    font-style: normal;
+    font-weight: 300;
+    width: 37%;
+    top: 6rem;
+    line-height: 108.92%; /* 84.958px */
+    letter-spacing: -1.56px;
+    position: absolute;
+  }
+}
+
+
+@media (max-width: 787px){
+  .hero_text {
+    font-size: 66px;
+    top: 25rem;
+    font-style: normal;
+    font-weight: 300;
+    /* width: 37%; */
+    color: white;
+    left: 1rem;
+    line-height: 108.92%;
+    letter-spacing: -1.56px;
+    position: absolute;
+  }
+}
+
+
+
+@media (max-width: 575px){
+  .hero_text {
+    font-size: 53px;
+    top: 30rem;
+    font-style: normal;
+    font-weight: 300;
+    width: 87%;
+    color: white;
+    left: 2rem;
+    line-height: 108.92%;
+    letter-spacing: -1.56px;
+    position: absolute;
+  }
+}
+

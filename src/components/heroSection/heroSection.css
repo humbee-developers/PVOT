@@ -1,3 +1,80 @@
+Canvas{
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+.herosection_new_outer{
+  position: absolute;
+  top: 17rem;
+  left: 53rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-family:'Gill Sans',;
+  font-size: 140px;
+  width: 40%;
+  line-height: 115px;
+  text-transform: uppercase;
+  z-index: 9;
+}
+.vv{
+  height: 100vh;
+  background-color: black;
+}
+
+.herosection_new_text{
+color: white;
+}
+
+.new_text_span{
+color: white;
+}
+
+.herosection_down_text_outer{
+color: white;
+z-index: 1;
+position: absolute;
+top: 50rem;
+width: 100%;
+/* justify-content: space-between;
+display: flex; */
+}
+.herosection_down_text_one{
+  width: 30%;
+  margin-left: 3.5rem;
+}
+
+.herosection_down_text_two{
+margin-right: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .x {
   overflow: hidden;
   display: flex;

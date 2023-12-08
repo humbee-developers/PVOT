@@ -32,7 +32,7 @@ import { useEffect } from "react";
 // };
 
 const innerPageHeader = (props) => {
-  useEffect(() => {
+  useEffect(() => { 
     const ourText = new splitType(".inner_page_heading", { types: "chars" });
     const chars = ourText.chars;
 

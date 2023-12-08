@@ -1,7 +1,8 @@
 .header_sec {
-  background-color: #000000;
+  background-color:transparent;
   /* position: fixed; */
   width: 100%;
+  position: absolute;
   box-sizing: border-box;
   padding: 45px;
   z-index: 999999;

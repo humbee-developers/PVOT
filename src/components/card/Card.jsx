@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import i0 from "../../images/i0.webp";
 import i1 from "../../images/i1.webp";
 import i2 from "../../images/i2.webp";
@@ -8,26 +7,33 @@ import "./card.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 const Card = () => {
-  gsap.registerPlugin(ScrollTrigger);
-  useEffect(() => {
-    const cards = document.querySelectorAll(".c-project");
+  const cards = gsap.utils.toArray(".c-project");
 
-    cards.forEach((card, index) => {
-       gsap.to(card, {
-        scrollTrigger: {
-          trigger: card,
-          // start: () => `top bottom-=100`,
-          // end: () => `top top+=40`,
-          scrub: true,
-          markers: false,
-          invalidateOnRefresh: true,
-        },
-        ease: "none",
-        scale: () => 1 - (cards.length - index) * 0.025,
-      });
+  cards.forEach((card, index) => {
+    gsap.to(card, {
+      scrollTrigger: {
+        trigger: card,
+        start: () => `top bottom-=100`,
+        end: () => `top top+=40`,
+        scrub: true,
+        markers: false,
+        invalidateOnRefresh: true,
+      },
+      ease: "none",
+      scale: () => 1 - (cards.length - index) * 0.025,
     });
-  }, []);
 
+    ScrollTrigger.create({
+      trigger: card,
+      start: "top top",
+      pin: true,
+      pinSpacing: false,
+      markers: false,
+      id: "pin",
+      end: "max",
+      invalidateOnRefresh: true,
+    });
+  });
   return (
     <div>
       <div>
