@@ -1,6 +1,5 @@
 import React from 'react';
 import Spline from '@splinetool/react-spline';
-import { Canvas} from "@react-three/fiber";
 import { motion } from 'framer-motion';
 import '../heroSection/herosections.css';
 
@@ -22,7 +21,7 @@ const HeroSections = () => {
                 stiffness: 100,
                 damping: 30,
                 duration: 4,
-                
+
                 delay: i / 4,
               }}
             >
