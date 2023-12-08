@@ -30,7 +30,7 @@ const HeroSections = () => {
             </motion.span>
           ))}
         </div>
-     
+        
         <Spline scene="https://prod.spline.design/0T19zvhvIK9xpl9F/scene.splinecode" />
        
       </div>
