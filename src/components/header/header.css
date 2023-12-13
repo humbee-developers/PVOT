@@ -5,21 +5,29 @@
 .hero {
   background-color: black;
 }
-.navbar{
+.navbar {
   padding-top: 1rem;
 }
 .nav-link {
   color: white;
-  border: 1px solid white;
-  border-radius: 50px;
+  /* border: 1px solid white; */
+  /* border-radius: 50px; */
   margin: 2px 8px;
   background-color: #000;
   height: 38px !important;
-  line-height: 32px !important;
+  line-height: 20px !important;
 }
-.logo{
+.logo {
   max-width: 100%;
   width: 100px;
+}
+.nav-link.hover_btn .btn_text {
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.nav-link.hover_btn .btn_text.hover {
+  color: #ff9c00;
+  opacity: 1;
 }
 .nav-link .btn_text {
   font-size: 16px;
@@ -37,7 +45,8 @@ button.navbar-toggler.collapsed {
 }
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 2px 7px;
+    padding: 10px 0 0;
+    margin: 0 20px;
   }
   .nav_icon_link {
     padding: 2px 11px !important;
@@ -65,7 +74,10 @@ button.navbar-toggler.collapsed {
 .nav-link:focus {
   color: #fff;
 }
-
+.nav-link.hover_btn {
+  text-align: left;
+  padding: 0;
+}
 .row .three {
   padding: 80px 30px;
   -webkit-box-sizing: border-box;
@@ -77,14 +89,17 @@ button.navbar-toggler.collapsed {
 }
 
 .hamburger .line {
-  width: 35px;
-  height: 3px;
+  width: 20px;
+  height: 1px;
   background-color: #ecf0f1;
   display: block;
   margin: 6px auto;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+button.ham_btn.navbar-toggler {
+  padding: 0;
 }
 
 .hamburger:hover {
@@ -99,7 +114,7 @@ button.navbar-toggler.collapsed {
   -webkit-transform: translateY(13px) rotate(45deg);
   -ms-transform: translateY(13px) rotate(45deg);
   -o-transform: translateY(13px) rotate(45deg);
-  transform: translateY(6px) rotate(45deg);
+  transform: translateY(1px) rotate(45deg);
 }
 
 #hamburger-1.active .line:nth-child(3) {
@@ -133,12 +148,14 @@ button.navbar-toggler.collapsed {
     height: 100vh;
   }
   .nav-link {
-    line-height: 35px !important;
+    line-height: 65px !important;
     border: none;
     margin: 20px 0;
     position: relative;
     transition: all 0.5s;
     width: 45%;
+    margin: 5px 0;
+    height: 100% !important;
   }
   .nav-link:hover span {
     transform: translateX(1.3em);
@@ -149,9 +166,9 @@ button.navbar-toggler.collapsed {
     position: absolute;
     top: 50%;
     left: 10px;
-    width: 34px;
+    width: 60px;
     height: 5px;
-    background-color: white;
+    background-color: #ff9c00;
     transform: translateY(-50%);
     transition: all 0.4s ease-in-out;
     transform: scaleX(0) translateY(-50%);
@@ -163,7 +180,7 @@ button.navbar-toggler.collapsed {
     opacity: 1;
   }
   .nav-link .btn_text {
-    font-size: 33px;
+    font-size: 60px;
     margin: 0 20px;
   }
   .nav_icon_link {
@@ -186,11 +203,14 @@ button.navbar-toggler.collapsed {
     display: flex;
     flex-direction: column;
   }
-
-  /* if want to use common btn hover effect then remove below css */
-  .nav-link span:last-child {
-    display: none;
+  .mobile_menu .hover_btn:hover .btn_text {
+    color: #ff9c00;
+    opacity: 1;
   }
+  /* if want to use common btn hover effect then remove below css */
+  /* .nav-link span:last-child {
+    display: none;
+  } */
   .nav-link:hover .btn_text {
     top: 0 !important;
   }
