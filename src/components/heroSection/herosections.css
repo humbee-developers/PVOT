@@ -5,6 +5,7 @@
 }
 .hero_text_animation{
     color: white;
+    font-family: 'gilroy';
 }
 
 
@@ -39,29 +40,39 @@
 
 
 .hero_text {
-  font-size: 87px;
-  top: 7rem;
+  font-size: 70px;
+  top: 3rem;
   font-style: normal;
   font-weight: 300;
-  width: 37%;
+  width: 710px;
   color: white;
   left: 3rem;
   line-height: 108.92%;
-  letter-spacing: -1.56px;
+  letter-spacing: 1.44px;
   position: absolute;
+  text-transform: capitalize;
+  font-family: 'gilroy';
 }
-@media (min-width: 1600px) {
+.hero_small_text {
+  position: absolute;
+  bottom: 140px;
+  color: white;
+  width: 440px;
+  font-family: "gilroy";
+  left: 300px;
+}
+/* @media (min-width: 1600px) {
   .hero_text {
     font-size: 109px;
     font-style: normal;
     font-weight: 300;
     width: 37%;
     top: 6rem;
-    line-height: 108.92%; /* 84.958px */
+    line-height: 108.92%;
     letter-spacing: -1.56px;
     position: absolute;
   }
-}
+} */
 
 
 @media (max-width: 787px){
