@@ -3,11 +3,10 @@
   background-color: black;
   height: 100vh;
 }
-.hero_text_animation{
-    color: white;
-    font-family: 'gilroy';
+.hero_text_animation {
+  color: white;
+  font-family: "gilroy";
 }
-
 
 @keyframes gradient-text-animation {
   from {
@@ -21,24 +20,24 @@
   }
 }
 .hero_text_animation.custom_color {
-      background: linear-gradient(
-            240deg,
-            #00A3FF,
-            #5768df,
-            #00A3FF,
-            #1b0f57,
-            rgb(55, 0, 255)
-          );
-          background-size: 200%;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          background-clip: text;
-          animation: gradient-text-animation 4s alternate infinite;
-    }
+  background: linear-gradient(
+    240deg,
+    #00a3ff,
+    #5768df,
+    #00a3ff,
+    #1b0f57,
+    rgb(55, 0, 255)
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-text-animation 4s alternate infinite;
+}
 
-
-.hero_text_animation_wrapper{
+.hero_text_animation_wrapper {
   margin: 0 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 .hero_text {
@@ -53,7 +52,7 @@
   letter-spacing: 1.44px;
   position: absolute;
   /* text-transform: capitalize; */
-  font-family: 'gilroy';
+  font-family: "gilroy";
 }
 .hero_small_text {
   position: absolute;
@@ -76,8 +75,7 @@
   }
 } */
 
-
-@media (max-width: 787px){
+@media (max-width: 787px) {
   .hero_text {
     font-size: 66px;
     top: 25rem;
@@ -92,9 +90,7 @@
   }
 }
 
-
-
-@media (max-width: 575px){
+@media (max-width: 575px) {
   .hero_text {
     font-size: 53px;
     top: 30rem;
@@ -108,4 +104,3 @@
     position: absolute;
   }
 }
-
